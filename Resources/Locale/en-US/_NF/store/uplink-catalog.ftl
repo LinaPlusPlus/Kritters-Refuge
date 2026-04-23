@@ -354,7 +354,7 @@ uplink-emag-pass-desc = A card used to hack devices. Usable three times.
 
 #Coyote Viper uplink entry
 uplink-pistol-viper-40-name = Viper
-uplink-pistol-viper-40-desc = A small, Syndicate concealable machine pistol
+uplink-pistol-viper-40-desc = A small, concealable machine pistol
 
 uplink-revolver-ritland-name = Ritland-45
 uplink-revolver-ritland-desc = Usually reliable, heavy revolver. Do you feel lucky, punk?
