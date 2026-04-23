@@ -70,4 +70,10 @@ public sealed partial class CCVars
         public static readonly CVarDef<bool> AndyAnnouncementsEnabled =
             CVarDef.Create("audio.andy_announcements_enabled", true, CVar.ARCHIVE | CVar.CLIENTONLY);
 
+        /// <summary>
+        ///     Enables verbose debug logging for Andy announcement matching and replacement.
+        /// </summary>
+        public static readonly CVarDef<bool> AndyAnnouncementsDebug =
+            CVarDef.Create("audio.andy_announcements_debug", false, CVar.ARCHIVE | CVar.CLIENTONLY);
+
 }
