@@ -2591,3 +2591,10 @@ Entries:
   id: 297
   time: '2026-04-20T04:42:45.0000000+00:00'
   url: https://github.com/ARF-SS13/coyote-frontier/pull/1169
+- author: Superlagg
+  changes:
+    - type: Tweak
+      message: Nerfed RPI and capturebait cus it was pretty ridonculous.
+  id: 298
+  time: '2026-04-23T01:07:28.0000000+00:00'
+  url: https://github.com/ARF-SS13/coyote-frontier/pull/1174
