@@ -2605,3 +2605,12 @@ Entries:
   id: 299
   time: '2026-04-23T02:19:47.0000000+00:00'
   url: https://github.com/ARF-SS13/coyote-frontier/pull/1173
+- author: QTNeen
+  changes:
+    - type: Add
+      message: Field matrix cores
+    - type: Add
+      message: Alpha & Emissive sliders for markings
+  id: 300
+  time: '2026-04-23T05:41:07.0000000+00:00'
+  url: https://github.com/ARF-SS13/coyote-frontier/pull/1172
