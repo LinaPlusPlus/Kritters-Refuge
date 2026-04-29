@@ -1,4 +1,6 @@
 using System.Linq;
+using System.Numerics;
+using Robust.Shared.Maths;
 using Robust.Shared.Serialization;
 
 namespace Content.Shared.Humanoid.Markings
@@ -15,6 +17,41 @@ namespace Content.Shared.Humanoid.Markings
 
         [DataField("glow")]
         private float _legacyGlow;
+
+    // _CS Start
+    [DataField("scale")]
+    private float _markingScale = 1.0f;
+
+    [DataField("offsetX")]
+    private float _markingOffsetX;
+
+    [DataField("offsetY")]
+    private float _markingOffsetY;
+
+    [DataField("offsetFrontX")]
+    private float _markingOffsetFrontX;
+
+    [DataField("offsetFrontY")]
+    private float _markingOffsetFrontY;
+
+    [DataField("offsetBehindX")]
+    private float _markingOffsetBehindX;
+
+    [DataField("offsetBehindY")]
+    private float _markingOffsetBehindY;
+
+    [DataField("offsetLeftX")]
+    private float _markingOffsetLeftX;
+
+    [DataField("offsetLeftY")]
+    private float _markingOffsetLeftY;
+
+    [DataField("offsetRightX")]
+    private float _markingOffsetRightX;
+
+    [DataField("offsetRightY")]
+    private float _markingOffsetRightY;
+    // _CS End
 
         private Marking()
         {
@@ -120,6 +157,17 @@ namespace Content.Shared.Humanoid.Markings
             ShowAtStart = other.ShowAtStart;
             _markingGlow = new(other.MarkingGlow);
             _legacyGlow = other._legacyGlow;
+            _markingScale = other._markingScale; // _CS
+            _markingOffsetX = other._markingOffsetX; // _CS
+            _markingOffsetY = other._markingOffsetY; // _CS
+            _markingOffsetFrontX = other._markingOffsetFrontX; // _CS
+            _markingOffsetFrontY = other._markingOffsetFrontY; // _CS
+            _markingOffsetBehindX = other._markingOffsetBehindX; // _CS
+            _markingOffsetBehindY = other._markingOffsetBehindY; // _CS
+            _markingOffsetLeftX = other._markingOffsetLeftX; // _CS
+            _markingOffsetLeftY = other._markingOffsetLeftY; // _CS
+            _markingOffsetRightX = other._markingOffsetRightX; // _CS
+            _markingOffsetRightY = other._markingOffsetRightY; // _CS
         }
 
         public Marking(MarkingDTO? other)
@@ -138,6 +186,17 @@ namespace Content.Shared.Humanoid.Markings
             TakeOffVerb2p = other.TakeOffVerb2p ?? TakeOffVerb2p;
             _markingGlow = NormalizeGlowLevels(other.GlowLevels, _markingColors.Count, other.Glow ?? 0f);
             _legacyGlow = other.Glow ?? 0f;
+            _markingScale = Math.Clamp(other.Scale ?? 1.0f, 0.1f, 4.0f); // _CS
+            _markingOffsetX = Math.Clamp(other.OffsetX ?? 0f, -2f, 2f); // _CS
+            _markingOffsetY = Math.Clamp(other.OffsetY ?? 0f, -2f, 2f); // _CS
+            _markingOffsetFrontX = Math.Clamp(other.OffsetFrontX ?? _markingOffsetX, -2f, 2f); // _CS
+            _markingOffsetFrontY = Math.Clamp(other.OffsetFrontY ?? _markingOffsetY, -2f, 2f); // _CS
+            _markingOffsetBehindX = Math.Clamp(other.OffsetBehindX ?? _markingOffsetX, -2f, 2f); // _CS
+            _markingOffsetBehindY = Math.Clamp(other.OffsetBehindY ?? _markingOffsetY, -2f, 2f); // _CS
+            _markingOffsetLeftX = Math.Clamp(other.OffsetLeftX ?? _markingOffsetX, -2f, 2f); // _CS
+            _markingOffsetLeftY = Math.Clamp(other.OffsetLeftY ?? _markingOffsetY, -2f, 2f); // _CS
+            _markingOffsetRightX = Math.Clamp(other.OffsetRightX ?? _markingOffsetX, -2f, 2f); // _CS
+            _markingOffsetRightY = Math.Clamp(other.OffsetRightY ?? _markingOffsetY, -2f, 2f); // _CS
         }
 
         /// <summary>
@@ -154,6 +213,16 @@ namespace Content.Shared.Humanoid.Markings
 
         [ViewVariables]
         public IReadOnlyList<float> MarkingGlow => _markingGlow;
+
+    // _CS Start
+    public float MarkingScale => _markingScale;
+    public Vector2 MarkingOffset => new(_markingOffsetX, _markingOffsetY);
+
+    public Vector2 MarkingOffsetFront => new(_markingOffsetFrontX, _markingOffsetFrontY);
+    public Vector2 MarkingOffsetBehind => new(_markingOffsetBehindX, _markingOffsetBehindY);
+    public Vector2 MarkingOffsetLeft => new(_markingOffsetLeftX, _markingOffsetLeftY);
+    public Vector2 MarkingOffsetRight => new(_markingOffsetRightX, _markingOffsetRightY);
+    // _CS End
 
         /// <summary>
         ///     If this marking is currently visible.
@@ -234,6 +303,72 @@ namespace Content.Shared.Humanoid.Markings
             _legacyGlow = normalizedGlow;
         }
 
+        // _CS Start
+        public void SetScale(float scale)
+        {
+            _markingScale = Math.Clamp(scale, 0.1f, 4.0f);
+        }
+
+        public void SetOffset(float x, float y)
+        {
+            _markingOffsetX = Math.Clamp(x, -2f, 2f);
+            _markingOffsetY = Math.Clamp(y, -2f, 2f);
+
+            // Keep directional offsets aligned with legacy single-offset behavior
+            // when this setter is used.
+            _markingOffsetFrontX = _markingOffsetX;
+            _markingOffsetFrontY = _markingOffsetY;
+            _markingOffsetBehindX = _markingOffsetX;
+            _markingOffsetBehindY = _markingOffsetY;
+            _markingOffsetLeftX = _markingOffsetX;
+            _markingOffsetLeftY = _markingOffsetY;
+            _markingOffsetRightX = _markingOffsetX;
+            _markingOffsetRightY = _markingOffsetY;
+        }
+
+        public void SetOffset(Direction direction, float x, float y)
+        {
+            var clampedX = Math.Clamp(x, -2f, 2f);
+            var clampedY = Math.Clamp(y, -2f, 2f);
+
+            switch (direction)
+            {
+                case Direction.South:
+                    _markingOffsetFrontX = clampedX;
+                    _markingOffsetFrontY = clampedY;
+                    break;
+                case Direction.North:
+                    _markingOffsetBehindX = clampedX;
+                    _markingOffsetBehindY = clampedY;
+                    break;
+                case Direction.West:
+                    _markingOffsetLeftX = clampedX;
+                    _markingOffsetLeftY = clampedY;
+                    break;
+                case Direction.East:
+                    _markingOffsetRightX = clampedX;
+                    _markingOffsetRightY = clampedY;
+                    break;
+                default:
+                    _markingOffsetFrontX = clampedX;
+                    _markingOffsetFrontY = clampedY;
+                    break;
+            }
+        }
+
+        public Vector2 GetOffset(Direction direction)
+        {
+            return direction switch
+            {
+                Direction.South => MarkingOffsetFront,
+                Direction.North => MarkingOffsetBehind,
+                Direction.West => MarkingOffsetLeft,
+                Direction.East => MarkingOffsetRight,
+                _ => MarkingOffsetFront,
+            };
+        }
+        // _CS End
+
         public void SetColor(Color color)
         {
             for (int i = 0; i < _markingColors.Count; i++)
@@ -279,7 +414,18 @@ namespace Content.Shared.Humanoid.Markings
                 && TakeOffVerb == other.TakeOffVerb
                 && TakeOffVerb2p == other.TakeOffVerb2p
                 && ShowAtStart == other.ShowAtStart
-                && _markingGlow.SequenceEqual(other._markingGlow);
+                && _markingGlow.SequenceEqual(other._markingGlow)
+                && _markingScale == other._markingScale // _CS
+                && _markingOffsetX == other._markingOffsetX // _CS
+                && _markingOffsetY == other._markingOffsetY // _CS
+                && _markingOffsetFrontX == other._markingOffsetFrontX // _CS
+                && _markingOffsetFrontY == other._markingOffsetFrontY // _CS
+                && _markingOffsetBehindX == other._markingOffsetBehindX // _CS
+                && _markingOffsetBehindY == other._markingOffsetBehindY // _CS
+                && _markingOffsetLeftX == other._markingOffsetLeftX // _CS
+                && _markingOffsetLeftY == other._markingOffsetLeftY // _CS
+                && _markingOffsetRightX == other._markingOffsetRightX // _CS
+                && _markingOffsetRightY == other._markingOffsetRightY; // _CS
         }
 
         public MarkingDTO ToDTO()
@@ -298,7 +444,18 @@ namespace Content.Shared.Humanoid.Markings
                 TakeOffVerb = TakeOffVerb,
                 TakeOffVerb2p = TakeOffVerb2p,
                 GlowLevels = _markingGlow.ToList(),
-                Glow = _markingGlow.FirstOrDefault()
+                Glow = _markingGlow.FirstOrDefault(),
+                Scale = _markingScale, // _CS
+                OffsetX = _markingOffsetX, // _CS
+                OffsetY = _markingOffsetY, // _CS
+                OffsetFrontX = _markingOffsetFrontX, // _CS
+                OffsetFrontY = _markingOffsetFrontY, // _CS
+                OffsetBehindX = _markingOffsetBehindX, // _CS
+                OffsetBehindY = _markingOffsetBehindY, // _CS
+                OffsetLeftX = _markingOffsetLeftX, // _CS
+                OffsetLeftY = _markingOffsetLeftY, // _CS
+                OffsetRightX = _markingOffsetRightX, // _CS
+                OffsetRightY = _markingOffsetRightY, // _CS
             };
         }
 

@@ -70,5 +70,62 @@ namespace Content.Shared.Humanoid.Markings
         ///     Per-marking glow intensity from 0 to 1.
         /// </summary>
         public float? Glow { get; set; }
+
+        // _CS Start
+        /// <summary>
+        ///     Uniform scale multiplier for the marking sprite. Defaults to 1.0.
+        /// </summary>
+        public float? Scale { get; set; }
+
+        /// <summary>
+        ///     Marking offset X in local sprite coordinates.
+        /// </summary>
+        public float? OffsetX { get; set; }
+
+        /// <summary>
+        ///     Marking offset Y in local sprite coordinates.
+        /// </summary>
+        public float? OffsetY { get; set; }
+
+        /// <summary>
+        ///     Marking offset X when facing front (south).
+        /// </summary>
+        public float? OffsetFrontX { get; set; }
+
+        /// <summary>
+        ///     Marking offset Y when facing front (south).
+        /// </summary>
+        public float? OffsetFrontY { get; set; }
+
+        /// <summary>
+        ///     Marking offset X when facing behind (north).
+        /// </summary>
+        public float? OffsetBehindX { get; set; }
+
+        /// <summary>
+        ///     Marking offset Y when facing behind (north).
+        /// </summary>
+        public float? OffsetBehindY { get; set; }
+
+        /// <summary>
+        ///     Marking offset X when facing left (west).
+        /// </summary>
+        public float? OffsetLeftX { get; set; }
+
+        /// <summary>
+        ///     Marking offset Y when facing left (west).
+        /// </summary>
+        public float? OffsetLeftY { get; set; }
+
+        /// <summary>
+        ///     Marking offset X when facing right (east).
+        /// </summary>
+        public float? OffsetRightX { get; set; }
+
+        /// <summary>
+        ///     Marking offset Y when facing right (east).
+        /// </summary>
+        public float? OffsetRightY { get; set; }
+        // _CS End
     }
 }

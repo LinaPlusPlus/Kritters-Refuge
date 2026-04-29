@@ -559,7 +559,9 @@ namespace Content.Client.Lobby.UI
 
             ShowGenitals.OnToggled += args =>
             {
-                ReloadPreview();
+                // _CS Start
+                ReloadProfilePreview();
+                // _CS End
             };
 
             SpeciesInfoButton.OnPressed += OnSpeciesInfoButtonPressed;

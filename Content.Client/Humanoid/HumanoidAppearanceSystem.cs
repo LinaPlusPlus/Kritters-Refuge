@@ -36,23 +36,23 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
 
     private void OnHandleState(EntityUid uid, HumanoidAppearanceComponent component, ref AfterAutoHandleStateEvent args)
     {
-        UpdateSprite(component, Comp<SpriteComponent>(uid));
+        UpdateSprite(uid, component, Comp<SpriteComponent>(uid));
     }
 
     private void OnCvarChanged(bool value)
     {
         var humanoidQuery = EntityManager.AllEntityQueryEnumerator<HumanoidAppearanceComponent, SpriteComponent>();
-        while (humanoidQuery.MoveNext(out var _, out var humanoidComp, out var spriteComp))
+        while (humanoidQuery.MoveNext(out var uid, out var humanoidComp, out var spriteComp))
         {
-            UpdateSprite(humanoidComp, spriteComp);
+            UpdateSprite(uid, humanoidComp, spriteComp);
         }
     }
 
-    private void UpdateSprite(HumanoidAppearanceComponent component, SpriteComponent sprite)
+    private void UpdateSprite(EntityUid uid, HumanoidAppearanceComponent component, SpriteComponent sprite)
     {
 
         UpdateLayers(component, sprite);
-        ApplyMarkingSet(component, sprite);
+        ApplyMarkingSet(uid, component, sprite);
         // TODO: make this thing a more versatulate proc // todo: figure out what I meant by this
         var speciesPrototype = _prototypeManager.Index(component.Species);
 
@@ -377,16 +377,25 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
                 humanoid.PermanentlyHidden.Add(HumanoidVisualLayers.UndergarmentBottom);
                 humanoid.PermanentlyHidden.Add(HumanoidVisualLayers.UndergarmentTop);
             }
+            // _CS Start
             if (!ProfilePreviewSettings.ShowGenitals)
             {
                 humanoid.PermanentlyHidden.Add(HumanoidVisualLayers.Genital);
             }
+            else if (humanoid.MarkingSet.Markings.TryGetValue(MarkingCategories.Genital, out var genitalMarkings))
+            {
+                foreach (var genitalMarking in genitalMarkings)
+                {
+                    humanoid.HiddenMarkings.Remove(genitalMarking.MarkingId);
+                }
+            }
+            // _CS End
         }
 
-        UpdateSprite(humanoid, Comp<SpriteComponent>(uid));
+        UpdateSprite(uid, humanoid, Comp<SpriteComponent>(uid));
     }
 
-    private void ApplyMarkingSet(HumanoidAppearanceComponent humanoid, SpriteComponent sprite)
+    private void ApplyMarkingSet(EntityUid uid, HumanoidAppearanceComponent humanoid, SpriteComponent sprite)
     {
         // I am lazy and I CBF resolving the previous mess, so I'm just going to nuke the markings.
         // Really, markings should probably be a separate component altogether.
@@ -397,6 +406,12 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
         // The reason we're splitting this up is in case the character already has undergarment equipped in that slot.
         // var applyUndergarmentTop = censorNudity;
         // var applyUndergarmentBottom = censorNudity;
+
+        // _CS Start
+        var facingDirection = sprite.EnableDirectionOverride
+            ? sprite.DirectionOverride
+            : Transform(uid).LocalRotation.GetCardinalDir();
+        // _CS End
 
         foreach (List<Marking> markingList in humanoid.MarkingSet.Markings.Values)
         {
@@ -416,7 +431,11 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
                     newMarking.MarkingGlow,
                     newMarking.Visible,
                     humanoid,
-                    sprite);
+                    sprite,
+                    // _CS Start
+                    newMarking.MarkingScale,
+                    newMarking.GetOffset(facingDirection));
+                    // _CS End
             }
         }
 
@@ -521,8 +540,15 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
         IReadOnlyList<float>? glowLevels,
         bool visible,
         HumanoidAppearanceComponent humanoid,
-        SpriteComponent sprite)
+        SpriteComponent sprite,
+        // _CS Start
+        float scale = 1.0f,
+        Vector2? offset = null)
+        // _CS End
     {
+        // _CS Start
+        var markingOffset = offset ?? Vector2.Zero;
+        // _CS End
         // FLOOF ADD START
         // make a handy dict of filename -> colors
         // cus we might need to access it by filename to link
@@ -640,6 +666,10 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
             }
             // impstation edit end
             sprite.LayerSetVisible(layerId, visible);
+            // _CS Start
+            sprite.LayerSetScale(layerId, new Vector2(scale, scale));
+            sprite.LayerSetOffset(layerId, markingOffset);
+            // _CS End
 
             if (!visible || setting == null) // this is kinda implied
             {
@@ -683,6 +713,10 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
                 sprite.LayerSetShader(glowLayerId, "unshaded");
                 sprite.LayerSetVisible(glowLayerId, visible);
                 sprite.LayerSetColor(glowLayerId, color.WithAlpha(glowAlpha));
+                // _CS Start
+                sprite.LayerSetScale(glowLayerId, new Vector2(scale, scale));
+                sprite.LayerSetOffset(glowLayerId, markingOffset);
+                // _CS End
                 humanoid.ClientElderMarkings.Add(glowLayerId);
             }
             else if (sprite.LayerMapTryGet(glowLayerId, out var glowIndex))
@@ -787,10 +821,19 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
 
         foreach (var markingList in ent.Comp.MarkingSet.Markings.Values)
         {
+            // _CS Start
+            var facingDirection = sprite.EnableDirectionOverride
+                ? sprite.DirectionOverride
+                : Transform(ent).LocalRotation.GetCardinalDir();
+            // _CS End
             foreach (var marking in markingList)
             {
                 if (_markingManager.TryGetMarking(marking, out var markingPrototype) && markingPrototype.BodyPart == layer)
-                    ApplyMarking(markingPrototype, marking.MarkingColors, marking.MarkingGlow, marking.Visible, ent, sprite);
+                {
+                    // _CS Start
+                    ApplyMarking(markingPrototype, marking.MarkingColors, marking.MarkingGlow, marking.Visible, ent, sprite, marking.MarkingScale, marking.GetOffset(facingDirection));
+                    // _CS End
+                }
             }
         }
     }
@@ -802,7 +845,7 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
         humanoid.PermanentlyHidden.Add(HumanoidVisualLayers.UndergarmentBottom);
         humanoid.PermanentlyHidden.Add(HumanoidVisualLayers.UndergarmentTop);
         base.HideUndies(ent, humanoid);
-        UpdateSprite(humanoid, Comp<SpriteComponent>(ent));
+        UpdateSprite(ent, humanoid, Comp<SpriteComponent>(ent));
     }
 
     public override void HideGenitals(EntityUid ent, HumanoidAppearanceComponent? humanoid = null)
@@ -811,7 +854,7 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
             return;
         humanoid.PermanentlyHidden.Add(HumanoidVisualLayers.Genital);
         base.HideGenitals(ent, humanoid);
-        UpdateSprite(humanoid, Comp<SpriteComponent>(ent));
+        UpdateSprite(ent, humanoid, Comp<SpriteComponent>(ent));
     }
 
     // displacementData = _humanoidSystem.GetDisplacementForLegStyle(
