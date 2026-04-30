@@ -453,6 +453,7 @@
       0: Alive
       80: Critical
       120: Dead
+    allowRevives: false
   - type: SlowOnDamage
     speedModifierThresholds:
       40: 0.7
@@ -541,6 +542,7 @@
       0: Alive
       65: Critical
       100: Dead
+    allowRevives: false
   - type: NpcFactionMember
     factions:
     - SimpleHostile

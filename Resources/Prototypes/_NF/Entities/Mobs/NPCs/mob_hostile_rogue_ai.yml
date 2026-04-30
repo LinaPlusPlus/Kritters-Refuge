@@ -80,7 +80,7 @@
       Critical: BorgCrit
       Dead: BorgDead
     showOverlays: false
-    allowRevives: true
+    allowRevives: false
   - type: SlowOnDamage
     speedModifierThresholds:
       40: 0.7
