@@ -2663,3 +2663,10 @@ Entries:
   id: 305
   time: '2026-04-30T06:32:45.0000000+00:00'
   url: https://github.com/ARF-SS13/coyote-frontier/pull/1179
+- author: QTNeen
+  changes:
+    - type: Add
+      message: Scaling options for genital markings
+  id: 306
+  time: '2026-04-30T06:46:12.0000000+00:00'
+  url: https://github.com/ARF-SS13/coyote-frontier/pull/1182
