@@ -42,7 +42,7 @@
     - NFSpeedLoaderPistol45Rubber
     - ForensicPad
     - ForensicScanner
-    - BaseSecurityUplinkRadioOfficer # CS: added uplink to detectives and removed starting FUCs
+    - BaseSecurityUplinkRadioOfficer # Coyote: added uplink to detectives and removed starting FUCs
     - LogProbeCartridge
     - RubberStampDetective
     - ContrabandForensicsModule

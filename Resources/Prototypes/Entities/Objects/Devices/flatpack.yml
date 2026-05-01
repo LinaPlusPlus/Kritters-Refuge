@@ -51,7 +51,7 @@
     - state: solar-assembly-part
   - type: StaticPrice
     price: 25 # Frontier: 75<25
-    vendPrice: 125 # CS, just under one tenth the cost of a crate of 10 plus glass sheets
+    vendPrice: 125 # Coyote, just under one tenth the cost of a crate of 10 plus glass sheets
 
 - type: entity
   parent: BaseFlatpack

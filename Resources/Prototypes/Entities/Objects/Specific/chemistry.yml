@@ -437,7 +437,7 @@
   - type: Tag
     tags:
     - Syringe
-    - Trash # CS: Move trash to basesyringe
+    - Trash # Coyote: Move trash to basesyringe
 
 - type: entity
   parent: BaseSyringe
@@ -446,12 +446,12 @@
   - type: Injector
     transferAmount: 15
     toggleState: Draw
-  # CS: BaseSyringe already has the necessary tags. Commenting these lines
+  # Coyote: BaseSyringe already has the necessary tags. Commenting these lines
   # - type: Tag
   #   tags:
   #   - Syringe
   #   - Trash
-  # End CS
+  # End Coyote
 
 - type: entity
   name: mini syringe
@@ -554,12 +554,12 @@
   - type: SolutionContainerVisuals
     maxFillLevels: 2
     fillBaseName: syringe
-  # CS: BaseSyringe already has the necessary tags. Commenting these lines
+  # Coyote: BaseSyringe already has the necessary tags. Commenting these lines
   # - type: Tag
   #   tags:
   #   - Syringe
   #   - Trash
-  # End CS
+  # End Coyote
 
 - type: entity
   id: SyringeCryostasis
@@ -587,12 +587,12 @@
     minTransferAmount: 5
     maxTransferAmount: 10
     transferAmount: 10
-  # CS: BaseSyringe already has the necessary tags. Commenting these lines
+  # Coyote: BaseSyringe already has the necessary tags. Commenting these lines
   # - type: Tag
   #   tags:
   #   - Syringe
   #   - Trash
-  # End CS
+  # End Coyote
 
 
 - type: entity

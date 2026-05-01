@@ -1,7 +1,7 @@
 - type: loadoutGroup
   id: DocJumpsuit
   name: loadout-group-contractor-jumpsuit
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   loadouts:
   - ChiefMedicalOfficerJumpsuit
   - ChiefMedicalOfficerJumpskirt
@@ -24,7 +24,7 @@
 - type: loadoutGroup
   id: DocBackpack
   name: loadout-group-contractor-backpack
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   loadouts:
   - DocClothingBackpackMedical
   - DocClothingBackpackDuffelMedical
@@ -75,7 +75,7 @@
 - type: loadoutGroup
   id: DocShoes
   name: loadout-group-contractor-shoes
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   loadouts:
   - DocClothingShoesColorWhite
   - StcClothingShoesBootsLaceup # reused purposefully

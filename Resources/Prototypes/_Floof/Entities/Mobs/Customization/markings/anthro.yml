@@ -6,7 +6,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_canid_alt2
@@ -27,7 +27,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_flcanid_primary
@@ -39,7 +39,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_lcanid_primary
@@ -51,7 +51,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_flcanidalt_primary
@@ -61,7 +61,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_flcanidstripe_primary
@@ -73,7 +73,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_lcanidstripe_primary
@@ -85,7 +85,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_flcanidstripealt_primary
@@ -97,7 +97,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_lcanidstripealt_primary
@@ -109,7 +109,7 @@
 #  bodyPart: Snout
 #  markingCategory: Snout
 #  speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  sprites:
 #  - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
 #    state: snout_fhusky_primary
@@ -121,7 +121,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_husky_primary
@@ -133,7 +133,7 @@
 #  bodyPart: Snout
 #  markingCategory: Snout
 #  speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  sprites:
 #  - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
 #    state: snout_fwolf_primary
@@ -145,7 +145,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_wolf_primary
@@ -157,7 +157,7 @@
 #  bodyPart: Snout
 #  markingCategory: Snout
 #  speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  sprites:
 #  - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
 #    state: snout_fwolfalt_primary
@@ -167,7 +167,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_wolfalt_primary
@@ -177,7 +177,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_fscanid_primary
@@ -189,7 +189,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_scanid_primary
@@ -201,7 +201,7 @@
 #  bodyPart: Snout
 #  markingCategory: Snout
 #  speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  sprites:
 #  - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
 #    state: snout_fscanidalt_primary
@@ -213,7 +213,7 @@
 #  bodyPart: Snout
 #  markingCategory: Snout
 #  speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  sprites:
 #  - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
 #    state: snout_fscanidalt2_primary
@@ -223,7 +223,7 @@
 #  bodyPart: Snout
 #  markingCategory: Snout
 #  speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  sprites:
 #  - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
 #    state: snout_fscanidalt3_primary
@@ -235,7 +235,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_scanidalt3_primary
@@ -249,7 +249,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_round
@@ -259,7 +259,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_sharp
@@ -269,7 +269,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_roundlight
@@ -279,7 +279,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_sharplight
@@ -291,7 +291,7 @@
 #  bodyPart: Snout
 #  markingCategory: Snout
 #  speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  sprites:
 #  - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
 #    state: snout_fbird_primary
@@ -305,7 +305,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_bird_primary
@@ -319,7 +319,7 @@
 #  bodyPart: Snout
 #  markingCategory: Snout
 #  speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  sprites:
 #  - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
 #    state: snout_fbigbeak_primary
@@ -329,7 +329,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_bigbeak_primary
@@ -339,7 +339,7 @@
 #  bodyPart: Snout
 #  markingCategory: Snout
 #  speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  sprites:
 #  - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
 #    state: snout_fcorvidbeak_primary
@@ -349,7 +349,7 @@
 #  bodyPart: Snout
 #  markingCategory: Snout
 #  speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  sprites:
 #  - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
 #    state: snout_ftoucan_primary
@@ -361,7 +361,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_toucan_primary
@@ -373,7 +373,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_birdsmall_primary
@@ -387,7 +387,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_bigbeakshort_primary
@@ -397,7 +397,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_slimbeak_primary
@@ -407,7 +407,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_slimbeakalt_primary
@@ -417,7 +417,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_slimbeakshort_primary
@@ -427,7 +427,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_hookbeak_primary
@@ -437,7 +437,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_hookbeakbig_primary
@@ -449,7 +449,7 @@
 #  bodyPart: Snout
 #  markingCategory: Snout
 #  speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  sprites:
 #  - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
 #    state:  snout_fwah_primary
@@ -463,7 +463,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state:  snout_wah_primary
@@ -477,7 +477,7 @@
 #  bodyPart: Snout
 #  markingCategory: Snout
 #  speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  sprites:
 #  - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
 #    state:  snout_fwahalt_primary
@@ -489,7 +489,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state:  snout_wahalt_primary
@@ -501,7 +501,7 @@
 #  bodyPart: Snout
 #  markingCategory: Snout
 #  speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  sprites:
 #  - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
 #    state:  snout_fotie_primary
@@ -513,7 +513,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state:  snout_otie_primary
@@ -525,7 +525,7 @@
 #  bodyPart: Snout
 #  markingCategory: Snout
 #  speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  sprites:
 #  - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
 #    state:  snout_fotiesmile_primary
@@ -537,7 +537,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state:  snout_otiesmile_primary
@@ -549,7 +549,7 @@
 #  bodyPart: Snout
 #  markingCategory: Snout
 #  speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  sprites:
 #  - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
 #    state:  snout_fpede_primary
@@ -561,7 +561,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state:  snout_pede_primary
@@ -573,7 +573,7 @@
 #  bodyPart: Snout
 #  markingCategory: Snout
 #  speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  sprites:
 #  - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
 #    state:  snout_frodent_primary
@@ -583,7 +583,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state:  snout_rodent_primary
@@ -593,7 +593,7 @@
 #  bodyPart: Snout
 #  markingCategory: Snout
 #  speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  sprites:
 #  - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
 #    state:  snout_fsergal_primary
@@ -617,7 +617,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state:  snout_rhino_primary
@@ -631,7 +631,7 @@
 #  bodyPart: Snout
 #  markingCategory: Snout
 #  speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  sprites:
 #  - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
 #    state:  snout_fbovine_primary
@@ -645,7 +645,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state:  snout_bovine_primary
@@ -659,7 +659,7 @@
 #  bodyPart: Snout
 #  markingCategory: Snout
 #  speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  sprites:
 #  - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
 #    state:  snout_felephant_primary
@@ -671,7 +671,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state:  snout_elephant_primary
@@ -683,7 +683,7 @@
 #  bodyPart: Snout
 #  markingCategory: Snout
 #  speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  sprites:
 #  - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
 #    state:  snout_fround
@@ -693,7 +693,7 @@
 #  bodyPart: Snout
 #  markingCategory: Snout
 #  speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  sprites:
 #  - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
 #    state:  snout_fsharplight
@@ -703,7 +703,7 @@
 #  bodyPart: Snout
 #  markingCategory: Snout
 #  speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  sprites:
 #  - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
 #    state:  snout_froundlight
@@ -713,7 +713,7 @@
 #  bodyPart: Snout
 #  markingCategory: Snout
 #  speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  sprites:
 #  - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
 #    state:  snout_fshark_primary
@@ -723,7 +723,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state:  snout_shark_primary
@@ -733,7 +733,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state:  snout_hshark_primary
@@ -745,7 +745,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state:  snout_hshark_eyes_primary
@@ -757,7 +757,7 @@
 #  bodyPart: Snout
 #  markingCategory: Snout
 #  speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  colorLinks:
 #    snout_fbug_FRONT_primary: snout_fbug_primary
 #  sprites:
@@ -773,7 +773,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state:  snout_bug_primary
@@ -785,7 +785,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state:  snout_bug_no_eyes
@@ -795,7 +795,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state:  snout_sergal_primary
@@ -807,7 +807,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state:  snout_hhorse_primary
@@ -819,7 +819,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state:  snout_hzebra_primary
@@ -831,7 +831,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state:  snout_hanubus_primary
@@ -843,7 +843,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state:  snout_hpanda_primary
@@ -855,7 +855,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state:  snout_hjackal_primary
@@ -867,7 +867,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_hspots_primary
@@ -879,7 +879,7 @@
 #  bodyPart: Snout
 #  markingCategory: Snout
 #  speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  sprites:
 #  - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
 #    state: snout_fskulldog_primary
@@ -893,7 +893,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_skulldog_primary
@@ -907,7 +907,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_sharkblubber_primary
@@ -919,7 +919,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_rat_primary
@@ -931,7 +931,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_ntajaran
@@ -941,7 +941,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_stubby_primary
@@ -953,7 +953,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Floof/Mobs/Customization/skyratsnouts.rsi
     state: snout_leporid_primary

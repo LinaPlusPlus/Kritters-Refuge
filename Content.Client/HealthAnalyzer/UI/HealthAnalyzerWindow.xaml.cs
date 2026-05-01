@@ -18,7 +18,7 @@ public sealed partial class HealthAnalyzerWindow : FancyWindow
         HealthAnalyzer.Populate(msg.State);
     }
 
-    // CS: don't really like this but we need access to this component on HealthAnalyzerBoundUserInterface, for the print button.
+    // Coyote: don't really like this but we need access to this component on HealthAnalyzerBoundUserInterface, for the print button.
     // (and this is better than making that variable public cause its auto-generated)
     public HealthAnalyzerControl GetAnalyzerControl()
     {

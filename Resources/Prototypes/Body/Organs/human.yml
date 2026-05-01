@@ -175,8 +175,8 @@
     - id: Cryogenic # Frontier
     - id: Poison
     - id: Narcotic
-    - id: Aphrodisiacs # CS: Necessary to detect aphrodisiac injected solutions.
-    - id: AphrodisiacDrinks # CS: Necessary to detect aphrodisiac injected solutions.
+    - id: Aphrodisiacs # Coyote: Necessary to detect aphrodisiac injected solutions.
+    - id: AphrodisiacDrinks # Coyote: Necessary to detect aphrodisiac injected solutions.
   - type: Item
     size: Small
     heldPrefix: heart
@@ -212,7 +212,7 @@
     groups:
     - id: Food
     - id: Drink
-    - id: AphrodisiacDrinks # CS: Necessary to detect aphrodisiac injected solutions.
+    - id: AphrodisiacDrinks # Coyote: Necessary to detect aphrodisiac injected solutions.
 
 - type: entity
   id: OrganHumanLiver

@@ -717,8 +717,8 @@
   description: Simple clean water of unknown origin. You think that maybe you dont want to know it.
   components:
   - type: StaticPrice
-    vendPrice: 500 # CS: Makes these cost 500 in all vendors.
-    price: 50 # CS: Price specified so vendor price doesn't force the server into an endless restart loop.
+    vendPrice: 500 # Coyote: Makes these cost 500 in all vendors.
+    price: 50 # Coyote: Price specified so vendor price doesn't force the server into an endless restart loop.
   - type: SolutionContainerManager
     solutions:
       drink:

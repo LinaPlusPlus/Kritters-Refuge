@@ -10,7 +10,7 @@
     - ActionVendingThrow
   - type: StationAiWhitelist
   - type: AmbientOnPowered
-  - type: AmbientSound # CS: -9>-12 3>2
+  - type: AmbientSound # Coyote: -9>-12 3>2
     volume: -12
     range: 2
     enabled: false
@@ -109,7 +109,7 @@
     taxAccounts:
       Frontier: 0.25
       Nfsd: 0.05
-      Medical: 0.15 # CS adding medical passive income
+      Medical: 0.15 # Coyote adding medical passive income
     cashSlot:
       whitelist:
         components:
@@ -249,8 +249,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
-  #- type: AccessReader # CS
-  #  access: [["SyndicateAgent"]] # CS
+  #- type: AccessReader # Coyote
+  #  access: [["SyndicateAgent"]] # Coyote
   - type: GuideHelp
     guides:
     - Bartender
@@ -1061,7 +1061,7 @@
   parent: VendingMachineSnack
   id: VendingMachineSustenance
   name: Sustenance Vendor
-  description: A vending machine which vends food, the bare minimum required to survive. # CS: Reflavours to be less "Evil NT-y"
+  description: A vending machine which vends food, the bare minimum required to survive. # Coyote: Reflavours to be less "Evil NT-y"
   components:
   - type: VendingMachine
     pack: SustenanceInventory
@@ -1072,7 +1072,7 @@
     normalState: normal-unshaded
     ejectState: eject-unshaded
     denyState: deny-unshaded
-    initialStockQuality: 1.0 # CS: Made their stock always full at roundstart.
+    initialStockQuality: 1.0 # Coyote: Made their stock always full at roundstart.
   - type: Sprite
     sprite: Structures/Machines/VendingMachines/sustenance.rsi
     layers:
@@ -2243,5 +2243,5 @@
     normalState: normal
     denyState: deny
     ejectDelay: 2
-  #- type: AccessReader # CS
-  #  access: [["SyndicateAgent"]] # CS
+  #- type: AccessReader # Coyote
+  #  access: [["SyndicateAgent"]] # Coyote

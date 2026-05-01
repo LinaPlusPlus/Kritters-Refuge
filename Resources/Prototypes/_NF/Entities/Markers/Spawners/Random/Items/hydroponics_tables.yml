@@ -112,8 +112,8 @@
       - id: FakeCapfruitSeeds
       - id: CucumberSeeds
       - id: NFGlowshroomSeeds
-      - id: PomegranateSeeds # CS
-      - id: HumpShroomSeeds # CS
+      - id: PomegranateSeeds # Coyote
+      - id: HumpShroomSeeds # Coyote
     - !type:GroupSelector
       weight: 10
       children:
@@ -128,9 +128,9 @@
       - id: ExtradimensionalOrangeSeeds
       - id: GlasstleSeeds
       - id: MonkananaSeeds
-      - id: GatfruitSeeds # CS
-      - id: BreedShroomSeeds # CS
-      - id: AmbrosiaVitalisSeeds # CS
+      - id: GatfruitSeeds # Coyote
+      - id: BreedShroomSeeds # Coyote
+      - id: AmbrosiaVitalisSeeds # Coyote
 
 # region Cemicals
 - type: entityTable
@@ -254,12 +254,12 @@
   table: !type:GroupSelector
     children:
     - id: ClothingShoesBootsWork
-      weight: 40 # CS
+      weight: 40 # Coyote
     - id: ClothingShoesColorBrown
-      weight: 40 # CS
+      weight: 40 # Coyote
     - id: ClothingShoesBootsWinterHydro
       weight: 10
-    - id: ClothingShoesBootsMagHydro # CS
+    - id: ClothingShoesBootsMagHydro # Coyote
       weight: 10
 
 #region EVA

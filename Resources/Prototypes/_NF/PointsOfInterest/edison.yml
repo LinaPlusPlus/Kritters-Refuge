@@ -16,7 +16,7 @@
   maximumDistance: 2250
   minimumClearance: 1000
   spawnGroup: Required
-  gridPath: /Maps/_CS/POI/edison.yml # CS: Changed to new Edison Map
+  gridPath: /Maps/_CS/POI/edison.yml # Coyote: Changed to new Edison Map
   addComponents:
   - type: IFF
     color: "#3737F8"
@@ -30,7 +30,7 @@
 - type: gameMap
   id: Edison
   mapName: 'Edison Power Plant'
-  mapPath: /Maps/_CS/POI/edison.yml # CS: Changed to new Edison map
+  mapPath: /Maps/_CS/POI/edison.yml # Coyote: Changed to new Edison map
   minPlayers: 0
   stations:
     Edison:

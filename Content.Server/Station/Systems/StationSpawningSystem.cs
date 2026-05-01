@@ -34,7 +34,7 @@ using Robust.Shared.Containers; // Frontier
 using Content.Shared.Radio.Components; // Frontier
 using Content.Shared.Implants; // Frontier
 using Content.Shared.Implants.Components; // Frontier
-using Content.Server.Mind; // CS: I have no idea why upstream doesn't need this!
+using Content.Server.Mind; // Coyote: I have no idea why upstream doesn't need this!
 
 namespace Content.Server.Station.Systems;
 

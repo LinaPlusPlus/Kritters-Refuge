@@ -381,7 +381,7 @@
         Slash: 12
         Structural: 30
   # Ghost role stuff
-  # - type: GhostRole # CS: disable ghost role
+  # - type: GhostRole # Coyote: disable ghost role
     # allowMovement: true
     # name: ghost-role-information-aberrant-flesh-horror-dungeon-name
     # description: ghost-role-information-aberrant-flesh-horror-dungeon-description

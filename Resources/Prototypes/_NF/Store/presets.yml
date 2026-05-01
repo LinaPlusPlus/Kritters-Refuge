@@ -51,11 +51,11 @@
     - UplinkPirateAmmo
     - UplinkPirateUtility
     - UplinkPirateExplosives
-    - UplinkPirateMedical # CS
-    - UplinkPirateDeception # CS
-    - UplinkPirateLoot # CS
-    - UplinkPirateWearables # CS
-    - UplinkPirateMachines # CS
+    - UplinkPirateMedical # Coyote
+    - UplinkPirateDeception # Coyote
+    - UplinkPirateLoot # Coyote
+    - UplinkPirateWearables # Coyote
+    - UplinkPirateMachines # Coyote
     currencyWhitelist:
     - Doubloon
     balance:

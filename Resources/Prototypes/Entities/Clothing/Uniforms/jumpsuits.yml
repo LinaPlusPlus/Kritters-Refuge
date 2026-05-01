@@ -816,7 +816,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/hosformal.rsi
 
 - type: entity
-  parent: [UnsensoredClothingUniformBase] # Frontier: BaseSyndicateContraband<BaseC4Contraband, added ContrabandClothing as parent # CS: de contra'd it
+  parent: [UnsensoredClothingUniformBase] # Frontier: BaseSyndicateContraband<BaseC4Contraband, added ContrabandClothing as parent # Coyote: de contra'd it
   id: ClothingUniformJumpsuitOperative
   name: operative jumpsuit
   description: Uniform for elite syndicate operatives performing tactical operations in deep space.
@@ -1120,7 +1120,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/hawaiyellow.rsi
 
 - type: entity
-  parent: [ClothingUniformBase] # Frontier: BaseSyndicateContraband<BaseC4Contraband, added ContrabandClothing as a parent # CS: de contra'd it
+  parent: [ClothingUniformBase] # Frontier: BaseSyndicateContraband<BaseC4Contraband, added ContrabandClothing as a parent # Coyote: de contra'd it
   id: ClothingUniformJumpsuitSyndieFormal
   name: syndicate formal suit
   description: "The syndicate's uniform is made in an elegant style, it's even a pity to do dirty tricks in this."

@@ -4,7 +4,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_antennas.rsi
     state: default
@@ -14,7 +14,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_antennas.rsi
     state: curly
@@ -24,7 +24,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_antennas.rsi
     state: gray
@@ -34,7 +34,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_antennas.rsi
     state: slick
@@ -44,7 +44,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_antennas.rsi
     state: long
@@ -54,7 +54,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_antennas.rsi
     state: bee
@@ -64,7 +64,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_antennas.rsi
     state: short
@@ -74,7 +74,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_antennas.rsi
     state: firefly_primary
@@ -86,7 +86,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_antennas.rsi
     state: radar
@@ -96,7 +96,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_antennas.rsi
     state: speed
@@ -108,7 +108,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_wings.rsi
     state: default
@@ -118,7 +118,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_wings.rsi
     state: smooth
@@ -128,7 +128,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_wings.rsi
     state: honeypot_primary
@@ -140,7 +140,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_wings.rsi
     state: stubby
@@ -150,7 +150,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_wings.rsi
     state: bee_primary
@@ -162,7 +162,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_wings.rsi
     state: firefly_primary
@@ -176,7 +176,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: charred_chest
@@ -186,7 +186,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: charred_head
@@ -196,7 +196,7 @@
   bodyPart: LLeg
   markingCategory: Legs
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: charred_l_leg
@@ -206,7 +206,7 @@
   bodyPart: RLeg
   markingCategory: Legs
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: charred_r_leg
@@ -216,7 +216,7 @@
   bodyPart: LArm
   markingCategory: Arms
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: charred_l_arm
@@ -226,7 +226,7 @@
   bodyPart: RArm
   markingCategory: Arms
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: charred_r_arm
@@ -237,7 +237,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: plated_chest
@@ -247,7 +247,7 @@
   bodyPart: LArm
   markingCategory: Arms
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: plated_l_arm
@@ -257,7 +257,7 @@
   bodyPart: RArm
   markingCategory: Arms
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: plated_r_arm
@@ -268,7 +268,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: stripes_chest
@@ -278,7 +278,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: stripes_head
@@ -288,7 +288,7 @@
   bodyPart: LLeg
   markingCategory: Legs
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: stripes_l_leg
@@ -298,7 +298,7 @@
   bodyPart: RLeg
   markingCategory: Legs
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: stripes_r_leg
@@ -308,7 +308,7 @@
   bodyPart: LArm
   markingCategory: Arms
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: stripes_l_arm
@@ -318,7 +318,7 @@
   bodyPart: RArm
   markingCategory: Arms
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: stripes_r_arm
@@ -329,7 +329,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: radiant_chest
@@ -339,7 +339,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: radiant_head
@@ -349,7 +349,7 @@
   bodyPart: LLeg
   markingCategory: Legs
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: radiant_l_leg
@@ -359,7 +359,7 @@
   bodyPart: RLeg
   markingCategory: Legs
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: radiant_r_leg
@@ -369,7 +369,7 @@
   bodyPart: LArm
   markingCategory: Arms
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: radiant_l_arm
@@ -379,7 +379,7 @@
   bodyPart: RArm
   markingCategory: Arms
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: radiant_r_arm
@@ -390,7 +390,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: toxic_chest
@@ -400,7 +400,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: toxic_head
@@ -410,7 +410,7 @@
   bodyPart: LLeg
   markingCategory: Legs
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: toxic_l_leg
@@ -420,7 +420,7 @@
   bodyPart: RLeg
   markingCategory: Legs
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: toxic_r_leg
@@ -430,7 +430,7 @@
   bodyPart: LArm
   markingCategory: Arms
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: toxic_l_arm
@@ -440,7 +440,7 @@
   bodyPart: RArm
   markingCategory: Arms
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: toxic_r_arm
@@ -451,7 +451,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: spotted_chest
@@ -461,7 +461,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: spotted_head
@@ -471,7 +471,7 @@
   bodyPart: LLeg
   markingCategory: Legs
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: spotted_l_leg
@@ -481,7 +481,7 @@
   bodyPart: RLeg
   markingCategory: Legs
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: spotted_r_leg
@@ -491,7 +491,7 @@
   bodyPart: LArm
   markingCategory: Arms
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: spotted_l_arm
@@ -501,7 +501,7 @@
   bodyPart: RArm
   markingCategory: Arms
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Customization/Chitinid/chitinid_parts.rsi
     state: spotted_r_arm

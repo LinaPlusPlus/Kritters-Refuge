@@ -2670,3 +2670,17 @@ Entries:
   id: 306
   time: '2026-04-30T06:46:12.0000000+00:00'
   url: https://github.com/ARF-SS13/coyote-frontier/pull/1182
+- author: QTNeen
+  changes:
+    - type: Tweak
+      message: NPC death logic issue corrected
+  id: 307
+  time: '2026-05-01T03:42:48.0000000+00:00'
+  url: https://github.com/ARF-SS13/coyote-frontier/pull/1186
+- author: Khaomi
+  changes:
+    - type: Fix
+      message: Fix NASH Station having New Frontier logo
+  id: 308
+  time: '2026-05-01T03:44:36.0000000+00:00'
+  url: https://github.com/ARF-SS13/coyote-frontier/pull/1185

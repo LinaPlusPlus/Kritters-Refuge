@@ -6,7 +6,7 @@
   bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -24,7 +24,7 @@
   bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -42,7 +42,7 @@
   bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -60,7 +60,7 @@
   bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -78,7 +78,7 @@
   bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -96,7 +96,7 @@
   bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -114,7 +114,7 @@
   bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -132,7 +132,7 @@
   bodyPart: Head
   markingCategory: HeadTop
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -150,7 +150,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -167,7 +167,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -184,7 +184,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -203,7 +203,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -222,7 +222,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -239,7 +239,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -256,7 +256,7 @@
   bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _EE/Mobs/Customization/Harpy/harpy_wings.rsi
       state: harpy_2tone_1
@@ -268,7 +268,7 @@
   bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _EE/Mobs/Customization/Harpy/harpy_wings.rsi
       state: harpy_3tone_1
@@ -282,7 +282,7 @@
   bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _EE/Mobs/Customization/Harpy/harpy_wings.rsi
       state: harpy_speckled_1
@@ -294,7 +294,7 @@
   bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _EE/Mobs/Customization/Harpy/harpy_wings.rsi
       state: harpy_undertone_1
@@ -306,7 +306,7 @@
   bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _EE/Mobs/Customization/Harpy/harpy_wings.rsi
       state: harpy_wingtip_1
@@ -318,7 +318,7 @@
   bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _EE/Mobs/Customization/Harpy/harpy_wings.rsi
       state: bat_wings_tone_1
@@ -330,7 +330,7 @@
   bodyPart: RArmExtension # Frontier: RArm<RArmExtension
   markingCategory: Arms
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _EE/Mobs/Customization/Harpy/harpy_wings.rsi
       state: bionic_wings_tone_1

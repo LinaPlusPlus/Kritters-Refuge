@@ -153,7 +153,7 @@
   # MeatManipulation
   - BiomassReclaimerMachineCircuitboard
   # SmartStorageRefrigeration
-  - SmartFridgeCircuitboard # CS sector
+  - SmartFridgeCircuitboard # Coyote sector
   # BiochemicalStasis
   - StasisBedMachineCircuitboard
   - CryoPodMachineCircuitboard
@@ -193,8 +193,8 @@
   - JetpackCaptain
   - ImpCoffeeMachineCircuitboard #imp
   # GravityResistantTech
-  - HoverBedHoloSpawnFolded # CS
-  - JetInjector # CS
+  - HoverBedHoloSpawnFolded # Coyote
+  - JetInjector # Coyote
 
 # region Mercenary
 - type: latheRecipePack
@@ -520,7 +520,7 @@
   - NFMagazineGrenadeEmpty
   # NFPortableMicrofusionWeaponry
   - NFPortableRecharger
-  # CS
+  # Coyote
   - CSAmmunitionBoxPistol40
   - CSAmmunitionBoxPistol40Rubber
   - CSAmmunitionBoxPistol40Overpressure
@@ -554,7 +554,7 @@
   - PowerCellHigh
   - TurboItemRechargerCircuitboard
   # BluespaceStorage
-  - ClothingBackpackHolding # CS: Unify into single chameleon item
+  - ClothingBackpackHolding # Coyote: Unify into single chameleon item
   # - ClothingBackpackSatchelHolding
   # - ClothingBackpackDuffelHolding
   # - ClothingBackpackMessengerHolding

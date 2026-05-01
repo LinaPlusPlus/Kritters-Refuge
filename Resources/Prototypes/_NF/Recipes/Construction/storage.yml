@@ -22,7 +22,7 @@
   conditions:
     - !type:WallmountCondition
 
-## Wall lockers # CS
+## Wall lockers # Coyote
 - type: construction
   id: LockerWallUpgradableBasic
   graph: WallmountStorage

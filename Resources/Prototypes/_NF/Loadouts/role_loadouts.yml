@@ -22,7 +22,7 @@
   - ContractorImplanter
   - ContractorBackpackItems
   - ContractorHandItems
-  - ContractorInstruments # CS
+  - ContractorInstruments # Coyote
   - NFSpeciesSpecific
 
 - type: roleLoadout
@@ -48,7 +48,7 @@
   - ContractorImplanter
   - ContractorBackpackItems
   - ContractorHandItems
-  - ContractorInstruments # CS
+  - ContractorInstruments # Coyote
   - NFSpeciesSpecific
 
 - type: roleLoadout
@@ -74,7 +74,7 @@
   - ContractorImplanter
   - ContractorBackpackItems
   - ContractorHandItems
-  - ContractorInstruments # CS
+  - ContractorInstruments # Coyote
   - NFSpeciesSpecific
 
 # region Frontier
@@ -98,7 +98,7 @@
   - ContractorImplanter
   - ContractorBackpackItems
   - ContractorHandItems
-  - ContractorInstruments # CS
+  - ContractorInstruments # Coyote
   - NFSpeciesSpecific
 
 - type: roleLoadout
@@ -120,7 +120,7 @@
   - ContractorImplanter
   - ContractorBackpackItems
   - ContractorHandItems
-  - ContractorInstruments # CS
+  - ContractorInstruments # Coyote
   - NFSpeciesSpecific
 
 - type: roleLoadout
@@ -142,7 +142,7 @@
   - ContractorImplanter
   - ContractorBackpackItems
   - ContractorHandItems
-  - ContractorInstruments # CS
+  - ContractorInstruments # Coyote
   - NFSpeciesSpecific
 
 - type: roleLoadout
@@ -166,7 +166,7 @@
   - ContractorImplanter
   - ContractorBackpackItems
   - ContractorHandItems
-  - ContractorInstruments # CS
+  - ContractorInstruments # Coyote
   - NFSpeciesSpecific
 
 - type: roleLoadout
@@ -191,7 +191,7 @@
   - ContractorImplanter
   - StationRepBackpackItems
   - ContractorHandItems
-  - ContractorInstruments # CS
+  - ContractorInstruments # Coyote
   - NFSpeciesSpecific
 
 - type: roleLoadout
@@ -215,7 +215,7 @@
   - ContractorEncryptionKey
   - ContractorBackpackItems
   - ContractorHandItems
-  - ContractorInstruments # CS
+  - ContractorInstruments # Coyote
   - NFSpeciesSpecific
 
 # region Misc
@@ -232,7 +232,7 @@
   - DocShoes
   - ContractorFace
   - ContractorGlasses
-  - NurseBelt # CS: ContractorBelt < NurseBelt (Inherits ContractorBelt)
+  - NurseBelt # Coyote: ContractorBelt < NurseBelt (Inherits ContractorBelt)
   - DocEars
   - ContractorBoxSurvival
   - DocPDA
@@ -242,7 +242,7 @@
   - ContractorEncryptionKey
   - ContractorBackpackItems
   - ContractorHandItems
-  - ContractorInstruments # CS
+  - ContractorInstruments # Coyote
   - NFSpeciesSpecific
 
 - type: roleLoadout
@@ -268,7 +268,7 @@
   - ContractorEncryptionKey
   - ContractorBackpackItems
   - ContractorHandItems
-  - ContractorInstruments # CS
+  - ContractorInstruments # Coyote
   - NFSpeciesSpecific
 
 - type: roleLoadout
@@ -293,7 +293,7 @@
   - ContractorEncryptionKey
   - ContractorBackpackItems
   - ContractorHandItems
-  - ContractorInstruments # CS
+  - ContractorInstruments # Coyote
   - NFSpeciesSpecific
 
 # region NFSD
@@ -320,7 +320,7 @@
   - ContractorEncryptionKey
   - ContractorBackpackItems
   - ContractorHandItems
-  - ContractorInstruments # CS
+  - ContractorInstruments # Coyote
   - NfsdSpeciesSpecific
 
 - type: roleLoadout
@@ -346,7 +346,7 @@
   - ContractorEncryptionKey
   - ContractorBackpackItems
   - ContractorHandItems
-  - ContractorInstruments # CS
+  - ContractorInstruments # Coyote
   - NfsdSpeciesSpecific
 
 - type: roleLoadout
@@ -371,8 +371,8 @@
   - ContractorImplanter
   - ContractorEncryptionKey
   - ContractorBackpackItems
-  - NurseInHand # CS: ContractorHandItems < NurseInHand (Inherits ContractorHandItems)
-  - ContractorInstruments # CS
+  - NurseInHand # Coyote: ContractorHandItems < NurseInHand (Inherits ContractorHandItems)
+  - ContractorInstruments # Coyote
   - NfsdSpeciesSpecific
 
 - type: roleLoadout
@@ -398,7 +398,7 @@
   - ContractorEncryptionKey
   - ContractorBackpackItems
   - ContractorHandItems
-  - ContractorInstruments # CS
+  - ContractorInstruments # Coyote
   - NfsdSpeciesSpecific
 
 - type: roleLoadout
@@ -423,7 +423,7 @@
   - ContractorEncryptionKey
   - ContractorBackpackItems
   - ContractorHandItems
-  - ContractorInstruments # CS
+  - ContractorInstruments # Coyote
   - NFSpeciesSpecific # Explicitly civilian variant
 
 # - type: roleLoadout # Fix when this is actully used
@@ -449,7 +449,7 @@
   # - ContractorEncryptionKey
   # - ContractorBackpackItems
   # - ContractorHandItems
-  # - ContractorInstruments # CS
+  # - ContractorInstruments # Coyote
   # - NfsdSpeciesSpecific
 
 - type: roleLoadout
@@ -475,7 +475,7 @@
   - ContractorEncryptionKey
   - SeniorOfficerBackpackItems
   - ContractorHandItems
-  - ContractorInstruments # CS
+  - ContractorInstruments # Coyote
   - NfsdSpeciesSpecific
 
 - type: roleLoadout
@@ -501,7 +501,7 @@
   - ContractorEncryptionKey
   - SeniorOfficerBackpackItems
   - ContractorHandItems
-  - ContractorInstruments # CS
+  - ContractorInstruments # Coyote
   - NfsdSpeciesSpecific
 
 - type: roleLoadout
@@ -526,7 +526,7 @@
   - ContractorImplanter
   - SeniorOfficerBackpackItems
   - ContractorHandItems
-  - ContractorInstruments # CS
+  - ContractorInstruments # Coyote
   - NfsdSpeciesSpecific
 
 # region NFPirate
@@ -536,25 +536,25 @@
 #  groups:
 #  - NFPirateHead
 ##  - NFPirateNeck
-#  - ContractorNeck # CS: Pirate Loadout Expansion
+#  - ContractorNeck # Coyote: Pirate Loadout Expansion
 #  - NFPirateJumpsuit
 ##  - NFPirateGloves
-#  - MercenaryGloves # CS: Pirate Loadout Expansion
+#  - MercenaryGloves # Coyote: Pirate Loadout Expansion
 #  - ContractorBackpack
 #  - NFPirateForcedOuterClothing
-#  - MercenaryOuterClothing # CS: Pirate Loadout Expansion
+#  - MercenaryOuterClothing # Coyote: Pirate Loadout Expansion
 #  - NFPirateShoes
 #  - NFPirateFace
-#  - MercenaryGlasses # CS: Pirate Loadout Expansion
-#  - MercenaryBelt # CS: Pirate Loadout Expansion
+#  - MercenaryGlasses # Coyote: Pirate Loadout Expansion
+#  - MercenaryBelt # Coyote: Pirate Loadout Expansion
 #  - NFPirateEars
-#  - PirateEncryptionKey # CS: Pirates get comm keys
+#  - PirateEncryptionKey # Coyote: Pirates get comm keys
 #  - ContractorBoxSurvival
 #  - NFPiratePDA
 #  - ContractorWallet
 #  - PirateBackpackItems
 #  - ContractorHandItems
-#  - ContractorInstruments # CS
+#  - ContractorInstruments # Coyote
 #  - NFSpeciesSpecific
 #  canCustomizeName: true # pseudonym?
 
@@ -563,26 +563,26 @@
   groups:
   - NFPirateFirstMateHead
 #  - NFPirateNeck
-  - ContractorNeck # CS: Pirate Loadout Expansion
+  - ContractorNeck # Coyote: Pirate Loadout Expansion
   - NFPirateJumpsuit
 #  - NFPirateGloves
-  - MercenaryGloves # CS: Pirate Loadout Expansion
+  - MercenaryGloves # Coyote: Pirate Loadout Expansion
   - ContractorBackpack
   - NFPirateFirstMateOuterClothing
   - NFPirateForcedOuterClothing
-  - MercenaryOuterClothing # CS: Pirate Loadout Expansion
+  - MercenaryOuterClothing # Coyote: Pirate Loadout Expansion
   - NFPirateShoes
   - NFPirateFace
-  - MercenaryGlasses # CS: Pirate Loadout Expansion
-  - MercenaryBelt # CS: Pirate Loadout Expansion
+  - MercenaryGlasses # Coyote: Pirate Loadout Expansion
+  - MercenaryBelt # Coyote: Pirate Loadout Expansion
   - NFPirateEars
-  - PirateEncryptionKey # CS: Pirates get comm keys
+  - PirateEncryptionKey # Coyote: Pirates get comm keys
   - ContractorBoxSurvival
   - NFPirateFirstMatePDA
   - ContractorWallet
   - PirateBackpackItems
   - ContractorHandItems
-  - ContractorInstruments # CS
+  - ContractorInstruments # Coyote
   - NFSpeciesSpecific
   canCustomizeName: true # pseudonym?
 
@@ -591,26 +591,26 @@
   groups:
   - NFPirateCaptainHead
 #  - NFPirateNeck
-  - ContractorNeck # CS: Pirate Loadout Expansion
+  - ContractorNeck # Coyote: Pirate Loadout Expansion
   - NFPirateJumpsuit
 #  - NFPirateGloves
-  - MercenaryGloves # CS: Pirate Loadout Expansion
+  - MercenaryGloves # Coyote: Pirate Loadout Expansion
   - ContractorBackpack
   - NFPirateCaptainOuterClothing
   - NFPirateForcedOuterClothing
-  - MercenaryOuterClothing # CS: Pirate Loadout Expansion
+  - MercenaryOuterClothing # Coyote: Pirate Loadout Expansion
   - NFPirateShoes
   - NFPirateFace
-  - MercenaryGlasses # CS: Pirate Loadout Expansion
-  - MercenaryBelt # CS: Pirate Loadout Expansion
+  - MercenaryGlasses # Coyote: Pirate Loadout Expansion
+  - MercenaryBelt # Coyote: Pirate Loadout Expansion
   - NFPirateCaptainEars
-  - PirateEncryptionKey # CS: Pirates get comm keys
+  - PirateEncryptionKey # Coyote: Pirates get comm keys
   - ContractorBoxSurvival
   - NFPirateCaptainPDA
   - PirateCaptainWallet
   - PirateCaptainBackpackItems
   - ContractorHandItems
-  - ContractorInstruments # CS
+  - ContractorInstruments # Coyote
   - NFSpeciesSpecific
   canCustomizeName: true # pseudonym?
 
@@ -630,5 +630,5 @@
   - PrisonerSurvival
   - PrisonerPDA
   - PrisonerWallet
-  - ContractorInstruments # CS
+  - ContractorInstruments # Coyote
   - NFSpeciesSpecific

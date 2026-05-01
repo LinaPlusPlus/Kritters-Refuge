@@ -150,7 +150,7 @@
                         <Label Text="Biomass Buffer: " />
                         <Label Name="BufferLabel" Text="0" HorizontalAlignment="Right" />
                     </BoxContainer>
-                    <!-- End CS-->
+                    <!-- End Coyote-->
                     <ui:MaterialStorageControl Name="MaterialsList" SizeFlagsStretchRatio="8"/>
                 </BoxContainer>
             </PanelContainer>

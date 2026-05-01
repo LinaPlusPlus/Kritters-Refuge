@@ -31,15 +31,15 @@
     inherentRadioChannels:
     - Common
     - Binary
- # CS: Ring ring! We want our borgs to be able to talk in shortband too!
+ # Coyote: Ring ring! We want our borgs to be able to talk in shortband too!
     - Traffic
-  #End CS
-  - type: BankAccount # CS: Borgs can now interact with bank accounts
-    # CS: Borg PDA's are good for borgs, even ones made midround
+  #End Coyote
+  - type: BankAccount # Coyote: Borgs can now interact with bank accounts
+    # Coyote: Borg PDA's are good for borgs, even ones made midround
   - type: Loadout
     prototypes:
     - BorgGear
-# End CS
+# End Coyote
 
 - type: entity
   id: BorgChassisGeneric
@@ -123,7 +123,7 @@
         path: /Audio/Ambience/Objects/periodic_beep.ogg
 
 - type: entity
-  id: BorgChassisSyndicateAssaultExpedition # CS
+  id: BorgChassisSyndicateAssaultExpedition # Coyote
   parent: [ BorgChassisSyndicateAssault, BaseC4Contraband ]
   name: syndicate assault cyborg
   description: A lean, mean killing machine with access to a variety of deadly modules.
@@ -225,7 +225,7 @@
       damageContainers:
       - Inorganic
       - Silicon
-      - IPC # CS: Add IPC damage container
+      - IPC # Coyote: Add IPC damage container
     - type: InteractionPopup
       interactSuccessString: petting-success-syndicate-cyborg
       interactFailureString: petting-failure-syndicate-cyborg
@@ -236,7 +236,7 @@
   id: BorgChassisDerelict
   parent: BaseBorgChassisDerelict
   name: derelict cyborg
-  description: A synthetic that assists in station activity. This one is in a state of great disrepair. # CS CHANGE: Changed "man-machine hybrid" to "synthetic"
+  description: A synthetic that assists in station activity. This one is in a state of great disrepair. # Coyote CHANGE: Changed "man-machine hybrid" to "synthetic"
   components:
   - type: Sprite
     layers:
@@ -263,8 +263,8 @@
     interactFailureString: petting-failure-derelict-cyborg
     interactSuccessSound:
       path: /Audio/Ambience/Objects/periodic_beep.ogg
-  # CS: Borg PDA's are good for borgs, even ones made midround
+  # Coyote: Borg PDA's are good for borgs, even ones made midround
   - type: Loadout
     prototypes:
     - BorgGear
-# End CS
+# End Coyote

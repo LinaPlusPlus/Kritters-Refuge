@@ -1,4 +1,4 @@
-# CS-specific contraband targets.
+# Coyote-specific contraband targets.
 # If you need multiple currency types, specify them in the actual object instead of inheriting multiple parents here.
 
 # Specific parent for items we do not want looted, ever.

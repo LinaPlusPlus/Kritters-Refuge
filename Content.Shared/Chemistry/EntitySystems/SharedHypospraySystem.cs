@@ -4,8 +4,8 @@ using Content.Shared.Verbs;
 using Content.Shared.Popups;
 using Robust.Shared.Player;
 using Content.Shared.Administration.Logs;
-using Content.Shared.CombatMode; // CS
-using Content.Shared.Mobs.Systems; // CS
+using Content.Shared.CombatMode; // Coyote
+using Content.Shared.Mobs.Systems; // Coyote
 
 
 namespace Content.Shared.Chemistry.EntitySystems;
@@ -17,11 +17,11 @@ public abstract class SharedHypospraySystem : EntitySystem
     [Dependency] protected readonly SharedSolutionContainerSystem _solutionContainers = default!;
     [Dependency] protected readonly ISharedAdminLogManager _adminLogger = default!;
     [Dependency] protected readonly ReactiveSystem _reactiveSystem = default!;
-    // CS: Port in jet injectors from Den
+    // Coyote: Port in jet injectors from Den
     [Dependency] protected readonly MobStateSystem MobState = default!;
     [Dependency] protected readonly SharedCombatModeSystem Combat = default!;
     [Dependency] protected readonly ISharedAdminLogManager AdminLogger = default!;
-    // End CS
+    // Coyote End
 
     public override void Initialize()
     {

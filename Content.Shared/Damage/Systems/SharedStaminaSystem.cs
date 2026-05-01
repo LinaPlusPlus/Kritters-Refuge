@@ -380,7 +380,7 @@ public abstract partial class SharedStaminaSystem : EntitySystem
         _stunSystem.TryParalyze(uid, component.StunTime, true);
 
         // Give them buffer before being able to be re-stunned
-        // component.NextUpdate = _timing.CurTime + component.StunTime + StamCritBufferTime; // CS: stam dam iframes and hyperlethal meta do not mix.
+        // component.NextUpdate = _timing.CurTime + component.StunTime + StamCritBufferTime; // Coyote: stam dam iframes and hyperlethal meta do not mix.
         EnsureComp<ActiveStaminaComponent>(uid);
         Dirty(uid, component);
         _adminLogger.Add(LogType.Stamina, LogImpact.Medium, $"{ToPrettyString(uid):user} entered stamina crit");

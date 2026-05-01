@@ -3,7 +3,7 @@
   table: !type:AllSelector # we need to pass a list of rules, since rules have further restrictions to consider via StationEventComp
     children:
 #    - id: NFBreakerFlip # this suffocates people :c
-#    - id: NFIonStorm # CS: Edit This currently results in unfixable ion laws and drone lawset
+#    - id: NFIonStorm # Coyote: Edit This currently results in unfixable ion laws and drone lawset
     - id: NFPowerGridCheck
     - id: NFRandomSentience
     - id: NFSolarFlare

@@ -1,7 +1,7 @@
 - type: loadoutGroup
   id: PlantManagerJumpsuit
   name: loadout-group-contractor-jumpsuit
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   loadouts:
   - PlantManagerClothingUniformJumpsuitChiefEngineer
   - PlantManagerClothingUniformJumpskirtChiefEngineer
@@ -15,7 +15,7 @@
 - type: loadoutGroup
   id: EngineeringJumpsuit
   name: loadout-group-contractor-jumpsuit
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   loadouts:
   - EngineeringClothingUniformJumpsuitEngineering
   - EngineeringClothingUniformJumpskirtEngineering
@@ -32,7 +32,7 @@
 - type: loadoutGroup
   id: PlantManagerBackpack
   name: loadout-group-contractor-backpack
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   loadouts:
   - PlantManagerClothingBackpackMessengerChiefEngineer
   - EngineeringClothingBackpackEngineering
@@ -51,7 +51,7 @@
 - type: loadoutGroup
   id: EngineeringBackpack
   name: loadout-group-contractor-backpack
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   loadouts:
   - EngineeringClothingBackpackEngineering
   - EngineeringClothingBackpackDuffelEngineering
@@ -84,7 +84,7 @@
 - type: loadoutGroup
   id: EngineeringForcedOuterClothing
   name: loadout-group-contractor-outerclothing
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   hidden: false
   loadouts:
   - EngineeringClothingOuterEVASuitEngineer
@@ -94,7 +94,7 @@
 - type: loadoutGroup
   id: PlantManagerShoes
   name: loadout-group-contractor-shoes
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   loadouts:
   - PlantManagerClothingShoesColorWhite
   - PlantManagerClothingShoesBootsLaceup
@@ -106,7 +106,7 @@
 - type: loadoutGroup
   id: EngineeringShoes
   name: loadout-group-contractor-shoes
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   loadouts:
   - EngineeringClothingShoesBootsWork
   - EngineeringClothingShoesColorBlack
@@ -158,7 +158,7 @@
 - type: loadoutGroup
   id: EngineeringGloves
   name: loadout-group-contractor-gloves
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   hidden: false
   loadouts:
   - EngineeringClothingHandsGlovesColorYellow
@@ -194,7 +194,7 @@
 - type: loadoutGroup
   id: PlantManagerGlasses
   name: loadout-group-contractor-glasses
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   hidden: false
   loadouts:
   - PlantManagerClothingEyesGlassesMesonPlantManager
@@ -204,7 +204,7 @@
 - type: loadoutGroup
   id: EngineeringGlasses
   name: loadout-group-contractor-glasses
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   hidden: false
   loadouts:
   - EngineeringClothingEyesGlassesMeson
@@ -214,7 +214,7 @@
 - type: loadoutGroup
   id: EngineeringFace
   name: loadout-group-contractor-face
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   hidden: false
   loadouts:
   - EngineeringClothingMaskGasAtmos
@@ -224,7 +224,7 @@
 - type: loadoutGroup
   id: PlantManagerBelt
   name: loadout-group-contractor-belt
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   hidden: false
   loadouts:
   - PlantManagerClothingBeltChiefEngineerFilledBasic
@@ -234,7 +234,7 @@
 - type: loadoutGroup
   id: EngineeringBelt
   name: loadout-group-contractor-belt
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   hidden: false
   loadouts:
   - EngineeringClothingBeltUtilityEngineering

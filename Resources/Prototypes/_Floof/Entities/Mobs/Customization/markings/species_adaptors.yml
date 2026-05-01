@@ -10,7 +10,7 @@
   bodyPart: Head
   markingCategory: BaseHead
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: head_m
@@ -20,7 +20,7 @@
   bodyPart: Head
   markingCategory: BaseHead
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: head_f
@@ -30,7 +30,7 @@
   bodyPart: Chest
   markingCategory: BaseChest
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: torso_m
@@ -42,7 +42,7 @@
   bodyPart: Chest
   markingCategory: BaseChest
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: torso_f
@@ -54,7 +54,7 @@
   bodyPart: LArm
   markingCategory: BaseArms # BaseLArm
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: l_arm
@@ -64,7 +64,7 @@
   bodyPart: LHand
   markingCategory: BaseArms # BaseLHand
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: l_hand
@@ -74,7 +74,7 @@
   bodyPart: RArm
   markingCategory: BaseArms # BaseRArm
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: r_arm
@@ -84,7 +84,7 @@
   bodyPart: RHand
   markingCategory: BaseArms # BaseRHand
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: r_hand
@@ -94,7 +94,7 @@
   bodyPart: LLeg
   markingCategory: BaseLegs # BaseLLeg
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: l_leg
@@ -106,7 +106,7 @@
   bodyPart: LFoot
   markingCategory: BaseLegs # BaseLFoot
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: l_foot
@@ -118,7 +118,7 @@
   bodyPart: RLeg
   markingCategory: BaseLegs # BaseRLeg
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: r_leg
@@ -130,7 +130,7 @@
   bodyPart: RFoot
   markingCategory: BaseLegs # BaseRFoot
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: r_foot
@@ -143,7 +143,7 @@
   bodyPart: Head
   markingCategory: BaseHead
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Rodentia/parts.rsi
     state: head_m
@@ -153,7 +153,7 @@
   bodyPart: Head
   markingCategory: BaseHead
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Rodentia/parts.rsi
     state: head_f
@@ -163,7 +163,7 @@
   bodyPart: Chest
   markingCategory: BaseChest
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Rodentia/parts.rsi
     state: torso_m
@@ -175,7 +175,7 @@
   bodyPart: Chest
   markingCategory: BaseChest
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Rodentia/parts.rsi
     state: torso_f
@@ -187,7 +187,7 @@
   bodyPart: LArm
   markingCategory: BaseArms # BaseLArm
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Rodentia/parts.rsi
     state: l_arm
@@ -197,7 +197,7 @@
   bodyPart: LHand
   markingCategory: BaseArms # BaseLHand
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Rodentia/parts.rsi
     state: l_hand
@@ -207,7 +207,7 @@
   bodyPart: RArm
   markingCategory: BaseArms # BaseRArm
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Rodentia/parts.rsi
     state: r_arm
@@ -217,7 +217,7 @@
   bodyPart: RHand
   markingCategory: BaseArms # BaseRHand
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Rodentia/parts.rsi
     state: r_hand
@@ -227,7 +227,7 @@
   bodyPart: LLeg
   markingCategory: BaseLegs # BaseLLeg
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Rodentia/parts.rsi
     state: l_leg
@@ -239,7 +239,7 @@
   bodyPart: LFoot
   markingCategory: BaseLegs # BaseLFoot
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Rodentia/parts.rsi
     state: l_foot
@@ -251,7 +251,7 @@
   bodyPart: RLeg
   markingCategory: BaseLegs # BaseRLeg
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Rodentia/parts.rsi
     state: r_leg
@@ -263,7 +263,7 @@
   bodyPart: RFoot
   markingCategory: BaseLegs # BaseRFoot
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Rodentia/parts.rsi
     state: r_foot
@@ -276,7 +276,7 @@
   bodyPart: Head
   markingCategory: BaseHead
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Species/Human/parts.rsi
     state: head_m
@@ -286,7 +286,7 @@
   bodyPart: Head
   markingCategory: BaseHead
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Species/Human/parts.rsi
     state: head_f
@@ -296,7 +296,7 @@
   bodyPart: Chest
   markingCategory: BaseChest
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Species/Human/parts.rsi
     state: torso_m
@@ -308,7 +308,7 @@
   bodyPart: Chest
   markingCategory: BaseChest
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Species/Human/parts.rsi
     state: torso_f
@@ -320,7 +320,7 @@
   bodyPart: LArm
   markingCategory: BaseArms # BaseLArm
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Species/Human/parts.rsi
     state: l_arm
@@ -330,7 +330,7 @@
   bodyPart: LHand
   markingCategory: BaseArms # BaseLHand
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Species/Human/parts.rsi
     state: l_hand
@@ -340,7 +340,7 @@
   bodyPart: RArm
   markingCategory: BaseArms # BaseRArm
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Species/Human/parts.rsi
     state: r_arm
@@ -350,7 +350,7 @@
   bodyPart: RHand
   markingCategory: BaseArms # BaseRHand
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Species/Human/parts.rsi
     state: r_hand
@@ -360,7 +360,7 @@
   bodyPart: LLeg
   markingCategory: BaseLegs # BaseLLeg
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Species/Human/parts.rsi
     state: l_leg
@@ -372,7 +372,7 @@
   bodyPart: LFoot
   markingCategory: BaseLegs # BaseLFoot
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Species/Human/parts.rsi
     state: l_foot
@@ -384,7 +384,7 @@
   bodyPart: RLeg
   markingCategory: BaseLegs # BaseRLeg
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Species/Human/parts.rsi
     state: r_leg
@@ -396,7 +396,7 @@
   bodyPart: RFoot
   markingCategory: BaseLegs # BaseRFoot
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Species/Human/parts.rsi
     state: r_foot
@@ -409,7 +409,7 @@
   bodyPart: Head
   markingCategory: BaseHead
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: DeltaV/Mobs/Species/Feroxi/parts.rsi
     state: head_m
@@ -419,7 +419,7 @@
   bodyPart: Head
   markingCategory: BaseHead
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: DeltaV/Mobs/Species/Feroxi/parts.rsi
     state: head_f
@@ -429,7 +429,7 @@
   bodyPart: Chest
   markingCategory: BaseChest
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: DeltaV/Mobs/Species/Feroxi/parts.rsi
     state: torso_m
@@ -441,7 +441,7 @@
   bodyPart: Chest
   markingCategory: BaseChest
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: DeltaV/Mobs/Species/Feroxi/parts.rsi
     state: torso_f
@@ -453,7 +453,7 @@
   bodyPart: LArm
   markingCategory: BaseArms # BaseLArm
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: DeltaV/Mobs/Species/Feroxi/parts.rsi
     state: l_arm
@@ -463,7 +463,7 @@
   bodyPart: LHand
   markingCategory: BaseArms # BaseLHand
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: DeltaV/Mobs/Species/Feroxi/parts.rsi
     state: l_hand
@@ -473,7 +473,7 @@
   bodyPart: RArm
   markingCategory: BaseArms # BaseRArm
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: DeltaV/Mobs/Species/Feroxi/parts.rsi
     state: r_arm
@@ -483,7 +483,7 @@
   bodyPart: RHand
   markingCategory: BaseArms # BaseRHand
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: DeltaV/Mobs/Species/Feroxi/parts.rsi
     state: r_hand
@@ -493,7 +493,7 @@
   bodyPart: LLeg
   markingCategory: BaseLegs # BaseLLeg
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: DeltaV/Mobs/Species/Feroxi/parts.rsi
     state: l_leg
@@ -505,7 +505,7 @@
   bodyPart: LFoot
   markingCategory: BaseLegs # BaseLFoot
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: DeltaV/Mobs/Species/Feroxi/parts.rsi
     state: l_foot
@@ -517,7 +517,7 @@
   bodyPart: RLeg
   markingCategory: BaseLegs # BaseRLeg
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: DeltaV/Mobs/Species/Feroxi/parts.rsi
     state: r_leg
@@ -529,7 +529,7 @@
   bodyPart: RFoot
   markingCategory: BaseLegs # BaseRFoot
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: DeltaV/Mobs/Species/Feroxi/parts.rsi
     state: r_foot
@@ -542,7 +542,7 @@
   bodyPart: Head
   markingCategory: BaseHead
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Species/Reptilian/parts.rsi
     state: head_m
@@ -552,7 +552,7 @@
   bodyPart: Head
   markingCategory: BaseHead
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Species/Reptilian/parts.rsi
     state: head_f
@@ -562,7 +562,7 @@
   bodyPart: Chest
   markingCategory: BaseChest
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Species/Reptilian/parts.rsi
     state: torso_m
@@ -574,7 +574,7 @@
   bodyPart: Chest
   markingCategory: BaseChest
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Species/Reptilian/parts.rsi
     state: torso_f
@@ -586,7 +586,7 @@
   bodyPart: LArm
   markingCategory: BaseArms # BaseLArm
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Species/Reptilian/parts.rsi
     state: l_arm
@@ -596,7 +596,7 @@
   bodyPart: LHand
   markingCategory: BaseArms # BaseLHand
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Species/Reptilian/parts.rsi
     state: l_hand
@@ -606,7 +606,7 @@
   bodyPart: RArm
   markingCategory: BaseArms # BaseRArm
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Species/Reptilian/parts.rsi
     state: r_arm
@@ -616,7 +616,7 @@
   bodyPart: RHand
   markingCategory: BaseArms # BaseRHand
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Species/Reptilian/parts.rsi
     state: r_hand
@@ -626,7 +626,7 @@
   bodyPart: LLeg
   markingCategory: BaseLegs # BaseLLeg
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Species/Reptilian/parts.rsi
     state: l_leg
@@ -638,7 +638,7 @@
   bodyPart: LFoot
   markingCategory: BaseLegs # BaseLFoot
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Species/Reptilian/parts.rsi
     state: l_foot
@@ -650,7 +650,7 @@
   bodyPart: RLeg
   markingCategory: BaseLegs # BaseRLeg
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Species/Reptilian/parts.rsi
     state: r_leg
@@ -662,7 +662,7 @@
   bodyPart: RFoot
   markingCategory: BaseLegs # BaseRFoot
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Species/Reptilian/parts.rsi
     state: r_foot
@@ -676,7 +676,7 @@
   bodyPart: Head
   markingCategory: BaseHead
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Ovinia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Species/Ovinia/parts.rsi
     state: head_m
@@ -686,7 +686,7 @@
   bodyPart: Head
   markingCategory: BaseHead
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Ovinia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Species/Ovinia/parts.rsi
     state: head_f
@@ -696,7 +696,7 @@
   bodyPart: Chest
   markingCategory: BaseChest
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Ovinia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Species/Ovinia/parts.rsi
     state: torso_m
@@ -706,7 +706,7 @@
   bodyPart: Chest
   markingCategory: BaseChest
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Ovinia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Species/Ovinia/parts.rsi
     state: torso_f
@@ -716,7 +716,7 @@
   bodyPart: LArm
   markingCategory: BaseArms # BaseLArm
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Ovinia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Species/Ovinia/parts.rsi
     state: l_arm
@@ -726,7 +726,7 @@
   bodyPart: LHand
   markingCategory: BaseArms # BaseLHand
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Ovinia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Species/Ovinia/parts.rsi
     state: l_hand
@@ -736,7 +736,7 @@
   bodyPart: RArm
   markingCategory: BaseArms # BaseRArm
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Ovinia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Species/Ovinia/parts.rsi
     state: r_arm
@@ -746,7 +746,7 @@
   bodyPart: RHand
   markingCategory: BaseArms # BaseRHand
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Ovinia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Species/Ovinia/parts.rsi
     state: r_hand
@@ -756,7 +756,7 @@
   bodyPart: LLeg
   markingCategory: BaseLegs # BaseLLeg
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Ovinia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Species/Ovinia/parts.rsi
     state: l_leg
@@ -768,7 +768,7 @@
   bodyPart: LFoot
   markingCategory: BaseLegs # BaseLFoot
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Ovinia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Species/Ovinia/parts.rsi
     state: l_foot
@@ -780,7 +780,7 @@
   bodyPart: RLeg
   markingCategory: BaseLegs # BaseRLeg
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Ovinia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Species/Ovinia/parts.rsi
     state: r_leg
@@ -792,7 +792,7 @@
   bodyPart: RFoot
   markingCategory: BaseLegs # BaseRFoot
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Ovinia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Species/Ovinia/parts.rsi
     state: r_foot
@@ -807,7 +807,7 @@
   bodyPart: LLeg
   markingCategory: BaseLegs # BaseLLeg
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: l_leg
@@ -819,7 +819,7 @@
   bodyPart: LFoot
   markingCategory: BaseLegs # BaseLFoot
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: l_foot
@@ -831,7 +831,7 @@
   bodyPart: RLeg
   markingCategory: BaseLegs # BaseRLeg
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: r_leg
@@ -843,7 +843,7 @@
   bodyPart: RFoot
   markingCategory: BaseLegs # BaseRFoot
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: r_foot
@@ -856,7 +856,7 @@
   bodyPart: LLeg
   markingCategory: BaseLegs # BaseLLeg
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: l_leg
@@ -868,7 +868,7 @@
   bodyPart: LFoot
   markingCategory: BaseLegs # BaseLFoot
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: l_foot
@@ -880,7 +880,7 @@
   bodyPart: RLeg
   markingCategory: BaseLegs # BaseRLeg
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: r_leg
@@ -892,7 +892,7 @@
   bodyPart: RFoot
   markingCategory: BaseLegs # BaseRFoot
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: r_foot
@@ -905,7 +905,7 @@
   bodyPart: LLeg
   markingCategory: BaseLegs # BaseLLeg
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: l_leg
@@ -917,7 +917,7 @@
   bodyPart: LFoot
   markingCategory: BaseLegs # BaseLFoot
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: l_foot
@@ -929,7 +929,7 @@
   bodyPart: RLeg
   markingCategory: BaseLegs # BaseRLeg
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: r_leg
@@ -941,7 +941,7 @@
   bodyPart: RFoot
   markingCategory: BaseLegs # BaseRFoot
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: r_foot
@@ -954,7 +954,7 @@
   bodyPart: Chest
   markingCategory: BaseChest
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/DigiLegsAndChests.rsi
     state: SynthlizChestMale
@@ -966,7 +966,7 @@
   bodyPart: Chest
   markingCategory: BaseChest
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/DigiLegsAndChests.rsi
     state: SynthlizChestFemale
@@ -978,7 +978,7 @@
   bodyPart: LLeg
   markingCategory: BaseLegs # BaseLLeg
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: l_leg
@@ -990,7 +990,7 @@
   bodyPart: LFoot
   markingCategory: BaseLegs # BaseLFoot
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: l_foot
@@ -1002,7 +1002,7 @@
   bodyPart: RLeg
   markingCategory: BaseLegs # BaseRLeg
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: r_leg
@@ -1014,7 +1014,7 @@
   bodyPart: RFoot
   markingCategory: BaseLegs # BaseRFoot
   speciesRestriction: [Vulpkanin, SlimePerson, Human, Rodentia, Feroxi, Oni, IPC, Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
     state: r_foot

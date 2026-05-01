@@ -10,7 +10,7 @@
   parent: BaseVesselAntag
   name: LL1 Bonesaw
   description: A Modified Searchlight for provide questionable medical assistance
-  price: 47500 # CS: pricing GridAppraisal 22640.36 + LL1 x1.15 + TileCost 21250(170x125) = 47286.414
+  price: 47500 # Coyote: pricing GridAppraisal 22640.36 + LL1 x1.15 + TileCost 21250(170x125) = 47286.414
   category: Small
   group: BlackMarket
   shuttlePath: /Maps/_CS/Shuttles/BlackMarket/Ripper/bonesaw.yml

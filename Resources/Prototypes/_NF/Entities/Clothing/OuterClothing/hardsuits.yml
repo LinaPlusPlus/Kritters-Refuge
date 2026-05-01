@@ -169,8 +169,8 @@
         Radiation: 0.55
         Caustic: 0.75
   - type: ClothingSpeedModifier
-    walkModifier: 1.0 # CS: 0.95 -> 1.0
-    sprintModifier: 1.0 # CS: 0.9 -> 1.0
+    walkModifier: 1.0 # Coyote: 0.95 -> 1.0
+    sprintModifier: 1.0 # Coyote: 0.9 -> 1.0
 
 - type: entity
   parent: ClothingOuterHardsuitNfsdBronze
@@ -274,15 +274,15 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.4 # CS: 0.6<0.4
-        Slash: 0.4 # CS: 0.6<0.4
-        Piercing: 0.4 # CS: 0.6<0.4
-        Heat: 0.4 # CS: 0.60<0.4
-        Radiation: 0.4 # CS: 0.5<0.4
-        Caustic: 0.4 # CS: 0.7<0.4
+        Blunt: 0.4 # Coyote: 0.6<0.4
+        Slash: 0.4 # Coyote: 0.6<0.4
+        Piercing: 0.4 # Coyote: 0.6<0.4
+        Heat: 0.4 # Coyote: 0.60<0.4
+        Radiation: 0.4 # Coyote: 0.5<0.4
+        Caustic: 0.4 # Coyote: 0.7<0.4
   - type: ClothingSpeedModifier
-    walkModifier: 0.95 # CS: 0.85 -> 0.95. Essentially a (slightly better) universal SCAF.
-    sprintModifier: 0.75 # CS: 0.75 -> 0.85. Essentially a (slightly better) universal SCAF.
+    walkModifier: 0.95 # Coyote: 0.85 -> 0.95. Essentially a (slightly better) universal SCAF.
+    sprintModifier: 0.75 # Coyote: 0.75 -> 0.85. Essentially a (slightly better) universal SCAF.
 
 #Security Command Hardsuit
 - type: entity
@@ -370,8 +370,8 @@
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
   - type: ClothingSpeedModifier # So many layers of stain protection makes it very heavy
-    walkModifier: 0.75 # CS: 0.75 -> 1.0
-    sprintModifier: 0.75 # CS: 0.75 -> 1.0
+    walkModifier: 0.75 # Coyote: 0.75 -> 1.0
+    sprintModifier: 0.75 # Coyote: 0.75 -> 1.0
   - type: HeldSpeedModifier
   - type: FootstepModifier
     footstepSoundCollection:
@@ -380,7 +380,7 @@
     clothingPrototype: ClothingHeadHelmetHardsuitTacticalMaid
 
 - type: entity
-  parent: [BaseC3Contraband, ClothingOuterHardsuitBaseNF, ContrabandClothing] # CS: BaseC3Contraband -> BaseC3MetaPirate
+  parent: [BaseC3Contraband, ClothingOuterHardsuitBaseNF, ContrabandClothing] # Coyote: BaseC3Contraband -> BaseC3MetaPirate
   id: ClothingOuterHardsuitPirateElite
   name: elite pirate hardsuit
   description: An ancient elite armored hardsuit, designed by an unknown bearded man and built like a brick house.
@@ -396,15 +396,15 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.4 # CS: 0.5 -> 0.4
-        Slash: 0.4 # CS: 0.5 -> 0.4
-        Piercing: 0.4 # CS: 0.5 -> 0.4
-        Heat: 0.4 # CS: 0.5 -> 0.4. Essentially a universal SCAF.
+        Blunt: 0.4 # Coyote: 0.5 -> 0.4
+        Slash: 0.4 # Coyote: 0.5 -> 0.4
+        Piercing: 0.4 # Coyote: 0.5 -> 0.4
+        Heat: 0.4 # Coyote: 0.5 -> 0.4. Essentially a universal SCAF.
         Radiation: 0.4
         Caustic: 0.6
   - type: ClothingSpeedModifier
-    walkModifier: 0.9 # CS: 0.85 -> 0.9. Essentially a universal SCAF.
-    sprintModifier: 0.8 # CS: 0.75 -> 0.8. Essentially a universal SCAF.
+    walkModifier: 0.9 # Coyote: 0.85 -> 0.9. Essentially a universal SCAF.
+    sprintModifier: 0.8 # Coyote: 0.75 -> 0.8. Essentially a universal SCAF.
 
 #Wizard Hardsuit
 - type: entity

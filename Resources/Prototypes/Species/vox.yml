@@ -52,21 +52,21 @@
   id: MobVoxMarkingLimits
   onlyWhitelisted: true
   points:
-    # CS: Allow unlimited markings
+    # Coyote: Allow unlimited markings
     Snout:
-      points: 999 # CS: Allow unlimited markings
+      points: 999 # Coyote: Allow unlimited markings
       required: true
       defaultMarkings: [ VoxBeak ]
     Arms:
-      points: 999 # CS: Allow unlimited markings
+      points: 999 # Coyote: Allow unlimited markings
       required: true
       defaultMarkings: [ VoxLArmScales, VoxRArmScales, VoxRHandScales, VoxLHandScales ]
     Legs:
-      points: 999 # CS: Allow unlimited markings
+      points: 999 # Coyote: Allow unlimited markings
       required: true
       defaultMarkings: [ VoxLLegScales, VoxRLegScales, VoxRFootScales, VoxLFootScales ]
     Tail:
-      points: 999 # CS: Allow unlimited markings
+      points: 999 # Coyote: Allow unlimited markings
       required: true
       defaultMarkings: [ VoxTail ]
 

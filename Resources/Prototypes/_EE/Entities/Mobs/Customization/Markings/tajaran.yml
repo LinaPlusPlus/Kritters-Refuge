@@ -5,7 +5,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/tails.rsi
     state: tail
@@ -15,7 +15,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/tails.rsi
     state: tail_anim
@@ -25,7 +25,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/tails.rsi
     state: tail
@@ -37,7 +37,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/tails.rsi
     state: tail_anim
@@ -51,7 +51,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/ears.rsi
     state: ears
@@ -61,7 +61,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/ears.rsi
     state: outears
@@ -73,7 +73,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/ears.rsi
     state: ears_near
@@ -83,7 +83,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/ears.rsi
     state: outears_near
@@ -97,7 +97,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/head.rsi
     state: nose
@@ -107,7 +107,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/head.rsi
     state: muzzle
@@ -117,7 +117,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/head.rsi
     state: muzzle_large
@@ -127,7 +127,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/head.rsi
     state: points
@@ -137,7 +137,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/head.rsi
     state: tiger_face
@@ -147,7 +147,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/head.rsi
     state: tiger_head
@@ -157,7 +157,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/head.rsi
     state: patch
@@ -169,7 +169,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/torso.rsi
     state: belly
@@ -179,7 +179,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/torso.rsi
     state: crest
@@ -189,7 +189,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/torso.rsi
     state: fullbelly
@@ -201,7 +201,7 @@
   bodyPart: LLeg
   markingCategory: Overlay
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/overlays.rsi
     state: patch
@@ -211,7 +211,7 @@
   bodyPart: LLeg
   markingCategory: Overlay
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/overlays.rsi
     state: points
@@ -223,7 +223,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/felinid_ears.rsi
     state: basic_outer
@@ -235,7 +235,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/felinid_ears.rsi
     state: curled_outer
@@ -247,7 +247,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/felinid_ears.rsi
     state: droopy_outer
@@ -259,7 +259,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/felinid_ears.rsi
     state: basic_outer
@@ -271,7 +271,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/felinid_ears.rsi
     state: stubby_outer
@@ -283,7 +283,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/felinid_ears.rsi
     state: tall_outer
@@ -297,7 +297,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/felinid_ears.rsi
     state: torn_outer
@@ -309,7 +309,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Customization/Tajaran/felinid_ears.rsi
     state: wide_outer

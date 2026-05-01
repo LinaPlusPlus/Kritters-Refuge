@@ -135,12 +135,12 @@
           32:
             sprite: _DEN/Mobs/Species/Ovinia/displacement.rsi
             state: outerclothing_hardsuit
-  # CS: Replace dV Hunger/Thirst with Needs
+  # Coyote: Replace dV Hunger/Thirst with Needs
   - type: Needs
     needs:
     - NeedHungerDefault
     - NeedThirstDefault
-  # End CS
+  # End Coyote
 
 
 

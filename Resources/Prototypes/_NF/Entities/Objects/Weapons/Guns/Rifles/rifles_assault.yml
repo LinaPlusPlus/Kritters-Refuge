@@ -91,7 +91,7 @@
 #region DeltaV
 - type: entity
   id: NFWeaponRifleAssaultVulcan
-  parent: [ BaseC2ContrabandUnredeemable, NFBaseWeaponRifleAssaultChamber30, NFBaseWeaponFrameRifleAssaultFrontierGunsmith ] # CS: Add BaseC2ContrabandUnredeemable
+  parent: [ BaseC2ContrabandUnredeemable, NFBaseWeaponRifleAssaultChamber30, NFBaseWeaponFrameRifleAssaultFrontierGunsmith ] # Coyote: Add BaseC2ContrabandUnredeemable
   name: Vulcan
   description: |-
     One of the heaviest small arms to grace Security's armory, this rifle is a modern take on a classic, informally dubbed the "Right Arm of the Free World". On the receiver is a label that says 'for authorized use only.'
@@ -107,7 +107,7 @@
 
 - type: entity
   id: NFWeaponRifleAssaultJackdaw
-  parent: [ BaseC2Contraband, NFBaseWeaponRifleAssaultChamber20, NFBaseWeaponFrameRifleAssaultFrontierGunsmith ] # CS: BaseC3Contraband < BaseC2Contraband
+  parent: [ BaseC2Contraband, NFBaseWeaponRifleAssaultChamber20, NFBaseWeaponFrameRifleAssaultFrontierGunsmith ] # Coyote: BaseC3Contraband < BaseC2Contraband
   name: Jackdaw
   description: |-
     The beginning of the end is heralded by the song of a Jackdaw.

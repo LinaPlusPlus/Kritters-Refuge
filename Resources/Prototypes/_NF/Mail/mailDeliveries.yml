@@ -84,15 +84,15 @@
     MailNFKendoKit: 0.2
     MailNFKnife: 0.7
     MailNFSword: 0.3
-    MailCSC19r: 0.1 # CS, rare.
-    MailCSAK: 0.1 # CS, rare.
+    MailCSC19r: 0.1 # Coyote, rare.
+    MailCSAK: 0.1 # Coyote, rare.
     # Pranks
     MailNFBuildABuddy: 0.5
     MailNFCritter: 1
-    #MailNFEMP: 0.5 # CS: why though?
+    #MailNFEMP: 0.5 # Coyote: why though?
     MailRestraints: 0.5 # TODO: figure out what to do with this.
     MailNFSmoke: 0.5
-    #MailNFVagueThreat: 0.4 # CS: Eh, this is whatever really.
+    #MailNFVagueThreat: 0.4 # Coyote: Eh, this is whatever really.
 
   # Department and job-specific mail can have slightly higher weights,
   # since they'll be merged with the everyone pool.

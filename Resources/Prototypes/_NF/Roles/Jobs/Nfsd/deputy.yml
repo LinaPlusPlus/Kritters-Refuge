@@ -38,9 +38,9 @@
   storage:
     back:
     - Flash
-    - CSMagazinePistol40Overpressure # CS: NFMagazineHighCapacityPistol35Overpressure < CSMagazinePistol40Overpressure
-    - CSMagazinePistol40Rubber # CS: NFMagazineHighCapacityPistol35Rubber < CSMagazinePistol40Rubber
-    - BaseSecurityUplinkRadioOfficer # CS: added uplink for deputies, removed their starting uplink coins
+    - CSMagazinePistol40Overpressure # Coyote: NFMagazineHighCapacityPistol35Overpressure < CSMagazinePistol40Overpressure
+    - CSMagazinePistol40Rubber # Coyote: NFMagazineHighCapacityPistol35Rubber < CSMagazinePistol40Rubber
+    - BaseSecurityUplinkRadioOfficer # Coyote: added uplink for deputies, removed their starting uplink coins
 
 - type: chameleonOutfit
   id: DeputyChameleonOutfit

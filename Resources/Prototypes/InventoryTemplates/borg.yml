@@ -8,7 +8,7 @@
     strippingWindowPos: 0,0
     displayName: Head
     offset: 0.015625, -0.09375
-# CS: We want our borgs to be able to buy ships and such
+# Coyote: We want our borgs to be able to buy ships and such
   - name: id
     slotTexture: id
     slotFlags: IDCARD
@@ -17,7 +17,7 @@
     uiWindowPos: 2,1
     strippingWindowPos: 2,4
     displayName: ID
-# End CS
+# End Coyote
 
 - type: inventoryTemplate
   id: borgShort
@@ -29,7 +29,7 @@
     strippingWindowPos: 0,0
     displayName: Head
     offset: 0.015625, -0.1875
-# CS: We want our borgs to be able to buy ships and such
+# Coyote: We want our borgs to be able to buy ships and such
   - name: id
     slotTexture: id
     slotFlags: IDCARD
@@ -38,7 +38,7 @@
     uiWindowPos: 2,1
     strippingWindowPos: 2,4
     displayName: ID
-# End CS
+# End Coyote
 
 - type: inventoryTemplate
   id: borgTall
@@ -50,7 +50,7 @@
     strippingWindowPos: 0,0
     displayName: Head
     offset: 0.015625, 0
-# CS: We want our borgs to be able to buy ships and such
+# Coyote: We want our borgs to be able to buy ships and such
   - name: id
     slotTexture: id
     slotFlags: IDCARD
@@ -59,7 +59,7 @@
     uiWindowPos: 2,1
     strippingWindowPos: 2,4
     displayName: ID
-# End CS
+# End Coyote
 
 # taller than tall
 - type: inventoryTemplate
@@ -72,7 +72,7 @@
     strippingWindowPos: 0,0
     displayName: Head
     offset: 0, 0.09375
-# CS: We want our borgs to be able to buy ships and such
+# Coyote: We want our borgs to be able to buy ships and such
   - name: id
     slotTexture: id
     slotFlags: IDCARD
@@ -81,4 +81,4 @@
     uiWindowPos: 2,1
     strippingWindowPos: 2,4
     displayName: ID
-# End CS
+# End Coyote

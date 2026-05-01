@@ -85,7 +85,7 @@
   - type: MedicalBountyRedemption
     bodyContainer: body_container
     taxAccounts:
-      Medical: 1 # Frontier 75%/0.75 # CS: buff another 25%
+      Medical: 1 # Frontier 75%/0.75 # Coyote: buff another 25%
   - type: Appearance
   - type: GenericVisualizer
     visuals:

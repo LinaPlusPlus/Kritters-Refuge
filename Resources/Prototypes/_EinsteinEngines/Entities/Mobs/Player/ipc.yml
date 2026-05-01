@@ -172,12 +172,12 @@
 #     layoutId: IPC
   - type: EmitBuzzWhileDamaged
   - type: CanHostGuardian
-  # - type: WeldingHealable # CS: Remove, they have their own topical system
+  # - type: WeldingHealable # Coyote: Remove, they have their own topical system
   - type: LayingDown
   - type: HumanoidAppearance
     species: IPC
   - type: ModifyUndies  # FLOOF Add
-  - type: RoleplayIncentive  # CS: Add
+  - type: RoleplayIncentive  # Coyote: Add
   - type: ShortWhitelist
     scale: 0.8
     density: 140
@@ -185,15 +185,15 @@
     cosmeticOnly: false
   - type: TallWhitelist
     scale: 1.2
-  # CS: Tweaks start
-  - type: Damageable # CS: Add
-    damageContainer: IPC # CS: Add
-    damageModifierSet: IPC # CS: Add
+  # Coyote: Tweaks start
+  - type: Damageable # Coyote: Add
+    damageContainer: IPC # Coyote: Add
+    damageModifierSet: IPC # Coyote: Add
   - type: Bloodstream
     bloodReagent: Oxidant
     maxBleedAmount: 4
     bloodlossThreshold: 0.5
-  # CS: Tweaks endsd
+  # Coyote: Tweaks endsd
   - type: Fixtures
     fixtures:
       fix1:
@@ -212,7 +212,7 @@
   parent: MobHumanDummy
   id: MobIPCDummy
   description: A dummy IPC meant to be used in character setup.
-  categories: [ HideSpawnMenu ] # CS: Not to be spawned
+  categories: [ HideSpawnMenu ] # Coyote: Not to be spawned
   components:
   - type: HumanoidAppearance
     species: IPC

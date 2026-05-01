@@ -197,11 +197,11 @@
   id: MobChicken
   description: Comes before an egg, and IS a dinosaur!
   components:
-  - type: MobThresholds # CS: Five less hitpoints, so you can Hristov them.
+  - type: MobThresholds # Coyote: Five less hitpoints, so you can Hristov them.
     thresholds:
       0: Alive
       95: Critical
-      200: Dead # End CS
+      200: Dead # End Coyote
   - type: Sprite
     drawdepth: Mobs
     layers:
@@ -670,11 +670,11 @@
   id: MobDuckMallard
   description: An adorable mallard duck, it's fluffy and soft!
   components:
-  - type: MobThresholds # CS: Five less hitpoints, so you can Hristov them.
+  - type: MobThresholds # Coyote: Five less hitpoints, so you can Hristov them.
     thresholds:
       0: Alive
       95: Critical
-      200: Dead # End CS
+      200: Dead # End Coyote
   - type: Sprite
     drawdepth: Mobs
     layers:
@@ -883,11 +883,11 @@
   id: MobCow
   description: Moo.
   components:
-  - type: MobThresholds # CS: Five less hitpoints, so you can Hristov them.
+  - type: MobThresholds # Coyote: Five less hitpoints, so you can Hristov them.
     thresholds:
       0: Alive
       95: Critical
-      200: Dead # End CS
+      200: Dead # End Coyote
   - type: Sprite
     drawdepth: Mobs
     layers:
@@ -1044,11 +1044,11 @@
   id: MobGoat
   description: Her spine consists of long sharp segments, no wonder she is so grumpy.
   components:
-  - type: MobThresholds # CS: Five less hitpoints, so you can Hristov them.
+  - type: MobThresholds # Coyote: Five less hitpoints, so you can Hristov them.
     thresholds:
       0: Alive
       95: Critical
-      200: Dead # End CS
+      200: Dead # End Coyote
   - type: Sprite
     drawdepth: Mobs
     layers:
@@ -1385,11 +1385,11 @@
   description: The genetic bipedal ancestor of... Uh... Something. Yeah, there's definitely something on the station that descended from whatever this is.
   abstract: true
   components:
-  - type: MobThresholds # CS: Five less hitpoints, so you can Hristov them.
+  - type: MobThresholds # Coyote: Five less hitpoints, so you can Hristov them.
     thresholds:
       0: Alive
       95: Critical
-      200: Dead # End CS
+      200: Dead # End Coyote
   - type: CombatMode
   - type: Inventory
     templateId: monkey
@@ -3610,11 +3610,11 @@
   id: MobPig
   description: Oink.
   components:
-  - type: MobThresholds # CS: Five less hitpoints, so you can Hristov them.
+  - type: MobThresholds # Coyote: Five less hitpoints, so you can Hristov them.
     thresholds:
       0: Alive
       95: Critical
-      200: Dead # End CS
+      200: Dead # End Coyote
   - type: Sprite
     drawdepth: Mobs
     layers:

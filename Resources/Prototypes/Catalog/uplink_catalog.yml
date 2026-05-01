@@ -1842,7 +1842,7 @@
   description: uplink-cat-ears-desc
   productEntity: ClothingHeadHatCatEars
   cost:
-    Telecrystal: 5 # CS: 26 to 5
+    Telecrystal: 5 # Coyote: 26 to 5
   categories:
   - UplinkPointless
 
@@ -1922,7 +1922,7 @@
   description: uplink-balloon-desc
   productEntity: BalloonSyn
   cost:
-    Telecrystal: 1 # CS: 20 to 1
+    Telecrystal: 1 # Coyote: 20 to 1
   categories:
   - UplinkPointless
 
@@ -1955,7 +1955,7 @@
     - UplinkPointless
   conditions:
   - !type:ListingLimitedStockCondition
-    stock: 30 # CS
+    stock: 30 # Coyote
 
 # Job Specific
 

@@ -755,7 +755,7 @@
 - type: Tag
   id: HidesHair # for headwear.
 
-- type: Tag # CS: Filter out unwanted things on the aphro visibility via tags
+- type: Tag # Coyote: Filter out unwanted things on the aphro visibility via tags
   id: HideInAphroVis
 
 - type: Tag

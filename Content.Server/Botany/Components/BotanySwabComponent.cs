@@ -9,7 +9,7 @@ namespace Content.Server.Botany
     public sealed partial class BotanySwabComponent : Component
     {
         [DataField("swabDelay")]
-        public float SwabDelay = 1f; // CS: Halve swab delay (why the fuck is this hardcoded? lmfao)
+        public float SwabDelay = 1f; // Coyote: Halve swab delay (why the fuck is this hardcoded? lmfao)
 
         /// <summary>
         /// SeedData from the first plant that got swabbed.

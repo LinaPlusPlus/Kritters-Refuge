@@ -34,7 +34,7 @@
   encryptionKeys:
   - EncryptionKeyScience
 
-- type: loadout # CS: Edit
+- type: loadout # Coyote: Edit
   id: ContractorEncryptionKeyCommon
   price: 20
   encryptionKeys:

@@ -31,62 +31,62 @@
 
 - type: cargoProduct
   id: EngineSingularityGenerator
-  #abstract: true # Frontier # CS
+  #abstract: true # Frontier # Coyote
   icon:
     sprite: Structures/Power/Generation/Singularity/generator.rsi
     state: icon
   product: CrateEngineeringSingularityGenerator
-  cost: 600000 # CS: 4000<600000
+  cost: 600000 # Coyote: 4000<600000
   category: Engineering
-  group: edison # CS
+  group: edison # Coyote
 
 - type: cargoProduct
   id: EngineSingularityContainment
-  #abstract: true # Frontier # CS
+  #abstract: true # Frontier # Coyote
   icon:
     sprite: Structures/Power/Generation/Singularity/containment.rsi
     state: icon
   product: CrateEngineeringSingularityContainment
-  cost: 2500 # CS: 1000<2500
+  cost: 2500 # Coyote: 1000<2500
   category: cargoproduct-category-name-engineering
-  group: edison # CS
+  group: edison # Coyote
 
 - type: cargoProduct
   id: EngineSingularityEmitter
-  #abstract: true # Frontier # CS
+  #abstract: true # Frontier # Coyote
   icon:
     sprite: Structures/Power/Generation/Singularity/emitter.rsi
     state: emitter2
   product: CrateEngineeringSingularityEmitter
-  cost: 6000 # CS: 1500<6000
+  cost: 6000 # Coyote: 1500<6000
   category: cargoproduct-category-name-engineering
-  group: edison # CS
+  group: edison # Coyote
 
 - type: cargoProduct
   id: EngineSingularityCollector
-  #abstract: true # Frontier # CS
+  #abstract: true # Frontier # Coyote
   icon:
     sprite: Structures/Power/Generation/Singularity/collector.rsi
     state: ca_on
   product: CrateEngineeringSingularityCollector
-  cost: 64000 # CS: 1000<64000
+  cost: 64000 # Coyote: 1000<64000
   category: cargoproduct-category-name-engineering
-  group: edison # CS
+  group: edison # Coyote
 
 - type: cargoProduct
   id: EngineParticleAccelerator
-  #abstract: true # Frontier # CS
+  #abstract: true # Frontier # Coyote
   icon:
     sprite: Structures/Power/Generation/PA/control_box.rsi
     state: completed
   product: CrateEngineeringParticleAccelerator
-  cost: 80000 # CS: 2000<80000
+  cost: 80000 # Coyote: 2000<80000
   category: cargoproduct-category-name-engineering
-  group: edison # CS
+  group: edison # Coyote
 
 - type: cargoProduct
   id: EngineSolar
-  abstract: true # CS
+  abstract: true # Coyote
   icon:
     sprite: Objects/Devices/flatpack.rsi
     state: solar-assembly-part
@@ -97,14 +97,14 @@
 
 - type: cargoProduct
   id: EngineTeslaGenerator
-  #abstract: true # Frontier # CS
+  #abstract: true # Frontier # Coyote
   icon:
     sprite: Structures/Power/Generation/Tesla/generator.rsi
     state: icon
   product: CrateEngineeringTeslaGenerator
-  cost: 600000 # CS: 4000<600000
+  cost: 600000 # Coyote: 4000<600000
   category: cargoproduct-category-name-engineering
-  group: edison # CS
+  group: edison # Coyote
 
 - type: cargoProduct
   id: EngineTeslaCoil
@@ -113,9 +113,9 @@
     sprite: Structures/Power/Generation/Tesla/coil.rsi
     state: coil
   product: CrateEngineeringTeslaCoil
-  cost: 4000 # CS: 1200<4000
+  cost: 4000 # Coyote: 1200<4000
   category: cargoproduct-category-name-engineering
-  group: edison # CS
+  group: edison # Coyote
 
 - type: cargoProduct
   id: EngineTeslaGroundingRod
@@ -125,4 +125,4 @@
   product: CrateEngineeringTeslaGroundingRod
   cost: 1200 # Frontier: 400<1000 CS: 1000<1200
   category: cargoproduct-category-name-engineering
-  group: edison # CS
+  group: edison # Coyote

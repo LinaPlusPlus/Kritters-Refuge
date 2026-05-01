@@ -11,7 +11,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [ Ovinia ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/ear_markings.rsi
     state: ovinia-ears
@@ -24,7 +24,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [ Ovinia ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/tail_markings.rsi
     state: ovinia-tail
@@ -35,7 +35,7 @@
   bodyPart: NeckFluff
   markingCategory: NeckFluff
   speciesRestriction: [ Ovinia ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/head_markings.rsi
     state: ovinia-neck-fluff
@@ -46,7 +46,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [ Ovinia ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/horn_markings.rsi
     state: lamb-horns
@@ -56,7 +56,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [ Ovinia ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/horn_markings.rsi
     state: ovinia-ram-horns
@@ -66,7 +66,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [ Ovinia ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/horn_markings.rsi
     state: ovinia-pointy-horns
@@ -76,7 +76,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [ Ovinia ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/horn_markings.rsi
     state: ovinia-curved-horns
@@ -86,7 +86,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [ Ovinia ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/horn_markings.rsi
     state: ovinia-deer-horns
@@ -96,7 +96,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [ Ovinia ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/horn_markings.rsi
     state: ovinia-devil-horns
@@ -106,7 +106,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [ Ovinia ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/horn_markings.rsi
     state: ovinia-baphomet-horns
@@ -116,7 +116,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [ Ovinia ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/horn_markings.rsi
     state: ovinia-ibex-horns
@@ -127,7 +127,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [ Ovinia ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/snout_markings.rsi
     state: ovinia-face
@@ -139,7 +139,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [ Ovinia ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/snout_markings.rsi
     state: ovinia-blaze
@@ -151,7 +151,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [ Ovinia ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/snout_markings.rsi
     state: ovinia-snout
@@ -164,7 +164,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [ Ovinia ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/body_markings.rsi
     state: ovinia-tummy
@@ -175,7 +175,7 @@
   bodyPart: LLeg
   markingCategory: Legs
   speciesRestriction: [ Ovinia ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/body_markings.rsi
     state: ovinia-leg-valais-left
@@ -185,7 +185,7 @@
   bodyPart: RLeg
   markingCategory: Legs
   speciesRestriction: [ Ovinia ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/body_markings.rsi
     state: ovinia-leg-valais-right
@@ -196,7 +196,7 @@
   bodyPart: LFoot
   markingCategory: Legs
   speciesRestriction: [ Ovinia ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/feet_markings.rsi
     state: ovinia-hoof-left
@@ -206,7 +206,7 @@
   bodyPart: RFoot
   markingCategory: Legs
   speciesRestriction: [ Ovinia ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/feet_markings.rsi
     state: ovinia-hoof-right
@@ -217,7 +217,7 @@
   bodyPart: LArm
   markingCategory: Arms
   speciesRestriction: [ Ovinia ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/body_markings.rsi
     state: ovinia-arm-valais-left
@@ -227,7 +227,7 @@
   bodyPart: RArm
   markingCategory: Arms
   speciesRestriction: [ Ovinia ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _DEN/Mobs/Customization/Ovinia/body_markings.rsi
     state: ovinia-arm-valais-right

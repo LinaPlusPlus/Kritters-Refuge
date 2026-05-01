@@ -245,9 +245,9 @@ public sealed class EmotesUIController : UIController, IOnStateChanged<GameplayS
         if (AlwaysEnabledCategories.Contains(category))
             return false;
 
-        //_CS Start
+        // Coyote Start
         // Read from selected profile in the common UI path so category visibility applies across all map/fork content.
-        //_CS End
+        // Coyote End
         if (_preferencesManager.Preferences?.SelectedCharacter is not HumanoidCharacterProfile profile)
             return false;
 

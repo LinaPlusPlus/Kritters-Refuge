@@ -2,14 +2,14 @@
 - type: entity # 'Gun', 'AmmoProvider' and 'ContainerContainer' components are not defined in this one
   parent:
   - BaseStructure
-#  - MobLaserReflect # Preventing laser abuse from players, prototype is in \Resources\Prototypes\_NF\Entities\Mobs\NPCs\mob_hostile_base.yml # CS: just let turrets shoot through windows too
+#  - MobLaserReflect # Preventing laser abuse from players, prototype is in \Resources\Prototypes\_NF\Entities\Mobs\NPCs\mob_hostile_base.yml # Coyote: just let turrets shoot through windows too
   id: BaseWeaponTurretNF
   name: turret
   suffix: Frontier
   abstract: true
   components:
   - type: Clickable
-  - type: RadarBlip # CS: Gives turrets radar blips
+  - type: RadarBlip # Coyote: Gives turrets radar blips
     scale: 3
     shape: Diamond
     visibleFromOtherGrids: true

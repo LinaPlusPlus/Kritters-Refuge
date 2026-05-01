@@ -358,12 +358,12 @@
   table: !type:GroupSelector
     children:
     - id: CrateFunATV
-      weight: 0.70 # CS: Change as we removed the id below.
+      weight: 0.70 # Coyote: Change as we removed the id below.
     - id: CrateFunHoverbikeNF
       weight: 0.2
     - id: NFCrateFunSyndicateSegway
       weight: 0.1
-    #- id: CrateFunScurret # CS: Main proto commented, likely not desired.
+    #- id: CrateFunScurret # Coyote: Main proto commented, likely not desired.
       #weight: 0.01
 
 # region Crates (Restock)
@@ -533,8 +533,8 @@
       - id: VendingMachineRoboDrobe
       - id: VendingMachineGeneDrobe
       - id: VendingMachineViroDrobe
-      - id: VendingMachineArcadia # CS: Added to the clothes tables as it is no longer contra.
-      - id: VendingMachineClothingPunk # CS: Added to the clothes tables as it is no longer contra.
+      - id: VendingMachineArcadia # Coyote: Added to the clothes tables as it is no longer contra.
+      - id: VendingMachineClothingPunk # Coyote: Added to the clothes tables as it is no longer contra.
     - !type:NestedSelector
       tableId: TableDungeonLootGeneralVendomatsContraband
       weight: 0.05
@@ -554,7 +554,7 @@
       - id: BlockGameArcade
       - id: VendingMachineBooze
       - id: VendingMachineCigs
-      - id: VendingMachineBarista # CS: Added the monolith baristavend to the table.
+      - id: VendingMachineBarista # Coyote: Added the monolith baristavend to the table.
       - id: VendingMachineCoffee
       - id: VendingMachineCola
       - id: VendingMachineColaBlack
@@ -594,8 +594,8 @@
   table: !type:GroupSelector
     children:
       - id: VendingMachineMagivend
-      #- id: VendingMachineArcadia # CS: No longer contraband.
-      #- id: VendingMachineClothingPunk # CS: No longer contraband.
+      #- id: VendingMachineArcadia # Coyote: No longer contraband.
+      #- id: VendingMachineClothingPunk # Coyote: No longer contraband.
       - id: VendingMachineBountyVendPunk
       - id: VendingMachineSyndieContraband
 
@@ -841,24 +841,24 @@
     - id: VendingMachineRestockClothes
     - id: VendingMachineRestockCostumes
     - id: VendingMachineRestockDinnerware
-    # - id: VendingMachineRestockEngineering # CS: remove: useless clutter restock
+    # - id: VendingMachineRestockEngineering # Coyote: remove: useless clutter restock
     - id: VendingMachineRestockGames
     - id: VendingMachineRestockMedical
     - id: VendingMachineRestockNutriMax
-    # - id: VendingMachineRestockSalvageEquipment # CS: remove: useless clutter restock
+    # - id: VendingMachineRestockSalvageEquipment # Coyote: remove: useless clutter restock
     - id: VendingMachineRestockSmokes
     - id: VendingMachineRestockSeeds
-    # - id: VendingMachineRestockTankDispenser # CS: remove: useless clutter restock
-    # - id: VendingMachineRestockVendomat # CS: remove: useless clutter restock
-    # - id: VendingMachineRestockRobotics # CS: remove: useless clutter restock
+    # - id: VendingMachineRestockTankDispenser # Coyote: remove: useless clutter restock
+    # - id: VendingMachineRestockVendomat # Coyote: remove: useless clutter restock
+    # - id: VendingMachineRestockRobotics # Coyote: remove: useless clutter restock
     - id: VendingMachineRestockChemVend
-    # - id: VendingMachineRestockAstroVend # CS: remove: useless clutter restock
-    # - id: VendingMachineRestockAmmo # CS: remove: useless clutter restock
-    # - id: VendingMachineRestockLessLethalVend # CS: remove: useless clutter restock
-    # - id: VendingMachineRestockNonLethalVend # CS: remove: useless clutter restock
+    # - id: VendingMachineRestockAstroVend # Coyote: remove: useless clutter restock
+    # - id: VendingMachineRestockAmmo # Coyote: remove: useless clutter restock
+    # - id: VendingMachineRestockLessLethalVend # Coyote: remove: useless clutter restock
+    # - id: VendingMachineRestockNonLethalVend # Coyote: remove: useless clutter restock
     - id: VendingMachineRestockAutoTuneVend
-    # - id: VendingMachineRestockPottedPlantVend # CS: remove: useless clutter restock
-    - id: VendingMachineRestockBarista # CS: Since we added the barista vend, add the restock too!
+    # - id: VendingMachineRestockPottedPlantVend # Coyote: remove: useless clutter restock
+    - id: VendingMachineRestockBarista # Coyote: Since we added the barista vend, add the restock too!
 
 - type: entityTable
   id: TableDungeonLootGeneralCanisterBroken

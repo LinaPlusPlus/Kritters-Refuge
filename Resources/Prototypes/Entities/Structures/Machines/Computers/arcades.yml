@@ -212,7 +212,7 @@
       visible: false
   - type: BlockGameArcade
     possibleRewards:
-    # CS
+    # Coyote
     - PrizeTicket10
     - PrizeTicket10
     - PrizeTicket10
@@ -220,7 +220,7 @@
     - PrizeTicket30
     - PrizeTicket30
     - PrizeTicket60
-    # End CS
+    # End Coyote
   - type: ActivatableUI
     key: enum.BlockGameUiKey.Key
   - type: ActivatableUIRequiresPower

@@ -30,7 +30,7 @@
         path: /Audio/Machines/Nuke/general_beep.ogg
         params:
           volume: -2
-  - type: PhysicalComposition # CS
+  - type: PhysicalComposition # Coyote
     materialComposition:
       Steel: 150
     chemicalComposition:
@@ -68,7 +68,7 @@
           volume: -2
 
 - type: entity
-  parent: TimerTrigger # CS
+  parent: TimerTrigger # Coyote
   id: VoiceTrigger
   name: voice trigger
   description: Adds a machine link that is triggered by vocal keywords.

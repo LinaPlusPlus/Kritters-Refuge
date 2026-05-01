@@ -105,7 +105,7 @@
             sprite: Mobs/Animals/scurret/displacement.rsi
             state: neck
   - type: InventorySlots
-  # CS: Hunger change until upstream ports
+  # Coyote: Hunger change until upstream ports
   # - type: Food
   # - type: Hunger
   #  baseDecayRate: 0.05 # They get a lil' hungy
@@ -113,7 +113,7 @@
     needs:
     - NeedHungerDefault
     - NeedThirstDefault
-  # End CS
+  # End Coyote
   - type: BodyEmotes # Grants them clapping and so on.
     soundsId: GeneralBodyEmotes
   - type: Tag

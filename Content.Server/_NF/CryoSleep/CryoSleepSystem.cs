@@ -325,7 +325,7 @@ public sealed partial class CryoSleepSystem : EntitySystem
         {
             QueueDel(bodyId);
         }
-        // CS: Disabled cryo expiration for now.
+        // Coyote: Disabled cryo expiration for now.
         // else
         // {
         //     // Start a timer. When it ends, the body needs to be deleted.

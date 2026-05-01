@@ -17,7 +17,7 @@
 #            !type:NanotrasenNameGenerator
 #            prefixCreator: '14'
         - type: ExtraStationInformation
-          iconPath: /Textures/_NF/Logo/icon/icon-256x256.png # used the biggest one, looks better when downscaling than upscaling
+          iconPath: /Textures/_CS/Logo/icon/icon-256x256.png # Coyote: /Textures/_NF/Logo/icon/icon-256x256.png</Textures/_CS/Logo/icon/icon-256x256.png
           stationSubtext: 'frontier-lobby-frontier-subtext'
           stationDescription: 'frontier-lobby-frontier-description'
           lobbySortOrder: 1

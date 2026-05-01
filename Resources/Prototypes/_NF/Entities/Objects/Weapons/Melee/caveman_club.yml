@@ -26,8 +26,8 @@
   - type: PhysicalComposition
     materialComposition:
       Wood: 200
-#  - type: AddAccentPickup # CS: remove: This socially crippling, stupid stick
-#    accent: CavemanAccent # CS: remove: why is it coded this way
+#  - type: AddAccentPickup # Coyote: remove: This socially crippling, stupid stick
+#    accent: CavemanAccent # Coyote: remove: why is it coded this way
 
 - type: entity
   name: caveman club

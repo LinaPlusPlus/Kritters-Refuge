@@ -53,4 +53,4 @@
     damage:
       types:
         Blunt: 19 # buffed most melee's damage by ~1.5x
-        Structural: 15 # CS: replace shock damage with structure damage and buffed a little
+        Structural: 15 # Coyote: replace shock damage with structure damage and buffed a little

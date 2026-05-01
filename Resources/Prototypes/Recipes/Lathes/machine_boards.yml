@@ -281,7 +281,7 @@
   id: SeedExtractorMachineCircuitboard
   result: SeedExtractorMachineCircuitboard
 
-- type: latheRecipe # CS
+- type: latheRecipe # Coyote
   parent: [BaseCircuitboardRecipe, BaseServiceMachineRecipeCategory, BaseMedicalMachineRecipeCategory]
   id: SmartFridgeCircuitboard
   result: SmartFridgeCircuitboard

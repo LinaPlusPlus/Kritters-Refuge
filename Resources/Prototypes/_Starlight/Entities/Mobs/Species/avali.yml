@@ -24,12 +24,12 @@
 - type: entity
   save: false
   name: Urist McAvali
-  # CS: No BaseSpeciesPickupable
+  # Coyote: No BaseSpeciesPickupable
   parent: [ BaseColdBird, BaseMobSpeciesOrganic, BaseInventoryAvali ]
   id: BaseMobAvali
   abstract: true
   components:
-    # CS: No Languages, and Absorbable
+    # Coyote: No Languages, and Absorbable
     - type: Tag
       tags:
         - CanPilot
@@ -95,7 +95,7 @@
           sprite: Mobs/Effects/brute_damage.rsi
           color: "#6C3BAA"
     - type: Bloodstream
-      # CS: Wait for upstream to use bloodReferenceSolution
+      # Coyote: Wait for upstream to use bloodReferenceSolution
       bloodReagent: AvaliBlood
     - type: MeleeWeapon
       soundHit:
@@ -111,7 +111,7 @@
       updateInterval: 1s
       healingPerUpdate:
         types:
-      # CS: Cosmetic for balancing reason
+      # Coyote: Cosmetic for balancing reason
           Heat: 0
           Cold: 0
         groups:
@@ -119,7 +119,7 @@
       bleedHealPerUpdate: 0
       critHealingModifier: 0
       stasisDamageReduction: 0
-      # End CS
+      # End Coyote
 
 # Chirp!
 # Chirp!

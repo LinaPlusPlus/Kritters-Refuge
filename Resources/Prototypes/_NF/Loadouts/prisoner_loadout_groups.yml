@@ -1,7 +1,7 @@
 - type: loadoutGroup
   id: PrisonerJumpsuit
   name: loadout-group-contractor-jumpsuit
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   loadouts:
   - PrisonerJumpsuit
   - PrisonerJumpskirt
@@ -23,7 +23,7 @@
 - type: loadoutGroup
   id: PrisonerFace
   name: loadout-group-contractor-face
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   hidden: false # No point in showing this, it gets auto-selected.
   loadouts:
   - PrisonerClothingMaskBreath

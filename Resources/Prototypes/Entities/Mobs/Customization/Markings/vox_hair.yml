@@ -4,7 +4,7 @@
   markingCategory: Hair
   canBeDisplaced: false
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: Mobs/Customization/vox_hair.rsi
       state: afro_s
@@ -15,7 +15,7 @@
   markingCategory: Hair
   canBeDisplaced: false
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: Mobs/Customization/vox_hair.rsi
       state: braid_s
@@ -26,7 +26,7 @@
   markingCategory: Hair
   canBeDisplaced: false
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: Mobs/Customization/vox_hair.rsi
       state: crestedquills_s
@@ -37,7 +37,7 @@
   markingCategory: Hair
   canBeDisplaced: false
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: Mobs/Customization/vox_hair.rsi
       state: emperorquills_s
@@ -48,7 +48,7 @@
   markingCategory: Hair
   canBeDisplaced: false
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: Mobs/Customization/vox_hair.rsi
       state: flowing_s
@@ -59,7 +59,7 @@
   markingCategory: Hair
   canBeDisplaced: false
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: Mobs/Customization/vox_hair.rsi
       state: hawk_s
@@ -70,7 +70,7 @@
   markingCategory: Hair
   canBeDisplaced: false
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: Mobs/Customization/vox_hair.rsi
       state: horns_s
@@ -81,7 +81,7 @@
   markingCategory: Hair
   canBeDisplaced: false
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: Mobs/Customization/vox_hair.rsi
       state: keelquills_s
@@ -92,7 +92,7 @@
   markingCategory: Hair
   canBeDisplaced: false
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: Mobs/Customization/vox_hair.rsi
       state: keetquills_s
@@ -103,7 +103,7 @@
   markingCategory: Hair
   canBeDisplaced: false
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: Mobs/Customization/vox_hair.rsi
       state: kingly_s
@@ -114,7 +114,7 @@
   markingCategory: Hair
   canBeDisplaced: false
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: Mobs/Customization/vox_hair.rsi
       state: long_braid_s
@@ -125,7 +125,7 @@
   markingCategory: Hair
   canBeDisplaced: false
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: Mobs/Customization/vox_hair.rsi
       state: mange_s
@@ -136,7 +136,7 @@
   markingCategory: Hair
   canBeDisplaced: false
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: Mobs/Customization/vox_hair.rsi
       state: mohawk_s
@@ -147,7 +147,7 @@
   markingCategory: Hair
   canBeDisplaced: false
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: Mobs/Customization/vox_hair.rsi
       state: nights_s
@@ -158,7 +158,7 @@
   markingCategory: Hair
   canBeDisplaced: false
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: Mobs/Customization/vox_hair.rsi
       state: ponytail_s
@@ -169,7 +169,7 @@
   markingCategory: Hair
   canBeDisplaced: false
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: Mobs/Customization/vox_hair.rsi
       state: razor_clipped_s
@@ -180,7 +180,7 @@
   markingCategory: Hair
   canBeDisplaced: false
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: Mobs/Customization/vox_hair.rsi
       state: razor_s
@@ -191,7 +191,7 @@
   markingCategory: Hair
   canBeDisplaced: false
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: Mobs/Customization/vox_hair.rsi
       state: short_braid_s
@@ -202,7 +202,7 @@
   markingCategory: Hair
   canBeDisplaced: false
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: Mobs/Customization/vox_hair.rsi
       state: shortquills_s
@@ -213,7 +213,7 @@
   markingCategory: Hair
   canBeDisplaced: false
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: Mobs/Customization/vox_hair.rsi
       state: spotty_s
@@ -224,7 +224,7 @@
   markingCategory: Hair
   canBeDisplaced: false
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: Mobs/Customization/vox_hair.rsi
       state: surf_s
@@ -235,7 +235,7 @@
   markingCategory: Hair
   canBeDisplaced: false
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: Mobs/Customization/vox_hair.rsi
       state: tielquills_s
@@ -246,7 +246,7 @@
   markingCategory: Hair
   canBeDisplaced: false
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: Mobs/Customization/vox_hair.rsi
       state: wise_braid_s
@@ -257,7 +257,7 @@
   markingCategory: Hair
   canBeDisplaced: false
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: Mobs/Customization/vox_hair.rsi
       state: yasu_s

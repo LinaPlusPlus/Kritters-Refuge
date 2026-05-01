@@ -1064,7 +1064,7 @@
       Glass: 2
       Cable: 5
 
-- type: entity # CS Sector
+- type: entity # Coyote Sector
   id: SmartFridgeCircuitboard
   parent: BaseMachineCircuitboard
   name: SmartFridge machine board

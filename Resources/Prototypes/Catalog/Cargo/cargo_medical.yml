@@ -11,7 +11,7 @@
 
 - type: cargoProduct
   id: MedicalChemistrySupplies
-  abstract: true # CS
+  abstract: true # Coyote
   icon:
     sprite: Objects/Specific/Chemistry/beaker.rsi
     state: beaker
@@ -22,7 +22,7 @@
 
 - type: cargoProduct
   id: MedicalChemistryVials
-  abstract: true # CS
+  abstract: true # Coyote
   icon:
     sprite: Objects/Specific/Chemistry/vial.rsi
     state: vial

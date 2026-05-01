@@ -7,9 +7,9 @@
     - !type:OverallPlaytimeRequirement
       time: 43200 # 12 hours / 2 shifts
     - !type:RoleTimeRequirement
-      role: JobPirate # CS Changed from JobSmuggler, this way all freelancer roles require the Pirate Whitelist.
+      role: JobPirate # Coyote Changed from JobSmuggler, this way all freelancer roles require the Pirate Whitelist.
       time: 3600 # 1 hour
-    #- !type:DepartmentTimeRequirement # CS: swaps the playtime requirement to literally just be an hour of the role itself.
+    #- !type:DepartmentTimeRequirement # Coyote: swaps the playtime requirement to literally just be an hour of the role itself.
     #  department: Security
     #  time: 10800 # 3 hrs
   startingGear: SmugglerGear
@@ -84,17 +84,17 @@
   groups:
   - PilotHead
   #- NFPirateNeck
-  - PilotNeck # CS: Pirate Loadout Expansion
+  - PilotNeck # Coyote: Pirate Loadout Expansion
   - PilotJumpsuit
   #- NFPirateGloves
-  - MercenaryGloves # CS: Pirate Loadout Expansion
+  - MercenaryGloves # Coyote: Pirate Loadout Expansion
   - PilotBackpack
   - PilotForcedOuterClothing
-  - MercenaryOuterClothing # CS: Pirate Loadout Expansion
+  - MercenaryOuterClothing # Coyote: Pirate Loadout Expansion
   - MercenaryShoes
   - PilotFace
-  - MercenaryGlasses # CS: Pirate Loadout Expansion
-  - MercenaryBelt # CS: Pirate Loadout Expansion
+  - MercenaryGlasses # Coyote: Pirate Loadout Expansion
+  - MercenaryBelt # Coyote: Pirate Loadout Expansion
   - PilotEars
   - ContractorEncryptionKey
   - ContractorBoxSurvival

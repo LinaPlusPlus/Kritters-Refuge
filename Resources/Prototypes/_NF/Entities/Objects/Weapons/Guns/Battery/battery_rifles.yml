@@ -2,7 +2,7 @@
 #region Laser
 - type: entity
   id: NFWeaponEnergyRifleCarbine
-  parent: [ BaseC2ContrabandUnredeemable, NFBaseWeaponEnergyRifleFireModes, NFBaseWeaponFrameEnergyRifleNanotrasen ] # CS: Add BaseC2ContrabandUnredeemable
+  parent: [ BaseC2ContrabandUnredeemable, NFBaseWeaponEnergyRifleFireModes, NFBaseWeaponFrameEnergyRifleNanotrasen ] # Coyote: Add BaseC2ContrabandUnredeemable
   name: laser carbine
   suffix: Frontier
   description: |-
@@ -114,7 +114,7 @@
 #region Thermal
 - type: entity
   id: NFWeaponEnergyRifleTemperature
-  parent: [ BaseC2ContrabandUnredeemable, NFBaseWeaponFrameEnergyRifleNanotrasen ] # chamber defined below, no huge value in a one-off # CS: add BaseC2ContrabandUnredeemable
+  parent: [ BaseC2ContrabandUnredeemable, NFBaseWeaponFrameEnergyRifleNanotrasen ] # chamber defined below, no huge value in a one-off # Coyote: add BaseC2ContrabandUnredeemable
   name: temperature gun
   description: An advanced gun that shoots beams capable of heating or cooling their target.
   components:

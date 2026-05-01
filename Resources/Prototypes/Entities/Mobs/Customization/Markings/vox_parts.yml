@@ -4,7 +4,7 @@
   markingCategory: Snout
   forcedColoring: true
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Customization/vox_parts.rsi
     state: beak
@@ -20,7 +20,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Customization/vox_parts.rsi
     state: l_arm
@@ -36,7 +36,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Customization/vox_parts.rsi
     state: l_leg
@@ -52,7 +52,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Customization/vox_parts.rsi
     state: r_arm
@@ -68,7 +68,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Customization/vox_parts.rsi
     state: r_leg
@@ -84,7 +84,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Customization/vox_parts.rsi
     state: r_hand
@@ -100,7 +100,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Customization/vox_parts.rsi
     state: l_hand
@@ -116,7 +116,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Customization/vox_parts.rsi
     state: l_foot
@@ -132,7 +132,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Customization/vox_parts.rsi
     state: r_foot
@@ -147,7 +147,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: true
   sprites:
   - sprite: Mobs/Customization/vox_parts.rsi

@@ -1,7 +1,7 @@
 - type: loadoutGroup
   id: SheriffJumpsuit
   name: loadout-group-contractor-jumpsuit
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   loadouts:
   - SheriffClothingUniformJumpsuitSheriff
   - SheriffClothingUniformJumpskirtSheriff
@@ -28,7 +28,7 @@
 - type: loadoutGroup
   id: SheriffNeck
   name: loadout-group-contractor-neck
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   loadouts:
   - SheriffClothingNeckNfsdBadgeSheriff
   - SheriffClothingNeckMantleSheriff
@@ -48,7 +48,7 @@
 - type: loadoutGroup
   id: SheriffFace
   name: loadout-group-contractor-face
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   hidden: false # No point in showing this, it gets auto-selected.
   loadouts:
   - SheriffClothingMaskSheriff

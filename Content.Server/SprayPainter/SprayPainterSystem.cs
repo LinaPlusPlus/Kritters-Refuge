@@ -123,7 +123,7 @@ public sealed class SprayPainterSystem : SharedSprayPainterSystem
 
         return (decalProto.Tags.Contains("station")
             || decalProto.Tags.Contains("markings")
-            || decalProto.Tags.Contains("flora")) // CS: Temporary solution... But you know what they say about those, right?
+            || decalProto.Tags.Contains("flora")) // Coyote: Temporary solution... But you know what they say about those, right?
             && !decalProto.Tags.Contains("dirty");
     }
 

@@ -3,9 +3,9 @@
   parent: OrganHumanEyes
   name: eyes
   suffix: Resomi
-  # CS: Since we don't have an OrganVisualizer or FunctionalOrgans, use the default description
+  # Coyote: Since we don't have an OrganVisualizer or FunctionalOrgans, use the default description
   description: "The eyes of a resomi."
-  # CS: No OrganVisualizer and FunctionalOrgans
+  # Coyote: No OrganVisualizer and FunctionalOrgans
 
 - type: entity # Starlight
   id: OrganResomiHeart

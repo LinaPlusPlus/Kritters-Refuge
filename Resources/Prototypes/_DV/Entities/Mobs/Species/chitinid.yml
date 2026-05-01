@@ -10,7 +10,7 @@
     hideLayersOnEquip:
     - HeadTop
 
-  # CS: We have a different system to handle this
+  # Coyote: We have a different system to handle this
   # - type: Hunger
   #   baseDecayRate: 0.0467 #needs to eat more to survive
   # - type: Thirst
@@ -170,7 +170,7 @@
     coughPopup: chitzite-cough
   - type: Chitinid
   - type: BlockInjection
-  # CS: Add needs management
+  # Coyote: Add needs management
   - type: Needs
 
 - type: entity

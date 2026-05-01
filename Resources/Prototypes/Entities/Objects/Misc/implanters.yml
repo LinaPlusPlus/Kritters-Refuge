@@ -127,7 +127,7 @@
 
 - type: entity
   id: BaseImplantOnlyImplanterSyndi
-  parent: [BaseImplantOnlyImplanter, BaseC3Contraband] # Frontier: BaseSyndicateContraband<BaseC4Contraband # CS: BaseC4Contraband<BaseC3Contraband
+  parent: [BaseImplantOnlyImplanter, BaseC3Contraband] # Frontier: BaseSyndicateContraband<BaseC4Contraband # Coyote: BaseC4Contraband<BaseC3Contraband
   name: syndicate implanter
   description: A compact disposable syringe exclusively designed for the injection of subdermal implants. Make sure to scrub it with soap or a rag to remove residual DNA after use!
   abstract: true

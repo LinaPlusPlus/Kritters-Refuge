@@ -100,7 +100,7 @@ namespace Content.Shared.Verbs
 
         public static readonly VerbCategory Vore = new("verb-categories-vore", null); // Floofstation
 
-        // CS: Reorganized context menus
+        // Coyote: Reorganized context menus
         public static readonly VerbCategory ExamineGroup =
             new("verb-categories-examine-group", "/Textures/Interface/VerbIcons/examine.svg.192dpi.png");
 

@@ -172,7 +172,7 @@
   name: chat-emote-name-squeak
   category: Rodentia
   available: false
-  showInWheel: false # CS
+  showInWheel: false # Coyote
   icon: Interface/Emotes/squeak.png
   whitelist:
     components:

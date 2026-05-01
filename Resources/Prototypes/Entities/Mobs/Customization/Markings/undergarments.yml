@@ -7,7 +7,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Arachnid, Diona, Human, Dwarf, Moth, SlimePerson, Goblin, Sheleg, Felinid, Vulpkanin, Oni, Harpy] # Frontier: added Goblin and afterwards
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type: null
@@ -21,7 +21,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Arachnid, Diona, Human, Dwarf, Moth, SlimePerson, Goblin, Sheleg, Felinid, Vulpkanin, Oni, Harpy] # Frontier: added Goblin and afterwards
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type: null
@@ -35,7 +35,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Arachnid, Diona, Human, Dwarf, Moth, SlimePerson, Goblin, Sheleg, Felinid, Vulpkanin, Oni, Harpy] # Frontier: added Goblin and afterwards
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type: null
@@ -49,7 +49,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Arachnid, Diona, Human, Dwarf, Moth, Reptilian, SlimePerson, Goblin, Sheleg, Felinid, Vulpkanin, Oni, Harpy] # Frontier: added Goblin and afterwards
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type: null
@@ -63,7 +63,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Arachnid, Diona, Human, Dwarf, Moth, Reptilian, SlimePerson, Goblin, Sheleg, Felinid, Vulpkanin, Oni, Harpy] # Frontier: added Goblin and afterwards
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type: null
@@ -77,7 +77,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Arachnid, Diona, Human, Dwarf, Moth, Reptilian, SlimePerson, Goblin, Sheleg, Felinid, Vulpkanin, Oni, Harpy] # Frontier: added Goblin and afterwards
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type: null
@@ -91,7 +91,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Arachnid, Diona, Human, Dwarf, Moth, Reptilian, SlimePerson, Goblin, Sheleg, Felinid, Vulpkanin, Oni, Harpy] # Frontier: added Goblin and afterwards
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type: null
@@ -106,7 +106,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type: null
@@ -120,7 +120,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type: null
@@ -134,7 +134,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type: null
@@ -148,7 +148,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type: null
@@ -162,7 +162,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type: null
@@ -176,7 +176,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type: null
@@ -190,7 +190,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Vox]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type: null
@@ -205,7 +205,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type: null
@@ -219,7 +219,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type: null
@@ -233,7 +233,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type: null
@@ -248,7 +248,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -263,7 +263,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -278,7 +278,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -293,7 +293,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -308,7 +308,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -323,7 +323,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -338,7 +338,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -353,7 +353,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -368,7 +368,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -383,7 +383,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -398,7 +398,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -413,7 +413,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -428,7 +428,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -443,7 +443,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -458,7 +458,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -473,7 +473,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -488,7 +488,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -503,7 +503,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -518,7 +518,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -533,7 +533,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -548,7 +548,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -563,7 +563,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -578,7 +578,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -593,7 +593,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -608,7 +608,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -623,7 +623,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -638,7 +638,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -653,7 +653,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -668,7 +668,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -683,7 +683,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -698,7 +698,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -713,7 +713,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -728,7 +728,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -743,7 +743,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -758,7 +758,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -773,7 +773,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -788,7 +788,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -803,7 +803,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -818,7 +818,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -833,7 +833,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -848,7 +848,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -863,7 +863,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -878,7 +878,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -893,7 +893,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -908,7 +908,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -923,7 +923,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -938,7 +938,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -953,7 +953,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -968,7 +968,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -983,7 +983,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -998,7 +998,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1013,7 +1013,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1028,7 +1028,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1043,7 +1043,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1058,7 +1058,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1073,7 +1073,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1088,7 +1088,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1103,7 +1103,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1118,7 +1118,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1133,7 +1133,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1148,7 +1148,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1164,7 +1164,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1179,7 +1179,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1194,7 +1194,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1209,7 +1209,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1224,7 +1224,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1239,7 +1239,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1255,7 +1255,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1270,7 +1270,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1285,7 +1285,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1300,7 +1300,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1315,7 +1315,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1330,7 +1330,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1345,7 +1345,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1360,7 +1360,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1375,7 +1375,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1390,7 +1390,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1405,7 +1405,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1420,7 +1420,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1435,7 +1435,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1450,7 +1450,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1465,7 +1465,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1480,7 +1480,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1495,7 +1495,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1510,7 +1510,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1525,7 +1525,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1540,7 +1540,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1555,7 +1555,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1570,7 +1570,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1585,7 +1585,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1600,7 +1600,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1615,7 +1615,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1630,7 +1630,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1645,7 +1645,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1660,7 +1660,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1675,7 +1675,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1691,7 +1691,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1706,7 +1706,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1721,7 +1721,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1736,7 +1736,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1751,7 +1751,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1766,7 +1766,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1781,7 +1781,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1796,7 +1796,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1811,7 +1811,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1826,7 +1826,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1841,7 +1841,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1856,7 +1856,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1871,7 +1871,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1886,7 +1886,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1901,7 +1901,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1916,7 +1916,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1931,7 +1931,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1946,7 +1946,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1961,7 +1961,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1976,7 +1976,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1991,7 +1991,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2006,7 +2006,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2021,7 +2021,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2036,7 +2036,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2051,7 +2051,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2066,7 +2066,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2081,7 +2081,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2096,7 +2096,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2111,7 +2111,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2126,7 +2126,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2141,7 +2141,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2156,7 +2156,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2171,7 +2171,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2186,7 +2186,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2201,7 +2201,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2217,7 +2217,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2232,7 +2232,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2247,7 +2247,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2262,7 +2262,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2277,7 +2277,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2292,7 +2292,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2308,7 +2308,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2323,7 +2323,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2338,7 +2338,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2353,7 +2353,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2368,7 +2368,7 @@
   bodyPart: UndergarmentBottom
   markingCategory: UndergarmentBottom
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2385,7 +2385,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2400,7 +2400,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2415,7 +2415,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2430,7 +2430,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2445,7 +2445,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2460,7 +2460,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2476,7 +2476,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2491,7 +2491,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2506,7 +2506,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2521,7 +2521,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2536,7 +2536,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2551,7 +2551,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2567,7 +2567,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2582,7 +2582,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2597,7 +2597,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2612,7 +2612,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2627,7 +2627,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2643,7 +2643,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2658,7 +2658,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2674,7 +2674,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2689,7 +2689,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2704,7 +2704,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2719,7 +2719,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2734,7 +2734,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2749,7 +2749,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2765,7 +2765,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2780,7 +2780,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2796,7 +2796,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2811,7 +2811,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2826,7 +2826,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2841,7 +2841,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2856,7 +2856,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2871,7 +2871,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2887,7 +2887,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2902,7 +2902,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2918,7 +2918,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2933,7 +2933,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2948,7 +2948,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2963,7 +2963,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2978,7 +2978,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2993,7 +2993,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -3009,7 +3009,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -3024,7 +3024,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -3040,7 +3040,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -3055,7 +3055,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -3070,7 +3070,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -3085,7 +3085,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -3100,7 +3100,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -3115,7 +3115,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -3131,7 +3131,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -3146,7 +3146,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -3162,7 +3162,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -3177,7 +3177,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -3192,7 +3192,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -3207,7 +3207,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -3222,7 +3222,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -3237,7 +3237,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -3253,7 +3253,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -3268,7 +3268,7 @@
   bodyPart: UndergarmentTop
   markingCategory: UndergarmentTop
   speciesRestriction: [Human]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:

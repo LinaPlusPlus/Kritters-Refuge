@@ -26,6 +26,6 @@ public sealed partial class ThievingComponent : Component
     /// Inventory slot names that should use default stripping behavior instead of thieving bonuses.
     /// </summary>
     [ViewVariables(VVAccess.ReadWrite)]
-    [DataField("blockedSlots")] // CS: Configure slots that should ignore thieving bonuses.
+    [DataField("blockedSlots")] // Coyote: Configure slots that should ignore thieving bonuses.
     public HashSet<string> BlockedSlots = new();
 }

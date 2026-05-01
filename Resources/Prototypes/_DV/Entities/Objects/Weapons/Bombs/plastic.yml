@@ -4,7 +4,7 @@
   parent: [SeismicCharge, BaseC2ContrabandUnredeemable] # Frontier: added BaseC2ContrabandUnredeemable
   id: BreachingCharge
   components:
-  - type: Contraband # CS: Added this in to stop breaching charges inheriting BaseC2Contraband from Seismic Charges, this forces them to be BaseC2ContrabandUnredeemable
+  - type: Contraband # Coyote: Added this in to stop breaching charges inheriting BaseC2Contraband from Seismic Charges, this forces them to be BaseC2ContrabandUnredeemable
     severity: Class2
     allowedDepartments: [ Security, Command ]
   - type: Sprite

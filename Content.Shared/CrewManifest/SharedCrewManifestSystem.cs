@@ -21,7 +21,7 @@ public sealed class RequestCrewManifestMessage : EntityEventArgs
 }
 
 [Serializable, NetSerializable]
-public sealed class CrewManifestEuiState : EuiStateBase // CS: Removed StationName
+public sealed class CrewManifestEuiState : EuiStateBase // Coyote: Removed StationName
 {
     public CrewManifestEntries? Entries { get; }
 

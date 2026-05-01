@@ -1,7 +1,7 @@
 - type: loadoutGroup
   id: NFDetectiveJumpsuit
   name: loadout-group-contractor-jumpsuit
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   loadouts:
   - NFDetectiveClothingUniformJumpsuitDetective
   - NFDetectiveClothingUniformJumpskirtDetective
@@ -34,7 +34,7 @@
 - type: loadoutGroup
   id: NFDetectiveGloves
   name: loadout-group-contractor-gloves
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   hidden: false # No point in showing this, it gets auto-selected.
   loadouts:
   - NFDetectiveClothingHandsGlovesForensicNF
@@ -44,11 +44,11 @@
 - type: loadoutGroup
   id: NFDetectiveNeck
   name: loadout-group-contractor-neck
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   hidden: false # No point in showing this, it gets auto-selected.
   loadouts:
   - NFDetectiveClothingNeckNfsdBadgeDetective
-  - CoyoteDetectiveClothingHorrificNecktie # CS: Horrific Necktie.
+  - CoyoteDetectiveClothingHorrificNecktie # Coyote: Horrific Necktie.
 
 - type: loadoutGroup
   id: NFDetectivePDA

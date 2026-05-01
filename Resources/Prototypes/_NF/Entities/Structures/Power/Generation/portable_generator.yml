@@ -33,7 +33,7 @@
     storage:
       FuelGradeUranium: 1000
 
-- type: entity # CS: tweaked
+- type: entity # Coyote: tweaked
   parent:
   - BaseGeneratorShuttle
   - PortableGeneratorJrPacman
@@ -49,7 +49,7 @@
             Quantity: 140
 
 #region D-K
-- type: entity # CS: tweaked
+- type: entity # Coyote: tweaked
   name: D-K portable generator
   description: |-
     A prototype Dunn-Kikko fission reactor. Use with caution.
@@ -132,7 +132,7 @@
         FuelGradeBananium: 1000
 
 #region D-K Jr.
-- type: entity # CS: tweaked
+- type: entity # Coyote: tweaked
   name: D-K Jr. portable generator
   description: |-
     A miniaturized Dunn-Kikko fission reactor. Use with caution.

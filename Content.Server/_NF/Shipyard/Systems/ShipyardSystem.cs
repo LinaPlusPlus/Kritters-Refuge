@@ -48,7 +48,7 @@ public sealed partial class ShipyardSystem : SharedShipyardSystem
     private bool _enabled;
     private float _baseSaleRate;
 
-    //_CS Start
+    // Coyote Start
     private enum PostPurchaseAtmosFix
     {
         RebuildAndStandardPressurize,
@@ -59,7 +59,7 @@ public sealed partial class ShipyardSystem : SharedShipyardSystem
     {
         ["/Maps/_CS/Shuttles/Scrap/khonsu.yml"] = PostPurchaseAtmosFix.RebuildAndStandardPressurize,
     };
-    //_CS End
+    // Coyote End
 
     // The type of error from the attempted sale of a ship.
     public enum ShipyardSaleError
@@ -163,7 +163,7 @@ public sealed partial class ShipyardSystem : SharedShipyardSystem
 
         _sawmill.Info($"Shuttle {shuttlePath} was purchased at {ToPrettyString(stationUid)} for {price:f2}");
         //can do TryFTLDock later instead if we need to keep the shipyard map paused
-        _shuttle.TryFTLDock(shuttleGrid.Value, shuttleComponent, targetGrid.Value, maxShuttleDocks: 9); // CS: Add maxShuttleDocks, aka, how many airlocks should we check against, tops?
+        _shuttle.TryFTLDock(shuttleGrid.Value, shuttleComponent, targetGrid.Value, maxShuttleDocks: 9); // Coyote: Add maxShuttleDocks, aka, how many airlocks should we check against, tops?
         shuttleEntityUid = shuttleGrid;
         return true;
     }

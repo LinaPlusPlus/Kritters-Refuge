@@ -9,7 +9,7 @@
   categories: [ DoNotMap ]
   components:
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 60 # CS: 30<60
+    rechargeCooldown: 60 # Coyote: 30<60
     rechargeSound:
       path: /Audio/Items/pen_click.ogg
   - type: BasicEntityAmmoProvider
@@ -43,7 +43,7 @@
   categories: [ DoNotMap ]
   components:
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 60 # CS: 30<60
+    rechargeCooldown: 60 # Coyote: 30<60
     rechargeSound:
       path: /Audio/Items/pen_click.ogg
   - type: BasicEntityAmmoProvider
@@ -92,7 +92,7 @@
       path: /Audio/Items/hiss.ogg
     clumsyProof: true
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 40 # CS: 30<40
+    rechargeCooldown: 40 # Coyote: 30<40
     rechargeSound:
       path: /Audio/Items/pen_click.ogg
   - type: BasicEntityAmmoProvider

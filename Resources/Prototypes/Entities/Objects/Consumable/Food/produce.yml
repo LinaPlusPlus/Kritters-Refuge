@@ -1709,7 +1709,7 @@
       food:
         maxVol: 20
         reagents:
-        - ReagentId: Tricordrazine # CS: Change: Omni to Tricord
+        - ReagentId: Tricordrazine # Coyote: Change: Omni to Tricord
           Quantity: 3
         - ReagentId: SpaceDrugs
           Quantity: 5
@@ -2821,7 +2821,7 @@
     tags:
     - Fruit
     - Slice
-    - Aphrodisiac # CS: - Add aphrodisiac Tag, cause I like redundancy
-  - type: AphroLacedVisibility # CS: - Add laced component
+    - Aphrodisiac # Coyote: - Add aphrodisiac Tag, cause I like redundancy
+  - type: AphroLacedVisibility # Coyote: - Add laced component
     solution: food
     laced: true

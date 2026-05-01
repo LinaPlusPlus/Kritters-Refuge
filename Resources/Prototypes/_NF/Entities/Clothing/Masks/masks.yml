@@ -1,7 +1,7 @@
 - type: entity
   id: ClothingMaskArcadia
   name: arcadia battle mask
-  parent: ClothingMaskGasExplorer # CS: Removed contraband level and contraband clothes. It inherits a basic explorer gas mask, why should it be contra?
+  parent: ClothingMaskGasExplorer # Coyote: Removed contraband level and contraband clothes. It inherits a basic explorer gas mask, why should it be contra?
   description: A close-fitting high tech mask designed by Arcadia Industries for spacefaring operators.
   components:
   - type: Sprite

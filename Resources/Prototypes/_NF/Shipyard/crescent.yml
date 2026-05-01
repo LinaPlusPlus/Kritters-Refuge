@@ -11,9 +11,9 @@
 - type: vessel
   id: Crescent
   parent: BaseVessel
-  name: LL5 Crescent # CS: changed name to include license level
+  name: LL5 Crescent # Coyote: changed name to include license level
   description: The Crescent, named for its exterior shape, is a vessel focused on providing service, medical aide, and scientific breakthroughs for smaller vessels.
-  price: 8000000 # 260,000 + 15% # CS: 261704 * (3.5) ^= 1,000,000 (915,964)
+  price: 8000000 # 260,000 + 15% # Coyote: 261704 * (3.5) ^= 1,000,000 (915,964)
   category: Large
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/crescent.yml

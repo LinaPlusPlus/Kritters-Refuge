@@ -3,7 +3,7 @@
   bodyPart: Eyes
   markingCategory: Overlay
   speciesRestriction: [Dwarf, Human, Arachnid, Goblin, Felinid, Oni, Vulpkanin, Rodentia, Rodentia, Feroxi, Tajaran] # Delta V - Felinid, Oni, Vulpkanin, Rodentia, EE - Tajaran
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -18,7 +18,7 @@
   bodyPart: Eyes
   markingCategory: Overlay
   speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, Goblin, Felinid, Oni, Vulpkanin, Rodentia, Rodentia, Feroxi, Tajaran] # Delta V - Felinid, Oni, Vulpkanin, Rodentia, EE - Tajaran
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -33,7 +33,7 @@
   bodyPart: Eyes
   markingCategory: Overlay
   speciesRestriction: [Dwarf, Human, Arachnid, Goblin, Felinid, Oni, Vulpkanin, Rodentia, Rodentia, Feroxi, Tajaran] # Delta V - Felinid, Oni, Vulpkanin, Rodentia, EE - Tajaran
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -48,7 +48,7 @@
   bodyPart: Eyes
   markingCategory: Overlay
   speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, Goblin, Felinid, Oni, Vulpkanin, Rodentia, Rodentia, Feroxi, Tajaran] # Delta V - Felinid, Oni, Vulpkanin, Rodentia, EE - Tajaran
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -63,7 +63,7 @@
   bodyPart: Eyes
   markingCategory: Overlay
   speciesRestriction: [Dwarf, Human, Arachnid, Goblin, Felinid, Oni, Harpy, Vulpkanin, Rodentia, Rodentia, Feroxi, Tajaran] # Delta V - Felinid, Oni, Harpy, Vulpkanin, Rodentia, EE - Tajaran
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -78,7 +78,7 @@
   bodyPart: Chest
   markingCategory: Overlay
   speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, Goblin, Felinid, Oni, Vulpkanin, Rodentia, Rodentia, Feroxi, Tajaran] # Delta V - Felinid, Oni, Vulpkanin, Rodentia, EE - Tajaran
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -93,7 +93,7 @@
   bodyPart: Chest
   markingCategory: Overlay
   speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, Goblin, Felinid, Oni, Vulpkanin, Rodentia, Rodentia, Feroxi, Tajaran] # Delta V - Felinid, Oni, Vulpkanin, Rodentia, EE - Tajaran
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -108,7 +108,7 @@
   bodyPart: RArm
   markingCategory: Overlay
   speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, Goblin, SlimePerson, Felinid, Oni, Vulpkanin, Rodentia, Rodentia, Feroxi, Tajaran] # Delta V - Felinid, Oni, Vulpkanin, Rodentia, EE - Tajaran
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -123,7 +123,7 @@
   bodyPart: RArm, RHand
   markingCategory: Overlay
   speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, Goblin, SlimePerson, Felinid, Oni, Vulpkanin, Rodentia, Rodentia, Feroxi, Tajaran] # Delta V - Felinid, Oni, Vulpkanin, Rodentia, EE - Tajaran
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -138,7 +138,7 @@
   bodyPart: LArm, LHand
   markingCategory: Overlay
   speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, Goblin, Felinid, Oni, Vulpkanin, Rodentia, Rodentia, Feroxi, Tajaran] # Delta V - Felinid, Oni, Vulpkanin, Rodentia, EE - Tajaran
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -153,7 +153,7 @@
   bodyPart: LFoot
   markingCategory: Overlay
   speciesRestriction: [Dwarf, Human, Arachnid, Goblin, Felinid, Oni, Vulpkanin, Rodentia, Rodentia, Feroxi, Tajaran] # Delta V - Felinid, Oni, Vulpkanin, Rodentia, EE - Tajaran
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -168,7 +168,7 @@
   bodyPart: LLeg
   markingCategory: Overlay
   speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, Goblin, Felinid, Oni, Vulpkanin, Rodentia, Rodentia, Feroxi, Tajaran] # Delta V - Felinid, Oni, Vulpkanin, Rodentia, EE - Tajaran
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -183,7 +183,7 @@
   bodyPart: RLeg
   markingCategory: Overlay
   speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, Goblin, Felinid, Oni, Vulpkanin, Rodentia, Rodentia, Feroxi, Tajaran] # Delta V - Felinid, Oni, Vulpkanin, Rodentia, EE - Tajaran
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -198,7 +198,7 @@
   bodyPart: RFoot
   markingCategory: Overlay
   speciesRestriction: [Dwarf, Human, Arachnid, Goblin, Felinid, Oni, Vulpkanin, Rodentia, Rodentia, Feroxi, Tajaran] # Delta V - Felinid, Oni, Vulpkanin, Rodentia, EE - Tajaran
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -213,7 +213,7 @@
   bodyPart: RHand
   markingCategory: Overlay
   speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, SlimePerson, Goblin, Felinid, Oni, Vulpkanin, Rodentia, Rodentia, Feroxi, Tajaran] # Delta V - Felinid, Oni, Vulpkanin, Rodentia, EE - Tajaran
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -228,7 +228,7 @@
   bodyPart: LHand
   markingCategory: Overlay
   speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, SlimePerson, Goblin, Felinid, Oni, Vulpkanin, Rodentia, Rodentia, Feroxi, Tajaran] # Delta V - Felinid, Oni, Vulpkanin, Rodentia, EE - Tajaran
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -243,7 +243,7 @@
   bodyPart: Head
   markingCategory: Overlay
   speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, Moth, Goblin, Sheleg, Felinid, Oni, Vulpkanin, Rodentia, Chitinid] # Frontier - added Goblin and afterwards
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -259,7 +259,7 @@
   bodyPart: Eyes
   markingCategory: Overlay
   speciesRestriction: [Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -274,7 +274,7 @@
   bodyPart: Eyes
   markingCategory: Overlay
   speciesRestriction: [Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -289,7 +289,7 @@
   bodyPart: RFoot
   markingCategory: Overlay
   speciesRestriction: [Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -304,7 +304,7 @@
   bodyPart: LFoot
   markingCategory: Overlay
   speciesRestriction: [Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -319,7 +319,7 @@
   bodyPart: Eyes
   markingCategory: Overlay
   speciesRestriction: [Reptilian]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -335,7 +335,7 @@
   bodyPart: Eyes
   markingCategory: Overlay
   speciesRestriction: [Moth, Chitinid] # Delta V - Chitinid
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -350,7 +350,7 @@
   bodyPart: Chest
   markingCategory: Overlay
   speciesRestriction: [Moth, Chitinid] # Delta V - Chitinid
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -365,7 +365,7 @@
   bodyPart: Chest
   markingCategory: Overlay
   speciesRestriction: [Moth, Chitinid] # Delta V - Chitinid
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -380,7 +380,7 @@
   bodyPart: Eyes
   markingCategory: Overlay
   speciesRestriction: [Moth, Chitinid] # Delta V - Chitinid
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -395,7 +395,7 @@
   bodyPart: Eyes
   markingCategory: Overlay
   speciesRestriction: [Moth, Chitinid] # Delta V - Chitinid
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -410,7 +410,7 @@
   bodyPart: Eyes
   markingCategory: Overlay
   speciesRestriction: [Moth, Chitinid] # Delta V - Chitinid
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -425,7 +425,7 @@
   bodyPart: Eyes
   markingCategory: Overlay
   speciesRestriction: [Moth, Chitinid] # Delta V - Chitinid
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -440,7 +440,7 @@
   bodyPart: RArm
   markingCategory: Overlay
   speciesRestriction: [Moth, Chitinid] # Delta V - Chitinid
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -455,7 +455,7 @@
   bodyPart: LArm
   markingCategory: Overlay
   speciesRestriction: [Moth, Chitinid] # Delta V - Chitinid
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -470,7 +470,7 @@
   bodyPart: RLeg
   markingCategory: Overlay
   speciesRestriction: [Moth, Chitinid] # Delta V - Chitinid
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -485,7 +485,7 @@
   bodyPart: LLeg
   markingCategory: Overlay
   speciesRestriction: [Moth, Chitinid] # Delta V - Chitinid
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -500,7 +500,7 @@
   bodyPart: RFoot
   markingCategory: Overlay
   speciesRestriction: [Moth, Chitinid] # Delta V - Chitinid
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -515,7 +515,7 @@
   bodyPart: LFoot
   markingCategory: Overlay
   speciesRestriction: [Moth, Chitinid] # Delta V - Chitinid
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:

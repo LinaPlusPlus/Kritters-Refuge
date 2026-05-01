@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: LL2 Spectre # set as LL2 until someone gets it updated. Priced as being midline.
   description: A large, attractive but dated vessel with a pure focus on research and development. It is capable of generating anomalies.
-  price: 135000 # 93186 0.2 111823.2 # CS: 99136 * (1.35) ^= 135,000 (133,833.6)
+  price: 135000 # 93186 0.2 111823.2 # Coyote: 99136 * (1.35) ^= 135,000 (133,833.6)
   category: Large
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/spectre.yml

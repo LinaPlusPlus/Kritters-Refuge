@@ -154,7 +154,7 @@
   layers:
   - !type:ExteriorDunGen
     proto: NFVirologyLab
-  # - !type:EntityTableDunGen # CS: remove start: Remove MOST of the floor clutter to try and save on lag
+  # - !type:EntityTableDunGen # Coyote: remove start: Remove MOST of the floor clutter to try and save on lag
     # minCount: 25
     # maxCount: 40
     # table: !type:NestedSelector
@@ -177,7 +177,7 @@
     # maxCount: 25
     # table: !type:NestedSelector
       # tableId: SalvageEquipmentSpawnerCommon
-    # perDungeon: true # CS: remove end: Remove MOST of the floor clutter to try and save on lag
+    # perDungeon: true # Coyote: remove end: Remove MOST of the floor clutter to try and save on lag
   - !type:EntityTableDunGen
     minCount: 15
     maxCount: 20

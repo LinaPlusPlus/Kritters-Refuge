@@ -32,5 +32,5 @@
     whitelist:
       components:
       - MachinePart
-  - type: StaticPrice # CS
+  - type: StaticPrice # Coyote
     price: 25

@@ -151,7 +151,7 @@
 
 #arcadiawear headset
 - type: entity
-  parent: ClothingHeadsetAlt # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent # CS: Removed BaseC3SyndicateContraband and ContrabandClothing
+  parent: ClothingHeadsetAlt # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent # Coyote: Removed BaseC3SyndicateContraband and ContrabandClothing
   id: ClothingHeadsetAltArcadia
   name: arcadia over-ear headset
   description: A dashing and attractive headset.

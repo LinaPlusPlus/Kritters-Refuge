@@ -169,7 +169,7 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
         if (proto.BaseSprite != null)
         {
             SpriteSpecifier appropriateSprite = proto.BaseSprite;
-            // CS: add support for cute digitigrade legs
+            // Coyote: add support for cute digitigrade legs
             if (component.LegStyle != HumanoidLegStyle.Plantigrade
                 && proto.AltSprites.Count > 0)
             {
@@ -197,7 +197,7 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
                 }
                 // shader will be appliesed lader
             }
-            // End CS
+            // Coyote End
             sprite.LayerSetSprite(layerIndex, appropriateSprite);
         }
     }
@@ -377,7 +377,7 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
                 humanoid.PermanentlyHidden.Add(HumanoidVisualLayers.UndergarmentBottom);
                 humanoid.PermanentlyHidden.Add(HumanoidVisualLayers.UndergarmentTop);
             }
-            // _CS Start
+            // Coyote Start
             if (!ProfilePreviewSettings.ShowGenitals)
             {
                 humanoid.PermanentlyHidden.Add(HumanoidVisualLayers.Genital);
@@ -389,7 +389,7 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
                     humanoid.HiddenMarkings.Remove(genitalMarking.MarkingId);
                 }
             }
-            // _CS End
+            // Coyote End
         }
 
         UpdateSprite(uid, humanoid, Comp<SpriteComponent>(uid));
@@ -407,11 +407,11 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
         // var applyUndergarmentTop = censorNudity;
         // var applyUndergarmentBottom = censorNudity;
 
-        // _CS Start
+        // Coyote Start
         var facingDirection = sprite.EnableDirectionOverride
             ? sprite.DirectionOverride
             : Transform(uid).LocalRotation.GetCardinalDir();
-        // _CS End
+        // Coyote End
 
         foreach (List<Marking> markingList in humanoid.MarkingSet.Markings.Values)
         {
@@ -432,10 +432,10 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
                     newMarking.Visible,
                     humanoid,
                     sprite,
-                    // _CS Start
+                    // Coyote Start
                     newMarking.MarkingScale,
                     newMarking.GetOffset(facingDirection));
-                    // _CS End
+                    // Coyote End
             }
         }
 
@@ -541,14 +541,14 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
         bool visible,
         HumanoidAppearanceComponent humanoid,
         SpriteComponent sprite,
-        // _CS Start
+        // Coyote Start
         float scale = 1.0f,
         Vector2? offset = null)
-        // _CS End
+        // Coyote End
     {
-        // _CS Start
+        // Coyote Start
         var markingOffset = offset ?? Vector2.Zero;
-        // _CS End
+        // Coyote End
         // FLOOF ADD START
         // make a handy dict of filename -> colors
         // cus we might need to access it by filename to link
@@ -666,10 +666,10 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
             }
             // impstation edit end
             sprite.LayerSetVisible(layerId, visible);
-            // _CS Start
+            // Coyote Start
             sprite.LayerSetScale(layerId, new Vector2(scale, scale));
             sprite.LayerSetOffset(layerId, markingOffset);
-            // _CS End
+            // Coyote End
 
             if (!visible || setting == null) // this is kinda implied
             {
@@ -713,10 +713,10 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
                 sprite.LayerSetShader(glowLayerId, "unshaded");
                 sprite.LayerSetVisible(glowLayerId, visible);
                 sprite.LayerSetColor(glowLayerId, color.WithAlpha(glowAlpha));
-                // _CS Start
+                // Coyote Start
                 sprite.LayerSetScale(glowLayerId, new Vector2(scale, scale));
                 sprite.LayerSetOffset(glowLayerId, markingOffset);
-                // _CS End
+                // Coyote End
                 humanoid.ClientElderMarkings.Add(glowLayerId);
             }
             else if (sprite.LayerMapTryGet(glowLayerId, out var glowIndex))
@@ -821,18 +821,18 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
 
         foreach (var markingList in ent.Comp.MarkingSet.Markings.Values)
         {
-            // _CS Start
+            // Coyote Start
             var facingDirection = sprite.EnableDirectionOverride
                 ? sprite.DirectionOverride
                 : Transform(ent).LocalRotation.GetCardinalDir();
-            // _CS End
+            // Coyote End
             foreach (var marking in markingList)
             {
                 if (_markingManager.TryGetMarking(marking, out var markingPrototype) && markingPrototype.BodyPart == layer)
                 {
-                    // _CS Start
+                    // Coyote Start
                     ApplyMarking(markingPrototype, marking.MarkingColors, marking.MarkingGlow, marking.Visible, ent, sprite, marking.MarkingScale, marking.GetOffset(facingDirection));
-                    // _CS End
+                    // Coyote End
                 }
             }
         }

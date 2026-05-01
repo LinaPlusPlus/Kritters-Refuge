@@ -1,6 +1,6 @@
 using Robust.Shared.Player;
-using Robust.Shared.Prototypes; // CS
-using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype.List; // CS
+using Robust.Shared.Prototypes; // Coyote
+using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype.List; // Coyote
 
 namespace Content.Server.Arcade.BlockGame;
 
@@ -22,7 +22,7 @@ public sealed partial class BlockGameArcadeComponent : Component
     /// </summary>
     public readonly List<EntityUid> Spectators = new();
 
-    // CS
+    // Coyote
 
     /// <summary>
     /// The prototypes that can be dispensed as a reward for winning the game.
@@ -31,5 +31,5 @@ public sealed partial class BlockGameArcadeComponent : Component
     [DataField("possibleRewards", customTypeSerializer: typeof(PrototypeIdListSerializer<EntityPrototype>))]
     public List<string> PossibleRewards = new();
 
-    // End CS
+    // Coyote End
 }

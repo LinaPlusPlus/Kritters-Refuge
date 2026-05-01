@@ -1,7 +1,7 @@
 - type: entity
   parent: BasePDA
   id: SmugglerPDA
-  name: Pilot PDA # CS: pilot PDA
+  name: Pilot PDA # Coyote: pilot PDA
   description: This PDA smells like thruster exhaust fumes.
   suffix: Chameleon
   components:

@@ -18,7 +18,7 @@
   parent: [EncryptionKey, RecyclableItemDeviceTiny] # Frontier: added RecyclableItemDeviceTiny
   id: EncryptionKeyCommon
   name: broadband encryption key
-  description: An encryption key for the broadband channel. # Limited to a 10,000 meters range. # CS: increase range 3000 => 10000
+  description: An encryption key for the broadband channel. # Limited to a 10,000 meters range. # Coyote: increase range 3000 => 10000
   components:
   - type: EncryptionKey
     channels:
@@ -203,7 +203,7 @@
     - state: robotics_label
 
 - type: entity
-  parent: [ EncryptionKey, NotContraband ] # Frontier: BaseSecurityLawyerContraband<BaseC2ContrabandUnredeemable # CS: BaseC2ContrabandUnredeemable -> BaseC4ContrabandUnredeemable
+  parent: [ EncryptionKey, NotContraband ] # Frontier: BaseSecurityLawyerContraband<BaseC2ContrabandUnredeemable # Coyote: BaseC2ContrabandUnredeemable -> BaseC4ContrabandUnredeemable
   id: EncryptionKeySecurity
   name: security encryption key
   categories: [ DoNotMap ] # Frontier
@@ -288,7 +288,7 @@
     - state: ai_label
 
 - type: entity
-  parent: [EncryptionKey, NotContraband] # Frontier: added BaseC3Contraband # CS: BaseC3Contraband -> BaseC3MetaPirate
+  parent: [EncryptionKey, NotContraband] # Frontier: added BaseC3Contraband # Coyote: BaseC3Contraband -> BaseC3MetaPirate
   id: EncryptionKeyFreelance
   name: freelancer encryption key
   description: An encryption key used by freelancers, who may or may not have an affiliation. It looks like it's worn out.

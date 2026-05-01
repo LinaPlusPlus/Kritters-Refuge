@@ -24,7 +24,7 @@
     receiveFrequencyId: BasicDevice
   - type: WirelessNetworkConnection
     range: 15
-  - type: PhysicalComposition # CS
+  - type: PhysicalComposition # Coyote
     materialComposition:
       Steel: 50
     chemicalComposition:

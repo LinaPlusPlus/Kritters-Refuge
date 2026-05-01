@@ -1,6 +1,6 @@
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: RobotAntennaTv
   bodyPart: HeadTop
   markingCategory: HeadTop
@@ -10,7 +10,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: RobotAntennaTesla
   bodyPart: HeadTop
   markingCategory: HeadTop
@@ -19,7 +19,7 @@
       state: ipc_antenna_tesla
 
 # - type: marking
-#   kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#   kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  speciesRestriction: [IPC]
 #   id: RobotAntennaLightb
 #   bodyPart: HeadTop
@@ -29,7 +29,7 @@
 #       state: ipc_antenna_lightb
 
 # - type: marking
-#   kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#   kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  speciesRestriction: [IPC]
 #   id: RobotAntennaLight
 #   bodyPart: HeadTop
@@ -40,7 +40,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: RobotAntennaCyberhead
   bodyPart: HeadTop
   markingCategory: HeadTop
@@ -49,7 +49,7 @@
       state: ipc_antenna_cyberhead
 
 # - type: marking
-#   kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#   kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  speciesRestriction: [IPC]
 #   id: RobotAntennaSidelights
 #   bodyPart: HeadTop
@@ -60,7 +60,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: RobotAntennaAntlers
   bodyPart: HeadTop
   markingCategory: HeadTop
@@ -70,7 +70,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: RobotAntennaDroneeyes
   bodyPart: HeadTop
   markingCategory: HeadTop
@@ -80,7 +80,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: RobotAntennaCrowned
   bodyPart: HeadTop
   markingCategory: HeadTop
@@ -90,7 +90,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: RobotAntennaTowers
   bodyPart: HeadTop
   markingCategory: HeadTop

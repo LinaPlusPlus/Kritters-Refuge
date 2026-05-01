@@ -109,7 +109,7 @@
       whitelist:
         - Brigmedic
 
-- type: listing # CS: making it possible to get more dusters via sheriff, bailiff, and sergeants
+- type: listing # Coyote: making it possible to get more dusters via sheriff, bailiff, and sergeants
   id: UplinkSecurityDusterMachineboard
   name:  uplink-security-duster-machineboard-name
   description: uplink-security-duster-machineboard-desc

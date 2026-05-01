@@ -18,10 +18,10 @@
     wideAnimationRotation: 135
     swingLeft: true
     attackRate: 0.75
-    bluntStaminaDamageFactor: 2.40 # CS
+    bluntStaminaDamageFactor: 2.40 # Coyote
     damage:
       types:
-        Blunt: 14 # CS: 10<14
+        Blunt: 14 # Coyote: 10<14
         Slash: 5
         Structural: 10
     soundHit:
@@ -30,7 +30,7 @@
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Blunt: 19 # CS: 10<19
+        Blunt: 19 # Coyote: 10<19
         Structural: 40
   - type: Item
     size: Huge

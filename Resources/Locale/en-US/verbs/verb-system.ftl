@@ -32,7 +32,7 @@ verb-categories-adjust = Adjust
 # EE interaction system
 verb-categories-interaction = Interact
 
-# CS: - Reorganized context menus
+# Coyote: - Reorganized context menus
 verb-categories-examine-group = Examine
 verb-categories-actions = Actions
 verb-categories-interact-sfw = Interact SFW

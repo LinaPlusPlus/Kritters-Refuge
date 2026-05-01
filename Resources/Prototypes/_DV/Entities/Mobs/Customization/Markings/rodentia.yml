@@ -7,7 +7,7 @@
   markingCategory: HeadTop
   bodyPart: HeadTop
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type: !type:TattooColoring
@@ -22,7 +22,7 @@
   markingCategory: Tail
   bodyPart: Tail
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type: !type:TattooColoring
@@ -37,7 +37,7 @@
   markingCategory: HeadTop
   bodyPart: HeadTop
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/ear_markings.rsi
       state: bat
@@ -47,7 +47,7 @@
   markingCategory: HeadTop
   bodyPart: HeadTop
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/ear_markings.rsi
       state: bat_large
@@ -57,7 +57,7 @@
   markingCategory: HeadTop
   bodyPart: HeadTop
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/ear_markings.rsi
       state: hamster
@@ -69,7 +69,7 @@
   markingCategory: HeadTop
   bodyPart: HeadTop
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/ear_markings.rsi
       state: long
@@ -81,7 +81,7 @@
   markingCategory: HeadTop
   bodyPart: HeadTop
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/ear_markings.rsi
       state: mouse
@@ -93,7 +93,7 @@
   markingCategory: HeadTop
   bodyPart: HeadTop
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/ear_markings.rsi
       state: mouse_large
@@ -105,7 +105,7 @@
   markingCategory: HeadTop
   bodyPart: HeadTop
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/ear_markings.rsi
       state: none
@@ -115,7 +115,7 @@
   markingCategory: HeadTop
   bodyPart: HeadTop
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/ear_markings.rsi
       state: pointy
@@ -125,7 +125,7 @@
   markingCategory: HeadTop
   bodyPart: HeadTop
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/ear_markings.rsi
       state: rabbit
@@ -137,7 +137,7 @@
   markingCategory: HeadTop
   bodyPart: HeadTop
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/ear_markings.rsi
       state: small
@@ -149,7 +149,7 @@
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/snout_markings.rsi
       state: bat
@@ -161,7 +161,7 @@
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/snout_markings.rsi
       state: bat
@@ -175,7 +175,7 @@
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/snout_markings.rsi
       state: flat
@@ -187,7 +187,7 @@
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/snout_markings.rsi
       state: flat
@@ -201,7 +201,7 @@
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/snout_markings.rsi
       state: round
@@ -213,7 +213,7 @@
   markingCategory: Snout
   bodyPart: Snout
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/snout_markings.rsi
       state: round
@@ -229,7 +229,7 @@
   markingCategory: HeadSide
   bodyPart: HeadSide
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/cheek_markings.rsi
       state: cheeks
@@ -239,7 +239,7 @@
   markingCategory: HeadSide
   bodyPart: HeadSide
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/cheek_markings.rsi
       state: cheeks
@@ -251,7 +251,7 @@
   markingCategory: HeadSide
   bodyPart: HeadSide
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/cheek_markings.rsi
       state: fluff
@@ -261,7 +261,7 @@
   markingCategory: HeadSide
   bodyPart: HeadSide
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/cheek_markings.rsi
       state: fluff
@@ -273,7 +273,7 @@
   markingCategory: HeadSide
   bodyPart: HeadSide
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/cheek_markings.rsi
       state: fluff_alt
@@ -283,7 +283,7 @@
   markingCategory: HeadSide
   bodyPart: HeadSide
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/cheek_markings.rsi
       state: fluff_alt
@@ -295,7 +295,7 @@
   markingCategory: Head # for no-cost markings
   bodyPart: HeadTop # for layering
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/cheek_markings.rsi
       state: whiskers
@@ -309,7 +309,7 @@
   markingCategory: Tail
   bodyPart: Tail
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/tail_markings.rsi
       state: beaver
@@ -319,7 +319,7 @@
   markingCategory: Tail
   bodyPart: Tail
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/tail_markings.rsi
       state: hamster
@@ -329,7 +329,7 @@
   markingCategory: Tail
   bodyPart: Tail
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/tail_markings.rsi
       state: long
@@ -339,7 +339,7 @@
   markingCategory: Tail
   bodyPart: Tail
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/tail_markings.rsi
       state: long
@@ -351,7 +351,7 @@
   markingCategory: Tail
   bodyPart: Tail
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/tail_markings.rsi
       state: long
@@ -365,7 +365,7 @@
   markingCategory: Tail
   bodyPart: Tail
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/tail_markings.rsi
       state: mouse
@@ -375,7 +375,7 @@
   markingCategory: Tail
   bodyPart: Tail
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/tail_markings.rsi
       state: rabbit
@@ -385,7 +385,7 @@
   markingCategory: Tail
   bodyPart: Tail
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/tail_markings.rsi
       state: rabbit
@@ -397,7 +397,7 @@
   markingCategory: Tail
   bodyPart: Tail
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/tail_markings.rsi
       state: short
@@ -407,7 +407,7 @@
   markingCategory: Tail
   bodyPart: Tail
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/tail_markings.rsi
       state: squirrel
@@ -417,7 +417,7 @@
   markingCategory: Tail
   bodyPart: Tail
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/tail_markings.rsi
       state: squirrel
@@ -431,7 +431,7 @@
   markingCategory: Chest
   bodyPart: Chest
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sexRestriction: Male
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/body_markings.rsi
@@ -442,7 +442,7 @@
   markingCategory: Chest
   bodyPart: Chest
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sexRestriction: Female
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/body_markings.rsi
@@ -453,7 +453,7 @@
   markingCategory: Legs
   bodyPart: LLeg
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Species/Rodentia/parts.rsi
       state: l_leg
@@ -465,7 +465,7 @@
   markingCategory: Legs
   bodyPart: RLeg
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Species/Rodentia/parts.rsi
       state: r_leg
@@ -477,7 +477,7 @@
   markingCategory: Chest
   bodyPart: Chest
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/body_markings.rsi
       state: fawn
@@ -487,7 +487,7 @@
   markingCategory: Chest
   bodyPart: Chest
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sexRestriction: Male
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/body_markings.rsi
@@ -498,7 +498,7 @@
   markingCategory: Chest
   bodyPart: Chest
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sexRestriction: Female
   sprites:
     - sprite: _DV/Mobs/Customization/Rodentia/body_markings.rsi
@@ -511,7 +511,7 @@
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Species/Rodentia/parts.rsi
       state: head_m
@@ -523,7 +523,7 @@
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Species/Rodentia/parts.rsi
       state: head_m
@@ -539,7 +539,7 @@
   markingCategory: Head
   bodyPart: Head
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Species/Rodentia/parts.rsi
       state: head_m
@@ -551,7 +551,7 @@
   markingCategory: Arms
   bodyPart: LArm
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Species/Rodentia/parts.rsi
       state: l_arm
@@ -561,7 +561,7 @@
   markingCategory: Arms
   bodyPart: RArm
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Species/Rodentia/parts.rsi
       state: r_arm
@@ -573,7 +573,7 @@
   markingCategory: Legs
   bodyPart: LLeg
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Species/Rodentia/parts.rsi
       state: l_leg
@@ -583,7 +583,7 @@
   markingCategory: Legs
   bodyPart: RLeg
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Species/Rodentia/parts.rsi
       state: r_leg
@@ -595,7 +595,7 @@
   markingCategory: Arms
   bodyPart: LHand
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Species/Rodentia/parts.rsi
       state: l_hand
@@ -605,7 +605,7 @@
   markingCategory: Arms
   bodyPart: RHand
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Species/Rodentia/parts.rsi
       state: r_hand
@@ -617,7 +617,7 @@
   markingCategory: Legs
   bodyPart: LFoot
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Species/Rodentia/parts.rsi
       state: l_foot
@@ -627,7 +627,7 @@
   markingCategory: Legs
   bodyPart: RFoot
   speciesRestriction: [Rodentia]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _DV/Mobs/Species/Rodentia/parts.rsi
       state: r_foot

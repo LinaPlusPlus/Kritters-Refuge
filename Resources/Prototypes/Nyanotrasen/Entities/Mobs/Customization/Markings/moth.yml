@@ -5,7 +5,7 @@
   markingCategory: HeadTop
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -21,7 +21,7 @@
   markingCategory: HeadTop
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -37,7 +37,7 @@
   markingCategory: HeadTop
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -53,7 +53,7 @@
   markingCategory: HeadTop
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -69,7 +69,7 @@
   markingCategory: HeadTop
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -85,7 +85,7 @@
   markingCategory: HeadTop
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -101,7 +101,7 @@
   markingCategory: HeadTop
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -117,7 +117,7 @@
   markingCategory: HeadTop
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -133,7 +133,7 @@
   markingCategory: HeadTop
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -149,7 +149,7 @@
   markingCategory: HeadTop
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -165,7 +165,7 @@
   markingCategory: HeadTop
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -181,7 +181,7 @@
   markingCategory: HeadTop
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -197,7 +197,7 @@
   markingCategory: HeadTop
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -213,7 +213,7 @@
   markingCategory: HeadTop
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -229,7 +229,7 @@
   markingCategory: HeadTop
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -245,7 +245,7 @@
   markingCategory: HeadTop
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -261,7 +261,7 @@
   markingCategory: HeadTop
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -277,7 +277,7 @@
   markingCategory: HeadTop
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -293,7 +293,7 @@
   markingCategory: HeadTop
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -309,7 +309,7 @@
   markingCategory: HeadTop
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -325,7 +325,7 @@
   markingCategory: HeadTop
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -341,7 +341,7 @@
   markingCategory: HeadTop
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -358,7 +358,7 @@
   markingCategory: Tail
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -374,7 +374,7 @@
   markingCategory: Tail
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -390,7 +390,7 @@
   markingCategory: Tail
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -406,7 +406,7 @@
   markingCategory: Tail
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -422,7 +422,7 @@
   markingCategory: Tail
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -438,7 +438,7 @@
   markingCategory: Tail
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -454,7 +454,7 @@
   markingCategory: Tail
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -470,7 +470,7 @@
   markingCategory: Tail
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -486,7 +486,7 @@
   markingCategory: Tail
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -502,7 +502,7 @@
   markingCategory: Tail
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -518,7 +518,7 @@
   markingCategory: Tail
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -534,7 +534,7 @@
   markingCategory: Tail
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -550,7 +550,7 @@
   markingCategory: Tail
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -566,7 +566,7 @@
   markingCategory: Tail
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -582,7 +582,7 @@
   markingCategory: Tail
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -598,7 +598,7 @@
   markingCategory: Tail
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -614,7 +614,7 @@
   markingCategory: Tail
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -630,7 +630,7 @@
   markingCategory: Tail
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -646,7 +646,7 @@
   markingCategory: Tail
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -662,7 +662,7 @@
   markingCategory: Tail
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -678,7 +678,7 @@
   markingCategory: Tail
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -694,7 +694,7 @@
   markingCategory: Tail
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -710,7 +710,7 @@
   markingCategory: Tail
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -726,7 +726,7 @@
   markingCategory: Tail
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -742,7 +742,7 @@
   markingCategory: Tail
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -760,7 +760,7 @@
   markingCategory: Head
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -776,7 +776,7 @@
   markingCategory: Chest
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -792,7 +792,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -808,7 +808,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -824,7 +824,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -840,7 +840,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -858,7 +858,7 @@
   markingCategory: Head
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -874,7 +874,7 @@
   markingCategory: Chest
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -890,7 +890,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -906,7 +906,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -922,7 +922,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -938,7 +938,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -955,7 +955,7 @@
   markingCategory: Head
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -971,7 +971,7 @@
   markingCategory: Chest
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -987,7 +987,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1003,7 +1003,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1019,7 +1019,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1035,7 +1035,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1052,7 +1052,7 @@
   markingCategory: Head
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1068,7 +1068,7 @@
   markingCategory: Chest
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1084,7 +1084,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1100,7 +1100,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1116,7 +1116,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1132,7 +1132,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1149,7 +1149,7 @@
   markingCategory: Head
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1165,7 +1165,7 @@
   markingCategory: Chest
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1181,7 +1181,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1197,7 +1197,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1213,7 +1213,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1229,7 +1229,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1246,7 +1246,7 @@
   markingCategory: Head
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1262,7 +1262,7 @@
   markingCategory: Chest
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1278,7 +1278,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1294,7 +1294,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1310,7 +1310,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1326,7 +1326,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1343,7 +1343,7 @@
   markingCategory: Head
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1359,7 +1359,7 @@
   markingCategory: Chest
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1375,7 +1375,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1391,7 +1391,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1407,7 +1407,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1423,7 +1423,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1440,7 +1440,7 @@
   markingCategory: Head
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1456,7 +1456,7 @@
   markingCategory: Chest
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1472,7 +1472,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1488,7 +1488,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1504,7 +1504,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1520,7 +1520,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1537,7 +1537,7 @@
   markingCategory: Head
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1553,7 +1553,7 @@
   markingCategory: Chest
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1569,7 +1569,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1585,7 +1585,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1601,7 +1601,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1617,7 +1617,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1634,7 +1634,7 @@
   markingCategory: Head
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1650,7 +1650,7 @@
   markingCategory: Chest
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1666,7 +1666,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1682,7 +1682,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1698,7 +1698,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1714,7 +1714,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1731,7 +1731,7 @@
   markingCategory: Head
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1747,7 +1747,7 @@
   markingCategory: Chest
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1763,7 +1763,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1779,7 +1779,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1795,7 +1795,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1811,7 +1811,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1828,7 +1828,7 @@
   markingCategory: Head
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1844,7 +1844,7 @@
   markingCategory: Chest
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1860,7 +1860,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1876,7 +1876,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1892,7 +1892,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1908,7 +1908,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1925,7 +1925,7 @@
   markingCategory: Head
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1941,7 +1941,7 @@
   markingCategory: Chest
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1957,7 +1957,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1973,7 +1973,7 @@
   markingCategory: Arms
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -1989,7 +1989,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -2005,7 +2005,7 @@
   markingCategory: Legs
   forcedColoring: true
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:

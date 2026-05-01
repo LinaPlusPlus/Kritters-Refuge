@@ -44,10 +44,10 @@
       path: /Audio/Items/deconstruct.ogg
     openSound:
       path: /Audio/Items/deconstruct.ogg
-  - type: Damageable # CS
+  - type: Damageable # Coyote
     damageContainer: StructuralInorganic
     damageModifierSet: Metallic
-  - type: Destructible # CS
+  - type: Destructible # Coyote
     thresholds:
     - trigger:
         !type:DamageTrigger

@@ -54,21 +54,21 @@
 - type: markingPoints
   id: MobHarpyMarkingLimits
   points:
-    # CS: Allow unlimited markings
+    # Coyote: Allow unlimited markings
     Tail:
-      points: 999 # CS: Allow unlimited markings
+      points: 999 # Coyote: Allow unlimited markings
       required: true
       defaultMarkings: [ HarpyTailPhoenix ]
     HeadTop:
-      points: 999 # CS: Allow unlimited markings
+      points: 999 # Coyote: Allow unlimited markings
       required: true
       defaultMarkings: [ HarpyEarsDefault ]
     Chest:
-      points: 999 # CS: Allow unlimited markings
+      points: 999 # Coyote: Allow unlimited markings
       required: true
       defaultMarkings: [ HarpyChestDefault ]
     Arms:
-      points: 999 # CS: Allow unlimited markings
+      points: 999 # Coyote: Allow unlimited markings
       required: false
       defaultMarkings: [ HarpyWingDefaultHuescale ]
 

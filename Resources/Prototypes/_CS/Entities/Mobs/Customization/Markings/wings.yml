@@ -2,7 +2,7 @@
   id: DraconicWings
   bodyPart: Tail
   markingCategory: Tail
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/Mobs/Customization/wings.rsi
     state: body_dragonwings
@@ -13,7 +13,7 @@
   id: FairyWings
   bodyPart: Tail
   markingCategory: Tail
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/Mobs/Customization/wings.rsi
     state: fairy

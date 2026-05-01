@@ -13,7 +13,7 @@
       layers:
       - state: shower
       - state: shower_on
-        map: [ "enum.ToggleableVisuals.Layer" ] # CS following Wizden #35341 ToggleVisuals.Layer -> ToggleableVisuals.Layer
+        map: [ "enum.ToggleableVisuals.Layer" ] # Coyote following Wizden #35341 ToggleVisuals.Layer -> ToggleableVisuals.Layer
     - type: Appearance
     - type: Rotatable
     - type: Transform
@@ -58,8 +58,8 @@
               collection: MetalBreak
     - type: GenericVisualizer
       visuals:
-        enum.ToggleableVisuals.Enabled: # CS following Wizden #35341 ToggleVisuals.Toggled -> ToggleableVisuals.Enabled
-          enum.ToggleableVisuals.Layer: # CS following Wizden #35341 ToggleVisuals.Layer -> ToggleableVisuals.Layer
+        enum.ToggleableVisuals.Enabled: # Coyote following Wizden #35341 ToggleVisuals.Toggled -> ToggleableVisuals.Enabled
+          enum.ToggleableVisuals.Layer: # Coyote following Wizden #35341 ToggleVisuals.Layer -> ToggleableVisuals.Layer
             True: { visible: true }
             False: { visible: false }
 

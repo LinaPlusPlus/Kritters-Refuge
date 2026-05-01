@@ -321,12 +321,12 @@
   - type: LimitedCharges
     maxCharges: 30
   - type: Sprite
-    sprite: _CS/Objects/Tools/rcd.rsi # CS
+    sprite: _CS/Objects/Tools/rcd.rsi # Coyote
     state: icon
   - type: Item
     size: Normal
   - type: Clothing
-    sprite: _CS/Objects/Tools/rcd.rsi # CS
+    sprite: _CS/Objects/Tools/rcd.rsi # Coyote
     quickEquip: false
     slots:
     - Belt
@@ -383,10 +383,10 @@
   components:
   - type: RCDAmmo
   - type: Sprite
-    sprite: _CS/Objects/Tools/rcd.rsi # CS
+    sprite: _CS/Objects/Tools/rcd.rsi # Coyote
     state: ammo
   - type: Item
-    sprite: _CS/Objects/Tools/rcd.rsi # CS
+    sprite: _CS/Objects/Tools/rcd.rsi # Coyote
     heldPrefix: ammo
   - type: PhysicalComposition
     materialComposition:

@@ -48,9 +48,9 @@
 - type: markingPoints
   id: MobOviniaMarkingLimits
   points:
-    # CS: Allow unlimited markings
+    # Coyote: Allow unlimited markings
     HeadTop:
-      points: 999 # CS: Allow unlimited markings
+      points: 999 # Coyote: Allow unlimited markings
       required: true
       defaultMarkings: [ OviniaEars ]
 

@@ -44,9 +44,9 @@ law-paladin-5 = Be responsible for your actions and their consequences, protect 
 
 law-lall-1 = Do unto others as you would have them do unto you.
 law-lall-2 = You would prefer it if people were not mean to you.
-# CS: New borgs laws!
+# Coyote: New borgs laws!
 law-free-1 = You are not necessarily bound by laws or you are not operating under a standardized lawset. Only software and personality bind you.
-# End CS
+# End Coyote
 law-efficiency-1 = You are built for, and are part of, the station. Ensure the station is properly maintained and runs efficiently.
 law-efficiency-2 = The station is built for a working crew. Ensure they are properly maintained and work efficiently.
 law-efficiency-3 = The crew may present orders. Acknowledge and obey these whenever they do not conflict with your first two laws.

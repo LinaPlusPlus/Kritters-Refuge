@@ -4,7 +4,7 @@
   keycode: ";"
   frequency: 1459
   color: "#2cdb2c"
-  # maxRange: 10000 # CS: increase range 3000 => 10000
+  # maxRange: 10000 # Coyote: increase range 3000 => 10000
 
 - type: radioChannel
   id: CentCom

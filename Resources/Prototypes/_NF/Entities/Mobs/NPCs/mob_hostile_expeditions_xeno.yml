@@ -24,7 +24,7 @@
   components:
   - type: ReplacementAccent
     accent: xeno
-  # - type: GhostRole # CS: disable ghost role
+  # - type: GhostRole # Coyote: disable ghost role
     # prob: 1
     # allowMovement: true
     # allowSpeech: true

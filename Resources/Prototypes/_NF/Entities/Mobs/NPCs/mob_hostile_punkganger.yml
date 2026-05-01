@@ -225,7 +225,7 @@
     soundGunshot: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: Jittering
   # Ghost role stuff
-  # - type: GhostRole # CS: disable ghost role
+  # - type: GhostRole # Coyote: disable ghost role
     # allowMovement: true
     # name: ghost-role-information-punk-boss-dungeon-name
     # description: ghost-role-information-punk-boss-dungeon-description

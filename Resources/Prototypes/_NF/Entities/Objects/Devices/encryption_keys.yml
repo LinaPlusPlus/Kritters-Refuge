@@ -2,7 +2,7 @@
   parent: [EncryptionKey, RecyclableItemDeviceTiny]
   id: EncryptionKeyTraffic
   name: shortband encryption key
-  description: An encryption key for the shortband channel. Limited to a 750 meters range. # CS: increase range 500 => 750
+  description: An encryption key for the shortband channel. Limited to a 750 meters range. # Coyote: increase range 500 => 750
   components:
   - type: EncryptionKey
     channels:
@@ -17,7 +17,7 @@
     - state: stc_label
 
 - type: entity
-  parent: [EncryptionKey, BaseC4ContrabandUnredeemable] # CS: Add BaseC2ContrabandUnredeemable
+  parent: [EncryptionKey, BaseC4ContrabandUnredeemable] # Coyote: Add BaseC2ContrabandUnredeemable
   id: EncryptionKeyNfsd
   name: NFSD encryption key
   categories: [ DoNotMap ]

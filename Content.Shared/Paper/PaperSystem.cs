@@ -16,9 +16,9 @@ using Content.Shared.Timing; // Frontier
 using Content.Shared.Access.Systems; // Frontier
 using Content.Shared.Verbs; // Frontier
 using Content.Shared.Ghost; // Frontier
-using Content.Shared.IdentityManagement.Components; // CS
-using Content.Shared.Mind.Components; // CS
-using Content.Shared.Roles; // CS
+using Content.Shared.IdentityManagement.Components; // Coyote
+using Content.Shared.Mind.Components; // Coyote
+using Content.Shared.Roles; // Coyote
 
 namespace Content.Shared.Paper;
 
@@ -61,7 +61,7 @@ public sealed class PaperSystem : EntitySystem
         SubscribeLocalEvent<RandomPaperContentComponent, MapInitEvent>(OnRandomPaperContentMapInit);
 
         SubscribeLocalEvent<ActivateOnPaperOpenedComponent, PaperWriteEvent>(OnPaperWrite);
-        SubscribeLocalEvent<PaperComponent, PaperSignatureRequestMessage>(OnSignatureRequest); // CS
+        SubscribeLocalEvent<PaperComponent, PaperSignatureRequestMessage>(OnSignatureRequest); // Coyote
 
         _paperQuery = GetEntityQuery<PaperComponent>();
     }
@@ -494,7 +494,7 @@ public sealed class PaperSystem : EntitySystem
         _uiSystem.SetUiState(entity.Owner, PaperUiKey.Key, new PaperBoundUserInterfaceState(entity.Comp.Content, entity.Comp.StampedBy, entity.Comp.Mode));
     }
 
-    // CS: Port in fillable forms from RMC
+    // Coyote: Port in fillable forms from RMC
     private void OnSignatureRequest(Entity<PaperComponent> entity, ref PaperSignatureRequestMessage args)
     {
         var signature = GetPlayerSignature(args.Actor);
@@ -587,7 +587,7 @@ public sealed class PaperSystem : EntitySystem
                   .Replace("[signature]", string.Empty)
                   .Replace("[check]", "☐");
     }
-    // End CS
+    // Coyote End
 }
 
 /// <summary>

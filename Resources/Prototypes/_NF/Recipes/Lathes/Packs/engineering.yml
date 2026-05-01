@@ -49,7 +49,7 @@
   - PortableScrubberMachineCircuitBoard
   - ThermomachineFreezerMachineCircuitBoard
   - CondenserMachineCircuitBoard
-  - PowerComputerCircuitboard # CS
+  - PowerComputerCircuitboard # Coyote
 
 - type: latheRecipePack
   id: NFEngineeringMaterialsStatic

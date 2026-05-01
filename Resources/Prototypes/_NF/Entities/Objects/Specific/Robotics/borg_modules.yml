@@ -57,7 +57,7 @@
     icon: { sprite: _NF/Interface/Actions/actions_borg.rsi, state: jetpack-module }
   - type: Tag
     tags:
-    - BorgModuleJetpack # CS
+    - BorgModuleJetpack # Coyote
 
 - type: entity
   id: BorgModuleRCDShipyard

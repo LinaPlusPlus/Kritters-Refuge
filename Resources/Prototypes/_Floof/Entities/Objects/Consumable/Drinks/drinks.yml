@@ -1,14 +1,14 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkABLustineGlass
-  suffix: ABLustine # CS: Illegal character removal
+  suffix: ABLustine # Coyote: Illegal character removal
   components:
   - type: SolutionContainerManager
     solutions:
       drink:
         maxVol: 30
         reagents:
-        - ReagentId: ABLustine # CS: Illegal character removal
+        - ReagentId: ABLustine # Coyote: Illegal character removal
           Quantity: 30
   - type: Icon
     sprite: _Floof/Objects/Consumable/Drinks/ablustine.rsi

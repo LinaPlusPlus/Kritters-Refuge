@@ -220,7 +220,7 @@
     - id: ScalpelShiv
     - id: WelderMini
     - id: SawImprov
-    - id: NFWeaponShotgunSawn # CS
+    - id: NFWeaponShotgunSawn # Coyote
       weight: 0.05
 
 - type: entityTable
@@ -413,7 +413,7 @@
     - id: JugMercury
     - id: JugSilver
     - id: JugWeldingFuel
-    # CS: Doubled entries of 'useful' chemicals
+    # Coyote: Doubled entries of 'useful' chemicals
     - id: JugCarbon
     - id: JugSilicon
     - id: JugOxygen
@@ -593,8 +593,8 @@
       children:
       - id: MimePowersImplanter
       - id: BibleUserImplanter
-      #- id: DeathAcidifierImplanter # CS: it gibs you
-      #- id: MicroBombImplanter # CS: it gibs you
+      #- id: DeathAcidifierImplanter # Coyote: it gibs you
+      #- id: MicroBombImplanter # Coyote: it gibs you
       - id: FakeMindShieldImplanter
       - id: DeathRattleImplanter
       - id: EmpImplanter
@@ -607,7 +607,7 @@
       - id: StorageImplanter
       - id: ScramImplanter
       - id: RadioImplanter # Syndicate radio
-      #- id: MacroBombImplanter # CS. Removed because gib
+      #- id: MacroBombImplanter # Coyote. Removed because gib
     # Legendary
     - !type:GroupSelector
       weight: 0.001
@@ -683,8 +683,8 @@
       - id: ClothingBackpackDuffelGenetics
       - id: ClothingBackpackDuffelTrauma
       - id: ClothingBackpackDuffelChemistry
-      - id: MedicalPouch # CS
-      - id: CorpsmanMedicalPouch # CS
+      - id: MedicalPouch # Coyote
+      - id: CorpsmanMedicalPouch # Coyote
         weight: 0.1
     # Messenger bags
     - !type:GroupSelector
@@ -1041,9 +1041,9 @@
       - id: CrateChemistryVials
       - id: CrateChemistrySecureKitChemist
       - id: CrateEvaKitCmo
-      - id: MedicalTechFabFlatpack # CS
-      - id: VendingMachineMedicalFlatpack # CS
-      - id: VendingMachineChemicalsFlatpack # CS
+      - id: MedicalTechFabFlatpack # Coyote
+      - id: VendingMachineMedicalFlatpack # Coyote
+      - id: VendingMachineChemicalsFlatpack # Coyote
         weight: 0.01
     # Unique
     - !type:GroupSelector
@@ -1149,7 +1149,7 @@
       - id: VendingMachineRobotics
       - id: VendingMachineMedical
       - id: VendingMachineCiviMedPlus
-      - id: VendingMachineChemicals # CS
+      - id: VendingMachineChemicals # Coyote
     # Frame
     - !type:NestedSelector
       tableId: TableDungeonLootGeneralFrameMachine

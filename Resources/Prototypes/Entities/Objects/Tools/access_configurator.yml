@@ -55,8 +55,8 @@
       - HeadOfPersonnel # Frontier: reordered for "Station Representative"
       - StationTrafficController # Frontier
       # - Theatre # Frontier
-      - GenpopEnter # CS: so turnstiles can be fixed
-      - GenpopLeave # CS: so turnstiles can be fixed
+      - GenpopEnter # Coyote: so turnstiles can be fixed
+      - GenpopLeave # Coyote: so turnstiles can be fixed
       privilegedIdSlot:
         name: id-card-console-privileged-id
         ejectSound: /Audio/Machines/id_swipe.ogg

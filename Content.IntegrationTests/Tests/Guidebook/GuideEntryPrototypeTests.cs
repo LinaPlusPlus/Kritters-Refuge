@@ -14,7 +14,7 @@ namespace Content.IntegrationTests.Tests.Guidebook;
 [TestOf(typeof(DocumentParsingManager))]
 public sealed class GuideEntryPrototypeTests
 {
-    // CS: Hey you, stop it. Are you going to modify this file?
+    // Coyote: Hey you, stop it. Are you going to modify this file?
     // Only overwrite it with upstream's if we have a version of RT with https://github.com/space-wizards/RobustToolbox/pull/6443
     // Otherwise, do not touch this.
     [Test]

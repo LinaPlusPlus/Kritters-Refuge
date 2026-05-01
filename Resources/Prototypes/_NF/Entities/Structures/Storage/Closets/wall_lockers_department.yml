@@ -466,7 +466,7 @@
     fillBaseName: fillGeneric
 # endregion
 
-# region Upgradable # CS
+# region Upgradable # Coyote
 - type: entity
   id: LockerWallUpgradableBasic
   description: A simple lockable shelving unit for organized storage.

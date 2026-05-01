@@ -222,14 +222,14 @@
       tags: [] # ignore "WhitelistChameleon" tag
 
 - type: entity
-  parent: ClothingBackpackHolding # Frontier: ClothingBackpackDuffelNFClothingDuffel ## CS: NFClothingDuffel -> ClothingBackpackHolding
+  parent: ClothingBackpackHolding # Frontier: ClothingBackpackDuffelNFClothingDuffel ## Coyote: NFClothingDuffel -> ClothingBackpackHolding
   id: ClothingBackpackDuffelHolding
   name: duffelbag of holding
   description: A duffelbag that opens into a localized pocket of bluespace.
   components:
-  - type: ChameleonClothing # CS
+  - type: ChameleonClothing # Coyote
     slot: [back]
-    default: ClothingBackpackDuffelHolding # End CS
+    default: ClothingBackpackDuffelHolding # End Coyote
   - type: Sprite
     sprite: _NF/Clothing/Back/Duffels/holding.rsi # Frontier
     state: icon
@@ -248,13 +248,13 @@
       - state: inhand-right # Frontier
       - state: inhand-right-unlit # Frontier
         shader: unshaded # Frontier
-  # - type: Storage # CS: Reparenting [
+  # - type: Storage # Coyote: Reparenting [
   #   maxItemSize: Huge
   #   grid:
   #   - 0,0,7,7 # Frontier: Was 0,0,19,9
   # - type: ClothingSpeedModifier
   #   sprintModifier: 1 # makes its stats identical to other variants of bag of holding
-  # - type: HeldSpeedModifier ## CS: ]
+  # - type: HeldSpeedModifier ## Coyote: ]
   - type: Clothing # Frontier
     sprite: _NF/Clothing/Back/Duffels/holding.rsi # Frontier
     clothingVisuals: # Frontier

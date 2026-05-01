@@ -15,20 +15,20 @@
   minAge: 23
   youngAge: 103
   oldAge: 257
-  # CS: Small enough to fit in a bag
+  # Coyote: Small enough to fit in a bag
   minHeight: 0.6
   defaultHeight: 0.8
   maxHeight: 1.1
   minWidth: 0.55
   defaultWidth: 0.8
   maxWidth: 1.15
-  # End CS
-  # CS: Can't use customeName
-  # CS: Add kind for markings
+  # End Coyote
+  # Coyote: Can't use customeName
+  # Coyote: Add kind for markings
   kind:
     - BasicHumanlike
     - BasicFurry
-  # End CS
+  # End Coyote
 
 - type: speciesBaseSprites
   id: MobAvaliSprites
@@ -49,7 +49,7 @@
     RLeg: MobAvaliRLeg
     LFoot: MobAvaliLFoot
     RFoot: MobAvaliRFoot
-    # CS Start
+    # Coyote Start
     Special: MobHumanoidAnyMarking
     TailBehind: MobHumanoidAnyMarking
     TailOversuit: MobHumanoidAnyMarking
@@ -58,7 +58,7 @@
     Snout: MobHumanoidAnyMarking
     Genital: MobHumanoidAnyMarking
     RArmExtension: MobHumanoidAnyMarking # Adds Wing Slot, this will look weird as fuck
-    # End CS
+    # End Coyote
 
 - type: humanoidBaseSprite
   id: MobAvaliEyes
@@ -69,14 +69,14 @@
 - type: markingPoints
   id: MobAvaliMarkingLimits
   points:
-    # CS: Allow unlimited markings
+    # Coyote: Allow unlimited markings
     Tail:
       required: true
-      points: 999 # CS: Allow unlimited markings
+      points: 999 # Coyote: Allow unlimited markings
       defaultMarkings: [ AvaliTailBase ]
     HeadSide:
       required: true
-      points: 999 # CS: Allow unlimited markings
+      points: 999 # Coyote: Allow unlimited markings
       defaultMarkings: [ AvaliEarsBase ]
 
 - type: humanoidBaseSprite

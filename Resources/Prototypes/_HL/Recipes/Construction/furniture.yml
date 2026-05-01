@@ -17,7 +17,7 @@
   startNode: start
   targetNode: shower
   category: construction-category-furniture
-  # description: A shower, complete with bluespace water. # CS commented out due incompatibility, likely due to upstream codebase changes.
+  # description: A shower, complete with bluespace water. # Coyote commented out due incompatibility, likely due to upstream codebase changes.
   # icon:
     # sprite: _HL/Structures/Furniture/shower.rsi
     # state: shower

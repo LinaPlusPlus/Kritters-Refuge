@@ -51,8 +51,8 @@
       collection: MetalThud
 
 - type: entity
-  name: jaws of death # CS: added fun ( syndicate jaws of life < jaws of death )
-  parent: [JawsOfLife, BaseC1Contraband] # Frontier: BaseSyndicateContraband<BaseC4Contraband # CS: BaseC4Contraband < BaseC1Contraband
+  name: jaws of death # Coyote: added fun ( syndicate jaws of life < jaws of death )
+  parent: [JawsOfLife, BaseC1Contraband] # Frontier: BaseSyndicateContraband<BaseC4Contraband # Coyote: BaseC4Contraband < BaseC1Contraband
   id: SyndicateJawsOfLife
   description: Useful for entering the station or its departments.
   components:

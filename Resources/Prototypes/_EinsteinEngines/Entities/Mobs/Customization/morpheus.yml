@@ -3,7 +3,7 @@
   bodyPart: Head
   markingCategory: BaseHead
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -18,7 +18,7 @@
   bodyPart: Head
   markingCategory: BaseHead
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -33,7 +33,7 @@
   bodyPart: Chest
   markingCategory: BaseChest
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -48,7 +48,7 @@
   bodyPart: LArm
   markingCategory: BaseArms # BaseLArm
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -63,7 +63,7 @@
   bodyPart: LHand
   markingCategory: BaseArms # BaseLHand
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -78,7 +78,7 @@
   bodyPart: LLeg
   markingCategory: BaseLegs # BaseLLeg
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -94,7 +94,7 @@
   bodyPart: LFoot
   markingCategory: BaseLegs # BaseLFoot
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -111,7 +111,7 @@
   bodyPart: RArm
   markingCategory: BaseArms # BaseRArm
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -127,7 +127,7 @@
   bodyPart: RHand
   markingCategory: BaseArms # BaseRHand
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -142,7 +142,7 @@
   bodyPart: RLeg
   markingCategory: BaseLegs # BaseRLeg
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -158,7 +158,7 @@
   bodyPart: RFoot
   markingCategory: BaseLegs # BaseRFoot
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:

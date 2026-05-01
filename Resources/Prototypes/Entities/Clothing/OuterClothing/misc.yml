@@ -57,7 +57,7 @@
     sprite: Clothing/OuterClothing/Misc/chef.rsi
 
 - type: entity
-  parent: ClothingOuterStorageBase # CS: ClothingOuterbase < ClothingOuterStorageBase
+  parent: ClothingOuterStorageBase # Coyote: ClothingOuterbase < ClothingOuterStorageBase
   id: ClothingOuterHoodieBlack
   name: black hoodie
   description: Oh my God, it's a black hoodie!
@@ -68,7 +68,7 @@
     sprite: Clothing/OuterClothing/Misc/black_hoodie.rsi
 
 - type: entity
-  parent: ClothingOuterStorageBase # CS: ClothingOuterbase < ClothingOuterStorageBase
+  parent: ClothingOuterStorageBase # Coyote: ClothingOuterbase < ClothingOuterStorageBase
   id: ClothingOuterHoodieGrey
   name: grey hoodie
   description: A grey hoodie.
@@ -267,7 +267,7 @@
     sprite: Clothing/OuterClothing/Misc/hospitalgown.rsi
 
 - type: entity
-  parent: ClothingOuterStorageBase # CS: ClothingOuterbase < ClothingOuterStorageBase
+  parent: ClothingOuterStorageBase # Coyote: ClothingOuterbase < ClothingOuterStorageBase
   id: ClothingOuterFlannelRed
   name: red flannel jacket
   description: An old fashioned red flannel jacket for space autumn.
@@ -303,7 +303,7 @@
     coolingCoefficient: 0.3
 
 - type: entity
-  parent: ClothingOuterStorageBase # CS: ClothingOuterbase < ClothingOuterStorageBase
+  parent: ClothingOuterStorageBase # Coyote: ClothingOuterbase < ClothingOuterStorageBase
   id: ClothingOuterFlannelBlue
   name: blue flannel jacket
   description: An old fashioned blue flannel jacket for space autumn.
@@ -339,7 +339,7 @@
     coolingCoefficient: 0.3
 
 - type: entity
-  parent: ClothingOuterStorageBase # CS: ClothingOuterbase < ClothingOuterStorageBase
+  parent: ClothingOuterStorageBase # Coyote: ClothingOuterbase < ClothingOuterStorageBase
   id: ClothingOuterFlannelGreen
   name: green flannel jacket
   description: An old fashioned green flannel jacket for space autumn.

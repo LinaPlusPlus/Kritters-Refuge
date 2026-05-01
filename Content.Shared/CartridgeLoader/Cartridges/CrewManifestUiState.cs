@@ -6,12 +6,12 @@ namespace Content.Shared.CartridgeLoader.Cartridges;
 [Serializable, NetSerializable]
 public sealed class CrewManifestUiState : BoundUserInterfaceState
 {
-    // public string StationName; // CS: remove name
+    // public string StationName; // Coyote: remove name
     public CrewManifestEntries? Entries;
 
-    public CrewManifestUiState(CrewManifestEntries? entries) // CS: remove name
+    public CrewManifestUiState(CrewManifestEntries? entries) // Coyote: remove name
     {
-        // StationName = stationName;  // CS: remove name
+        // StationName = stationName;  // Coyote: remove name
         Entries = entries;
     }
 }

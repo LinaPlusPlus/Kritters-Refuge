@@ -67,12 +67,12 @@ namespace Content.IntegrationTests.Tests
             "/Maps/_NF/Shuttles/Nfsd/paladin.yml", // Contains EXP-2100g "Duster"
             "/Maps/_NF/Shuttles/Nfsd/rogue.yml", // Contains EXP-320g "Friendship"
             // End Frontier
-            // CS
+            // Coyote
             "/Maps/_NF/Shuttles/Nfsd/malinois.yml", // Contains EXP-2100g "Duster"
             "/Maps/_NF/Shuttles/Expedition/decadedove.yml", // Contains PTK-1500e "Matter Dematerializer"
             "/Maps/_CS/Shuttles/BlackMarket/Retrofitted/raven.yml", // Contains LSE-400c "Svalinn machine gun"
             "/Maps/_CS/Shuttles/BlackMarket/Ripper/bonesaw.yml", // Contains LSE-400c "Svalinn machine gun"
-            // End CS
+            // Coyote End
         };
 
         private static readonly string[] GameMaps = FrontierConstants.GameMapPrototypes; // Frontier: not inline constants

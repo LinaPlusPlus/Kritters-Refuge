@@ -1,6 +1,6 @@
 - type: entity
   name: prototype pulse rifle
-  parent: [ BaseC3Contraband, NFBaseWeaponEnergyRifleHitScanPulse, NFBaseWeaponFrameEnergyRifleNanotrasen ] # CS: Removed BaseWeaponBattery, BaseGunWieldable, added BaseC3Contraband, NFBaseWeaponEnergyRifleHitScanPulse, NFBaseWeaponFrameEnergyRifleNanotrasen
+  parent: [ BaseC3Contraband, NFBaseWeaponEnergyRifleHitScanPulse, NFBaseWeaponFrameEnergyRifleNanotrasen ] # Coyote: Removed BaseWeaponBattery, BaseGunWieldable, added BaseC3Contraband, NFBaseWeaponEnergyRifleHitScanPulse, NFBaseWeaponFrameEnergyRifleNanotrasen
   id: WeaponPrototypePulseRifle
   description: Some nutjob built this pulse rifle in their spess garage. It's quite power hungry. And why is it a lever action?!
   components:
@@ -22,7 +22,7 @@
     - Back
     - suitStorage
   - type: Gun
-    fireRate: 2.0 # CS: 58 DPS, a lot more reasonable for a hitscan weapon.
+    fireRate: 2.0 # Coyote: 58 DPS, a lot more reasonable for a hitscan weapon.
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
   - type: HitscanBatteryAmmoProvider

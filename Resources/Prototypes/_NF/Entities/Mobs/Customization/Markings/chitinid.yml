@@ -5,7 +5,7 @@
   markingCategory: HeadTop
   forcedColoring: true
   speciesRestriction: [Chitinid]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:

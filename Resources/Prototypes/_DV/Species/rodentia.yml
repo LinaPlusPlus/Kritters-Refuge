@@ -8,12 +8,12 @@
   defaultSkinTone: "#747474"
   markingLimits: MobRodentiaMarkingLimits
   dollPrototype: MobRodentiaDummy
-  # CS: Small enough to fit in a bag
+  # Coyote: Small enough to fit in a bag
   minHeight: 0.6
   defaultHeight: 0.8
   minWidth: 0.55
   defaultWidth: 0.8
-  # End CS
+  # End Coyote
   skinColoration: Hues
   maleFirstNames: NamesRodentiaMale
   femaleFirstNames: NamesRodentiaFemale
@@ -60,13 +60,13 @@
 - type: markingPoints
   id: MobRodentiaMarkingLimits
   points:
-    # CS: Allow unlimited markings
+    # Coyote: Allow unlimited markings
     Tail:
-      points: 999 # CS: Allow unlimited markings
+      points: 999 # Coyote: Allow unlimited markings
       required: true
       defaultMarkings: [ RodentiaTailDefault ]
     HeadTop:
-      points: 999 # CS: Allow unlimited markings
+      points: 999 # Coyote: Allow unlimited markings
       required: true
       defaultMarkings: [ RodentiaHeadTopEarDefault ]
 

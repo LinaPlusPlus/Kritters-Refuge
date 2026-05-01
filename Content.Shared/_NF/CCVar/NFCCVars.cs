@@ -285,7 +285,7 @@ public sealed class NFCCVars
     /// The period to run garbage collection at, in seconds.
     /// </summary>
     public static readonly CVarDef<int> GarbageCollectionPeriod =
-        CVarDef.Create("nf14.gc.period", 1800, CVar.SERVER | CVar.ARCHIVE); // CS: Instead of every 15 minutes, run every 30 minutes.
+        CVarDef.Create("nf14.gc.period", 1800, CVar.SERVER | CVar.ARCHIVE); // Coyote: Instead of every 15 minutes, run every 30 minutes.
 
     /// <summary>
     /// The number of entities to check per tick.
@@ -297,7 +297,7 @@ public sealed class NFCCVars
     /// The number of times an object must be seen as idle before being garbage collected.
     /// </summary>
     public static readonly CVarDef<int> GarbageCollectionTally =
-        CVarDef.Create("nf14.gc.idle_count", 4, CVar.SERVER | CVar.ARCHIVE); // CS: With the above change, this means an offender will be deleted in 2 hours.
+        CVarDef.Create("nf14.gc.idle_count", 4, CVar.SERVER | CVar.ARCHIVE); // Coyote: With the above change, this means an offender will be deleted in 2 hours.
 
     /*
      * Greeting

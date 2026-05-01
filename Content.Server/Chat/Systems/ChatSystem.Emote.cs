@@ -277,7 +277,7 @@ public partial class ChatSystem
         // if (!emote.Available)
         // {
         //     return false;
-        // } // CS SECTOR -- lemme squeak as a vulpkanin dammit
+        // } // Coyote SECTOR -- lemme squeak as a vulpkanin dammit
 
         return true;
     }

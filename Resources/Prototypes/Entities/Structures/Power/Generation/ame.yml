@@ -18,7 +18,7 @@
       visible: false
   - type: Physics
   - type: Fixtures
-    fixtures: # CS: Tweaked - Moved from wall->machine layer and mask.
+    fixtures: # Coyote: Tweaked - Moved from wall->machine layer and mask.
       fix1:
         shape:
           !type:PhysShapeAabb

@@ -6,7 +6,7 @@
   id: DigilegPawLegLeft
   bodyPart: LLeg
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     Paw-Left-FRONT-Leg: LLeg # LAYER
@@ -26,7 +26,7 @@
   id: DigilegPawFootLeft
   bodyPart: LFoot
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     Paw-Left-FRONT-Foot: LFoot # LAYER
@@ -46,7 +46,7 @@
   id: DigilegPawLegRight
   bodyPart: RLeg
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     Paw-Right-FRONT-Leg: RLeg # LAYER
@@ -66,7 +66,7 @@
   id: DigilegPawFootRight
   bodyPart: RFoot
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     Paw-Right-FRONT-Foot: RFoot # LAYER
@@ -87,7 +87,7 @@
   id: DigilegPawDarkLegLeft
   bodyPart: LLeg
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     PawDark-Left-FRONT-Leg: LLeg # LAYER
@@ -107,7 +107,7 @@
   id: DigilegPawDarkFootLeft
   bodyPart: LFoot
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     PawDark-Left-FRONT-Foot: LFoot # LAYER
@@ -127,7 +127,7 @@
   id: DigilegPawDarkLegRight
   bodyPart: RLeg
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     PawDark-Right-FRONT-Leg: RLeg # LAYER
@@ -147,7 +147,7 @@
   id: DigilegPawDarkFootRight
   bodyPart: RFoot
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     PawDark-Right-FRONT-Foot: RFoot # LAYER
@@ -168,7 +168,7 @@
   id: DigilegPawSlimeLegLeft
   bodyPart: LLeg
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     PawSlime-Left-FRONT-Leg: LLeg # LAYER
@@ -188,7 +188,7 @@
   id: DigilegPawSlimeFootLeft
   bodyPart: LFoot
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     PawSlime-Left-FRONT-Foot: LFoot # LAYER
@@ -208,7 +208,7 @@
   id: DigilegPawSlimeLegRight
   bodyPart: RLeg
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     PawSlime-Right-FRONT-Leg: RLeg # LAYER
@@ -228,7 +228,7 @@
   id: DigilegPawSlimeFootRight
   bodyPart: RFoot
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     PawSlime-Right-FRONT-Foot: RFoot # LAYER
@@ -250,7 +250,7 @@
   id: DigilegAvianLegLeft
   bodyPart: LLeg
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     Avian-Left-FRONT-Leg: LLeg # LAYER
@@ -270,7 +270,7 @@
   id: DigilegAvianFootLeft
   bodyPart: LFoot
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     Avian-Left-FRONT-Foot: LFoot # LAYER
@@ -290,7 +290,7 @@
   id: DigilegAvianLegRight
   bodyPart: RLeg
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     Avian-Right-FRONT-Leg: RLeg # LAYER
@@ -310,7 +310,7 @@
   id: DigilegAvianFootRight
   bodyPart: RFoot
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     Avian-Right-FRONT-Foot: RFoot # LAYER
@@ -331,7 +331,7 @@
   id: DigilegAvianDarkLegLeft
   bodyPart: LLeg
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     AvianDark-Left-FRONT-Leg: LLeg # LAYER
@@ -351,7 +351,7 @@
   id: DigilegAvianDarkFootLeft
   bodyPart: LFoot
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     AvianDark-Left-FRONT-Foot: LFoot # LAYER
@@ -371,7 +371,7 @@
   id: DigilegAvianDarkLegRight
   bodyPart: RLeg
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     AvianDark-Right-FRONT-Leg: RLeg # LAYER
@@ -391,7 +391,7 @@
   id: DigilegAvianDarkFootRight
   bodyPart: RFoot
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     AvianDark-Right-FRONT-Foot: RFoot # LAYER
@@ -412,7 +412,7 @@
   id: DigilegChickenLegLeft
   bodyPart: LLeg
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     ChickenDark-Left-FRONT-Leg: LLeg # LAYER
@@ -432,7 +432,7 @@
   id: DigilegChickenFootLeft
   bodyPart: LFoot
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     ChickenDark-Left-FRONT-Foot: LFoot # LAYER
@@ -452,7 +452,7 @@
   id: DigilegChickenLegRight
   bodyPart: RLeg
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     ChickenDark-Right-FRONT-Leg: RLeg # LAYER
@@ -472,7 +472,7 @@
   id: DigilegChickenFootRight
   bodyPart: RFoot
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     ChickenDark-Right-FRONT-Foot: RFoot # LAYER
@@ -493,7 +493,7 @@
   id: DigilegChickenSlimeLegLeft
   bodyPart: LLeg
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     ChickenSlime-Left-FRONT-Leg: LLeg # LAYER
@@ -513,7 +513,7 @@
   id: DigilegChickenSlimeFootLeft
   bodyPart: LFoot
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     ChickenSlime-Left-FRONT-Foot: LFoot # LAYER
@@ -533,7 +533,7 @@
   id: DigilegChickenSlimeLegRight
   bodyPart: RLeg
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     ChickenSlime-Right-FRONT-Leg: RLeg # LAYER
@@ -553,7 +553,7 @@
   id: DigilegChickenSlimeFootRight
   bodyPart: RFoot
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     ChickenSlime-Right-FRONT-Foot: RFoot # LAYER
@@ -575,7 +575,7 @@
   id: DigilegSynthlizLegLeft
   bodyPart: LLeg
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     SynthLiz-Left-FRONT-Leg: LLeg # LAYER
@@ -595,7 +595,7 @@
   id: DigilegSynthlizFootLeft
   bodyPart: LFoot
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     SynthLiz-Left-FRONT-Foot: LFoot # LAYER
@@ -615,7 +615,7 @@
   id: DigilegSynthlizLegRight
   bodyPart: RLeg
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     SynthLiz-Right-FRONT-Leg: RLeg # LAYER
@@ -635,7 +635,7 @@
   id: DigilegSynthlizFootRight
   bodyPart: RFoot
   markingCategory: BaseLegs
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   hidden: true
   layering:
     SynthLiz-Right-FRONT-Foot: RFoot # LAYER
@@ -660,7 +660,7 @@
   id: DigilegFurryTorsoMale
   bodyPart: Chest
   markingCategory: BaseChest
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/DigiLegsAndChests.rsi
     state: FurryChestMale
@@ -669,7 +669,7 @@
   id: DigilegFurryTorsoFemale
   bodyPart: Chest
   markingCategory: BaseChest
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/DigiLegsAndChests.rsi
     state: FurryChestFemale
@@ -679,7 +679,7 @@
   id: DigilegBirdTorsoMale
   bodyPart: Chest
   markingCategory: BaseChest
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/DigiLegsAndChests.rsi
     state: BirdChestMale
@@ -688,7 +688,7 @@
   id: DigilegBirdTorsoFemale
   bodyPart: Chest
   markingCategory: BaseChest
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/DigiLegsAndChests.rsi
     state: BirdChestFemale
@@ -698,7 +698,7 @@
   id: DigilegHumanTorsoMale
   bodyPart: Chest
   markingCategory: BaseChest
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/DigiLegsAndChests.rsi
     state: HumanChestMale
@@ -707,7 +707,7 @@
   id: DigilegHumanTorsoFemale
   bodyPart: Chest
   markingCategory: BaseChest
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/DigiLegsAndChests.rsi
     state: HumanChestFemale
@@ -717,7 +717,7 @@
   id: DigilegHumanTorsoMaleSkintoned
   bodyPart: Chest
   markingCategory: BaseChest
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/DigiLegsAndChests.rsi
     state: HumanChestMaleSkintoned
@@ -726,7 +726,7 @@
   id: DigilegHumanTorsoFemaleSkintoned
   bodyPart: Chest
   markingCategory: BaseChest
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/DigiLegsAndChests.rsi
     state: HumanChestFemaleSkintoned
@@ -736,7 +736,7 @@
   id: DigilegJellyTorsoMale
   bodyPart: Chest
   markingCategory: BaseChest
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/DigiLegsAndChests.rsi
     state: JellyChestMale
@@ -745,7 +745,7 @@
   id: DigilegJellyTorsoFemale
   bodyPart: Chest
   markingCategory: BaseChest
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/DigiLegsAndChests.rsi
     state: JellyChestFemale
@@ -755,7 +755,7 @@
   id: DigilegLizardTorsoMale
   bodyPart: Chest
   markingCategory: BaseChest
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/DigiLegsAndChests.rsi
     state: LizardChestMale
@@ -764,7 +764,7 @@
   id: DigilegLizardTorsoFemale
   bodyPart: Chest
   markingCategory: BaseChest
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/DigiLegsAndChests.rsi
     state: LizardChestFemale
@@ -774,7 +774,7 @@
   id: DigilegLumiTorsoMale
   bodyPart: Chest
   markingCategory: BaseChest
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/DigiLegsAndChests.rsi
     state: LumiChestMale
@@ -783,7 +783,7 @@
   id: DigilegLumiTorsoFemale
   bodyPart: Chest
   markingCategory: BaseChest
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/DigiLegsAndChests.rsi
     state: LumiChestFemale
@@ -793,7 +793,7 @@
   id: DigilegMothTorsoMale
   bodyPart: Chest
   markingCategory: BaseChest
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/DigiLegsAndChests.rsi
     state: MothChestMale
@@ -802,7 +802,7 @@
   id: DigilegMothTorsoFemale
   bodyPart: Chest
   markingCategory: BaseChest
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/DigiLegsAndChests.rsi
     state: MothChestFemale
@@ -812,7 +812,7 @@
   id: DigilegPlantTorsoMale
   bodyPart: Chest
   markingCategory: BaseChest
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/DigiLegsAndChests.rsi
     state: PlantChestMale
@@ -821,7 +821,7 @@
   id: DigilegPlantTorsoFemale
   bodyPart: Chest
   markingCategory: BaseChest
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/DigiLegsAndChests.rsi
     state: PlantChestFemale
@@ -831,7 +831,7 @@
   id: DigilegSharkTorsoMale
   bodyPart: Chest
   markingCategory: BaseChest
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/DigiLegsAndChests.rsi
     state: SharkChestMale
@@ -840,7 +840,7 @@
   id: DigilegSharkTorsoFemale
   bodyPart: Chest
   markingCategory: BaseChest
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/DigiLegsAndChests.rsi
     state: SharkChestFemale
@@ -850,7 +850,7 @@
   id: DigilegSlimeTorsoMale
   bodyPart: Chest
   markingCategory: BaseChest
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/DigiLegsAndChests.rsi
     state: SlimeChestMale
@@ -859,7 +859,7 @@
   id: DigilegSlimeTorsoFemale
   bodyPart: Chest
   markingCategory: BaseChest
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/DigiLegsAndChests.rsi
     state: SlimeChestFemale
@@ -869,7 +869,7 @@
   id: DigilegSynthlizTorsoMale
   bodyPart: Chest
   markingCategory: BaseChest
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/DigiLegsAndChests.rsi
     state: SynthlizChestMale
@@ -878,7 +878,7 @@
   id: DigilegSynthlizTorsoFemale
   bodyPart: Chest
   markingCategory: BaseChest
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _CS/DigiLegsAndChests.rsi
     state: SynthlizChestFemale

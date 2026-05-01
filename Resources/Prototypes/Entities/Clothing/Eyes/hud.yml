@@ -15,8 +15,8 @@
   components:
   - type: ShowHealthBars
     damageContainers:
-    - Biological # CS: Biological container as a base
-    - IPC # CS: Add IPC damage container
+    - Biological # Coyote: Biological container as a base
+    - IPC # Coyote: Add IPC damage container
   - type: ShowHealthIcons
 
 - type: entity
@@ -33,7 +33,7 @@
     damageContainers:
     - Inorganic
     - Silicon
-    - IPC # CS: Add IPC damage container
+    - IPC # Coyote: Add IPC damage container
 
 - type: entity
   parent: [ClothingEyesBase, ShowMedicalIcons]
@@ -184,7 +184,7 @@
     damageContainers:
     - Biological
     - Inorganic
-    - IPC # CS: Add IPC damage container
+    - IPC # Coyote: Add IPC damage container
   - type: ShowSyndicateIcons
 
 - type: entity
@@ -201,7 +201,7 @@
     damageContainers:
     - Biological
     - Inorganic
-    - IPC # CS: Add IPC damage container
+    - IPC # Coyote: Add IPC damage container
   - type: ShowHungerIcons
   - type: ShowThirstIcons
   - type: ShowSyndicateIcons

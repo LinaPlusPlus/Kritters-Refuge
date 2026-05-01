@@ -42,7 +42,7 @@
     - ReportingStatic # DeltaV
     - NFLightsColoredStatic
     - NFServiceArchetypeStatic
-    - CSPlumbingStatic # CS: showers, sinks, drains
+    - CSPlumbingStatic # Coyote: showers, sinks, drains
     - CSDonkcoServiceTechfabStatic
   - type: EmagLatheRecipes
     emagStaticPacks:
@@ -94,7 +94,7 @@
     - NFEngineeringMaterialsStatic
     - NFInflatablesStatic
     - NFEngineeringArchetypeStatic
-    - CSPlumbingStatic # CS: showers, sinks, drains
+    - CSPlumbingStatic # Coyote: showers, sinks, drains
     - CSEdisonEngineeringMachineBoardsStatic
     - CSEdisionEngineeringThrusterPack
     - CSEdisionEngineeringMachineMiscPack

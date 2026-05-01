@@ -9,7 +9,7 @@
   id: BaseMobSpecies
   abstract: true
   components:
-  - type: Wagging # CS: Wagging my tail :3
+  - type: Wagging # Coyote: Wagging my tail :3
   - type: Sprite
     layers:
     - map: [ "enum.HumanoidVisualLayers.TailBehind" ]
@@ -299,7 +299,7 @@
     alternateState: Standing
   - type: LayingDown
   - type: ModifyUndies  # FLOOF Add
-  - type: RoleplayIncentive  # CS: Add
+  - type: RoleplayIncentive  # Coyote: Add
 
 - type: entity
   save: false

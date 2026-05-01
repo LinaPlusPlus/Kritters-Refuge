@@ -37,17 +37,17 @@
 - type: startingGear
   id: SecurityGuardGear
   equipment:
-    eyes: ClothingEyesGlassesSecurity # CS: ClothingEyesGlassesSunglasses < ClothingEyesGlassesSecurity
+    eyes: ClothingEyesGlassesSecurity # Coyote: ClothingEyesGlassesSunglasses < ClothingEyesGlassesSecurity
     pocket1: NFWeaponPistolUniversalNfsdLessLethal
-    pocket2: CSMagazinePistol40 # CS: NFMagazineHighCapacityPistol35 < CSMagazinePistol40
+    pocket2: CSMagazinePistol40 # Coyote: NFMagazineHighCapacityPistol35 < CSMagazinePistol40
   storage:
     back:
     - EncryptionKeyService
     - EncryptionKeySecurity
     - EncryptionKeyNfsd
     - Flash
-    - CSMagazinePistol40 # CS: NFMagazineHighCapacityPistol35 < CSMagazinePistol40
-    - CSMagazinePistol40Rubber # CS: NFMagazineHighCapacityPistol35Rubber < CSMagazinePistol40Rubber
+    - CSMagazinePistol40 # Coyote: NFMagazineHighCapacityPistol35 < CSMagazinePistol40
+    - CSMagazinePistol40Rubber # Coyote: NFMagazineHighCapacityPistol35Rubber < CSMagazinePistol40Rubber
     - ShipVoucherFrontierGuard
 
 - type: chameleonOutfit

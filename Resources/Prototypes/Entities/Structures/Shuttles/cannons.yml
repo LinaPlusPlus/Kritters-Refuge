@@ -40,7 +40,7 @@
 # naming: LSE (Laser) + conventional power + suffix (c for PowerCage, e for wired energy) + Name
 # example: LSE-100e "Clown destroyer" (powered by the wiring, very weak)
 
-- type: entity # CS
+- type: entity # Coyote
   id: ShuttleGunSvalinnMachineGun
   parent: [ ShuttleGunBase, ConstructibleMachine, BaseC2Contraband ]
   name: LSE-400c "Svalinn machine gun"
@@ -94,10 +94,10 @@
             - PowerCell
             - PowerCellSmall
   - type: HitscanBatteryAmmoProvider
-    proto: NFRedHeavyLaser # CS: Swap to the heavy laser projectile
+    proto: NFRedHeavyLaser # Coyote: Swap to the heavy laser projectile
     fireCost: 50
 
-# CS
+# Coyote
 - type: entity
   id: CSShuttleGunChortMachineGun
   parent: [ ShuttleGunSvalinnMachineGun, BaseC3Contraband]
@@ -118,7 +118,7 @@
     proto: CSBulletRifle60MG # Frontier: use NF prefix
     fireCost: 50 # svalinn mag size but can't be upgraded, soooo.
 
-# End CS
+# End Coyote
 
 - type: entity
   id: ShuttleGunPerforator
@@ -293,9 +293,9 @@
 
 # ---- Other weapon ----
 
-- type: entity # CS
+- type: entity # Coyote
   id: ShuttleGunPirateCannonEmpty
-  parent: [ ShuttleGunBase, BaseC3Contraband ] # CS: Removed BaseC3ContrabandNoValue && BaseStructureDisableToolUse, Added BaseC3MetaPirate
+  parent: [ ShuttleGunBase, BaseC3Contraband ] # Coyote: Removed BaseC3ContrabandNoValue && BaseStructureDisableToolUse, Added BaseC3MetaPirate
   name: pirate ship cannon
   suffix: empty
   description: Kaboom!
@@ -333,8 +333,8 @@
     factions: # Frontier
     - NFPirate # Frontier
   - type: Rotatable # Frontier
-    rotateWhileAnchored: false # CS
-  # CS: DRM'd Cannons
+    rotateWhileAnchored: false # Coyote
+  # Coyote: DRM'd Cannons
   - type: ApcPowerReceiver
     powerLoad: 50
   - type: ExtensionCableReceiver
@@ -347,7 +347,7 @@
     lockOnClick: false
     unlockOnClick: false
 
-- type: entity # CS: Transferred to ShuttleGunPirateCannonEmpty so that there is an empty variant
+- type: entity # Coyote: Transferred to ShuttleGunPirateCannonEmpty so that there is an empty variant
   id: ShuttleGunPirateCannon
   parent: ShuttleGunPirateCannonEmpty
   suffix: loaded

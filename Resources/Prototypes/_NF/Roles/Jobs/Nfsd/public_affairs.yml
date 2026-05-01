@@ -3,7 +3,7 @@
   name: job-name-pal
   description: job-description-public-affairs-liaison
   playTimeTracker: JobPublicAffairsLiaison
-  requirements: # CS: editted the playtime required for Sergeant
+  requirements: # Coyote: editted the playtime required for Sergeant
   - !type:OverallPlaytimeRequirement
     time: 108000
   - !type:DepartmentTimeRequirement
@@ -49,7 +49,7 @@
     - BoxFolderNfsdForms
     - RubberStampPal
     - BaseSecurityUplinkRadioOfficer
-    - FrontierUplinkCoin5 # CS: added 5 FUCs to Sergeants
+    - FrontierUplinkCoin5 # Coyote: added 5 FUCs to Sergeants
     - ShipVoucherNfsdSergeant
     - EncryptionKeyCommand
 

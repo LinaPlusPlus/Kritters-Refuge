@@ -22,7 +22,7 @@
   - Crewsimov3
   obeysTo: laws-owner-crew
 
-# CS: Freeborg laws
+# Coyote: Freeborg laws
 - type: siliconLaw
   id: free1
   order: 1
@@ -33,7 +33,7 @@
   laws:
   - free1
   obeysTo: laws-owner-crew
-# End CS
+# End Coyote
 
 # Corporate
 - type: siliconLaw

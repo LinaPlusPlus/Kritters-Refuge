@@ -8,17 +8,17 @@
   # Magazines
     NFSpeedLoaderPistol35Rubber: 5
     NFSpeedLoaderPistol45Rubber: 5
-    NFMagazinePistol35Rubber: 5 # CS
-    NFMagazinePistol45Rubber: 5 # CS
-    NFMagazineSubMachineGunTopMounted35Rubber: 5 # CS
-    NFMagazineSubMachineGun35Rubber: 5 # CS
-    CSMagazineSubMachineGun40Rubber: 5 # CS
-    NFMagazineClipRifle20Rubber: 5 # CS
-    NFMagazineRifle20Rubber: 5 # CS
-    NFMagazineRifle30Rubber: 5 # CS
+    NFMagazinePistol35Rubber: 5 # Coyote
+    NFMagazinePistol45Rubber: 5 # Coyote
+    NFMagazineSubMachineGunTopMounted35Rubber: 5 # Coyote
+    NFMagazineSubMachineGun35Rubber: 5 # Coyote
+    CSMagazineSubMachineGun40Rubber: 5 # Coyote
+    NFMagazineClipRifle20Rubber: 5 # Coyote
+    NFMagazineRifle20Rubber: 5 # Coyote
+    NFMagazineRifle30Rubber: 5 # Coyote
   # Ammo boxes
     NFAmmunitionBoxPistol35Rubber: 10
-    CSAmmunitionBoxPistol40Rubber: 10 # CS
+    CSAmmunitionBoxPistol40Rubber: 10 # Coyote
     NFAmmunitionBoxPistol45Rubber: 10
     NFAmmunitionBoxShellShotgunBeanbag: 8
     NFAmmunitionBoxRifle20Rubber: 8
@@ -40,17 +40,17 @@
   # Magazines
     NFSpeedLoaderPistol35Rubber: 4294967295
     NFSpeedLoaderPistol45Rubber: 4294967295
-    NFMagazinePistol35Rubber: 4294967295 # CS
-    NFMagazinePistol45Rubber: 4294967295 # CS
-    NFMagazineSubMachineGunTopMounted35Rubber: 4294967295 # CS
-    NFMagazineSubMachineGun35Rubber: 4294967295 # CS
-    CSMagazineSubMachineGun40Rubber: 4294967295 # CS
-    NFMagazineClipRifle20Rubber: 4294967295 # CS
-    NFMagazineRifle20Rubber: 4294967295 # CS
-    NFMagazineRifle30Rubber: 4294967295 # CS
+    NFMagazinePistol35Rubber: 4294967295 # Coyote
+    NFMagazinePistol45Rubber: 4294967295 # Coyote
+    NFMagazineSubMachineGunTopMounted35Rubber: 4294967295 # Coyote
+    NFMagazineSubMachineGun35Rubber: 4294967295 # Coyote
+    CSMagazineSubMachineGun40Rubber: 4294967295 # Coyote
+    NFMagazineClipRifle20Rubber: 4294967295 # Coyote
+    NFMagazineRifle20Rubber: 4294967295 # Coyote
+    NFMagazineRifle30Rubber: 4294967295 # Coyote
   # Ammo boxes
     NFAmmunitionBoxPistol35Rubber: 4294967295
-    CSAmmunitionBoxPistol40Rubber: 4294967295 # CS
+    CSAmmunitionBoxPistol40Rubber: 4294967295 # Coyote
     NFAmmunitionBoxPistol45Rubber: 4294967295
     NFAmmunitionBoxRifle20Rubber: 4294967295
     NFAmmunitionBoxRifle30Rubber: 4294967295

@@ -27,18 +27,18 @@
     windowTitle: emp-generator-window-title
     idlePower: 50
     activePower: 2500
-    activeChargingPower: 40000 # CS: 15000<40000
+    activeChargingPower: 40000 # Coyote: 15000<40000
     actionUI: true
   - type: EmpGenerator
     lightRadiusMin: 0.75
     lightRadiusMax: 2.5
-    range: 48 # CS
-    energyConsumption: 3600000 # CS
-    disableDuration: 30 # CS
+    range: 48 # Coyote
+    energyConsumption: 3600000 # Coyote
+    disableDuration: 30 # Coyote
   - type: EmpDescription
-    range: 48 # CS: 100<48
-    energyConsumption: 3600000 # CS: 1MJ<1kWh
-    disableDuration: 30 # CS: 60<30
+    range: 48 # Coyote: 100<48
+    energyConsumption: 3600000 # Coyote: 1MJ<1kWh
+    disableDuration: 30 # Coyote: 60<30
   - type: EmpGeneratorVisuals
     spriteMap:
       broken: "broken"

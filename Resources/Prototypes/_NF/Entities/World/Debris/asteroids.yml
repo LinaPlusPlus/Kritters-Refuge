@@ -45,7 +45,7 @@
           orGroup: deposit
         - id: GasDepositPlasma
           orGroup: deposit
-        #- id: GasDepositAir # CS: Disable air deposits
+        #- id: GasDepositAir # Coyote: Disable air deposits
         #  orGroup: deposit
         - id: GasDepositMuddleEven
           orGroup: deposit
@@ -90,21 +90,21 @@
           max: 4
           canBeAirSealed: true
         entries:
-        # CS: changes start
+        # Coyote: changes start
         - id: GasDepositOxygen
           orGroup: deposit
         - id: GasDepositOxygenLarge
           orGroup: deposit
         - id: GasDepositOxygenVeryLarge
           orGroup: deposit
-           # CS: changes end
+           # Coyote: changes end
         - id: GasDepositNitrogen
           orGroup: deposit
         - id: GasDepositNitrogenLarge
           orGroup: deposit
-        #- id: GasDepositAir # CS: Disable air deposits
+        #- id: GasDepositAir # Coyote: Disable air deposits
         #  orGroup: deposit
-        #- id: GasDepositAirLarge # CS: Disable air deposits
+        #- id: GasDepositAirLarge # Coyote: Disable air deposits
         #  orGroup: deposit
         - id: GasDepositWaterVaporVeryLarge
           orGroup: deposit
@@ -198,7 +198,7 @@
           max: 6
           canBeAirSealed: true
         entries:
-         # CS: changes start
+         # Coyote: changes start
         - id: GasDepositPlasmaVerySmall
           orGroup: deposit
         - id: GasDepositPlasmaSmall
@@ -209,7 +209,7 @@
           orGroup: deposit
         - id: GasDepositMuddlePlasmaVerySmall
           orGroup: deposit
-           # CS: changes end
+           # Coyote: changes end
         - id: GasDepositMuddleEvenVerySmall
           orGroup: deposit
         - id: GasDepositHelium
@@ -306,7 +306,7 @@
           orGroup: deposit
         - id: GasDepositNitrogenVeryLarge
           orGroup: deposit
-        #- id: GasDepositAirVeryLarge # CS: Disable air deposits
+        #- id: GasDepositAirVeryLarge # Coyote: Disable air deposits
         #  orGroup: deposit
 # endregion Chromite Table
 
@@ -353,7 +353,7 @@
           orGroup: deposit
         - id: GasDepositCarbonDioxideSmall
           orGroup: deposit
-        #- id: GasDepositAirSmall # CS: Disable air deposits
+        #- id: GasDepositAirSmall # Coyote: Disable air deposits
         #  orGroup: deposit
         - id: GasDepositHelium
           orGroup: deposit

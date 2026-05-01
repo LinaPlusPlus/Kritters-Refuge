@@ -27,7 +27,7 @@
     delay: 1
   - type: StaticPrice
     price: 50
-    vendPrice: 200 # CS: Its a piece of wood
+    vendPrice: 200 # Coyote: Its a piece of wood
 
 - type: entity
   name: cane blade

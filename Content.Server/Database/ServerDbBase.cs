@@ -212,8 +212,8 @@ namespace Content.Server.Database
             var jobs = profile.Jobs.ToDictionary(j => new ProtoId<JobPrototype>(j.JobName), j => (JobPriority) j.Priority);
             var antags = profile.Antags.Select(a => new ProtoId<AntagPrototype>(a.AntagName));
             var traits = profile.Traits.Select(t => new ProtoId<TraitPrototype>(t.TraitName));
-            //_CS Start
-            // Keep this in the base DB converter so profile persistence works regardless of _CS-specific content.
+            // Coyote Start
+            // Keep this in the base DB converter so profile persistence works regardless of Coyote-specific content.
             var hiddenEmoteCategories = new HashSet<EmoteCategory>();
 
             if (!string.IsNullOrWhiteSpace(profile.HiddenEmoteCategories))
@@ -229,7 +229,7 @@ namespace Content.Server.Database
                     }
                 }
             }
-            //_CS End
+            // Coyote End
 
             var sex = Sex.Male;
             if (Enum.TryParse<Sex>(profile.Sex, true, out var sexVal))
@@ -395,13 +395,13 @@ namespace Content.Server.Database
                         .Select(t => new Trait {TraitName = t})
             );
 
-            //_CS Start
+            // Coyote Start
             // Persist as a stable comma-separated list for cross-provider compatibility.
             profile.HiddenEmoteCategories = string.Join(",",
                 humanoid.HiddenEmoteCategories
                     .Where(category => category is not EmoteCategory.Invalid and not EmoteCategory.Sex and not EmoteCategory.Vocal)
                     .OrderBy(category => category.ToString()));
-            //_CS End
+            // Coyote End
 
             profile.Loadouts.Clear();
 

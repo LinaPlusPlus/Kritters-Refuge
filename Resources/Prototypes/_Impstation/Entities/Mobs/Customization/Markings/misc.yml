@@ -6,7 +6,7 @@
 #  id: FullID
 #  bodyPart: Part
 #  markingCategory: Category
-#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+#  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
 #  speciesRestriction: [Species, Species]
 #  youre on your own for figuring out the coloring system, my friend
 #  sprites:
@@ -19,7 +19,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [ SlimePerson ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -31,7 +31,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [ SlimePerson ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -43,7 +43,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [ SlimePerson ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -57,7 +57,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [ SlimePerson ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -74,7 +74,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [ Diona ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _Impstation/Mobs/Customization/animatedmarkings.rsi
     state: dionalivingnymph
@@ -84,7 +84,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [ Diona ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -96,7 +96,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [ Diona ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -109,7 +109,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [ Diona ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -122,7 +122,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [ Diona ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -135,7 +135,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [ Diona ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -147,7 +147,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [ Dwarf ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: true
   followSkinColor: false
   sprites:
@@ -160,7 +160,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [ Dwarf ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: true
   followSkinColor: false
   sprites:
@@ -173,7 +173,7 @@
   bodyPart: Head
   markingCategory: Overlay
   speciesRestriction: [ Dwarf ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -190,7 +190,7 @@
   bodyPart: Chest
   markingCategory: Overlay
   speciesRestriction: [ Dwarf ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -207,7 +207,7 @@
   bodyPart: LArm
   markingCategory: Overlay
   speciesRestriction: [ Dwarf ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -224,7 +224,7 @@
   bodyPart: LHand
   markingCategory: Overlay
   speciesRestriction: [ Dwarf ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -241,7 +241,7 @@
   bodyPart: RArm
   markingCategory: Overlay
   speciesRestriction: [ Dwarf ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -258,7 +258,7 @@
   bodyPart: RHand
   markingCategory: Overlay
   speciesRestriction: [ Dwarf ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -275,7 +275,7 @@
   bodyPart: LLeg
   markingCategory: Overlay
   speciesRestriction: [ Dwarf ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -292,7 +292,7 @@
   bodyPart: LFoot
   markingCategory: Overlay
   speciesRestriction: [ Dwarf ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -309,7 +309,7 @@
   bodyPart: RLeg
   markingCategory: Overlay
   speciesRestriction: [ Dwarf ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -326,7 +326,7 @@
   bodyPart: RFoot
   markingCategory: Overlay
   speciesRestriction: [ Dwarf ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -343,7 +343,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [ Dwarf ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _Impstation/Mobs/Customization/markingsbundle1.rsi
     state: dwarfchesthair
@@ -353,7 +353,7 @@
   bodyPart: LArm
   markingCategory: Arms
   speciesRestriction: [ Dwarf ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _Impstation/Mobs/Customization/markingsbundle1.rsi
     state: dwarfarmhair
@@ -363,7 +363,7 @@
   bodyPart: LLeg
   markingCategory: Legs
   speciesRestriction: [ Dwarf ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _Impstation/Mobs/Customization/markingsbundle1.rsi
     state: dwarfleghair
@@ -373,7 +373,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [ Dwarf ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -389,7 +389,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [ Dwarf ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -405,7 +405,7 @@
   bodyPart: LHand
   markingCategory: Arms
   speciesRestriction: [ Dwarf ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -421,7 +421,7 @@
   bodyPart: RHand
   markingCategory: Arms
   speciesRestriction: [ Dwarf ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -437,7 +437,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [ Dwarf ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -453,7 +453,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [ Dwarf ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -469,7 +469,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [ Arachnid ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -482,7 +482,7 @@
   bodyPart: Eyes
   markingCategory: Head
   speciesRestriction: [ Arachnid ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -495,7 +495,7 @@
   bodyPart: Eyes
   markingCategory: Head
   speciesRestriction: [ Arachnid ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -513,7 +513,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [ Moth ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -529,7 +529,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [ Moth ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -545,7 +545,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [ Moth ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -561,7 +561,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [ Moth ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -577,7 +577,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [ Moth ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -590,7 +590,7 @@
   bodyPart: Tail
   markingCategory: Overlay
   speciesRestriction: [ Moth ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -603,7 +603,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [ Moth ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -615,7 +615,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [ Moth ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -631,7 +631,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [ Moth ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: true
   followSkinColor: true
   sprites:
@@ -643,7 +643,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [ Moth ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: true
   followSkinColor: true
   sprites:
@@ -655,7 +655,7 @@
   bodyPart: Eyes
   markingCategory: Head
   speciesRestriction: [ Moth ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -669,7 +669,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [ Moth ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -683,7 +683,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -701,7 +701,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: true
   followSkinColor: true
   sprites:
@@ -713,7 +713,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: true
   followSkinColor: true
   sprites:
@@ -725,7 +725,7 @@
   bodyPart: Chest
   markingCategory: Overlay
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -737,7 +737,7 @@
   bodyPart: LHand
   markingCategory: Arms
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   coloring:
@@ -754,7 +754,7 @@
   bodyPart: RHand
   markingCategory: Arms
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   coloring:
@@ -771,7 +771,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -783,7 +783,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -797,7 +797,7 @@
   bodyPart: Snout
   markingCategory: Snout
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -809,7 +809,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -821,7 +821,7 @@
   bodyPart: Tail
   markingCategory: Overlay
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -833,7 +833,7 @@
   bodyPart: LFoot
   markingCategory: Legs
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -845,7 +845,7 @@
   bodyPart: RFoot
   markingCategory: Legs
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -857,7 +857,7 @@
   bodyPart: LLeg
   markingCategory: Legs
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -869,7 +869,7 @@
   bodyPart: RLeg
   markingCategory: Legs
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -881,7 +881,7 @@
   bodyPart: RHand
   markingCategory: Arms
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -897,7 +897,7 @@
   bodyPart: LHand
   markingCategory: Arms
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -913,7 +913,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -929,7 +929,7 @@
   bodyPart: Tail
   markingCategory: Overlay
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -943,7 +943,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: true
   followSkinColor: true
   sprites:
@@ -955,7 +955,7 @@
   bodyPart: Tail
   markingCategory: Overlay
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -968,7 +968,7 @@
   bodyPart: Chest
   markingCategory: Overlay
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -980,7 +980,7 @@
   bodyPart: Tail
   markingCategory: Overlay
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -992,7 +992,7 @@
   bodyPart: Tail
   markingCategory: Overlay
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -1004,7 +1004,7 @@
   bodyPart: LArm
   markingCategory: Arms
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -1016,7 +1016,7 @@
   bodyPart: RArm
   markingCategory: Arms
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -1028,7 +1028,7 @@
   bodyPart: LLeg
   markingCategory: Legs
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -1040,7 +1040,7 @@
   bodyPart: RLeg
   markingCategory: Legs
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -1052,7 +1052,7 @@
   bodyPart: Tail
   markingCategory: Overlay
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -1064,7 +1064,7 @@
   bodyPart: Tail
   markingCategory: Overlay
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -1076,7 +1076,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -1088,7 +1088,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [ Vox ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -1100,7 +1100,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [ Human, Dwarf, Oni, Goblin, Felinid] # Frontier: add Oni, Goblin, Felinid
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: true
   coloring:
     default:
@@ -1116,7 +1116,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [ Human, Dwarf, Oni, Goblin, Felinid] # Frontier: add Oni, Goblin, Felinid
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: true
   coloring:
     default:
@@ -1132,7 +1132,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [ Human, Dwarf, Oni, Goblin, Felinid] # Frontier: add Oni, Goblin, Felinid
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: true
   coloring:
     default:
@@ -1148,7 +1148,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [ Human, Dwarf, Oni, Goblin, Felinid] # Frontier: add Oni, Goblin, Felinid
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: true
   coloring:
     default:
@@ -1164,7 +1164,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [ Human, Dwarf, Oni, Goblin, Felinid] # Frontier: add Oni, Goblin, Felinid
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: true
   coloring:
     default:
@@ -1180,7 +1180,7 @@
   bodyPart: RArm
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Oni, Goblin, Felinid] # Frontier: add Oni, Goblin, Felinid
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: true
   coloring:
     default:
@@ -1196,7 +1196,7 @@
   bodyPart: LArm
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Oni, Goblin, Felinid] # Frontier: add Oni, Goblin, Felinid
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: true
   coloring:
     default:
@@ -1212,7 +1212,7 @@
   bodyPart: RHand
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Oni, Goblin, Felinid] # Frontier: add Oni, Goblin, Felinid
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: true
   coloring:
     default:
@@ -1228,7 +1228,7 @@
   bodyPart: LHand
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Oni, Goblin, Felinid] # Frontier: add Oni, Goblin, Felinid
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: true
   coloring:
     default:
@@ -1244,7 +1244,7 @@
   bodyPart: RLeg
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Oni, Goblin, Felinid] # Frontier: add Oni, Goblin, Felinid
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: true
   coloring:
     default:
@@ -1260,7 +1260,7 @@
   bodyPart: LLeg
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Oni, Goblin, Felinid] # Frontier: add Oni, Goblin, Felinid
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: true
   coloring:
     default:

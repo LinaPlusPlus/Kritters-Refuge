@@ -1,7 +1,7 @@
 - type: loadoutGroup
   id: MailCarrierJumpsuit
   name: loadout-group-contractor-jumpsuit
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   loadouts:
   - MailCarrierClothingUniformJumpsuitMailCarrier
   - MailCarrierClothingUniformJumpskirtMailCarrier
@@ -23,7 +23,7 @@
 - type: loadoutGroup
   id: MailCarrierBackpack
   name: loadout-group-contractor-backpack
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   loadouts:
   - MailCarrierNFClothingBackpackDuffelMailCarrier
   - MailCarrierClothingBackpackMessengerMailCarrier

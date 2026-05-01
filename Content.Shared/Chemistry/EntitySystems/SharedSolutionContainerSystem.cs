@@ -20,10 +20,10 @@ using Content.Shared.Hands.EntitySystems;
 using Robust.Shared.Map;
 using Robust.Shared.Network;
 using Dependency = Robust.Shared.IoC.DependencyAttribute;
-using Content.Shared._CS.Helpers; // CS
+using Content.Shared._CS.Helpers; // Coyote
 using Content.Shared._CS.AphroLacedVisibility;
 using Content.Shared.Mind.Components;
-using Content.Shared.Tag; // CS
+using Content.Shared.Tag; // Coyote
 
 namespace Content.Shared.Chemistry.EntitySystems;
 
@@ -75,7 +75,7 @@ public abstract partial class SharedSolutionContainerSystem : EntitySystem
     [Dependency] protected readonly INetManager NetManager = default!;
     [Dependency] protected readonly TagSystem _tag = default!;
 
-    private SharedAphrodisiacChecker _helper = new(); // CS
+    private SharedAphrodisiacChecker _helper = new(); // Coyote
 
     public override void Initialize()
     {
@@ -331,7 +331,7 @@ public abstract partial class SharedSolutionContainerSystem : EntitySystem
             RaiseLocalEvent(uid, ref overflowEv);
         }
 
-        // CS: Ensure component on container if there is aphrodisiacs on the solution
+        // Coyote: Ensure component on container if there is aphrodisiacs on the solution
         if (_helper.CheckForAphrodisiacs(PrototypeManager, solution)
         && TryComp<ContainedSolutionComponent>(soln.Owner, out var containedSolution)
         && !HasComp<MindContainerComponent>(containedSolution.Container) // Filter out (most) mobs
@@ -342,7 +342,7 @@ public abstract partial class SharedSolutionContainerSystem : EntitySystem
             lacedComp.Laced = true;
             lacedComp.Solution = solution.Name ?? "";
         }
-        // End CS
+        // Coyote End
 
         UpdateAppearance((uid, comp, null));
 

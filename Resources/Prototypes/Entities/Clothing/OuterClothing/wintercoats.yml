@@ -759,7 +759,7 @@
     clothingPrototype: ClothingHeadHatHoodWinterWarden
 
 - type: entity
-  parent: [ClothingOuterWinterCoatToggleable] # Frontier: BaseSyndicateContraband<BaseC4Contraband, added ContrabandClothing as parent # CS: de contra'd it
+  parent: [ClothingOuterWinterCoatToggleable] # Frontier: BaseSyndicateContraband<BaseC4Contraband, added ContrabandClothing as parent # Coyote: de contra'd it
   id: ClothingOuterWinterSyndieCap
   name: syndicate's winter coat
   description: "The syndicate's winter coat is made of durable fabric, with gilded patterns, and coarse wool."
@@ -798,7 +798,7 @@
 ##############################################################
 
 - type: entity
-  parent: [ClothingOuterWinterCoatToggleable] # Frontier: BaseSyndicateContraband<BaseC4Contraband, added ContrabandClothing as parent # CS: de contra'd it
+  parent: [ClothingOuterWinterCoatToggleable] # Frontier: BaseSyndicateContraband<BaseC4Contraband, added ContrabandClothing as parent # Coyote: de contra'd it
   id: ClothingOuterWinterSyndie
   name: syndicate's winter coat
   description: Insulated winter coat, looks like a merch from "Syndieland".

@@ -45,7 +45,7 @@
         Cold: -4
         Caustic: -2.5 # Corrosion is far more difficult to fix if its not just an oxide layer from burning hence -3
         Structural: -2.5
-# End CS
+# End Coyote
 
 - type: entity
   id: CableHVStack

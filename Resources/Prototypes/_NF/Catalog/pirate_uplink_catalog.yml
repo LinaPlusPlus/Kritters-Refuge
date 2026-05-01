@@ -13,7 +13,7 @@
       whitelist:
         tags:
           - PirateUplink
-    - !type:BuyerJobCondition # CS
+    - !type:BuyerJobCondition # Coyote
       whitelist:
       - NFPirate
       - NFPirateFirstMate
@@ -34,7 +34,7 @@
       whitelist:
         tags:
           - PirateUplink
-    - !type:BuyerJobCondition # CS
+    - !type:BuyerJobCondition # Coyote
       whitelist:
       - NFPirate
       - NFPirateFirstMate
@@ -47,7 +47,7 @@
   productEntity: ClothingOuterHardsuitPirateElite
   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/pirate_elite.rsi, state: icon }
   cost:
-    Doubloon: 30 # CS: 10 -> 30. It's juiced now.
+    Doubloon: 30 # Coyote: 10 -> 30. It's juiced now.
   categories:
     - UplinkPirateHardsuits
   conditions:
@@ -55,7 +55,7 @@
       whitelist:
         tags:
           - PirateUplink
-    - !type:BuyerJobCondition # CS
+    - !type:BuyerJobCondition # Coyote
       whitelist:
       - NFPirate
       - NFPirateFirstMate
@@ -76,7 +76,7 @@
       whitelist:
         tags:
           - PirateUplink
-    - !type:BuyerJobCondition # CS
+    - !type:BuyerJobCondition # Coyote
       whitelist:
       - NFPirate
       - NFPirateFirstMate
@@ -89,7 +89,7 @@
   productEntity: CratePirateChest
   icon: { sprite: _NF/Structures/Storage/Crates/piratechestgrey.rsi, state: crate_icon }
   cost:
-    Doubloon: 20 # CS: Cost increase
+    Doubloon: 20 # Coyote: Cost increase
   categories:
     - UplinkPirateUtility
   conditions:
@@ -97,7 +97,7 @@
       whitelist:
         tags:
           - PirateUplink
-    - !type:BuyerJobCondition # CS
+    - !type:BuyerJobCondition # Coyote
       whitelist:
       - NFPirate
       - NFPirateFirstMate
@@ -118,7 +118,7 @@
       whitelist:
         tags:
           - PirateUplink
-    - !type:BuyerJobCondition # CS
+    - !type:BuyerJobCondition # Coyote
       whitelist:
       - NFPirate
       - NFPirateFirstMate
@@ -139,7 +139,7 @@
       whitelist:
         tags:
           - PirateUplink
-    - !type:BuyerJobCondition # CS
+    - !type:BuyerJobCondition # Coyote
       whitelist:
       - NFPirate
       - NFPirateFirstMate
@@ -160,7 +160,7 @@
       whitelist:
         tags:
           - PirateUplink
-    - !type:BuyerJobCondition # CS
+    - !type:BuyerJobCondition # Coyote
       whitelist:
       - NFPirate
       - NFPirateFirstMate
@@ -181,7 +181,7 @@
       whitelist:
         tags:
           - PirateUplink
-    - !type:BuyerJobCondition # CS
+    - !type:BuyerJobCondition # Coyote
       whitelist:
       - NFPirate
       - NFPirateFirstMate
@@ -202,7 +202,7 @@
       whitelist:
         tags:
           - PirateUplink
-    - !type:BuyerJobCondition # CS
+    - !type:BuyerJobCondition # Coyote
       whitelist:
       - NFPirate
       - NFPirateFirstMate
@@ -223,7 +223,7 @@
       whitelist:
         tags:
           - PirateUplink
-    - !type:BuyerJobCondition # CS
+    - !type:BuyerJobCondition # Coyote
       whitelist:
       - NFPirate
       - NFPirateFirstMate
@@ -260,7 +260,7 @@
       whitelist:
         tags:
           - PirateUplink
-    - !type:BuyerJobCondition # CS
+    - !type:BuyerJobCondition # Coyote
       whitelist:
       - NFPirate
       - NFPirateFirstMate
@@ -281,7 +281,7 @@
       whitelist:
         tags:
           - PirateUplink
-    - !type:BuyerJobCondition # CS
+    - !type:BuyerJobCondition # Coyote
       whitelist:
       - NFPirate
       - NFPirateFirstMate
@@ -302,7 +302,7 @@
       whitelist:
         tags:
           - PirateUplink
-    - !type:BuyerJobCondition # CS
+    - !type:BuyerJobCondition # Coyote
       whitelist:
       - NFPirate
       - NFPirateFirstMate
@@ -323,7 +323,7 @@
       whitelist:
         tags:
           - PirateUplink
-    - !type:BuyerJobCondition # CS
+    - !type:BuyerJobCondition # Coyote
       whitelist:
       - NFPirate
       - NFPirateFirstMate
@@ -344,7 +344,7 @@
       whitelist:
         tags:
           - PirateUplink
-    - !type:BuyerJobCondition # CS
+    - !type:BuyerJobCondition # Coyote
       whitelist:
       - NFPirate
       - NFPirateFirstMate
@@ -413,7 +413,7 @@
       whitelist:
         tags:
           - PirateUplink
-    - !type:BuyerJobCondition # CS
+    - !type:BuyerJobCondition # Coyote
       whitelist:
       - NFPirate
       - NFPirateFirstMate
@@ -434,7 +434,7 @@
       whitelist:
         tags:
           - PirateUplink
-    - !type:BuyerJobCondition # CS
+    - !type:BuyerJobCondition # Coyote
       whitelist:
       - NFPirate
       - NFPirateFirstMate
@@ -455,7 +455,7 @@
       whitelist:
         tags:
           - PirateUplink
-    - !type:BuyerJobCondition # CS
+    - !type:BuyerJobCondition # Coyote
       whitelist:
       - NFPirate
       - NFPirateFirstMate
@@ -476,7 +476,7 @@
       whitelist:
         tags:
           - PirateUplink
-    - !type:BuyerJobCondition # CS
+    - !type:BuyerJobCondition # Coyote
       whitelist:
       - NFPirate
       - NFPirateFirstMate
@@ -512,7 +512,7 @@
         tags:
           - PirateUplink
   categories:
-  - UplinkPirateMedical # CS
+  - UplinkPirateMedical # Coyote
 
 - type: listing
   id: UplinkPirateRepairKit
@@ -576,7 +576,7 @@
         tags:
           - PirateUplink
   categories:
-  - UplinkPirateMachines # CS
+  - UplinkPirateMachines # Coyote
 
 - type: listing
   id: UplinkNFPouchPirateCaptain
@@ -612,7 +612,7 @@
       whitelist:
         tags:
           - PirateUplink
-    - !type:BuyerJobCondition # CS
+    - !type:BuyerJobCondition # Coyote
       whitelist:
         - NFPirate
         - NFPirateFirstMate
@@ -636,7 +636,7 @@
         tags:
           - PirateUplink
 
-#- type: listing # CS
+#- type: listing # Coyote
 #  id: UplinkTeleCrystal
 #  name:  uplink-Telecrystal
 #  description: uplink-Telecrystal-desc

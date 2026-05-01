@@ -2,7 +2,7 @@
 #region Laser
 - type: entity
   id: NFWeaponEnergyPistolLaserSvalinn
-  parent: [ BaseC1Contraband, NFBaseWeaponFrameEnergyPistolNanotrasen, BaseWeaponPowerCellSmall ] # CS: Add BaseC1Contraband
+  parent: [ BaseC1Contraband, NFBaseWeaponFrameEnergyPistolNanotrasen, BaseWeaponPowerCellSmall ] # Coyote: Add BaseC1Contraband
   name: svalinn
   description: A cheap and widely used laser pistol.
   components:
@@ -13,7 +13,7 @@
 
 - type: entity
   id: NFWeaponEnergyPistolLaserMakeshift
-  parent: [ BaseC1ContrabandUnredeemable, NFBaseWeaponEnergyPistolHitScan, NFBaseWeaponFrameEnergyPistolFrontierGunsmith ] # CS: Add BaseC1ContrabandUnredeemable
+  parent: [ BaseC1ContrabandUnredeemable, NFBaseWeaponEnergyPistolHitScan, NFBaseWeaponFrameEnergyPistolFrontierGunsmith ] # Coyote: Add BaseC1ContrabandUnredeemable
   name: makeshift laser pistol
   description: Better pray it won't burn your hands off. At least it's legal.
   components:
@@ -30,7 +30,7 @@
 - type: entity
   categories: [ DoNotMap ]
   id: NFWeaponEnergyPistolLaserAntique
-  parent: [ BaseC2Contraband, NFBaseWeaponEnergyPistolFireModes, NFBaseWeaponFrameEnergyPistolNanotrasen ] # CS: Add BaseC2Contraband
+  parent: [ BaseC2Contraband, NFBaseWeaponEnergyPistolFireModes, NFBaseWeaponFrameEnergyPistolNanotrasen ] # Coyote: Add BaseC2Contraband
   name: antique laser pistol
   description: |-
     This is an antique laser pistol with two settings: disable and kill. All craftsmanship is of the highest quality. It is decorated with a mahogany grip and chrome filigree. The object menaces with spikes of energy. On the item is an image of a captain and a clown. The clown is dead. The captain is striking a heroic pose.
@@ -74,7 +74,7 @@
 
 - type: entity
   id: NFWeaponEnergyPistolLaserAdvanced
-  parent: [ BaseC2Contraband, NFBaseWeaponEnergyPistolFireModes, NFBaseWeaponFrameEnergyPistolNanotrasen ] # CS: Add BaseC2Contraband
+  parent: [ BaseC2Contraband, NFBaseWeaponEnergyPistolFireModes, NFBaseWeaponFrameEnergyPistolNanotrasen ] # Coyote: Add BaseC2Contraband
   name: advanced laser pistol
   description: |-
     An experimental civilian grade high-energy laser pistol with a self-charging nuclear battery and two settings: disable and kill.
@@ -101,7 +101,7 @@
 # Frontier
 - type: entity
   id: NFWeaponEnergyPistolLaser
-  parent: [BaseC1ContrabandUnredeemable, NFBaseWeaponEnergyPistolFireModes, NFBaseWeaponFrameEnergyPistolNanotrasen ] # CS: Add BaseC1ContrabandUnredeemable
+  parent: [BaseC1ContrabandUnredeemable, NFBaseWeaponEnergyPistolFireModes, NFBaseWeaponFrameEnergyPistolNanotrasen ] # Coyote: Add BaseC1ContrabandUnredeemable
   name: laser pistol
   description: |-
     An older model of civilian-grade laser pistol with two settings: disable and kill.

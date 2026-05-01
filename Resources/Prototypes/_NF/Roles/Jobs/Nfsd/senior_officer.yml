@@ -5,7 +5,7 @@
   name: job-name-senior-officer
   description: job-description-senior-officer
   playTimeTracker: JobSeniorOfficer
-  requirements: # CS: editted the playtime required for Sergeant
+  requirements: # Coyote: editted the playtime required for Sergeant
   - !type:OverallPlaytimeRequirement
     time: 108000
   - !type:DepartmentTimeRequirement
@@ -45,10 +45,10 @@
   storage:
     back:
     - Flash
-    - CSMagazinePistol40Overpressure # CS: NFMagazineHighCapacityPistol35Overpressure < CSMagazinePistol40Overpressure
-    - CSMagazinePistol40Rubber # CS: NFMagazineHighCapacityPistol35Rubber < CSMagazinePistol40Rubber
+    - CSMagazinePistol40Overpressure # Coyote: NFMagazineHighCapacityPistol35Overpressure < CSMagazinePistol40Overpressure
+    - CSMagazinePistol40Rubber # Coyote: NFMagazineHighCapacityPistol35Rubber < CSMagazinePistol40Rubber
     - BaseSecurityUplinkRadioOfficer
-    - FrontierUplinkCoin5 # CS: added 5 FUCs to Sergeants
+    - FrontierUplinkCoin5 # Coyote: added 5 FUCs to Sergeants
     - ShipVoucherNfsdSergeant
     - RubberStampSergeant
     - EncryptionKeyCommand

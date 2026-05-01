@@ -3,7 +3,7 @@
   id: GenitalBellyObese1
   bodyPart: Genital
   markingCategory: Genital
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Customization/Markings/Genital/belly.rsi
     state: belly_1_obese
@@ -12,7 +12,7 @@
   id: GenitalBellyObese2
   bodyPart: Genital
   markingCategory: Genital
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Customization/Markings/Genital/belly.rsi
     state: belly_2_obese
@@ -21,7 +21,7 @@
   id: GenitalBellyObese3
   bodyPart: Genital
   markingCategory: Genital
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Customization/Markings/Genital/belly.rsi
     state: belly_3_obese
@@ -30,7 +30,7 @@
   id: GenitalBellyObese4
   bodyPart: Genital
   markingCategory: Genital
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Customization/Markings/Genital/belly.rsi
     state: belly_4_obese
@@ -39,7 +39,7 @@
   id: GenitalBellyObese5
   bodyPart: Genital
   markingCategory: Genital
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Customization/Markings/Genital/belly.rsi
     state: belly_5_obese
@@ -127,7 +127,7 @@
   id: GenitalBellyTummy1
   bodyPart: Genital
   markingCategory: Genital
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Customization/Markings/Genital/belly.rsi
     state: belly_1_tummy
@@ -136,7 +136,7 @@
   id: GenitalBellyTummy2
   bodyPart: Genital
   markingCategory: Genital
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Customization/Markings/Genital/belly.rsi
     state: belly_2_tummy
@@ -145,7 +145,7 @@
   id: GenitalBellyTummy3
   bodyPart: Genital
   markingCategory: Genital
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Customization/Markings/Genital/belly.rsi
     state: belly_3_tummy
@@ -154,7 +154,7 @@
   id: GenitalBellyTummy4
   bodyPart: Genital
   markingCategory: Genital
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Customization/Markings/Genital/belly.rsi
     state: belly_4_tummy
@@ -163,7 +163,7 @@
   id: GenitalBellyTummy5
   bodyPart: Genital
   markingCategory: Genital
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Customization/Markings/Genital/belly.rsi
     state: belly_5_tummy
@@ -251,7 +251,7 @@
   id: GenitalBellyUdders1
   bodyPart: Genital
   markingCategory: Genital
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Customization/Markings/Genital/belly.rsi
     state: belly_1_udders
@@ -394,7 +394,7 @@
   bodyPart: Genital
   markingCategory: Genital
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   layering:
     butt_pair_2_0_FRONT: Genital
     butt_pair_2_0_MID: Genital
@@ -411,7 +411,7 @@
   bodyPart: Genital
   markingCategory: Genital
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   layering:
     butt_pair_3_0_FRONT: Genital
     butt_pair_3_0_MID: Genital
@@ -428,7 +428,7 @@
   bodyPart: Genital
   markingCategory: Genital
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   layering:
     butt_pair_4_0_FRONT: Genital
     butt_pair_4_0_MID: Genital
@@ -445,7 +445,7 @@
   bodyPart: Genital
   markingCategory: Genital
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   layering:
     butt_pair_5_0_FRONT: Genital
     butt_pair_5_0_MID: Genital
@@ -514,7 +514,7 @@
   bodyPart: Genital
   markingCategory: Genital
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   layering:
     butt_pair_2_s_0_FRONT: Genital
     butt_pair_2_s_0_MID: Genital
@@ -531,7 +531,7 @@
   bodyPart: Genital
   markingCategory: Genital
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   layering:
     butt_pair_3_s_0_FRONT: Genital
     butt_pair_3_s_0_MID: Genital
@@ -548,7 +548,7 @@
   bodyPart: Genital
   markingCategory: Genital
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   layering:
     butt_pair_4_s_0_FRONT: Genital
     butt_pair_4_s_0_MID: Genital
@@ -565,7 +565,7 @@
   bodyPart: Genital
   markingCategory: Genital
   speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   layering:
     butt_pair_5_s_0_FRONT: Genital
     butt_pair_5_s_0_MID: Genital

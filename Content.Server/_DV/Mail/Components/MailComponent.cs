@@ -120,7 +120,7 @@ namespace Content.Server._DV.Mail.Components
         /// How long it takes for the mail to be considered trash.
         /// After this time, the mail can be deleted without penalty.
         /// </summary>
-        // CS: changed from 120 to 360
+        // Coyote: changed from 120 to 360
         [ViewVariables(VVAccess.ReadWrite)]
         public TimeSpan TrashDuration = TimeSpan.FromMinutes(360);
 

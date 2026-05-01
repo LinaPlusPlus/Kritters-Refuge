@@ -160,7 +160,7 @@ public abstract class SharedOreSiloSystem : EntitySystem
         if (_transform.GetGrid(client) != _transform.GetGrid(silo.Owner))
             return false;
 
-        // CS: Disable silo range check
+        // Coyote: Disable silo range check
         // if (!_transform.InRange((silo.Owner, silo.Comp2), client, silo.Comp1.Range))
         //     return false;
 

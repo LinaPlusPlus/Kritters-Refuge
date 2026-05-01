@@ -11,7 +11,7 @@ public sealed partial class BlockGame
     [Dependency] private readonly IRobustRandom _random = default!;
     private readonly ArcadeSystem _arcadeSystem;
     private readonly UserInterfaceSystem _uiSystem;
-    private readonly BlockGameArcadeSystem _arcade = default!; // CS
+    private readonly BlockGameArcadeSystem _arcade = default!; // Coyote
 
     /// <summary>
     /// What entity is currently hosting this game of NT-BG.
@@ -84,7 +84,7 @@ public sealed partial class BlockGame
         {
             _highScorePlacement = _arcadeSystem.RegisterHighScore(meta.EntityName, Points);
             SendHighscoreUpdate();
-            _arcade.OnGameOver(_owner, cabinet, points: Points); // CS
+            _arcade.OnGameOver(_owner, cabinet, points: Points); // Coyote
         }
         SendMessage(new BlockGameMessages.BlockGameGameOverScreenMessage(Points, _highScorePlacement?.LocalPlacement, _highScorePlacement?.GlobalPlacement));
     }

@@ -25,7 +25,7 @@ gas-tank-window-internal-disconnected = [color=red]Disconnected[/color]
 comp-gas-tank-open-valve = Open Valve
 comp-gas-tank-close-valve = Close Valve
 
-### CS: Added pressure beep warning system thing
+### Coyote: Added pressure beep warning system thing
 ## Verp
 gas-tank-toggle-alerts-off = Pressure Alerts: [color=red]off[/color]
 gas-tank-toggle-alerts-on = Pressure Alerts: [color=green]on[/color]

@@ -40,8 +40,8 @@
     - id: Cryogenic # Frontier
     - id: Poison
     - id: Narcotic
-    - id: Aphrodisiacs # CS: Necessary to detect aphrodisiac injected solutions.
-    - id: AphrodisiacDrinks # CS: Necessary to detect aphrodisiac injected solutions.
+    - id: Aphrodisiacs # Coyote: Necessary to detect aphrodisiac injected solutions.
+    - id: AphrodisiacDrinks # Coyote: Necessary to detect aphrodisiac injected solutions.
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Avali/organs.rsi
     state: heart-on
@@ -91,7 +91,7 @@
   name: eyes
   suffix: Avali
   description: "The eyes of an Avali."
-  # CS: No OrganVisualization
+  # Coyote: No OrganVisualization
 
 - type: entity
   id: OrganAvaliBrain

@@ -58,11 +58,11 @@
   id: MobChitinidMarkingLimits
   points:
     Tail:
-      points: 999 # CS: Allow unlimited markings
+      points: 999 # Coyote: Allow unlimited markings
       required: true
       defaultMarkings: [ ChitinidWingsDefault ]
     HeadTop:
-      points: 999 # CS: Allow unlimited markings
+      points: 999 # Coyote: Allow unlimited markings
       required: true
       defaultMarkings: [ ChitinidAntennasDefault ]
 

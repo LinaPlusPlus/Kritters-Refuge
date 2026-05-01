@@ -45,13 +45,13 @@ using Robust.Shared.Spawners;
 using Content.Shared.DeviceLinking;
 using Robust.Shared.Timing;
 using System.ComponentModel;
-using Content.Server.GameTicking; // CS
+using Content.Server.GameTicking; // Coyote
 
 namespace Content.Server._EE.Supermatter.Systems;
 
 public sealed partial class SupermatterSystem
 {
-    [Dependency] private readonly GameTicker _gameTicker = default!; // CS
+    [Dependency] private readonly GameTicker _gameTicker = default!; // Coyote
     /// <summary>
     /// Handle power and radiation output depending on atmospheric things.
     /// </summary>
@@ -709,7 +709,7 @@ public sealed partial class SupermatterSystem
 
         // Add hallucinations to every player on the map
         // TODO: change this from paracusia to actual hallucinations whenever those are real
-        // CS: Removes checks, instead starts a hallucination gamerule, which theoretically ensures the comp is deleted once it's over.
+        // Coyote: Removes checks, instead starts a hallucination gamerule, which theoretically ensures the comp is deleted once it's over.
         _gameTicker.StartGameRule("CSSupermatterHallucination");
         /*
         var mobLookup = new HashSet<Entity<MobStateComponent>>();
@@ -734,7 +734,7 @@ public sealed partial class SupermatterSystem
                 _paracusia.SetDistance(mob, paracusiaDistance, paracusia);
             }
         }*/
-        // End CS.
+        // Coyote End.
 
         switch (sm.PreferredDelamType)
         {
@@ -780,7 +780,7 @@ public sealed partial class SupermatterSystem
         _light.SetColor(uid, Color.FromHsv(hsvFinal), light);
     }
     /*
-    // CS: Until there's a better system for this, we should disable it.
+    // Coyote: Until there's a better system for this, we should disable it.
     /// <summary>
     /// Checks for
     /// </summary>
@@ -829,7 +829,7 @@ public sealed partial class SupermatterSystem
             _appearance.SetData(uid, SupermatterVisuals.Psy, sm.PsyCoefficient, appearance);
     }
     */
-    // End CS
+    // Coyote End
 
     /// <summary>
     /// Sets the supermatter's status and speech sound based on thresholds

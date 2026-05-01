@@ -3,7 +3,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [ Avali ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _Starlight/Mobs/Customization/Avali/avali_crests.rsi
       state: avali_crest_bigponytail_primary
@@ -17,7 +17,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [ Avali ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _Starlight/Mobs/Customization/Avali/avali_crests.rsi
       state: avali_crest_cockatiel_primary
@@ -29,7 +29,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [ Avali ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _Starlight/Mobs/Customization/Avali/avali_crests.rsi
       state: avali_crest_cockatoo_primary
@@ -41,7 +41,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [ Avali ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _Starlight/Mobs/Customization/Avali/avali_crests.rsi
       state: avali_crest_dualfeather_primary
@@ -53,7 +53,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [ Avali ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _Starlight/Mobs/Customization/Avali/avali_crests.rsi
       state: avali_crest_hooked_primary
@@ -65,7 +65,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [ Avali ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _Starlight/Mobs/Customization/Avali/avali_crests.rsi
       state: avali_crest_jay_primary
@@ -77,7 +77,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [ Avali ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _Starlight/Mobs/Customization/Avali/avali_crests.rsi
       state: avali_crest_longfeather_primary
@@ -89,7 +89,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [ Avali ]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
     - sprite: _Starlight/Mobs/Customization/Avali/avali_crests.rsi
       state: avali_crest_punk_primary

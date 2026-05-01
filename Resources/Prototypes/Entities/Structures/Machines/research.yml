@@ -77,7 +77,7 @@
             True: {visible: true}
             False: {visible: false}
   - type: AmbientOnPowered
-  - type: AmbientSound # CS: Tweaked -9>-12 5>3.5
+  - type: AmbientSound # Coyote: Tweaked -9>-12 5>3.5
     volume: -12
     range: 3.5
     enabled: false

@@ -5,7 +5,7 @@
   forcedColoring: true
   followSkinColor: true
   speciesRestriction: [Human, Dwarf, Oni, Sheleg] # Frontier: Oni, Sheleg
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Customization/ears.rsi
     state: long_ears_standard
@@ -17,7 +17,7 @@
   forcedColoring: true
   followSkinColor: true
   speciesRestriction: [Human, Sheleg] # Frontier: Sheleg
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Customization/ears.rsi
     state: long_ears_wide
@@ -29,7 +29,7 @@
   forcedColoring: true
   followSkinColor: true
   speciesRestriction: [Human, Dwarf, Oni, Sheleg] # Frontier: Oni, Sheleg
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Customization/ears.rsi
     state: long_ears_small
@@ -41,7 +41,7 @@
   forcedColoring: true
   followSkinColor: true
   speciesRestriction: [Human, Sheleg] # Frontier: Sheleg
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Customization/ears.rsi
     state: long_ears_upwards
@@ -53,7 +53,7 @@
   forcedColoring: true
   followSkinColor: true
   speciesRestriction: [Human, Sheleg] # Frontier: Sheleg
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Customization/ears.rsi
     state: long_ears_tall
@@ -65,7 +65,7 @@
   forcedColoring: true
   followSkinColor: true
   speciesRestriction: [Human, Dwarf, Oni, Sheleg] # Frontier: Oni, Sheleg
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: Mobs/Customization/ears.rsi
     state: long_ears_thin

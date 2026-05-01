@@ -44,7 +44,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;
 using Content.Shared.DeviceLinking;
-using Content.Shared.Tag; // CS: Tag for the trash check
+using Content.Shared.Tag; // Coyote: Tag for the trash check
 
 namespace Content.Server._EE.Supermatter.Systems;
 
@@ -73,9 +73,9 @@ public sealed partial class SupermatterSystem : EntitySystem
     [Dependency] private readonly IConfigurationManager _config = default!;
     [Dependency] private readonly IGameTiming _timing = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
-    [Dependency] private readonly TagSystem _tag = default!; // CS: Tag for the trash check
+    [Dependency] private readonly TagSystem _tag = default!; // Coyote: Tag for the trash check
 
-    private static readonly ProtoId<TagPrototype> TrashTag = "Trash"; // CS: Tag for the trash check
+    private static readonly ProtoId<TagPrototype> TrashTag = "Trash"; // Coyote: Tag for the trash check
     public override void Initialize()
     {
         base.Initialize();
@@ -88,7 +88,7 @@ public sealed partial class SupermatterSystem : EntitySystem
         SubscribeLocalEvent<SupermatterComponent, InteractHandEvent>(OnHandInteract);
         SubscribeLocalEvent<SupermatterComponent, InteractUsingEvent>(OnItemInteract);
         SubscribeLocalEvent<SupermatterComponent, ExaminedEvent>(OnExamine);
-        //SubscribeLocalEvent<SupermatterComponent, SupermatterDoAfterEvent>(OnGetSliver); # CS: No sliver
+        //SubscribeLocalEvent<SupermatterComponent, SupermatterDoAfterEvent>(OnGetSliver); # Coyote: No sliver
         SubscribeLocalEvent<SupermatterComponent, GravPulseEvent>(OnGravPulse);
     }
 
@@ -129,7 +129,7 @@ public sealed partial class SupermatterSystem : EntitySystem
             HandleDelamination(uid, sm);
 
         HandleLight(uid, sm);
-        //HandleVision(uid, sm); // CS: There's no such thing as code to prevent you from hearing things if you don't have glasses. Yeet.
+        //HandleVision(uid, sm); // Coyote: There's no such thing as code to prevent you from hearing things if you don't have glasses. Yeet.
         HandleStatus(uid, sm);
         HandleSoundLoop(uid, sm);
         HandleAccent(uid, sm);
@@ -253,7 +253,7 @@ public sealed partial class SupermatterSystem : EntitySystem
 
         args.Handled = true;
     }
-    /* CS: No Sliver
+    /* Coyote: No Sliver
     private void OnGetSliver(EntityUid uid, SupermatterComponent sm, ref SupermatterDoAfterEvent args)
     {
         if (args.Cancelled)
@@ -271,7 +271,7 @@ public sealed partial class SupermatterSystem : EntitySystem
         sm.DelamTimer /= 2;
     }
     */
-    // End CS
+    // Coyote End
     private void OnGravPulse(Entity<SupermatterComponent> ent, ref GravPulseEvent args)
     {
         if (!TryComp<GravityWellComponent>(ent, out var gravityWell))
@@ -302,13 +302,13 @@ public sealed partial class SupermatterSystem : EntitySystem
             _container.IsEntityInContainer(uid))
             return;
 
-        // CS: Check for Trash tag - delete without powering. This is to avoid roundstart powerup due to trash.
+        // Coyote: Check for Trash tag - delete without powering. This is to avoid roundstart powerup due to trash.
         if (_tag.HasTag(target, TrashTag))
         {
             EntityManager.QueueDeleteEntity(target);
             return;
         }
-        // End CS
+        // Coyote End
 
         if (!sm.HasBeenPowered)
             LogFirstPower(uid, sm, target);

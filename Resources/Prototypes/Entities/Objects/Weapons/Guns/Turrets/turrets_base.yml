@@ -14,7 +14,7 @@
   - type: Clickable
   - type: InteractionOutline
   - type: Actions
-  - type: RadarBlip # CS: Gives turrets radar blips
+  - type: RadarBlip # Coyote: Gives turrets radar blips
     scale: 3
     shape: Diamond
     visibleFromOtherGrids: true
@@ -100,7 +100,7 @@
       ballistic-ammo: !type:Container
   - type: Gun
     fireRate: 6
-    projectileSpeed: 17 # CS
+    projectileSpeed: 17 # Coyote
     maxAngle: 15 # Mono
     minAngle: 4 # Mono
     angleIncrease: -1.2 # Mono
@@ -132,7 +132,7 @@
     - state: lethal
       shader: unshaded
   - type: Gun
-    projectileSpeed: 15 # CS: 55 -> 30
+    projectileSpeed: 15 # Coyote: 55 -> 30
     fireRate: 1.5
     maxAngle: 15 # Mono
     minAngle: 4 # Mono

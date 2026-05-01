@@ -16,20 +16,20 @@
   youngAge: 103
   oldAge: 257
   maxAge: 430
-  # CS: custom name no workie :(
-  # CS: Small enough to fit in a bag
+  # Coyote: custom name no workie :(
+  # Coyote: Small enough to fit in a bag
   minHeight: 0.6
   defaultHeight: 0.8
   maxHeight: 1.1
   minWidth: 0.55
   defaultWidth: 0.8
   maxWidth: 1.15
-  # End CS
-  # CS: Add kind for markings
+  # End Coyote
+  # Coyote: Add kind for markings
   kind:
     - BasicHumanlike
     - BasicFurry
-  # End CS
+  # End Coyote
 
 - type: speciesBaseSprites
   id: MobResomiSprites
@@ -53,22 +53,22 @@
     Special: MobHumanoidAnyMarking
     Tail: MobHumanoidAnyMarking
     TailExtras: MobHumanoidAnyMarking
-    # CS Start
+    # Coyote Start
     TailBehind: MobHumanoidAnyMarking
     TailOversuit: MobHumanoidAnyMarking
     FacialHair: MobHumanoidAnyMarking
     Snout: MobHumanoidAnyMarking
     Genital: MobHumanoidAnyMarking
     RArmExtension: MobHumanoidAnyMarking # Adds Wing Slot, this will look weird as fuck
-    # End CS
+    # End Coyote
 
 - type: markingPoints
   id: MobResomiMarkingLimits
   points:
-    # CS: Allow unlimited markings
+    # Coyote: Allow unlimited markings
     Tail:
       required: true
-      points: 999 # CS: Allow unlimited markings
+      points: 999 # Coyote: Allow unlimited markings
       defaultMarkings: [ ResomiTailFeathered ]
 
 - type: humanoidBaseSprite

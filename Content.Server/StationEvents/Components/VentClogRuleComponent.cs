@@ -16,7 +16,7 @@ public sealed partial class VentClogRuleComponent : Component
     public IReadOnlyList<string> SafeishVentChemicals = new[]
     {
         "Water", "Blood", "Slime", "SpaceDrugs", "SpaceCleaner", "Nutriment", "Sugar", "SpaceLube", "Ale", "Beer", "SpaceGlue"
-    }; // CS: Removed Ephedrine from list of VentClog reagents
+    }; // Coyote: Removed Ephedrine from list of VentClog reagents
 
     /// <summary>
     /// Sound played when foam is being created.

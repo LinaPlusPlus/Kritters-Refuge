@@ -27,9 +27,9 @@
     prototype: FrontierBirthdayGift # Frontier
 #  - !type:AddComponentSpecial # Frottage - soon
 #    components:
-#    - type: PaywardActionMailOpenedByOwners # CS
-#    - type: PaywardAuraMailCarrier # CS
-#    - type: PaywardModifierMailStats # CS
+#    - type: PaywardActionMailOpenedByOwners # Coyote
+#    - type: PaywardAuraMailCarrier # Coyote
+#    - type: PaywardModifierMailStats # Coyote
 
 - type: startingGear
   id: MailCarrierGear

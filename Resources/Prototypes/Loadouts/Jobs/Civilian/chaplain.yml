@@ -117,7 +117,7 @@
 
 - type: loadout
   id: BibleDruid
-  #effects: # CS: Not here.
+  #effects: # Coyote: Not here.
   #- !type:GroupLoadoutEffect
   #  proto: DruidBibleRequirement
   storage:
@@ -126,7 +126,7 @@
 
 - type: loadout
   id: BibleNanoTrasen
-  #effects: # CS: Not here.
+  #effects: # Coyote: Not here.
   #- !type:GroupLoadoutEffect
   #  proto: NanoTrasenBibleRequirement
   storage:
@@ -141,7 +141,7 @@
 
 - type: loadout
   id: BibleHonk
-  #effects: # CS: Not here.
+  #effects: # Coyote: Not here.
   #- !type:GroupLoadoutEffect
   #  proto: ClownBibleRequirement
   storage:

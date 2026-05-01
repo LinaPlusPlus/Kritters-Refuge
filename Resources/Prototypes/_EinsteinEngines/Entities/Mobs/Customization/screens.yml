@@ -3,7 +3,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenStatic
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -14,7 +14,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenBlue
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -25,7 +25,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenBreakout
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -36,7 +36,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenEight
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -47,7 +47,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenGoggles
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -58,7 +58,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenExclaim
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -69,7 +69,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenHeart
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -80,7 +80,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenMonoeye
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -91,7 +91,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenNature
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -102,7 +102,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenOrange
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -113,7 +113,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenPink
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -124,7 +124,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenQuestion
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -135,7 +135,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenShower
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -146,7 +146,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenYellow
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -157,7 +157,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenScroll
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -168,7 +168,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenConsole
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -179,7 +179,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenRgb
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -190,7 +190,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenGlider
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -201,7 +201,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenRainbowhoriz
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -212,7 +212,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenBsod
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -223,7 +223,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenRedtext
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -234,7 +234,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenSinewave
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -245,7 +245,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenSquarewave
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -256,7 +256,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenEcgwave
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -267,7 +267,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenEyes
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -278,7 +278,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenEyestall
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -289,7 +289,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenEyesangry
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -300,7 +300,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenLoading
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -311,7 +311,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenWindowsxp
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -322,7 +322,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenTetris
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -333,7 +333,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenTv
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -344,7 +344,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenTextdrop
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -355,7 +355,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenStars
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -366,7 +366,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenRainbowdiag
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -377,7 +377,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenBlank
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -388,7 +388,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenSmile
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -398,7 +398,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenFrown
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -409,7 +409,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenRing
   bodyPart: HeadSide
   markingCategory: HeadSide
@@ -420,7 +420,7 @@
 
 - type: marking
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   id: ScreenL
   bodyPart: HeadSide
   markingCategory: HeadSide

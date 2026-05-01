@@ -923,7 +923,7 @@
 
 #region wizard
 - type: entity
-  parent: # CS: C3 to nothing. Not contraband clothing. It's just a bag.
+  parent: # Coyote: C3 to nothing. Not contraband clothing. It's just a bag.
   - NFClothingDuffel
   id: NFClothingBackpackDuffelWizardBlue
   name: blue wizard duffel

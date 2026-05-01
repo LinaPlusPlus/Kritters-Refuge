@@ -32,11 +32,11 @@ public sealed partial class MarkingPicker : Control
 
     private List<Color> _currentMarkingColors = new();
     private List<float> _currentMarkingGlow = new();
-    // _CS Start
+    // Coyote Start
     private float _currentMarkingScale = 1.0f;
     private float _currentMarkingOffsetX;
     private float _currentMarkingOffsetY;
-    // _CS End
+    // Coyote End
 
     private ItemList.Item? _selectedMarking;
     private ItemList.Item? _selectedUnusedMarking;
@@ -559,7 +559,7 @@ public sealed partial class MarkingPicker : Control
                 MaxValue = 1f,
                 Rounded = false,
             };
-            // _CS Start
+            // Coyote Start
             var glowValueBox = new SpinBox
             {
                 MinSize = new Vector2(56f, 0f),
@@ -599,7 +599,7 @@ public sealed partial class MarkingPicker : Control
                 GlowChanged(colorIndex);
                 settingGlowFromInput = false;
             };
-            // _CS End
+            // Coyote End
 
             glowRow.AddChild(glowLabel);
             glowRow.AddChild(glowSlider);
@@ -609,7 +609,7 @@ public sealed partial class MarkingPicker : Control
 
         CustomNameTextEdit.Text = marking.CustomName ?? "";
 
-        // _CS Start
+        // Coyote Start
         _currentMarkingScale = marking.MarkingScale;
         _currentMarkingOffsetX = marking.MarkingOffset.X;
         _currentMarkingOffsetY = marking.MarkingOffset.Y;
@@ -786,7 +786,7 @@ public sealed partial class MarkingPicker : Control
             CMarkingColors.AddChild(scaleButton);
             CMarkingColors.AddChild(scaleBox);
         }
-        // _CS End
+        // Coyote End
         StartVisibleToggle.Pressed = marking.ShowAtStart;
         CanPutOnToggle.Pressed = marking.CanToggleVisible;
         CanPutOnByOtherToggle.Pressed = marking.OtherCanToggleVisible;
@@ -878,7 +878,7 @@ public sealed partial class MarkingPicker : Control
         OnMarkingDataChanged?.Invoke(_currentMarkings);
     }
 
-    // _CS Start
+    // Coyote Start
     private void ScaleChanged()
     {
         if (_selectedMarking is null) return;
@@ -909,7 +909,7 @@ public sealed partial class MarkingPicker : Control
         OnMarkingDataChanged?.Invoke(_currentMarkings);
     }
 
-    // _CS End
+    // Coyote End
 
     private void SetCanToggle(bool canToggle)
     {

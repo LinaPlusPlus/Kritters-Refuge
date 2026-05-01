@@ -26,7 +26,7 @@
     - Ovinia
     - Chitinid # DeltaV # DeltaV
     - Tajaran # EE
-    - Anthromorph # CS
+    - Anthromorph # Coyote
 
 - type: guideEntry
   id: Arachnid
@@ -85,7 +85,7 @@
   name: species-name-avali
   text: "/ServerInfo/Guidebook/Mobs/_Starlight/Avali.xml"
 
-# CS
+# Coyote
 - type: guideEntry
   id: Resomi
   name: species-name-resomi

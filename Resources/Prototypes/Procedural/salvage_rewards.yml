@@ -68,7 +68,7 @@
     ClothingOuterArmorRiot: 1.0
     # rare chemicals
     ChemistryBottleCognizine: 1.0
-    ChemistryBottleOmnizine: 0.25 # CS: < 1.0 < 0.25
+    ChemistryBottleOmnizine: 0.25 # Coyote: < 1.0 < 0.25
     # money
     SpaceCash2500: 1.0
     SpaceCash5000: 0.75

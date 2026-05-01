@@ -46,7 +46,7 @@ namespace Content.Shared.Humanoid.Markings
         public List<SpriteSpecifier> Sprites { get; private set; } = default!;
 
         /// <summary>
-        /// CS: for alternate legs, instead pull the data from *these* markings instead.
+        /// Coyote: for alternate legs, instead pull the data from *these* markings instead.
         /// Used for digitigrade legs that are cute as heck.
         /// Disregard this if the leg style is plantigrade.
         /// </summary>

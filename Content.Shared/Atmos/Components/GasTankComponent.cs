@@ -118,7 +118,7 @@ public sealed partial class GasTankComponent : Component, IGasMixtureHolder
             Params = AudioParams.Default.WithVolume(-5f),
         };
 
-    // CS: Added pressure beep warning system thing
+    // Coyote: Added pressure beep warning system thing
     /// <summary>
     /// This thing can alert the user when the tank is low on pressure!
     /// This is a list of those alert threshold classes!
@@ -183,5 +183,5 @@ public sealed partial class GasTankComponent : Component, IGasMixtureHolder
             JetpackAlertSound = jetpackAlertSound;
         }
     }
-    // End CS
+    // Coyote End
 }

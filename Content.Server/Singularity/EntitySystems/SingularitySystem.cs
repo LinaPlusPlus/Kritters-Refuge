@@ -274,8 +274,8 @@ public sealed class SingularitySystem : SharedSingularitySystem
     {
         comp.EnergyDrain = args.NewValue switch
         {
-            6 => 30, // CS: Don't want them to last forever, now do we?
-            5 => 20, // CS: ditto
+            6 => 30, // Coyote: Don't want them to last forever, now do we?
+            5 => 20, // Coyote: ditto
             4 => 20,
             3 => 10,
             2 => 5,

@@ -28,7 +28,7 @@
       entity_storage: !type:Container
       paper_label: !type:ContainerSlot # Defined for any locker inheriting a physical one.
 
-- type: entity # CS: constructible lockers
+- type: entity # Coyote: constructible lockers
   abstract: true
   id: LockerWallFrameBase
   name: locker frame
@@ -92,7 +92,7 @@
   - type: EntityStorageVisuals
     stateDoorOpen: open
     stateDoorClosed: door
-  - type: Destructible # CS: make wall lockers metal
+  - type: Destructible # Coyote: make wall lockers metal
     thresholds:
     - trigger:
         !type:DamageTrigger
@@ -128,7 +128,7 @@
           False: { visible: false }
 # endregion
 
-#region Construction # CS: constructible lockers
+#region Construction # Coyote: constructible lockers
 - type: entity
   id: LockerWallFrame
   parent: [ LockerWallFrameBase, BaseStructureWallmount ]

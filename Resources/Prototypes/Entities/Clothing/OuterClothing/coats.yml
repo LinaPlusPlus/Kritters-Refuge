@@ -377,7 +377,7 @@
     sprite: Clothing/OuterClothing/Coats/windbreaker_paramedic.rsi
 
 - type: entity
-  parent: [ClothingOuterStorageBase] # Frontier: BaseSyndicateContraband<BaseC4Contraband, add ContrabandClothing as parent # CS: de contra'd it
+  parent: [ClothingOuterStorageBase] # Frontier: BaseSyndicateContraband<BaseC4Contraband, add ContrabandClothing as parent # Coyote: de contra'd it
   id: ClothingOuterCoatSyndieCap
   name: syndicate's coat
   description: The syndicate's coat is made of durable fabric, with gilded patterns.

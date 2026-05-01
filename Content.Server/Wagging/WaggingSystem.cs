@@ -19,19 +19,19 @@ public sealed class WaggingSystem : EntitySystem
     [Dependency] private readonly ActionsSystem _actions = default!;
     [Dependency] private readonly HumanoidAppearanceSystem _humanoidAppearance = default!;
     [Dependency] private readonly IPrototypeManager _prototype = default!;
-    [Dependency] private readonly CoyoteMarkingSystem _coyoteMarking = default!; // CS, obviously
+    [Dependency] private readonly CoyoteMarkingSystem _coyoteMarking = default!; // Coyote, obviously
 
     public override void Initialize()
     {
         base.Initialize();
 
-        SubscribeLocalEvent<WaggingComponent, ComponentInit>(OnWaggingMapInit); // CS: Move to Component Init
+        SubscribeLocalEvent<WaggingComponent, ComponentInit>(OnWaggingMapInit); // Coyote: Move to Component Init
         SubscribeLocalEvent<WaggingComponent, ComponentShutdown>(OnWaggingShutdown);
         SubscribeLocalEvent<WaggingComponent, ToggleActionEvent>(OnWaggingToggle);
         SubscribeLocalEvent<WaggingComponent, MobStateChangedEvent>(OnMobStateChanged);
     }
 
-    private void OnWaggingMapInit(EntityUid uid, WaggingComponent component, ComponentInit args) // CS: Move to Component Init
+    private void OnWaggingMapInit(EntityUid uid, WaggingComponent component, ComponentInit args) // Coyote: Move to Component Init
     {
 
         if (!TryComp<HumanoidAppearanceComponent>(uid, out var humanoid))
@@ -77,7 +77,7 @@ public sealed class WaggingSystem : EntitySystem
             return false;
 
         wagging.Wagging = !wagging.Wagging;
-        for (var idx = 0; idx < markings.Count; idx++) // CS: Improved wagging system
+        for (var idx = 0; idx < markings.Count; idx++) // Coyote: Improved wagging system
         {
             string? target;
             if (wagging.Wagging)
@@ -97,7 +97,7 @@ public sealed class WaggingSystem : EntitySystem
             {
                 _humanoidAppearance.SetMarkingId(uid, MarkingCategories.Tail, idx, target, humanoid: humanoid);
             }
-        } // End CS
+        } // Coyote End
 
         return true;
     }

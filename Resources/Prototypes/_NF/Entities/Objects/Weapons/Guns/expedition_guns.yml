@@ -3,7 +3,7 @@
 
 # region Tiered Weapons
 - type: entity
-  #parent: BaseC2Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #parent: BaseC2Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   id: BaseExpeditionWeaponTier1
   abstract: true
   components:
@@ -11,7 +11,7 @@
     price: 1000
 
 - type: entity
- # parent: BaseC2Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+ # parent: BaseC2Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   id: BaseExpeditionWeaponTier2
   abstract: true
   components:
@@ -19,7 +19,7 @@
     price: 2000
 
 - type: entity
-  #parent: BaseC2Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #parent: BaseC2Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   id: BaseExpeditionWeaponTier3
   abstract: true
   components:
@@ -27,7 +27,7 @@
     price: 3000
 
 - type: entity
-  #parent: BaseC2Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #parent: BaseC2Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   id: BaseExpeditionWeaponTier4
   abstract: true
   components:
@@ -35,7 +35,7 @@
     price: 5000
 
 - type: entity
-  #parent: BaseC3ExpeditionContraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #parent: BaseC3ExpeditionContraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   id: BaseExpeditionWeaponTier5
   abstract: true
   components:
@@ -45,49 +45,49 @@
 # For syndicate/pirate labeled guns
 - type: entity
   parent:
-  #- BaseC4Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC4Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier1
   id: BaseExpeditionWeaponTier1Syndicate
   abstract: true
 
 - type: entity
   parent:
-  #- BaseC3Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC3Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier2
   id: BaseExpeditionWeaponTier2Pirate
   abstract: true
 
 - type: entity
   parent:
-  #- BaseC3Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC3Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier3
   id: BaseExpeditionWeaponTier3Pirate
   abstract: true
 
 - type: entity
   parent:
-  #- BaseC4Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC4Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier2
   id: BaseExpeditionWeaponTier2Syndicate
   abstract: true
 
 - type: entity
   parent:
-  #- BaseC4Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC4Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier3
   id: BaseExpeditionWeaponTier3Syndicate
   abstract: true
 
 - type: entity
   parent:
-  #- BaseC4Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC4Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier4
   id: BaseExpeditionWeaponTier4Syndicate
   abstract: true
 
 - type: entity
   parent:
-  #- BaseC4Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC4Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier5
   id: BaseExpeditionWeaponTier5Syndicate
   abstract: true
@@ -103,7 +103,7 @@
 
 - type: entity
   parent:
-  #- BaseC1Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC1Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier1
   - NFWeaponPistolPollockHighCapacityMag
   categories: [ HideSpawnMenu ]
@@ -111,7 +111,7 @@
 
 - type: entity
   parent:
-  #- BaseC1Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC1Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier1
   - NFWeaponPistolUniversal
   categories: [ HideSpawnMenu ]
@@ -120,7 +120,7 @@
 ## Revolvers
 - type: entity
   parent:
-  #- BaseC1Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC1Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier1
   - NFWeaponRevolverArgenti
   categories: [ HideSpawnMenu ]
@@ -128,7 +128,7 @@
 
 - type: entity
   parent:
-  #- BaseC1Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC1Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier1
   - NFWeaponRevolverFaith
   categories: [ HideSpawnMenu ]
@@ -136,7 +136,7 @@
 
 - type: entity
   parent:
-  #- BaseC1Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC1Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier1
   - NFWeaponRevolverDeckard
   categories: [ HideSpawnMenu ]
@@ -144,7 +144,7 @@
 
 - type: entity
   parent:
-  #- BaseC1Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC1Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier1Syndicate
   - NFWeaponRevolverRitland45
   categories: [ HideSpawnMenu ]
@@ -153,7 +153,7 @@
 ## Rifles
 - type: entity
   parent:
-  #- BaseC1Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC1Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier1Syndicate
   - NFWeaponRifleBarlowsBolt
   categories: [ HideSpawnMenu ]
@@ -161,7 +161,7 @@
 
 - type: entity
   parent:
-  #- BaseC1Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC1Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier1
   - NFWeaponRifleCeremonial
   categories: [ HideSpawnMenu ]
@@ -178,7 +178,7 @@
 ## Pistols
 - type: entity
   parent:
-  #- BaseC4Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC4Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier2Syndicate
   - NFWeaponPistolCobra
   categories: [ HideSpawnMenu ]
@@ -193,7 +193,7 @@
 
 - type: entity
   parent:
-  #- BaseC1Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC1Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier2Syndicate
   - NFWeaponPistolViper
   categories: [ HideSpawnMenu ]
@@ -202,7 +202,7 @@
 ## Revolvers
 - type: entity
   parent:
-  #- BaseC1Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC1Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier2
   - NFWeaponRevolverFitz
   categories: [ HideSpawnMenu ]
@@ -210,7 +210,7 @@
 
 - type: entity
   parent:
-  #- BaseC1Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC1Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier2
   - NFWeaponRevolverLucky
   categories: [ HideSpawnMenu ]
@@ -225,7 +225,7 @@
 
 - type: entity
   parent:
-  #- BaseC1Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC1Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier2
   - NFWeaponRevolverWard45
   categories: [ HideSpawnMenu ]
@@ -234,7 +234,7 @@
 ## Shotguns
 - type: entity
   parent:
-  #- BaseC1Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC1Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier2
   - NFWeaponShotgunKammerer
   categories: [ HideSpawnMenu ]
@@ -243,7 +243,7 @@
 ## SMGs
 - type: entity
   parent:
-  #- BaseC2Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC2Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier2Syndicate
   - NFWeaponSubMachineGunC20r
   categories: [ HideSpawnMenu ]
@@ -274,7 +274,7 @@
 ## Rifles
 - type: entity
   parent:
-  #- BaseC1Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC1Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier2
   - NFWeaponRifleSVS
   categories: [ HideSpawnMenu ]
@@ -283,7 +283,7 @@
 ## Energy
 - type: entity
   parent:
-  #- BaseC1Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC1Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier2
   - NFWeaponEnergyPistolLaser
   categories: [ HideSpawnMenu ]
@@ -300,7 +300,7 @@
 
 - type: entity
   parent:
-  #- BaseC2Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC2Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier3Syndicate
   - NFWeaponRifleAssaultM90GrenadeLauncher
   categories: [ HideSpawnMenu ]
@@ -309,7 +309,7 @@
 ## Snipers
 - type: entity
   parent:
-  #- BaseC3Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC3Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier3Syndicate
   - NFWeaponRifleSniperHristov
   categories: [ HideSpawnMenu ]
@@ -317,7 +317,7 @@
 
 - type: entity
   parent:
-  #- BaseC1Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC1Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier3Pirate
   - NFWeaponRifleMusket
   categories: [ HideSpawnMenu ]
@@ -355,7 +355,7 @@
 ## Energy
 - type: entity
   parent:
-  #- BaseC1Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC1Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier3
   - NFWeaponEnergyPistolLaserSvalinn
   categories: [ HideSpawnMenu ]
@@ -365,7 +365,7 @@
 ## Shotguns
 - type: entity
   parent:
-  #- BaseC1Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC1Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier4
   - NFWeaponShotgunEnforcer
   categories: [ HideSpawnMenu ]
@@ -373,7 +373,7 @@
 
 - type: entity
   parent:
-  #- BaseC3Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC3Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier4Syndicate
   - NFWeaponShotgunBulldog
   categories: [ HideSpawnMenu ]
@@ -389,7 +389,7 @@
 
 - type: entity
   parent:
-  #- BaseC2Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC2Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier4Syndicate
   - NFWeaponRifleAssaultSm
   categories: [ HideSpawnMenu ]
@@ -419,7 +419,7 @@
 
 - type: entity
   parent:
-  #- BaseC2Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC2Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier4
   - NFWeaponEnergyPistolLaserAntique
   categories: [ HideSpawnMenu ]
@@ -444,7 +444,7 @@
 
 - type: entity
   parent:
-  #- BaseC3Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC3Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier5Syndicate
   - NFWeaponLauncherChinaLake
   categories: [ HideSpawnMenu ]
@@ -453,7 +453,7 @@
 # LMGs
 - type: entity
   parent:
-  #- BaseC3Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC3Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier5Syndicate
   - NFWeaponLightMachineGunL6
   categories: [ HideSpawnMenu ]
@@ -462,7 +462,7 @@
 # Energy
 - type: entity
   parent:
-  #- BaseC2Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC2Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier5
   - NFWeaponEnergySubMachineGunDeltaV
   categories: [ HideSpawnMenu ]
@@ -470,7 +470,7 @@
 
 - type: entity
   parent:
-  #- BaseC4Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC4Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier5
   - NFWeaponEnergyRifleSniperXrayCannon
   categories: [ HideSpawnMenu ]
@@ -478,7 +478,7 @@
 
 - type: entity
   parent:
-  #- BaseC2Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC2Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier5
   - NFWeaponEnergyRifleSniperCannon
   categories: [ HideSpawnMenu ]
@@ -486,7 +486,7 @@
 
 - type: entity
   parent:
-  #- BaseC2Contraband # CS: change. Prevents different base contraband levels from fighting with each other.
+  #- BaseC2Contraband # Coyote: change. Prevents different base contraband levels from fighting with each other.
   - BaseExpeditionWeaponTier5
   - NFWeaponEnergyRifleTemperature
   categories: [ HideSpawnMenu ]

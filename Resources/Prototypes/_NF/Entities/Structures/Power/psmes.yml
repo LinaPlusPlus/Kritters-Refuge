@@ -35,7 +35,7 @@
     maxChargeRate: 50000
     supplyRampTolerance: 5000
     supplyRampRate: 500
-    efficiency: 1.0 # CS: 0.8 -> 1.0
+    efficiency: 1.0 # Coyote: 0.8 -> 1.0
   - type: NodeContainer
     examinable: true
     nodes:

@@ -110,7 +110,7 @@
 
 #region blue curacao staff
 - type: entity
-  parent: [ BaseC2WizardContraband, WeaponInertStaffBase ] # CS: C3 to C2
+  parent: [ BaseC2WizardContraband, WeaponInertStaffBase ] # Coyote: C3 to C2
   id: WeaponInertStaffWizardElementalAdept
   name: inert adept-wizard blue curacao elemental staff
   components:
@@ -149,7 +149,7 @@
   name: master-wizard blue curacao elemental staff
   components:
   - type: ProjectileBatteryAmmoProvider
-    proto: WaterElementalConjuredStaffMaster # CS: WaterElementalConjuredStaff < WaterElementalConjuredStaffMaster
+    proto: WaterElementalConjuredStaffMaster # Coyote: WaterElementalConjuredStaff < WaterElementalConjuredStaffMaster
     fireCost: 250
   - type: Construction
     graph: WeaponChargedStaffWizardElementalAdeptActivation
@@ -158,7 +158,7 @@
 
 #region ice staff
 - type: entity
-  parent: [ BaseC2WizardContraband, WeaponInertStaffBase ] # CS: C3 to C2
+  parent: [ BaseC2WizardContraband, WeaponInertStaffBase ] # Coyote: C3 to C2
   id: WeaponInertStaffWizardIceAdept
   name: inert adept-wizard ice staff
   components:
@@ -206,7 +206,7 @@
   name: master-wizard ice staff
   components:
   - type: ProjectileBatteryAmmoProvider
-    proto: BulletIceGlobeMaster # CS: BulletIceGlobe < BulletIceGlobeMaster
+    proto: BulletIceGlobeMaster # Coyote: BulletIceGlobe < BulletIceGlobeMaster
     fireCost: 40
   - type: Construction
     graph: WeaponChargedStaffWizardIceAdeptActivation
@@ -215,7 +215,7 @@
 
 #region lightning staff
 - type: entity
-  parent: [ BaseC2WizardContraband, WeaponInertStaffBase ] # CS: C3 to C2
+  parent: [ BaseC2WizardContraband, WeaponInertStaffBase ] # Coyote: C3 to C2
   id: WeaponInertStaffWizardLightningAdept
   name: inert adept-wizard lightning staff
   components:
@@ -253,7 +253,7 @@
   name: master-wizard lightning staff
   components:
   - type: HitscanBatteryAmmoProvider
-    proto: WizardHitscanLightningMaster # CS: WizardHitscanLightning < WizardHitscanLightningMaster
+    proto: WizardHitscanLightningMaster # Coyote: WizardHitscanLightning < WizardHitscanLightningMaster
     fireCost: 40
   - type: Construction
     graph: WeaponChargedStaffWizardLightningAdeptActivation
@@ -262,7 +262,7 @@
 
 #region soap staff
 - type: entity
-  parent: [ BaseC2WizardContraband, WeaponInertStaffBase ] # CS: C3 to C2
+  parent: [ BaseC2WizardContraband, WeaponInertStaffBase ] # Coyote: C3 to C2
   id: WeaponInertStaffWizardSoapAdept
   name: inert adept-wizard soap staff
   components:
@@ -310,7 +310,7 @@
 
 #region magic bolt staff
 - type: entity
-  parent: [ BaseC2WizardContraband, WeaponInertStaffBase ] # CS: C3 to C2
+  parent: [ BaseC2WizardContraband, WeaponInertStaffBase ] # Coyote: C3 to C2
   id: WeaponInertStaffWizardBoltMagicAdept
   name: inert adept-wizard magic bolt staff
   components:
@@ -349,7 +349,7 @@
   name: master-wizard magic bolt staff
   components:
   - type: ProjectileBatteryAmmoProvider
-    proto: BulletMagicBoltMaster # CS: BulletMagicBolt < BulletMagicBoltMaster
+    proto: BulletMagicBoltMaster # Coyote: BulletMagicBolt < BulletMagicBoltMaster
     fireCost: 40
   - type: Construction
     graph: WeaponChargedStaffWizardBoltMagicAdeptActivation
@@ -358,7 +358,7 @@
 
 #region fire bolt staff
 - type: entity
-  parent: [ BaseC2WizardContraband, WeaponInertStaffBase ] # CS: C3 to C2
+  parent: [ BaseC2WizardContraband, WeaponInertStaffBase ] # Coyote: C3 to C2
   id: WeaponInertStaffWizardBoltFireAdept
   name: inert adept-wizard fire bolt staff
   components:
@@ -406,7 +406,7 @@
   name: master-wizard fire bolt staff
   components:
   - type: ProjectileBatteryAmmoProvider
-    proto: BulletFireBoltMaster # CS: BulletFireBolt < BulletFireBoltMaster
+    proto: BulletFireBoltMaster # Coyote: BulletFireBolt < BulletFireBoltMaster
     fireCost: 40
   - type: Construction
     graph: WeaponChargedStaffWizardBoltFireAdeptActivation
@@ -415,7 +415,7 @@
 
 #region caustic beam staff
 - type: entity
-  parent: [ BaseC2WizardContraband, WeaponInertStaffBase ] # CS: C3 to C2
+  parent: [ BaseC2WizardContraband, WeaponInertStaffBase ] # Coyote: C3 to C2
   id: WeaponInertStaffWizardCausticAdept
   name: inert adept-wizard caustic beam staff
   components:
@@ -463,7 +463,7 @@
   name: master-wizard caustic beam staff
   components:
   - type: HitscanBatteryAmmoProvider
-    proto: CausticBeamMaster # CS: CausticBeam < CausticBeamMaster
+    proto: CausticBeamMaster # Coyote: CausticBeam < CausticBeamMaster
     fireCost: 40
   - type: Construction
     graph: WeaponChargedStaffWizardCausticAdeptActivation
@@ -472,7 +472,7 @@
 
 #region brick staff
 - type: entity
-  parent: [ BaseC2WizardContraband, WeaponInertStaffBase ] # CS: C3 to C2
+  parent: [ BaseC2WizardContraband, WeaponInertStaffBase ] # Coyote: C3 to C2
   id: WeaponInertStaffWizardBrickAdept
   name: inert brick wizard staff
   components:
@@ -517,7 +517,7 @@
   name: master-wizard brick staff
   components:
   - type: ProjectileBatteryAmmoProvider
-    proto: BrickConjuredMaster # CS: BrickConjured < BrickConjuredMaster
+    proto: BrickConjuredMaster # Coyote: BrickConjured < BrickConjuredMaster
     fireCost: 40
   - type: Construction
     graph: WeaponChargedStaffWizardBrickAdeptActivation
@@ -565,7 +565,7 @@
   name: master blood cult staff of crimson bolt
   components:
   - type: ProjectileBatteryAmmoProvider
-    proto: BulletBloodCultDarkBoltMaster # CS: BulletBloodCultDarkBolt < BulletBloodCultDarkBoltMaster
+    proto: BulletBloodCultDarkBoltMaster # Coyote: BulletBloodCultDarkBolt < BulletBloodCultDarkBoltMaster
     fireCost: 40
   - type: Construction
     graph: WeaponChargedStaffCultistBoltDarkActivation
@@ -613,7 +613,7 @@
   name: master blood cult staff of malicious touch
   components:
   - type: ProjectileBatteryAmmoProvider
-    proto: BulletBloodCultHandMaster # CS: BulletBloodCultHand < BulletBloodCultHandMaster
+    proto: BulletBloodCultHandMaster # Coyote: BulletBloodCultHand < BulletBloodCultHandMaster
     fireCost: 40
   - type: Construction
     graph: WeaponInertStaffCultistHandActivation
@@ -661,7 +661,7 @@
   name: master blood cult staff of crimson lightning
   components:
   - type: HitscanBatteryAmmoProvider
-    proto: BloodCultLaserMaster # CS: BloodCultLaser < BloodCultLaserMaster
+    proto: BloodCultLaserMaster # Coyote: BloodCultLaser < BloodCultLaserMaster
     fireCost: 40
   - type: Construction
     graph: WeaponInertStaffCultistLightningActivation

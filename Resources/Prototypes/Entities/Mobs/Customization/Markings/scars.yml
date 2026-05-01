@@ -3,7 +3,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Human, Dwarf, Goblin, Felinid, Oni, Rodentia, Feroxi, Rodentia, Tajaran] # Frontier: added Felinid, Oni, Goblin, Rodentia, EE: added Tajaran
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: true
   sprites:
   - sprite: Mobs/Customization/scars.rsi
@@ -14,7 +14,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Human, Dwarf, Goblin, Felinid, Oni, Rodentia, Feroxi, Rodentia, Tajaran] # Frontier: added Felinid, Oni, Goblin, Rodentia, EE: added Tajaran
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: true
   sprites:
   - sprite: Mobs/Customization/scars.rsi
@@ -25,7 +25,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Human, Dwarf, Goblin, Felinid, Oni, Feroxi, Rodentia, Tajaran] # Frontier: added Felinid, Oni, Goblin, EE: added Tajaran
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sexRestriction: [Male]
   followSkinColor: true
   sprites:
@@ -37,7 +37,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Human, Dwarf, Goblin, Felinid, Oni, Feroxi, Rodentia, Tajaran] # Frontier: added Felinid, Oni, Goblin, EE: added Tajaran
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sexRestriction: [Male]
   followSkinColor: true
   sprites:
@@ -49,7 +49,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Human, Dwarf, Goblin, Felinid, Oni, Feroxi, Rodentia, Tajaran] # Frontier: added Felinid, Oni, Goblin, EE: added Tajaran
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: true
   sprites:
   - sprite: Mobs/Customization/scars.rsi
@@ -60,7 +60,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Human, Dwarf, Goblin, Sheleg, Felinid, Harpy, Oni, Vulpkanin, Rodentia] # Frontier: added Goblin and afterwards
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: true
   sprites:
   - sprite: Mobs/Customization/scars.rsi
@@ -71,7 +71,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Human, Dwarf, Goblin, Sheleg, Felinid, Harpy, Oni, Vulpkanin, Rodentia] # Frontier: added Goblin and afterwards
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: true
   sprites:
   - sprite: Mobs/Customization/scars.rsi
@@ -82,7 +82,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Human, Dwarf, Goblin, Sheleg, Felinid, Harpy, Oni, Vulpkanin, Rodentia] # Frontier: added Goblin and afterwards
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: true
   sprites:
   - sprite: Mobs/Customization/scars.rsi
@@ -93,7 +93,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Human, Dwarf, Goblin, Sheleg, Felinid, Harpy, Oni, Vulpkanin, Rodentia] # Frontier: added Goblin and afterwards
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: true
   sprites:
   - sprite: Mobs/Customization/scars.rsi
@@ -104,7 +104,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Human, Goblin, Sheleg, Felinid, Harpy, Oni, Vulpkanin, Rodentia] # Frontier: added Goblin and afterwards
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: true
   sprites:
   - sprite: Mobs/Customization/scars.rsi

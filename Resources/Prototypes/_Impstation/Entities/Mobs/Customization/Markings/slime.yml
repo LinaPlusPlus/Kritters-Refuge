@@ -3,7 +3,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [SlimePerson]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   forcedColoring: true
   followSkinColor: true
   sprites:
@@ -15,7 +15,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [SlimePerson]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: true
   sprites:
   - sprite: _Impstation/Mobs/Customization/slime_parts.rsi
@@ -26,7 +26,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [SlimePerson]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: true
   sprites:
   - sprite: _Impstation/Mobs/Customization/slime_parts.rsi
@@ -37,7 +37,7 @@
   bodyPart: Eyes
   markingCategory: Head
   speciesRestriction: [SlimePerson]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type:
@@ -53,7 +53,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [SlimePerson]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: true
   sprites:
   - sprite: _Impstation/Mobs/Customization/slime_parts.rsi
@@ -64,7 +64,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [SlimePerson]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: true
   sprites:
   - sprite: _Impstation/Mobs/Customization/slime_parts.rsi
@@ -75,7 +75,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [SlimePerson]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   coloring:
     default:
@@ -91,7 +91,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [SlimePerson]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   coloring:
     default:
@@ -107,7 +107,7 @@
   bodyPart: LArm
   markingCategory: Arms
   speciesRestriction: [SlimePerson]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   coloring:
     default:
@@ -123,7 +123,7 @@
   bodyPart: RArm
   markingCategory: Arms
   speciesRestriction: [SlimePerson]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   coloring:
     default:
@@ -139,7 +139,7 @@
   bodyPart: LFoot
   markingCategory: Legs
   speciesRestriction: [SlimePerson]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   coloring:
     default:
@@ -155,7 +155,7 @@
   bodyPart: RFoot
   markingCategory: Legs
   speciesRestriction: [SlimePerson]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   coloring:
     default:
@@ -171,7 +171,7 @@
   bodyPart: LHand
   markingCategory: Arms
   speciesRestriction: [SlimePerson]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   coloring:
     default:
@@ -187,7 +187,7 @@
   bodyPart: RHand
   markingCategory: Arms
   speciesRestriction: [SlimePerson]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   coloring:
     default:
@@ -203,7 +203,7 @@
   bodyPart: LLeg
   markingCategory: Legs
   speciesRestriction: [SlimePerson]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   coloring:
     default:
@@ -219,7 +219,7 @@
   bodyPart: RLeg
   markingCategory: Legs
   speciesRestriction: [SlimePerson]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   coloring:
     default:

@@ -41,7 +41,7 @@
         - type: StationJobs
           availableJobs:
             NFPirate: [ 8, 8 ]
-            Smuggler: [ 3, 3 ] # CS
+            Smuggler: [ 3, 3 ] # Coyote
             Escort: [ 3, 3 ]
             RipperDoc: [ 3, 3 ]
         - type: StationDeadDropReporting

@@ -23,8 +23,8 @@
     ForensicScanner: 1 # Frontier
     BoxForensicPad: 1 # Frontier
     ContrabandAppraisalTool: 1 # Frontier
-    ClothingOuterHardsuitSecurity: 1 # CS
-    ClothingShoesBootsMagSecurity: 1 # CS
+    ClothingOuterHardsuitSecurity: 1 # Coyote
+    ClothingShoesBootsMagSecurity: 1 # Coyote
 #    RadioHandheldSecurity: 5 # Frontier
   # security officers need to follow a diet regimen!
   # contrabandInventory: # Frontier

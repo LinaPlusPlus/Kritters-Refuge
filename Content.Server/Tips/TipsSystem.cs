@@ -156,14 +156,14 @@ public sealed class TipsSystem : EntitySystem
         }
         else
         {
-            // CS: Send to chat so people can see it in the chat feed with delay and prefix
+            // Coyote: Send to chat so people can see it in the chat feed with delay and prefix
             Timer.Spawn(TimeSpan.FromSeconds(3), () =>
             {
                 var wrappedMessage = $"[bold]Tippy:[/bold] {args[1]}";
                 _chat.ChatMessageToManyFiltered(Filter.Broadcast(), ChatChannel.OOC, wrappedMessage, wrappedMessage,
                     EntityUid.Invalid, false, false, Color.MediumPurple);
             });
-            // End CS
+            // Coyote End
             RaiseNetworkEvent(ev);
         }
     }

@@ -1,7 +1,7 @@
 - type: entity
   id: ClothingWebbingArcadia
   name: arcadia webbing
-  parent: NFClothingBeltStorageBase # CS: Removed BaseC3ContrabandNoValue, ContrabandClothing
+  parent: NFClothingBeltStorageBase # Coyote: Removed BaseC3ContrabandNoValue, ContrabandClothing
   description: Webbing created by Arcadia Industries. Seems very capable of fitting many items.
   components:
   - type: Sprite
@@ -12,7 +12,7 @@
 - type: entity
   id: ClothingBeltArcadia
   name: arcadia belt
-  parent: NFClothingBeltStorageBase # CS: Removed BaseC3ContrabandNoValue, ContrabandClothing
+  parent: NFClothingBeltStorageBase # Coyote: Removed BaseC3ContrabandNoValue, ContrabandClothing
   description: A belt created by Arcadia Industries. Seems very capable of fitting many items.
   components:
   - type: Sprite
@@ -74,7 +74,7 @@
     sprite: _NF/Clothing/Belt/pilot.rsi
 
 - type: entity
-  parent: [ BaseC4ContrabandUnredeemable, ClothingBeltAssault, ContentsExplosionResistanceBase ] # CS: ContentsExplosionResistanceBase added
+  parent: [ BaseC4ContrabandUnredeemable, ClothingBeltAssault, ContentsExplosionResistanceBase ] # Coyote: ContentsExplosionResistanceBase added
   id: ClothingBeltNfsd
   name: NFSD belt
   description: A tactical assault belt.
@@ -83,11 +83,11 @@
     sprite: _NF/Clothing/Belt/nfsd_belt.rsi
   - type: Clothing
     sprite: _NF/Clothing/Belt/nfsd_belt.rsi
-  - type: ExplosionResistance # CS: Add content explosion resistance to NFSD belts and webbings
-    damageCoefficient: 0.1 # CS: Add content explosion resistance to NFSD belts and webbings
+  - type: ExplosionResistance # Coyote: Add content explosion resistance to NFSD belts and webbings
+    damageCoefficient: 0.1 # Coyote: Add content explosion resistance to NFSD belts and webbings
 
 - type: entity
-  parent: [ BaseC4ContrabandUnredeemable, ClothingBeltSecurityWebbing, ContentsExplosionResistanceBase ] # CS: ContentsExplosionResistanceBase added
+  parent: [ BaseC4ContrabandUnredeemable, ClothingBeltSecurityWebbing, ContentsExplosionResistanceBase ] # Coyote: ContentsExplosionResistanceBase added
   id: ClothingBeltNfsdWebbing
   name: NFSD webbing
   description: A tactical assault webbing.
@@ -97,8 +97,8 @@
   - type: Clothing
     sprite: _NF/Clothing/Belt/nfsd_webbing.rsi
   - type: CatWearable
-  - type: ExplosionResistance # CS: Add content explosion resistance to NFSD belts and webbings
-    damageCoefficient: 0.1 # CS: Add content explosion resistance to NFSD belts and webbings
+  - type: ExplosionResistance # Coyote: Add content explosion resistance to NFSD belts and webbings
+    damageCoefficient: 0.1 # Coyote: Add content explosion resistance to NFSD belts and webbings
 
 # Ported from Nyano
 - type: entity

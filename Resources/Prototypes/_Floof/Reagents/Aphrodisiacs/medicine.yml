@@ -1,7 +1,7 @@
 - type: reagent
   id: Pomelustine
   name: reagent-name-pomelustine
-  group: Aphrodisiacs # CS: Needed to detect if a solution is injected with aphrodisiacs.
+  group: Aphrodisiacs # Coyote: Needed to detect if a solution is injected with aphrodisiacs.
   desc: reagent-desc-pomelustine
   physicalDesc: reagent-physical-desc-sticky
   flavor: fruity
@@ -69,7 +69,7 @@
 - type: reagent
   id: Philterex
   name: reagent-name-philterex
-  group: Aphrodisiacs # CS: Needed to detect if a solution is injected with aphrodisiacs.
+  group: Aphrodisiacs # Coyote: Needed to detect if a solution is injected with aphrodisiacs.
   desc: reagent-desc-philterex
   physicalDesc: reagent-physical-desc-syrupy
   flavor: sweet
@@ -111,7 +111,7 @@
         - !type:Consent
           consentId: Aphrodisiacs
           desc: "aphrodisiacs"
-      # - !type:Emote # CS: removal
+      # - !type:Emote # Coyote: removal
       #   conditions:
       #   - !type:ReagentThreshold
       #     min: 16.5
@@ -130,7 +130,7 @@
         - !type:Consent
           consentId: Aphrodisiacs
           desc: "aphrodisiacs"
-      # - !type:GenericStatusEffect # CS: removal
+      # - !type:GenericStatusEffect # Coyote: removal
       #   conditions:
       #   - !type:ReagentThreshold
       #     min: 30.0

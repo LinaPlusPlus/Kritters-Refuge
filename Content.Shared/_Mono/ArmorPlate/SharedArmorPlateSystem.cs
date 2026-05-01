@@ -24,7 +24,7 @@ public sealed class SharedArmorPlateSystem : EntitySystem
     [Dependency] private readonly InventorySystem _inventory = default!;
     [Dependency] private readonly ExamineSystemShared _examine = default!;
     [Dependency] private readonly IGameTiming _timing = default!;
-    [Dependency] private readonly SharedStaminaSystem _stamina = default!; // CS: Changed StaminaSystem to SharedStaminaSystem
+    [Dependency] private readonly SharedStaminaSystem _stamina = default!; // Coyote: Changed StaminaSystem to SharedStaminaSystem
     [Dependency] private readonly DamageableSystem _damageable = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
     [Dependency] private readonly SharedContainerSystem _container = default!;
@@ -41,7 +41,7 @@ public sealed class SharedArmorPlateSystem : EntitySystem
         SubscribeLocalEvent<ArmorPlateHolderComponent, InventoryRelayedEvent<RefreshMovementSpeedModifiersEvent>>(OnRefreshMoveSpeed);
         SubscribeLocalEvent<ArmorPlateItemComponent, GetVerbsEvent<ExamineVerb>>(OnPlateVerbExamine);
         SubscribeLocalEvent<ArmorPlateItemComponent, EntityTerminatingEvent>(OnPlateDestroyed);
-        SubscribeLocalEvent<ArmorPlateItemComponent, ExaminedEvent>(OnPlateExamined); // CS: Allows plates to be natively examined for durability
+        SubscribeLocalEvent<ArmorPlateItemComponent, ExaminedEvent>(OnPlateExamined); // Coyote: Allows plates to be natively examined for durability
         SubscribeLocalEvent<ArmorPlateProtectedComponent, BeforeDamageChangedEvent>(OnBeforeDamageChanged);
     }
 
@@ -463,7 +463,7 @@ public sealed class SharedArmorPlateSystem : EntitySystem
         else
             RemComp<ArmorPlateProtectedComponent>(wearerUid);
     }
-    // CS
+    // Coyote
     private void OnPlateExamined(EntityUid uid, ArmorPlateItemComponent component, ExaminedEvent args)
     {
         if (!args.IsInDetailsRange)
@@ -488,5 +488,5 @@ public sealed class SharedArmorPlateSystem : EntitySystem
                 ("durabilityColor", durabilityColor)));
         }
     }
-    // End CS
+    // Coyote End
 }

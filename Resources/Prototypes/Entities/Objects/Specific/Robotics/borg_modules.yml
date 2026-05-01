@@ -498,7 +498,7 @@
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: tool-module }
   - type: Tag
     tags:
-    - BorgModuleTool # CS
+    - BorgModuleTool # Coyote
 
 # cargo modules
 - type: entity

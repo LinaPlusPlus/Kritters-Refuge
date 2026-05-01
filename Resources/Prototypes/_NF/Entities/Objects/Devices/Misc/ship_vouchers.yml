@@ -148,4 +148,4 @@
     - state: voucherstationtrafficcontroller
   - type: ShipyardVoucher
     access:
-    - HeadOfPersonnel # CS, for some stupid, really dumb reason, frontier DID NOT add an SR access level or even bother to rename the HoP one. And I'm too lazy to make one. Like seriously, they made FUCKING SPACE SHIPS AND ENTIRELY NEW DEPARTMENTS, but they stopped at HoP job icons and access levels. AAAAAaa!!
+    - HeadOfPersonnel # Coyote, for some stupid, really dumb reason, frontier DID NOT add an SR access level or even bother to rename the HoP one. And I'm too lazy to make one. Like seriously, they made FUCKING SPACE SHIPS AND ENTIRELY NEW DEPARTMENTS, but they stopped at HoP job icons and access levels. AAAAAaa!!

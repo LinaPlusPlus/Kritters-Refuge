@@ -13,7 +13,7 @@ using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Prototypes;
 namespace Content.Client.Medical.Cryogenics;
 
-using TemperatureCondition = Content.Shared.EntityEffects.EffectConditions.Temperature; // CS: fuck my chud life
+using TemperatureCondition = Content.Shared.EntityEffects.EffectConditions.Temperature; // Coyote: fuck my chud life
 
 [GenerateTypedNameReferences]
 public sealed partial class CryoPodWindow : FancyWindow

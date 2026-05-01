@@ -85,15 +85,15 @@
       - id: ClothingHandsKnuckleDustersQM
       - id: ButchCleaver
       - id: EldritchBlade
-      # - id: Katana # CS: move: banished to tier 4
+      # - id: Katana # Coyote: move: banished to tier 4
       - id: Machete
-      - id: SpearReinforced # CS: move: moved to tier 3
-      - id: SpearPlasma # CS: move: moved to tier 3
-      - id: SpearSharkMinnow # CS: move: moved to tier 3
-      - id: WeaponCrusherDagger # CS: move: moved to tier 3
-      - id: WeaponCrusher # CS: move: moved to tier 3
-      - id: WeaponCrusherGlaive # CS: move: moved to tier 3
-      - id: ToolboxSyndicate # CS: move: moved to tier 3
+      - id: SpearReinforced # Coyote: move: moved to tier 3
+      - id: SpearPlasma # Coyote: move: moved to tier 3
+      - id: SpearSharkMinnow # Coyote: move: moved to tier 3
+      - id: WeaponCrusherDagger # Coyote: move: moved to tier 3
+      - id: WeaponCrusher # Coyote: move: moved to tier 3
+      - id: WeaponCrusherGlaive # Coyote: move: moved to tier 3
+      - id: ToolboxSyndicate # Coyote: move: moved to tier 3
     - !type:NestedSelector
       weight: 0.05
       tableId: TableDungeonLootWeaponsMeleeTier4
@@ -112,22 +112,22 @@
       - id: Shinai
       - id: WeaponBaguette
       - id: PlasteelArmingSword
-      # - id: SpearReinforced # CS: move: moved to tier 3
+      # - id: SpearReinforced # Coyote: move: moved to tier 3
       - id: Sledgehammer
       - id: Claymore
       - id: ClothingHandsKnuckleDustersStun
-      # - id: SpearPlasma # CS: move: moved to tier 3
-      # - id: SpearSharkMinnow # CS: move: moved to tier 3
+      # - id: SpearPlasma # Coyote: move: moved to tier 3
+      # - id: SpearSharkMinnow # Coyote: move: moved to tier 3
       - id: CaptainSabre
-      - id: ClothingHandsGlovesNorthStar # CS: move: banished to tier 5
-      # - id: ToolboxSyndicate # CS: move: moved to tier 3
-      # - id: WeaponCrusherDagger # CS: move: moved to tier 3
-      # - id: WeaponCrusher # CS: move: moved to tier 3
-      # - id: WeaponCrusherGlaive # CS: move: moved to tier 3
-      - id: Katana # CS: move: banished to tier 4
-      - id: WeaponCaseShortEnergyDaggerExpedition # CS: move: moved to tier 4
-      - id: Sledgehammer # CS move: to tier 4
-      - id: ClothingHandsGlovesBoxingRigged # CS: move: to tier 4
+      - id: ClothingHandsGlovesNorthStar # Coyote: move: banished to tier 5
+      # - id: ToolboxSyndicate # Coyote: move: moved to tier 3
+      # - id: WeaponCrusherDagger # Coyote: move: moved to tier 3
+      # - id: WeaponCrusher # Coyote: move: moved to tier 3
+      # - id: WeaponCrusherGlaive # Coyote: move: moved to tier 3
+      - id: Katana # Coyote: move: banished to tier 4
+      - id: WeaponCaseShortEnergyDaggerExpedition # Coyote: move: moved to tier 4
+      - id: Sledgehammer # Coyote move: to tier 4
+      - id: ClothingHandsGlovesBoxingRigged # Coyote: move: to tier 4
     - !type:NestedSelector
       weight: 0.05
       tableId: TableDungeonLootWeaponsMeleeTier5
@@ -140,19 +140,19 @@
     - !type:GroupSelector
       weight: 0.99
       children:
-      # - id: WeaponCaseShortEnergyDaggerExpedition # CS: move: moved to tier 4
+      # - id: WeaponCaseShortEnergyDaggerExpedition # Coyote: move: moved to tier 4
       - id: WeaponCaseShortEnergySwordExpedition
       - id: WeaponCaseShortEnergyCutlassExpedition
-      # - id: WeaponCaseShortEnergySwordDoubleExpedition # CS: Banishing to the unique table
-      # - id: ClothingHandsGlovesBoxingRigged # CS: move: to tier 4
+      # - id: WeaponCaseShortEnergySwordDoubleExpedition # Coyote: Banishing to the unique table
+      # - id: ClothingHandsGlovesBoxingRigged # Coyote: move: to tier 4
       - id: UnholyHalberd
       - id: SecBreachingHammer
       - id: ThrowingKnife
       - id: MiningDrillDiamond
       - id: EnergyKatana
       - id: Truncheon
-      # - id: Sledgehammer # CS move: to tier 4
-      - id: ClothingHandsGlovesNorthStar # CS: move: banished to tier 5
+      # - id: Sledgehammer # Coyote move: to tier 4
+      - id: ClothingHandsGlovesNorthStar # Coyote: move: banished to tier 5
     - !type:NestedSelector
       weight: 0.01
       tableId: TableDungeonLootWeaponsMeleeUnique
@@ -162,10 +162,10 @@
   id: TableDungeonLootWeaponsMeleeUnique
   table: !type:GroupSelector
     children:
-    #- id: ClothingHandsKnuckleBoneCrushers # CS: This is an admeme weapon, it should not be spawnable.
+    #- id: ClothingHandsKnuckleBoneCrushers # Coyote: This is an admeme weapon, it should not be spawnable.
     - id: ArmBlade
     - id: Kanabou
-    - id: WeaponCaseShortEnergySwordDoubleExpedition # CS: Banishing to the unique table
+    - id: WeaponCaseShortEnergySwordDoubleExpedition # Coyote: Banishing to the unique table
 
 # region ranged
 - type: entityTable
@@ -196,16 +196,16 @@
     - !type:GroupSelector
       weight: 0.95
       children:
-      # - id: WeaponCaseShortMk58Expedition # CS: remove: vendor gun
+      # - id: WeaponCaseShortMk58Expedition # Coyote: remove: vendor gun
       - id: WeaponCaseShortUniversalExpedition
-      # - id: WeaponCaseShortPollockExpedition # CS: remove: vendor gun
+      # - id: WeaponCaseShortPollockExpedition # Coyote: remove: vendor gun
       - id: WeaponCaseShortFaithExpedition
-      # - id: WeaponCaseShortArgentiExpedition # CS: remove: vendor gun
+      # - id: WeaponCaseShortArgentiExpedition # Coyote: remove: vendor gun
       - id: WeaponCaseShortLuckyExpedition
       - id: WeaponCaseShortDeckardExpedition
       - id: WeaponCaseShortRitland45Expedition
       - id: WeaponCaseLongBarlowsBoltExpedition
-      # - id: WeaponCaseLongRepeaterExpedition # CS: remove: vendor gun
+      # - id: WeaponCaseLongRepeaterExpedition # Coyote: remove: vendor gun
       - id: WeaponCaseLongSniperCeremonialExpedition
     - !type:NestedSelector
       weight: 0.05
@@ -222,17 +222,17 @@
       - id: WeaponCaseShortCobra
       - id: WeaponCaseShortN1984Expedition
       - id: WeaponCaseShortViper
-      # - id: WeaponCaseShortFitzExpedition # CS: remove: vendor gun
+      # - id: WeaponCaseShortFitzExpedition # Coyote: remove: vendor gun
       - id: WeaponCaseShortWard45Expedition
       - id: WeaponCaseShortRevolverPirate
       - id: WeaponCaseLongC20r
       - id: WeaponCaseLongJackdaw
-      - id: WeaponCaseLongLecterExpedition # CS: add: two chances at a basic .20 rifle
-      # - id: WeaponCaseLongGestioExpedition # CS: remove: vendor gun
-      # - id: WeaponCaseLongWeaponRifleNovaliteC1Expedition # CS: remove: vendor gun
+      - id: WeaponCaseLongLecterExpedition # Coyote: add: two chances at a basic .20 rifle
+      # - id: WeaponCaseLongGestioExpedition # Coyote: remove: vendor gun
+      # - id: WeaponCaseLongWeaponRifleNovaliteC1Expedition # Coyote: remove: vendor gun
       - id: WeaponCaseLongSVSExpedition
-      # - id: WeaponCaseLongKammererExpedition # CS: remove: vendor gun
-      # - id: WeaponCaseShortLaserGunExpedition # CS: remove: vendor gun
+      # - id: WeaponCaseLongKammererExpedition # Coyote: remove: vendor gun
+      # - id: WeaponCaseShortLaserGunExpedition # Coyote: remove: vendor gun
     - !type:NestedSelector
       weight: 0.05
       tableId: TableDungeonLootWeaponsRangedTier3
@@ -251,14 +251,14 @@
       - id: WeaponCaseLongDrozdExpedition
       - id: WeaponCaseLongM90Expedition
       - id: WeaponCaseLongLecterExpedition
-      - id: WeaponCaseLongAkm # CS: add: AK47S, FOR EVERYONE *incoherent cheering*.... oh also its the worst of the .30 rifles so it can be down here with the gang
-      - id: WeaponCaseLongEnergyGunExpedition # CS: move: why is the energy SMG in tier 5, moving to tier 3
-      - id: WeaponCaseLongJackdaw # CS: add: two chances to get this because we need more decent .20 rifles and there are too many dang SMGs
+      - id: WeaponCaseLongAkm # Coyote: add: AK47S, FOR EVERYONE *incoherent cheering*.... oh also its the worst of the .30 rifles so it can be down here with the gang
+      - id: WeaponCaseLongEnergyGunExpedition # Coyote: move: why is the energy SMG in tier 5, moving to tier 3
+      - id: WeaponCaseLongJackdaw # Coyote: add: two chances to get this because we need more decent .20 rifles and there are too many dang SMGs
       - id: WeaponCaseShortSvalinnExpedition
-      # - id: WeaponCaseLongHristovExpedition # CS move: banishing you to tier 4
+      # - id: WeaponCaseLongHristovExpedition # Coyote move: banishing you to tier 4
       - id: WeaponCaseLongMusketExpedition
     - !type:NestedSelector
-      weight: 0.03 # CS further reduction to lower the amount of high tier weapons
+      weight: 0.03 # Coyote further reduction to lower the amount of high tier weapons
       tableId: TableDungeonLootWeaponsRangedTier4
 
 # region ranged T4
@@ -274,13 +274,13 @@
       - id: WeaponCaseLongBulldog
       - id: WeaponCaseLongEnforcerExpedition
       - id: WeaponCaseLongEstocExpedition
-      - id: WeaponCaseShortAnacondaExpedition # CS
+      - id: WeaponCaseShortAnacondaExpedition # Coyote
       - id: WeaponCaseShortAntiqueLaserExpedition
       - id: WeaponCaseShortAdvancedLaserExpedition
       - id: WeaponCaseLongLaserCarbineExpedition
-      # - id: WeaponCaseLongXrayCannonExpedition # CS: move: banished to tier 5
-      # - id: WeaponCaseLongTemperatureGunExpedition # CS: move: banished to tier 5
-      - id: WeaponCaseLongHristovExpedition # CS move: banished to tier 4
+      # - id: WeaponCaseLongXrayCannonExpedition # Coyote: move: banished to tier 5
+      # - id: WeaponCaseLongTemperatureGunExpedition # Coyote: move: banished to tier 5
+      - id: WeaponCaseLongHristovExpedition # Coyote move: banished to tier 4
     - !type:NestedSelector
       weight: 0.01
       tableId: TableDungeonLootWeaponsRangedTier5
@@ -296,14 +296,14 @@
       - id: WeaponCaseLongLauncherRocketExpedition
       - id: WeaponCaseLongLauncherChinaLake
       - id: WeaponCaseHeavyLightMachineGunL6
-      # - id: WeaponCaseLongEnergyGunExpedition # CS: move: why is the energy SMG in tier 5, moving to tier 3
+      # - id: WeaponCaseLongEnergyGunExpedition # Coyote: move: why is the energy SMG in tier 5, moving to tier 3
       - id: WeaponCaseLongLaserCannonExpedition
       - id: WeaponCaseHeavyAsmgtExpeditions
-      - id: WeaponCaseLongXrayCannonExpedition # CS: move: banished to tier 5
-      - id: WeaponCaseLongTemperatureGunExpedition # CS: move: banished to tier 5
-      - id: WeaponCaseLongPrototypePulseRifleExpedition # CS: Re-add to loot tables
-      - id: WeaponCaseLongHristovExpedition # CS extra trash drop.
-      - id: WeaponCaseLongC19r # CS: add: C19r because there is finally an SMG that doesnt need to be tier 3. I mean it could be tier 4 but lets keep the prototype rare.
+      - id: WeaponCaseLongXrayCannonExpedition # Coyote: move: banished to tier 5
+      - id: WeaponCaseLongTemperatureGunExpedition # Coyote: move: banished to tier 5
+      - id: WeaponCaseLongPrototypePulseRifleExpedition # Coyote: Re-add to loot tables
+      - id: WeaponCaseLongHristovExpedition # Coyote extra trash drop.
+      - id: WeaponCaseLongC19r # Coyote: add: C19r because there is finally an SMG that doesnt need to be tier 3. I mean it could be tier 4 but lets keep the prototype rare.
 
 # region explosives
 - type: entityTable
@@ -419,7 +419,7 @@
       children:
       - id: WeaponCaseShortAmmoBoxLethal20
       - id: WeaponCaseShortAmmoBoxBigLethal20
-    # CS: Remove .25 from tables
+    # Coyote: Remove .25 from tables
     #- !type:GroupSelector
     #  children:
     #  - id: WeaponCaseShortAmmoBoxLethal25
@@ -431,11 +431,11 @@
     - !type:GroupSelector
       children:
       - id: WeaponCaseShortAmmoBoxLethal35
-    # CS: .40 ammo
+    # Coyote: .40 ammo
     - !type:GroupSelector
       children:
       - id: WeaponCaseShortAmmoBoxLethal40
-    # End CS
+    # End Coyote
     - !type:GroupSelector
       children:
       - id: WeaponCaseShortAmmoBoxLethalShotgun
@@ -448,14 +448,14 @@
     children:
     - id: WeaponCaseShortAmmoBoxRubber30
     - id: WeaponCaseShortAmmoBoxRubber35
-    - id: WeaponCaseShortAmmoBoxRubber40 # CS
+    - id: WeaponCaseShortAmmoBoxRubber40 # Coyote
     - id: WeaponCaseShortAmmoBoxRubber45
     - id: WeaponCaseShortAmmoBoxRubberShotgun
     - !type:GroupSelector
       children:
       - id: WeaponCaseShortAmmoBoxRubber20
       - id: WeaponCaseShortAmmoBoxBigRubber20
-    # CS: Remove .25 from tables
+    # Coyote: Remove .25 from tables
     #- !type:GroupSelector
     #  children:
     #  - id: WeaponCaseShortAmmoBoxRubber25
@@ -470,7 +470,7 @@
     - id: WeaponCaseShortAmmoBoxIncendiary30
     - id: WeaponCaseShortAmmoBoxIncendiary35
     - id: WeaponCaseShortAmmoBoxIncendiaryShotgun
-    - id: WeaponCaseShortAmmoBoxIncendiary40 # CS
+    - id: WeaponCaseShortAmmoBoxIncendiary40 # Coyote
     - id: WeaponCaseShortAmmoBoxIncendiary45
 
 # region ammo uranium
@@ -482,7 +482,7 @@
     - id: WeaponCaseShortAmmoBoxUranium30
     - id: WeaponCaseShortAmmoBoxUranium35
     - id: WeaponCaseShortAmmoBoxUraniumShotgun
-    - id: WeaponCaseShortAmmoBoxUranium40 # CS
+    - id: WeaponCaseShortAmmoBoxUranium40 # Coyote
     - id: WeaponCaseShortAmmoBoxUranium45
 
 # region ammo practice
@@ -493,9 +493,9 @@
     - id: WeaponCaseShortAmmoBoxPractice20
     - id: WeaponCaseShortAmmoBoxPractice30
     - id: WeaponCaseShortAmmoBoxPractice35
-    #- id: WeaponCaseShortAmmoBoxPractice25 # CS: Remove .25 from tables
+    #- id: WeaponCaseShortAmmoBoxPractice25 # Coyote: Remove .25 from tables
     - id: WeaponCaseShortAmmoBoxPracticeShotgun
-    - id: WeaponCaseShortAmmoBoxPractice40 # CS
+    - id: WeaponCaseShortAmmoBoxPractice40 # Coyote
     - id: WeaponCaseShortAmmoBoxPractice45
 
 # region combined

@@ -31,7 +31,7 @@ public sealed class OreSiloSystem : SharedOreSiloSystem
         var xform = Transform(ent);
 
         // Sneakily uses override with TComponent parameter
-        // CS: Disable silo range check
+        // Coyote: Disable silo range check
         // _entityLookup.GetEntitiesInRange(xform.Coordinates, ent.Comp.Range, _clientLookup);
         if (xform.GridUid == null)
             return;

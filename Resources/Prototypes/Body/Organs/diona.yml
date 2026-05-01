@@ -93,8 +93,8 @@
       - id: Poison
       - id: Narcotic
       - id: Alcohol
-      - id: Aphrodisiacs # CS: Necessary to detect aphrodisiac injected solutions.
-      - id: AphrodisiacDrinks # CS: Necessary to detect aphrodisiac injected solutions.
+      - id: Aphrodisiacs # Coyote: Necessary to detect aphrodisiac injected solutions.
+      - id: AphrodisiacDrinks # Coyote: Necessary to detect aphrodisiac injected solutions.
         rateModifier: 0.1
   - type: Item
     size: Small

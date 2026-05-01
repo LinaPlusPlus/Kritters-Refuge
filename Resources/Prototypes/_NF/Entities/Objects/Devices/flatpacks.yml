@@ -998,7 +998,7 @@
   - type: Flatpack
     entity: VehicleWheelchair
   - type: StaticPrice
-    price: 500 # CS: lets not be cruel for people that loose the roundstart wheelchair
+    price: 500 # Coyote: lets not be cruel for people that loose the roundstart wheelchair
     vendPrice: 1000
   - type: Sprite
     layers:

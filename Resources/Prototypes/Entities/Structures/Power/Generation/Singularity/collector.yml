@@ -62,7 +62,7 @@
       - reactantPrototype: Plasma
         powerGenerationEfficiency: 1
         reactantBreakdownRate: 0.0000032537
-        # CS: edit - Adjusted to have a halflife of 8 hours. Math is as follows with current values: 2 moles, 7.4 rads, 0.0001 reactantbreakdown rate (old value)
+        # Coyote: edit - Adjusted to have a halflife of 8 hours. Math is as follows with current values: 2 moles, 7.4 rads, 0.0001 reactantbreakdown rate (old value)
         # f(t)=2e^(-7.4*0.0001*t)
         # 0.0001 only has a half life of 15 minutes. Readjusting to 8 hours.
         # reactantBreakdownRate = ln(0.5)/(-7.4*8*60*60) = 0.00000325237

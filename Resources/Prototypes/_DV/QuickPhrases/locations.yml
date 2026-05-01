@@ -114,12 +114,12 @@
   id: LocationCommandPhrase
   text: station-beacon-command
 
-# CS
+# Coyote
 # - type: quickPhrase
 #   parent: BaseCommandLocationPhrase
 #   id: LocationBridgePhrase
 #   text: station-beacon-bridge
-# # End CS
+# # End Coyote
 
 - type: quickPhrase
   parent: BaseCommandLocationPhrase
@@ -249,12 +249,12 @@
 
 # Logistics
 
-# CS
+# Coyote
 # - type: quickPhrase
 #   parent: BaseLogisticsLocationPhrase
 #   id: LocationCargoBayPhrase
 #   text: station-beacon-cargo-bay
-# # End CS
+# # End Coyote
 
 - type: quickPhrase
   parent: BaseLogisticsLocationPhrase
@@ -320,7 +320,7 @@
   id: LocationBrigPhrase
   text: station-beacon-brig
 
-# CS
+# Coyote
 # - type: quickPhrase
 #   parent: BaseSecurityLocationPhrase
 #   id: LocationWardenPhrase
@@ -330,14 +330,14 @@
 #   parent: BaseSecurityLocationPhrase
 #   id: LocationHosPhrase
 #   text: station-beacon-hos
-# # End CS
+# # End Coyote
 
 - type: quickPhrase
   parent: BaseSecurityLocationPhrase
   id: LocationArmoryPhrase
   text: station-beacon-armory
 
-# CS
+# Coyote
 # - type: quickPhrase
 #   parent: BaseSecurityLocationPhrase
 #   id: LocationPermaPhrase
@@ -352,7 +352,7 @@
 #   parent: BaseSecurityLocationPhrase
 #   id: LocationSecCheckpointPhrase
 #   text: station-beacon-security-checkpoint
-# # End CS
+# # End Coyote
 
 # Service
 
@@ -448,12 +448,12 @@
   id: LocationArrivalsPhrase
   text: station-beacon-arrivals
 
-# CS: start
+# Coyote: start
 # - type: quickPhrase
 #   parent: BaseCivilianLocationPhrase
 #   id: LocationOutpostPhrase
 #   text: phrase-location-outpost
-# # End CS
+# # End Coyote
 
 - type: quickPhrase
   parent: BaseCivilianLocationPhrase

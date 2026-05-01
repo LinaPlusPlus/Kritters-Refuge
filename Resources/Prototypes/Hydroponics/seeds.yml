@@ -1324,7 +1324,7 @@
       Min: 1
       Max: 2
       PotencyDivisor: 10
-    Tricordrazine: # CS: Change: Omni to Tricord
+    Tricordrazine: # Coyote: Change: Omni to Tricord
       Min: 1
       Max: 3
       PotencyDivisor: 35

@@ -11,9 +11,9 @@
 - type: vessel
   id: Albatross
   parent: BaseVessel
-  name: LL2 Albatross # CS: included License Level in the name.
+  name: LL2 Albatross # Coyote: included License Level in the name.
   description: A very large, heavy-duty cargo-hauling shuttle designed by the USSP-based Kesha Aerospace Plant, featuring modular pod storage and a robust salvage bay for supplanting freight work with small-scale mining operations.
-  price: 210000 # ~111346 0.30 144749.8 # CS: 121,630 * (1.70) ^=  210,000 (206,771)
+  price: 210000 # ~111346 0.30 144749.8 # Coyote: 121,630 * (1.70) ^=  210,000 (206,771)
   category: Large
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/albatross.yml

@@ -43,7 +43,7 @@
     sprite: _NF/Objects/Weapons/Guns/Pistols/cobra.rsi
 
 #region DeltaV
-- type: entity # CS: Converted to .40 caliber
+- type: entity # Coyote: Converted to .40 caliber
   id: NFWeaponPistolUniversal
   parent: [ CSBaseWeaponHeavyPistolChamber40, NFBaseWeaponFramePistolNanotrasen ]
   name: mk32 "Universal"
@@ -57,7 +57,7 @@
   - type: Clothing
     sprite: _DV/Objects/Weapons/Guns/Pistols/universal.rsi
 
-- type: entity # CS: Converted to .40 caliber
+- type: entity # Coyote: Converted to .40 caliber
   id: NFWeaponPistolUniversalNfsd
   parent: [ BaseC1ContrabandUnredeemable, CSBaseWeaponHeavyPistolChamber40Overpressure, NFWeaponPistolUniversal ]
   name: mk32-M "Universal" service pistol
@@ -69,7 +69,7 @@
       path: /Audio/_DV/Weapons/Guns/Gunshots/universal.ogg
 
 #region DeltaV: rubber
-- type: entity # CS: Converted to .40 caliber
+- type: entity # Coyote: Converted to .40 caliber
   id: NFWeaponPistolUniversalNfsdLessLethal
   parent: [ CSBaseWeaponHeavyPistolChamber40Rubber, NFWeaponPistolUniversalNfsd ]
   suffix: Frontier, Less-lethal

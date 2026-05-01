@@ -43,6 +43,6 @@ public sealed class CrewManifestEui : BaseEui
             return;
         }
 
-        _window.Populate(cast.Entries); // CS: Remove name
+        _window.Populate(cast.Entries); // Coyote: Remove name
     }
 }

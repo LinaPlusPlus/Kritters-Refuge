@@ -1,6 +1,8 @@
 using Content.Client.Examine.UI;
+using Content.Client.Clothing;
 using Content.Shared.Examine;
 using Content.Shared.Humanoid;
+using Content.Shared.Inventory;
 using Content.Shared.Verbs;
 using Robust.Client.GameObjects;
 using Robust.Shared.Utility;
@@ -12,6 +14,8 @@ namespace Content.Client.Examine;
 /// </summary>
 public sealed class CharacterExamineSystem : EntitySystem
 {
+    [Dependency] private readonly ClientClothingSystem _clothing = default!;
+
     private readonly Dictionary<NetEntity, CharacterDetailWindow> _openWindows = new();
 
     public override void Initialize()
@@ -49,6 +53,11 @@ public sealed class CharacterExamineSystem : EntitySystem
 
         // Create and show new window
         var window = new CharacterDetailWindow();
+
+        // Ensure current equipment visuals are present on the inspected entity before previewing it.
+        if (TryComp(uid, out InventoryComponent? inventory))
+            _clothing.InitClothing(uid, inventory);
+
         window.SetPreviewEntity(uid);
         _openWindows[netEntity] = window;
 

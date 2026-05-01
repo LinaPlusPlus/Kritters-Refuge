@@ -20,7 +20,7 @@
     ClothingSkirtUniformRandomBra: 6 # Frontier
     ClothingSkirtUniformRandomShorts: 6 # Frontier
     ClothingSkirtUniformRandomShirt: 6 # Frontier
-    ClothingHeadHatBeret: 4 # CS: Uniform dying doesn't exist. [
+    ClothingHeadHatBeret: 4 # Coyote: Uniform dying doesn't exist. [
     ClothingHeadBandBlack: 2
     ClothingHeadBandBlue: 2
     ClothingHeadBandGreen: 2
@@ -104,7 +104,7 @@
     ClothingHandsGlovesColorGreen: 2
     ClothingHandsGlovesColorOrange: 2
     ClothingHandsGlovesColorPurple: 2
-    ClothingEyesGlassesCheapSunglasses: 3  # CS: Uniform dying doesn't exist. ]
+    ClothingEyesGlassesCheapSunglasses: 3  # Coyote: Uniform dying doesn't exist. ]
     # DO NOT ADD MORE, USE UNIFORM DYING
     ClothingNeckCollarBlue: 2 # Floofstation - Collar addition
     ClothingNeckCollarBlack: 2 # Floofstation - Collar addition
@@ -116,7 +116,7 @@
     ClothingUniformloinclothWhite: 2
     ClothingOuterBeltedWear: 2
     ClothingOuterTransparentOuterwear: 2
-    ClothingShoesHighheelShoes: 6 # CS
+    ClothingShoesHighheelShoes: 6 # Coyote
     ClothingUniformJumpskirtGothic: 4
     ClothingUniformJumpskirtMaid: 4
     ClothingUniformJumpskirtDressRed: 4

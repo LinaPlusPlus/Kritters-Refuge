@@ -968,7 +968,7 @@
         Caustic: 0.95
 
 - type: entity
-  parent: [ClothingHeadBase] # Frontier: BaseSyndicateContraband<BaseC4Contraband added ContrabandClothing as parent # CS: de contra'd it
+  parent: [ClothingHeadBase] # Frontier: BaseSyndicateContraband<BaseC4Contraband added ContrabandClothing as parent # Coyote: de contra'd it
   id: ClothingHeadHatSyndie
   name: syndicate hat
   description: A souvenir hat from "Syndieland", their production has already been closed.
@@ -979,7 +979,7 @@
     sprite: Clothing/Head/Hats/syndiecap.rsi
 
 - type: entity
-  parent: [ClothingHeadBase] # Frontier: added ContrabandClothing as parent # CS: de conra'd
+  parent: [ClothingHeadBase] # Frontier: added ContrabandClothing as parent # Coyote: de conra'd
   id: ClothingHeadHatSyndieMAA
   name: master at arms hat
   description: Master at arms hat, looks intimidating, I doubt that you will like to communicate with its owner...

@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ BaseItem, RecyclableItemSteelSmall ] # CS
+  parent: [ BaseItem, RecyclableItemSteelSmall ] # Coyote
   id: BaseKnife
   abstract: true
   components:
@@ -27,7 +27,7 @@
       - Slicing
     useSound:
       path: /Audio/Items/Culinary/chop.ogg
-  - type: StaticPrice # CS
+  - type: StaticPrice # Coyote
     price: 25
 
 - type: entity

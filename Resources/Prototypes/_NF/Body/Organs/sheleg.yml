@@ -123,8 +123,8 @@
       rateModifier: 0.20
     - id: Narcotic
       rateModifier: 0.20
-    - id: Aphrodisiacs # CS: Necessary to detect aphrodisiac injected solutions.
-    - id: AphrodisiacDrinks # CS: Necessary to detect aphrodisiac injected solutions.
+    - id: Aphrodisiacs # Coyote: Necessary to detect aphrodisiac injected solutions.
+    - id: AphrodisiacDrinks # Coyote: Necessary to detect aphrodisiac injected solutions.
       rateModifier: 0.20
 
 - type: entity
@@ -151,8 +151,8 @@
       rateModifier: 0.25
     - id: Drink
       rateModifier: 1.50
-    - id: Aphrodisiacs # CS: Necessary to detect aphrodisiac injected solutions.
-    - id: AphrodisiacDrinks # CS: Necessary to detect aphrodisiac injected solutions.
+    - id: Aphrodisiacs # Coyote: Necessary to detect aphrodisiac injected solutions.
+    - id: AphrodisiacDrinks # Coyote: Necessary to detect aphrodisiac injected solutions.
 
 - type: entity
   id: OrganShelegLiver

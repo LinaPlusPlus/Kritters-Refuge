@@ -1,4 +1,4 @@
-- type: listing # CS
+- type: listing # Coyote
   id: UplinkT1RandomLoot
   name:  uplink-t1loot
   description: uplink-t1loot-desc
@@ -17,7 +17,7 @@
     whitelist:
     - Smuggler
 
-- type: listing # CS
+- type: listing # Coyote
   id: UplinkT2RandomLoot
   name:  uplink-t2loot
   description: uplink-t2loot-desc
@@ -36,7 +36,7 @@
     whitelist:
     - Smuggler
 
-- type: listing # CS
+- type: listing # Coyote
   id: UplinkT3RandomLoot
   name:  uplink-t3loot
   description: uplink-t3loot-desc
@@ -55,7 +55,7 @@
     whitelist:
     - Smuggler
 
-- type: listing # CS
+- type: listing # Coyote
   id: UplinkT4RandomLoot
   name:  uplink-t4loot
   description: uplink-t4loot-desc
@@ -74,7 +74,7 @@
     whitelist:
     - Smuggler
 
-- type: listing # CS
+- type: listing # Coyote
   id: UplinkT5RandomLoot
   name:  uplink-t5loot
   description: uplink-t5loot-desc
@@ -93,7 +93,7 @@
     whitelist:
     - Smuggler
 
-#- type: listing # CS
+#- type: listing # Coyote
 #  id: UplinkContraCrate
 #  name:  uplink-contracrate
 #  description: uplink-contracrate-desc
@@ -112,7 +112,7 @@
 #    whitelist:
 #    - Smuggler
 
-- type: listing # CS
+- type: listing # Coyote
   id: UplinkPirateRCD
   name:  uplink-pirate-rcd-name
   description: uplink-pirate-rcd-desc
@@ -128,7 +128,7 @@
       tags:
       - PirateUplink
 
-- type: listing # CS
+- type: listing # Coyote
   id: UplinkPirateShipCannon
   name:  uplink-pirate-ship-cannon-name
   description: uplink-pirate-ship-cannon-desc
@@ -149,7 +149,7 @@
     - NFPirateFirstMate
     - NFPirateCaptain
 
-- type: listing # CS
+- type: listing # Coyote
   id: UplinkSvalinnMachineGun
   name:  uplink-svalinn-machinegun-name
   description: uplink-svalinn-machinegun-desc
@@ -168,7 +168,7 @@
     whitelist:
     - Smuggler
 
-- type: listing # CS
+- type: listing # Coyote
   id: UplinkChemicalsCrateD
   name:  uplink-chemicals-crate-d-name
   description: uplink-chemicals-crate-d-name
@@ -187,7 +187,7 @@
     whitelist:
     - RipperDoc
 
-- type: listing # CS
+- type: listing # Coyote
   id: UplinkChemicalsCrateP
   name:  uplink-chemicals-crate-p-name
   description: uplink-chemicals-crate-p-name
@@ -206,7 +206,7 @@
     whitelist:
     - RipperDoc
 
-- type: listing # CS
+- type: listing # Coyote
   id: UplinkChemicalsCrateS
   name:  uplink-chemicals-crate-s-name
   description: uplink-chemicals-crate-s-name
@@ -240,7 +240,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - Smuggler
     - Escort
@@ -261,7 +261,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - Smuggler
 
@@ -280,7 +280,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - Smuggler
 
@@ -299,7 +299,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - Escort
 
@@ -318,7 +318,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - RipperDoc
 
@@ -337,7 +337,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - Escort
 
@@ -356,7 +356,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - Smuggler
 
@@ -419,7 +419,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - Escort
 
@@ -437,7 +437,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - Escort
 
@@ -485,7 +485,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - Smuggler
 
@@ -503,7 +503,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - RipperDoc
 
@@ -596,7 +596,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - RipperDoc
     - Smuggler
@@ -615,7 +615,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - RipperDoc
     - Smuggler
@@ -634,7 +634,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - RipperDoc
 
@@ -652,7 +652,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - RipperDoc
 
@@ -671,7 +671,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - RipperDoc
 
@@ -690,7 +690,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - RipperDoc
 
@@ -709,7 +709,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - RipperDoc
 
@@ -744,7 +744,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - Escort
 
@@ -763,7 +763,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - RipperDoc
     - Escort
@@ -783,7 +783,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - RipperDoc
 
@@ -802,7 +802,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - RipperDoc
 
@@ -821,7 +821,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - RipperDoc
 
@@ -840,7 +840,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - Smuggler
 
@@ -876,7 +876,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - Smuggler
 
@@ -925,7 +925,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - Escort
 
@@ -943,7 +943,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - Escort
 
@@ -961,7 +961,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - Escort
 
@@ -994,7 +994,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - NFPirate
     - NFPirateFirstMate
@@ -1044,7 +1044,7 @@
     whitelist:
       tags:
       - PirateUplink
-  - !type:BuyerJobCondition # CS
+  - !type:BuyerJobCondition # Coyote
     whitelist:
     - Smuggler
 
@@ -1063,7 +1063,7 @@
       tags:
       - PirateUplink
 
-- type: listing # CS
+- type: listing # Coyote
   id: UplinkElectricRange
   name:  uplink-electric-range-name
   description: uplink-electric-range-desc
@@ -1082,7 +1082,7 @@
     - Smuggler
     - Escort
 
-- type: listing # CS
+- type: listing # Coyote
   id: UplinkMicrowave
   name:  uplink-microwave-name
   description: uplink-microwave-desc
@@ -1101,7 +1101,7 @@
     - Smuggler
     - Escort
 
-- type: listing # CS
+- type: listing # Coyote
   id: UplinkAssembler
   name:  uplink-assembler-name
   description: uplink-assembler-desc
@@ -1120,7 +1120,7 @@
     - Smuggler
     - Escort
 
-- type: listing # CS
+- type: listing # Coyote
   id: UplinkBoozeFlatpack
   name:  uplink-booze-flatpack-name
   description: uplink-booze-flatpack-desc
@@ -1138,7 +1138,7 @@
     whitelist:
     - Escort
 
-- type: listing # CS
+- type: listing # Coyote
   id: UplinkSyndieDrobeFlatpack
   name:  uplink-syndiedrobe-name
   description: uplink-syndiedrobe-desc
@@ -1156,7 +1156,7 @@
     whitelist:
     - Escort
 
-- type: listing # CS
+- type: listing # Coyote
   id: UplinkAmmoTechfabFlatpack
   name:  uplink-ammo-techfab-name
   description: uplink-ammo-techfab-desc
@@ -1177,7 +1177,7 @@
     - NFPirateCaptain
     - Smuggler
 
-- type: listing # CS
+- type: listing # Coyote
   id: UplinkMercTechfabFlatpack
   name:  uplink-merc-techfab-name
   description: uplink-merc-techfab-desc
@@ -1198,7 +1198,7 @@
     - NFPirateCaptain
     - Smuggler
 
-- type: listing # CS
+- type: listing # Coyote
   id: UplinkMedicalTechfabFlatpack
   name:  uplink-med-techfab-name
   description: uplink-med-techfab-desc
@@ -1216,7 +1216,7 @@
     whitelist:
     - RipperDoc
 
-- type: listing # CS
+- type: listing # Coyote
   id: UplinkUniformPrinterFlatpack
   name:  uplink-uniform-printer-name
   description: uplink-uniform-printer-desc
@@ -1231,7 +1231,7 @@
       tags:
       - PirateUplink
 
-- type: listing # CS
+- type: listing # Coyote
   id: UplinkServiceTechFabFlatpack
   name:  uplink-service-techfab-name
   description: uplink-service-techfab-desc
@@ -1249,7 +1249,7 @@
     whitelist:
     - Escort
 
-- type: listing # CS
+- type: listing # Coyote
   id: UplinkVendingMachineClothingPunkFlatpack
   name:  uplink-clothing-punk-name
   description: uplink-clothing-punk-desc
@@ -1269,7 +1269,7 @@
     - NFPirateFirstMate
     - NFPirateCaptain
 
-- type: listing # CS
+- type: listing # Coyote
   id: UplinkVendingMachineBountyVendPunkFlatpack
   name:  uplink-bounty-punk-name
   description: uplink-bounty-punk-desc
@@ -1289,7 +1289,7 @@
     - NFPirateFirstMate
     - NFPirateCaptain
 
-- type: listing # CS
+- type: listing # Coyote
   id: UplinkStunKnuckles
   name:  uplink-stun-knuckles-name
   description: uplink-stun-knuckles-desc

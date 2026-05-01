@@ -9,7 +9,7 @@
       state: brain-slime
     - type: Stomach
       specialDigestible:
-      # Frontier: general moth digestion # CS: edit, allows slimes to eat ClothMade and paper items.
+      # Frontier: general moth digestion # Coyote: edit, allows slimes to eat ClothMade and paper items.
         tags:
           - ClothMade
           - Paper
@@ -19,7 +19,7 @@
       # End Frontier: general moth digestion
     - type: Metabolizer
       maxReagents: 6
-      metabolizerTypes: [ Slime, Animal, Goblin, Moth ] # CS: edit, makes slimes able to eat everything
+      metabolizerTypes: [ Slime, Animal, Goblin, Moth ] # Coyote: edit, makes slimes able to eat everything
       removeEmpty: true
       groups:
         - id: Food
@@ -29,8 +29,8 @@
         - id: Poison
         - id: Narcotic
         - id: Alcohol
-        - id: Aphrodisiacs # CS: Necessary to detect aphrodisiac injected solutions.
-        - id: AphrodisiacDrinks # CS: Necessary to detect aphrodisiac injected solutions.
+        - id: Aphrodisiacs # Coyote: Necessary to detect aphrodisiac injected solutions.
+        - id: AphrodisiacDrinks # Coyote: Necessary to detect aphrodisiac injected solutions.
           rateModifier: 0.25
     - type: SolutionContainerManager
       solutions:

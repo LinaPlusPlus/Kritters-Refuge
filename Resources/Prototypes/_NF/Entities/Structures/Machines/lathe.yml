@@ -101,7 +101,7 @@
     - ReportingStatic # DeltaV
     - NFLightsColoredStatic
     - NFServiceArchetypeStatic
-    - CSPlumbingStatic # CS: showers, sinks, drains
+    - CSPlumbingStatic # Coyote: showers, sinks, drains
   - type: EmagLatheRecipes
     emagStaticPacks:
     - NFServiceTechfabEmagStatic
@@ -195,7 +195,7 @@
     - NFEngineeringMaterialsStatic
     - NFInflatablesStatic
     - NFEngineeringArchetypeStatic
-    - CSPlumbingStatic # CS: showers, sinks, drains
+    - CSPlumbingStatic # Coyote: showers, sinks, drains
 
   - type: BlueprintReceiver
     whitelist:
@@ -345,7 +345,7 @@
     - NfsdPracticeStatic
     - NFMercenaryMagazineStatic
     - NFTopicalsStatic
-    - CSIPCTopicalsStatic # CS: IPC topicals
+    - CSIPCTopicalsStatic # Coyote: IPC topicals
     - CSMagazineStatic
     - NFMercenaryArchetypeStatic
     - NFMercenaryArchetypeMeleeStatic

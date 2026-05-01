@@ -6,7 +6,7 @@
   - Elements
   - Medicine
   - Narcotics
-  - Aphrodisiacs # CS: Add Aphrodisiacs category
+  - Aphrodisiacs # Coyote: Add Aphrodisiacs category
   - Pyrotechnic
   - Toxins
   - Foods
@@ -28,13 +28,13 @@
   text: "/ServerInfo/Guidebook/ChemicalTabs/Narcotics.xml"
   filterEnabled: True
 
-# CS: Add Aphrodisiacs category
+# Coyote: Add Aphrodisiacs category
 - type: guideEntry
   id: Aphrodisiacs
   name: guide-entry-aphrodisiacs
   text: "/ServerInfo/Guidebook/_CS/ChemicalTabs/Aphrodisiacs.xml"
   filterEnabled: True
-# End CS
+# End Coyote
 
 - type: guideEntry
   id: Pyrotechnic

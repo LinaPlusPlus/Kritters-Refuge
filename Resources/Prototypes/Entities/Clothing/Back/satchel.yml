@@ -169,14 +169,14 @@
       sprite: Clothing/Back/Satchels/satchel-red.rsi
 
 - type: entity
-  parent: ClothingBackpackHolding # CS: ClothingBackpackSatchel -> ClothingBackpackHolding
+  parent: ClothingBackpackHolding # Coyote: ClothingBackpackSatchel -> ClothingBackpackHolding
   id: ClothingBackpackSatchelHolding
   name: satchel of holding
   description: A satchel that opens into a localized pocket of bluespace.
   components:
-  - type: ChameleonClothing # CS
+  - type: ChameleonClothing # Coyote
     slot: [back]
-    default: ClothingBackpackSatchelHolding # End CS
+    default: ClothingBackpackSatchelHolding # End Coyote
   - type: Sprite
     sprite: _NF/Clothing/Back/Satchels/holding.rsi # Frontier
     state: icon
@@ -185,7 +185,7 @@
     - state: icon-unlit
       shader: unshaded
   - type: Item
-    # size: Ginormous # CS: Reparenting
+    # size: Ginormous # Coyote: Reparenting
     inhandVisuals: # Frontier
       left: # Frontier
       - state: inhand-left # Frontier
@@ -195,10 +195,10 @@
       - state: inhand-right # Frontier
       - state: inhand-right-unlit # Frontier
         shader: unshaded # Frontier
-  # - type: Storage  # CS: Reparenting [
+  # - type: Storage  # Coyote: Reparenting [
   #   maxItemSize: Huge
   #   grid:
-  #   - 0,0,7,7 # Frontier: Was 0,0,19,9 ## CS: ]
+  #   - 0,0,7,7 # Frontier: Was 0,0,19,9 ## Coyote: ]
   - type: Clothing # Frontier
     sprite: _NF/Clothing/Back/Satchels/holding.rsi # Frontier
     clothingVisuals: # Frontier

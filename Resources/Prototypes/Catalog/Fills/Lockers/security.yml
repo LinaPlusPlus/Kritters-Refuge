@@ -209,7 +209,7 @@
     contents:
     - id: NFWeaponSubMachineGunDrozd # Frontier: WeaponSubMachineGunDrozd<NFWeaponSubMachineGunDrozd
       amount: 2
-    - id: CSMagazineSubMachineGun40 # CS: .40 conversion
+    - id: CSMagazineSubMachineGun40 # Coyote: .40 conversion
       amount: 4
 
 - type: entity

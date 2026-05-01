@@ -1,7 +1,7 @@
 - type: loadoutGroup
   id: MercenaryJumpsuit
   name: loadout-group-contractor-jumpsuit
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   loadouts: #First Section: Role specific freebies/discounts/rewards
   - MercenaryClothingUniformJumpsuitMercenary
   - MercenaryClothingUniformJumpskirtMercenary
@@ -24,7 +24,7 @@
 - type: loadoutGroup
   id: MercenaryBackpack
   name: loadout-group-contractor-backpack
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   loadouts:
   - MercenaryClothingBackpackMercenary
   - MercenaryClothingBackpackDuffelMercenary
@@ -60,7 +60,7 @@
 - type: loadoutGroup
   id: MercenaryShoes
   name: loadout-group-contractor-shoes
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   loadouts:
   - MercenaryClothingShoesBootsMercenary
   - MercenaryClothingShoesBootsJack
@@ -143,7 +143,7 @@
 - type: loadoutGroup
   id: MercenaryFace
   name: loadout-group-contractor-face
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   loadouts:
   - MercenaryClothingMaskGasMercenary
   - MercenaryClothingMaskGasSecurity

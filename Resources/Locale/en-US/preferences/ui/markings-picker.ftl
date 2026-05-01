@@ -33,14 +33,14 @@ marking-toggle-other-default-verb-off = takes off
 marking-sample-text = Sample:
 marking-show-sample-text = Show Sample Text
 marking-hide-sample-text = Hide Sample Text
-# _CS Start
+# Coyote Start
 marking-adjust-scale-text = Adjust Scale
 marking-toggle-popup-hidden-sample = Toggle popup text is hidden for this marking.
 marking-glow-label = Glow
 marking-scale-label = Scale
 marking-offset-x-label = Offset X
 marking-offset-y-label = Offset Y
-# _CS End
+# End Coyote
 
 # Categories
 

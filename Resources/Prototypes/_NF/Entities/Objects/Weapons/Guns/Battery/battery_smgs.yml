@@ -2,7 +2,7 @@
 #region Laser
 - type: entity
   id: NFWeaponEnergySubMachineGunDeltaV
-  parent: [ BaseC2ContrabandUnredeemable, NFBaseWeaponEnergySubMachineGunFireModes, NFBaseWeaponFrameEnergySubMachineGunNanotrasen ] # CS: Add BaseC2ContrabandUnredeemable
+  parent: [ BaseC2ContrabandUnredeemable, NFBaseWeaponEnergySubMachineGunFireModes, NFBaseWeaponFrameEnergySubMachineGunNanotrasen ] # Coyote: Add BaseC2ContrabandUnredeemable
   name: energy submachine gun
   description: |-
     An advanced hybrid energy submachine gun with two settings: disable and kill. On the handle is a label that says 'for authorized use only.'
@@ -15,7 +15,7 @@
 #region Diasblers
 - type: entity
   id: NFWeaponEnergySubMachineGunDisabler
-  parent: [ BaseC1ContrabandUnredeemable, NFBaseWeaponEnergySubMachineGunDisabler, NFBaseWeaponFrameEnergySubMachineGunNanotrasen ] # CS: Add BaseC2ContrabandUnredeemable
+  parent: [ BaseC1ContrabandUnredeemable, NFBaseWeaponEnergySubMachineGunDisabler, NFBaseWeaponFrameEnergySubMachineGunNanotrasen ] # Coyote: Add BaseC2ContrabandUnredeemable
   name: disabler submachine gun
   suffix: Frontier
   description: |-

@@ -1,4 +1,4 @@
-# CS: Gives borgs hand
+# Coyote: Gives borgs hand
 - type: body
   id: Borg
   name: "Borg"
@@ -10,4 +10,4 @@
       - hands
     hands: #Unfortunately, must be called hands or else this doesn't work
       part: HandsAnimal
-# End CS
+# End Coyote

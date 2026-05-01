@@ -1,5 +1,5 @@
 ﻿- type: entity
-  parent: [ ClothingOuterBase, ClothingArmorPlate ] # CS: Allows it to use armor plates.
+  parent: [ ClothingOuterBase, ClothingArmorPlate ] # Coyote: Allows it to use armor plates.
   id: ClothingOuterChameleon
   name: vest
   description: A thick vest with a rubbery, water-resistant shell.
@@ -16,8 +16,8 @@
       default: ClothingOuterVest
     - type: UserInterface
       interfaces:
-        enum.StorageUiKey.Key: # CS: Required for the ability to use its storage.
-          type: StorageBoundUserInterface # CS: Ditto
+        enum.StorageUiKey.Key: # Coyote: Required for the ability to use its storage.
+          type: StorageBoundUserInterface # Coyote: Ditto
         enum.ChameleonUiKey.Key:
           type: ChameleonBoundUserInterface
     - type: TemperatureProtection # Same as a basic winter coat.

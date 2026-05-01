@@ -27,7 +27,7 @@ public sealed class CrewManifestEui : BaseEui
         _crewManifest = crewManifestSystem;
     }
 
-    public override CrewManifestEuiState GetNewState() // CS: Remove name
+    public override CrewManifestEuiState GetNewState() // Coyote: Remove name
     {
         var entries = _crewManifest.GetCrewManifest();
         return new(entries);

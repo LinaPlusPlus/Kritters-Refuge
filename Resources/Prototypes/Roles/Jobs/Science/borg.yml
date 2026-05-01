@@ -22,9 +22,9 @@
   name: job-name-borg
   description: job-description-borg
   playTimeTracker: JobBorg
-# CS: Gives borgs an ID to use
+# Coyote: Gives borgs an ID to use
   #startingGear: CS COMMENT: BorgGear They don't need this anymore, as the borg body itself does this
-# End CS
+# End Coyote
   setPreference: true
   requirements:
     - !type:OverallPlaytimeRequirement
@@ -35,7 +35,7 @@
   jobEntity: PlayerBorgBattery
   applyTraits: false
 
-# CS: Gives borgs an ID to use
+# Coyote: Gives borgs an ID to use
 - type: startingGear
   id: BorgGear
   equipment:
@@ -46,4 +46,4 @@
   job: Borg
   equipment:
     id: ContractorPDA
-# End CS
+# End Coyote

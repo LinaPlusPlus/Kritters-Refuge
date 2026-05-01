@@ -19,7 +19,7 @@
         density: 90 # Frontier
         mask:
         - MachineMask
-        layer: # CS: Removed InteractImpassable
+        layer: # Coyote: Removed InteractImpassable
         - MachineLayer
   - type: Damageable
     damageContainer: Inorganic

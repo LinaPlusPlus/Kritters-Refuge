@@ -1,6 +1,6 @@
 - type: entity
   name: frontier uplink coin
-  parent: [BaseItem, NotContraband] # CS: + BaseC4ContrabandUnredeemable
+  parent: [BaseItem, NotContraband] # Coyote: + BaseC4ContrabandUnredeemable
   id: FrontierUplinkCoin
   suffix: 20 TC
   description: A token awarded to the NFSD for turning in contraband. It can be exchanged in an NFSD uplink device for a variety of law enforcement tools.
@@ -48,7 +48,7 @@
 
 # Uplinks
 - type: entity
-  parent: [ BaseItem, StorePresetSecurityUplink, BaseC4ContrabandUnredeemable] # CS: + BaseC4ContrabandUnredeemable
+  parent: [ BaseItem, StorePresetSecurityUplink, BaseC4ContrabandUnredeemable] # Coyote: + BaseC4ContrabandUnredeemable
   id: BaseSecurityUplinkRadio
   name: NFSD uplink
   description: Retro looking old radio...

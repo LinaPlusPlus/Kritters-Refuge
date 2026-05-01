@@ -4,7 +4,7 @@
     sprite: Structures/Storage/Crates/artifact.rsi
     state: artifact_container_icon
   product: CrateArtifactContainer
-  cost: 1500 # CS: 500<1500
+  cost: 1500 # Coyote: 500<1500
   category: cargoproduct-category-name-science
   group: market
 
@@ -14,7 +14,7 @@
     sprite: Objects/Storage/artifact_container.rsi
     state: icon
   product: HandheldArtifactContainer
-  cost: 1500 # CS: 500<1500
+  cost: 1500 # Coyote: 500<1500
   category: cargoproduct-category-name-science
   group: market
 

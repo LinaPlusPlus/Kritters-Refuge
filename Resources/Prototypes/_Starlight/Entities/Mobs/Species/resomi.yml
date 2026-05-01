@@ -1,11 +1,11 @@
 - type: entity
   name: Urist McRaptor
-  # CS: No BaseSpeciesPickupable
+  # Coyote: No BaseSpeciesPickupable
   parent: [ BaseColdBird, BaseMobSpeciesOrganic, BaseInventoryResomi]
   id: BaseMobResomi
   abstract: true
   components:
-  # CS: No Languages, Absorbable, and Jump
+  # Coyote: No Languages, Absorbable, and Jump
   - type: DamageVisuals
     thresholds: [ 10, 30, 50, 70]
     targetLayers:
@@ -26,7 +26,7 @@
       Burn:
         sprite: _Starlight/Mobs/Effects/Resomi/burn_damage.rsi
   - type: Bloodstream
-    # CS: Wait for upstream to use bloodReferenceSolution
+    # Coyote: Wait for upstream to use bloodReferenceSolution
     bloodReagent: ResomiBlood
   - type: FireVisuals
     sprite: _Starlight/Mobs/Effects/onfire.rsi
@@ -71,7 +71,7 @@
   - type: Butcherable
     butcheringType: Spike
     spawned:
-    - id: FoodMeatResomi # CS: FoodMeatChicken<FoodMeatResomi
+    - id: FoodMeatResomi # Coyote: FoodMeatChicken<FoodMeatResomi
       amount: 3
   - type: MobThresholds
     thresholds:
@@ -106,15 +106,15 @@
     - map: [ "enum.HumanoidVisualLayers.RHand" ]
     - map: [ "enum.HumanoidVisualLayers.LFoot" ]
     - map: [ "enum.HumanoidVisualLayers.RFoot" ]
-    - map: ["socks"] # CS
-    - map: ["underpants"] # CS
-    - map: ["undershirt"] # CS
+    - map: ["socks"] # Coyote
+    - map: ["underpants"] # Coyote
+    - map: ["undershirt"] # Coyote
     - map: [ "enum.HumanoidVisualLayers.RArm" ]
     - map: [ "enum.HumanoidVisualLayers.LArm" ]
     - map: [ "enum.HumanoidVisualLayers.RLeg" ]
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
     - map: [ "enum.HumanoidVisualLayers.UndergarmentBottom" ]
-    - map: [ "enum.HumanoidVisualLayers.Genital" ] # CS
+    - map: [ "enum.HumanoidVisualLayers.Genital" ] # Coyote
     - map: [ "enum.HumanoidVisualLayers.UndergarmentTop" ]
     - shader: StencilClear
       sprite: Mobs/Species/Human/parts.rsi
@@ -166,4 +166,4 @@
     - DoorBumpOpener
     - AnomalyHost
     - Resomi
-  # CS: No NightVision, No FlashModifier, No NotLabelable
+  # Coyote: No NightVision, No FlashModifier, No NotLabelable

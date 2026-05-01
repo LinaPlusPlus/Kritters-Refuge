@@ -2,7 +2,7 @@
 - type: entity
   parent: ComputerRadar
   id: ComputerAdvancedRadar # Frontier
-  name: advanced radar computer # CS, more specific name
+  name: advanced radar computer # Coyote, more specific name
   description: This advanced radar lets you detect far away objects for an increased tactical advantage.
   components:
   - type: Computer

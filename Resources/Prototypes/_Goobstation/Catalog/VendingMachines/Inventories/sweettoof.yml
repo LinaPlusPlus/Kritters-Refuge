@@ -1,10 +1,10 @@
 - type: vendingMachineInventory
   id: SweetToofInventory
   startingInventory:
-    FoodSnackLollypopWrappedMystery: 3 # CS: 12<3
-    FoodSnackLollypopWrappedMysteryNeutral: 3 # CS: 6<3
+    FoodSnackLollypopWrappedMystery: 3 # Coyote: 12<3
+    FoodSnackLollypopWrappedMysteryNeutral: 3 # Coyote: 6<3
     FoodSnackLollypopWrapped: 6
     FoodSnackLollypopWrappedWeh: 4
-    FoodSnackChocolate: 3 # CS: 6<3
+    FoodSnackChocolate: 3 # Coyote: 6<3
   emaggedInventory:
     FoodSnackLollypopWrappedMysteryEvil: 2

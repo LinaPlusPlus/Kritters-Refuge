@@ -176,7 +176,7 @@
       children:
       - id: VendingMachineClothingPunk
       - id: VendingMachineBountyVendPunk
-      - id: VendingMachineArcadia # CS: Added to the table as it is no longer contra.
+      - id: VendingMachineArcadia # Coyote: Added to the table as it is no longer contra.
 
 - type: entity
   id: SpawnShuttleVendomatsClothes

@@ -1,11 +1,11 @@
-# CS adding of the bluespace trashbag
+# Coyote adding of the bluespace trashbag
 - type: entity
   name: Bluespace Trash Bag
   description: A trash bag that has been imbued with bluespace crystals, allowing it to hold an incredible amount of garbage within a small physical volume.
   id: BluespaceTrashBag
   parent: TrashBag
   components:
-  - type: Sprite # CS currently just using the same sprite as the regular blue trash bag, If we want a unique sprite for this, we can add it later.
+  - type: Sprite # Coyote currently just using the same sprite as the regular blue trash bag, If we want a unique sprite for this, we can add it later.
     layers:
       - state: blue-icon-0
         map: ["enum.StorageFillLayers.Fill"]

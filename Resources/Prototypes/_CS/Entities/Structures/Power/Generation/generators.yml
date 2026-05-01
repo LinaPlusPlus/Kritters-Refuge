@@ -18,7 +18,7 @@
     range: 5
     sound:
       path: /Audio/Ambience/Objects/buzzing.ogg
-  - type: GuideHelp # CS
+  - type: GuideHelp # Coyote
     guides:
     - RTG
     - Power

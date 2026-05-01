@@ -1,6 +1,6 @@
 - type: entity
   name: breaching hammer
-  parent: [BaseC1ContrabandUnredeemable, BaseItem] # CS: added BaseC1ContrabandUnredeemable
+  parent: [BaseC1ContrabandUnredeemable, BaseItem] # Coyote: added BaseC1ContrabandUnredeemable
   id: SecBreachingHammer
   description: A large, heavy hammer with a long handle, used for breaking stones or other heavy material such as the skulls of violent criminals, also perfect for forcing your way through airlocks.
   components:
@@ -16,7 +16,7 @@
       types:
         Blunt: 15 # buffed most melee's damage by ~1.5x
         Piercing: 3 # buffed most melee's damage by ~1.5x
-        Structural: 15 # CS: see above. typically I wouldn't buff this but it's a BREACHING hammer.
+        Structural: 15 # Coyote: see above. typically I wouldn't buff this but it's a BREACHING hammer.
     soundHit:
       path: /Audio/Nyanotrasen/Weapons/club.ogg
     bluntStaminaDamageFactor: 2 # 60 stamina damage

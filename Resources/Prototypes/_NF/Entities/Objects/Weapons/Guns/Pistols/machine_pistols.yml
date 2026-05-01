@@ -1,5 +1,5 @@
 #region WizDen
-- type: entity # CS: Converted to .40 caliber
+- type: entity # Coyote: Converted to .40 caliber
   id: NFWeaponPistolEchis
   parent:
   - CSBaseWeaponFrameHeavyMachinePistolGorlex
@@ -25,7 +25,7 @@
     autoRecharge: true
     autoRechargeRate: 25
 
-- type: entity # CS: Converted to .40 caliber
+- type: entity # Coyote: Converted to .40 caliber
   id: NFWeaponPistolViper
   parent: [ BaseC1Contraband, CSBaseWeaponHeavyPistolChamber40, CSBaseWeaponFrameHeavyMachinePistolGorlex ]
   name: viper

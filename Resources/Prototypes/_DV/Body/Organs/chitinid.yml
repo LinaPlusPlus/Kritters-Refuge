@@ -31,7 +31,7 @@
     groups:
     - id: Food
     - id: Drink
-    - id: AphrodisiacDrinks # CS: Necessary to detect aphrodisiac injected solutions.
+    - id: AphrodisiacDrinks # Coyote: Necessary to detect aphrodisiac injected solutions.
 
 - type: entity
   id: OrganChitinidLiver

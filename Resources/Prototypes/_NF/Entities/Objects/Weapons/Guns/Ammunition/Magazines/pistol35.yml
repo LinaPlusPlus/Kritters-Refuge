@@ -105,7 +105,7 @@
     whitelist:
       tags:
       - NFCartridgePistol35
-    capacity: 50 # CS: 30<50
+    capacity: 50 # Coyote: 30<50
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Pistol35/smg_mag_top_mounted.rsi
     layers:

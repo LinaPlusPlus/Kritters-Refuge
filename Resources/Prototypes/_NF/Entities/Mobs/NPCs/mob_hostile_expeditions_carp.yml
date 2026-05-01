@@ -339,7 +339,7 @@
   id: NFMobDragonDungeon
   suffix: Dungeon, Frontier
   components:
-  # - type: GhostRole # CS: disable ghost role
+  # - type: GhostRole # Coyote: disable ghost role
     # description: ghost-role-information-space-dragon-dungeon-description
     # rules: ghost-role-information-dungeon-boss-rules
     # raffle:

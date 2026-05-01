@@ -8,12 +8,12 @@
   sprites: MobGoblinSprites
   markingLimits: MobGoblinMarkingLimits
   dollPrototype: MobGoblinDummy
-  # CS: Small enough to fit in a bag
+  # Coyote: Small enough to fit in a bag
   minHeight: 0.6
   defaultHeight: 0.8
   minWidth: 0.55
   defaultWidth: 0.8
-  # End CS
+  # End Coyote
   skinColoration: Hues #Possible values: TintedHues, Hues, HumanToned
   maleFirstNames: NamesGoblinFirstMale
   femaleFirstNames: NamesGoblinFirstFemale
@@ -58,9 +58,9 @@
 - type: markingPoints
   id: MobGoblinMarkingLimits
   points:
-    # CS: Allow unlimited markings
+    # Coyote: Allow unlimited markings
     HeadTop:
-      points: 999 # CS: Allow unlimited markings
+      points: 999 # Coyote: Allow unlimited markings
       required: true
       defaultMarkings: [ GoblinEarsBasic ]
     Snout:

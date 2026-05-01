@@ -69,7 +69,7 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: SyncSprite # Frontier
-  # CS
+  # Coyote
   - type: PhysicalComposition
     materialComposition:
       Steel: 100

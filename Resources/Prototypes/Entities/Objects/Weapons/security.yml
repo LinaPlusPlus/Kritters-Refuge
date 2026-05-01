@@ -41,10 +41,10 @@
     angle: 60
     animation: WeaponArcThrust
   - type: StaminaDamageOnHit
-    damage: 55 # CS, 35<55 buffed most melee's damage by ~1.5x
+    damage: 55 # Coyote, 35<55 buffed most melee's damage by ~1.5x
     sound: /Audio/Weapons/egloves.ogg
   - type: StaminaDamageOnCollide
-    damage: 55 # CS, 35<55 buffed most melee's damage by ~1.5x
+    damage: 55 # Coyote, 35<55 buffed most melee's damage by ~1.5x
     sound: /Audio/Weapons/egloves.ogg
   - type: LandAtCursor # it deals stamina damage when thrown
   - type: Battery
@@ -105,10 +105,10 @@
     wideAnimationRotation: -135
     damage:
       types:
-        Blunt: 33 # CS: 20 < 33
+        Blunt: 33 # Coyote: 20 < 33
     soundHit:
       collection: MetalThud
-    bluntStaminaDamageFactor: 1.0 # CS: 1.5 to 1.0
+    bluntStaminaDamageFactor: 1.0 # Coyote: 1.5 to 1.0
   - type: Item
     size: Normal
   - type: Tag

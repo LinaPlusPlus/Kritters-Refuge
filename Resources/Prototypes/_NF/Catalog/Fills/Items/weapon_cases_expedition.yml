@@ -36,7 +36,7 @@
     contents:
     - id: NFWeaponPistolViperExpedition
       amount: 1
-    - id: CSMagazinePistol40 # CS: .40 Conversion
+    - id: CSMagazinePistol40 # Coyote: .40 Conversion
       amount: 2
 
 - type: entity
@@ -62,7 +62,7 @@
     contents:
     - id: NFWeaponPistolUniversalExpedition
       amount: 1
-    - id: CSMagazinePistol40 # CS: .40 Conversion
+    - id: CSMagazinePistol40 # Coyote: .40 Conversion
       amount: 2
 
 - type: entity
@@ -260,7 +260,7 @@
     contents:
     - id: NFWeaponSubMachineGunDrozdExpedition
       amount: 1
-    - id: CSMagazineSubMachineGun40 # CS: .40 Conversion
+    - id: CSMagazineSubMachineGun40 # Coyote: .40 Conversion
       amount: 3
 
 - type: entity
@@ -273,7 +273,7 @@
     contents:
     - id: NFWeaponSubMachineGunC20rExpedition
       amount: 1
-    - id: CSMagazineSubMachineGun40 # CS: .40 Conversion
+    - id: CSMagazineSubMachineGun40 # Coyote: .40 Conversion
       amount: 3
 
 - type: entity
@@ -286,7 +286,7 @@
     contents:
     - id: NFWeaponSubMachineGunTypewriterExpedition
       amount: 1
-    - id: CSMagazineSubMachineGun40 # CS: .40 Conversion
+    - id: CSMagazineSubMachineGun40 # Coyote: .40 Conversion
       amount: 3
 
 #region Rifles
@@ -572,7 +572,7 @@
     contents:
     - id: NFWeaponRifleCeremonialExpedition
       amount: 1
-    - id: NFAmmunitionBoxRifle20 # CS: Align ammotype with weapon from this fill
+    - id: NFAmmunitionBoxRifle20 # Coyote: Align ammotype with weapon from this fill
       amount: 2
 
 #region Launchers

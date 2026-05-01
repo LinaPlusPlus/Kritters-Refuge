@@ -51,9 +51,9 @@
     trackAllDamage: true
     damageOverlay:
       sprite: Structures/Windows/cracks.rsi
-  - type: StaticPrice # CS
+  - type: StaticPrice # Coyote
     price: 70
-  - type: RCDDeconstructable # CS
+  - type: RCDDeconstructable # Coyote
     cost: 6
     delay: 8
     fx: EffectRCDDeconstruct8

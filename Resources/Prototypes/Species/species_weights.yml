@@ -19,6 +19,6 @@
     Harpy: 1 # Frontier
     Feroxi: 3 # DeltaV - Feroxi, see Prototypes/_DV/Entities/Mobs/Species/feroxi.yml
     Tajaran: 3 # Einstein Engines - Tajaran, see Prototypes/_EE/Entities/Mobs/Species/tajaran.yml
-    Anthromorph: 3 # CS, see Prototypes/_CS/Entities/Mobs/Species/anthromorph.yml
+    Anthromorph: 3 # Coyote, see Prototypes/_CS/Entities/Mobs/Species/anthromorph.yml
     Avali: 3 # Starlight
     Resomi: 3 # Starlight

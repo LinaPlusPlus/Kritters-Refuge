@@ -10,7 +10,7 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/Snipers/heavy_sniper.rsi
 
-- type: entity # CS: added NFSD version of the Hristov.
+- type: entity # Coyote: added NFSD version of the Hristov.
   id: NFWeaponRifleSniperHristovNFSD
   parent: [ BaseC4Contraband, NFBaseWeaponRifleChamber60, NFBaseWeaponFrameRifleSniperNFSD ]
   name: NFSD Anti-Materiel Rifle

@@ -128,11 +128,11 @@ public sealed partial class LatheMenu : DefaultWindow
         foreach (var prototype in sortedRecipesToShow)
         {
             //var canProduce = _lathe.CanProduce(Entity, prototype, quantity, component: lathe);
-            // CS: Use custom availability check that includes the buffer
+            // Coyote: Use custom availability check that includes the buffer
             var canProduce = CanProduceWithBuffer(prototype, quantity);
 
             //var control = new RecipeControl(_lathe, prototype, () => GenerateTooltipText(prototype), canProduce, GetRecipeDisplayControl(prototype));
-            // CS: Pass the current buffer amount to the tooltip generator
+            // Coyote: Pass the current buffer amount to the tooltip generator
             var control = new RecipeControl(_lathe, prototype, () => GenerateTooltipText(prototype, _bufferAmount), canProduce, GetRecipeDisplayControl(prototype));
             control.OnButtonPressed += s =>
             {
@@ -144,7 +144,7 @@ public sealed partial class LatheMenu : DefaultWindow
         }
     }
 
-    private string GenerateTooltipText(LatheRecipePrototype prototype, int? bufferAmount) // CS: Modified tooltip generator – accepts buffer amount
+    private string GenerateTooltipText(LatheRecipePrototype prototype, int? bufferAmount) // Coyote: Modified tooltip generator – accepts buffer amount
     {
         StringBuilder sb = new();
         var multiplier = _entityManager.GetComponent<LatheComponent>(Entity).FinalMaterialUseMultiplier; // Frontier: MaterialUseMultiplier<FinalMaterialUseMultiplier
@@ -161,7 +161,7 @@ public sealed partial class LatheMenu : DefaultWindow
             var sheets = adjustedAmount / (float) sheetVolume;
 
             //var availableAmount = _materialStorage.GetMaterialAmount(Entity, id);
-            int availableAmount = GetTotalMaterialAmount(id, bufferAmount); // CS: Get total available amount (including buffer for biomass)
+            int availableAmount = GetTotalMaterialAmount(id, bufferAmount); // Coyote: Get total available amount (including buffer for biomass)
             var missingAmount = Math.Max(0, adjustedAmount - availableAmount);
             var missingSheets = missingAmount / (float) sheetVolume;
 

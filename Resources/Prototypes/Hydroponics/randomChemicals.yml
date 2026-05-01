@@ -1,20 +1,20 @@
 - type: weightedRandomFillSolution
   id: RandomPickBotanyReagent
   fills:
-  - quantity: 2 # CS: tier 5 powerful or annoying reagents that should remain rare and hard to get from plants. 5<2 to make it labor intensive to hoard.
-    weight: 0.1 # CS: .5<.1 until vestine reaction requirement is implemented, this should make them rarer
+  - quantity: 2 # Coyote: tier 5 powerful or annoying reagents that should remain rare and hard to get from plants. 5<2 to make it labor intensive to hoard.
+    weight: 0.1 # Coyote: .5<.1 until vestine reaction requirement is implemented, this should make them rarer
     reagents:
     - Nocturine
     - Lexorin
     - Honk
     - BuzzochloricBees
     - Stimulants
-    - MuteToxin # CS: move
-    - Pax # CS: move, this should not be common at all
-    - Licoxide # CS: move
-    - Napalm  # CS: move
-    - ChlorineTrifluoride # CS: move
-  - quantity: 5 # CS: tier 4 uncommon toxins, completed good chems, a few complete complex drinks ig
+    - MuteToxin # Coyote: move
+    - Pax # Coyote: move, this should not be common at all
+    - Licoxide # Coyote: move
+    - Napalm  # Coyote: move
+    - ChlorineTrifluoride # Coyote: move
+  - quantity: 5 # Coyote: tier 4 uncommon toxins, completed good chems, a few complete complex drinks ig
     weight: 1
     reagents:
     - Cognizine
@@ -23,14 +23,14 @@
     - CarpoToxin
     - JuiceThatMakesYouWeh
     - JuiceThatMakesYouHew
-    - DoctorsDelight # CS: move but also golden apples exist why is this here?
-    - AtomicBomb # CS: move
-    - Neurotoxin # CS: move
-    - ChangelingSting # CS: move
-    - CogChamp # CS: move
-    - Desoxyephedrine # CS: move
-    - ChloralHydrate # CS: move
-  - quantity: 5 # CS: tier 3 is completed basic chems and complex reagents
+    - DoctorsDelight # Coyote: move but also golden apples exist why is this here?
+    - AtomicBomb # Coyote: move
+    - Neurotoxin # Coyote: move
+    - ChangelingSting # Coyote: move
+    - CogChamp # Coyote: move
+    - Desoxyephedrine # Coyote: move
+    - ChloralHydrate # Coyote: move
+  - quantity: 5 # Coyote: tier 3 is completed basic chems and complex reagents
     weight: 2
     reagents:
     - Ipecac
@@ -40,30 +40,30 @@
     - Histamine
     - Blood
     - WeldingFuel
-    # - Mercury # CS: rarely used, clutter chem
+    # - Mercury # Coyote: rarely used, clutter chem
     - Phenol
     - Ultravasculine
-    # - THC # CS: remove: just grow cannabis, very little interacts with this chem without cannabis plants
-    # - Nicotine # CS: remove, just grow tobacco, same thing as thc
+    # - THC # Coyote: remove: just grow cannabis, very little interacts with this chem without cannabis plants
+    # - Nicotine # Coyote: remove, just grow tobacco, same thing as thc
     - Diphenhydramine
-    - NorepinephricAcid # CS: move
-    - Bicaridine # CS: move
-    - Dermaline # CS: move
-    - Epinephrine # CS: move
-  - quantity: 10 # CS: tier 2 is non-base chemistry reagents and some more advanced chef/bartender reagents
-    weight: 4 # CS: 3 -> 4 to try and make these decently common
+    - NorepinephricAcid # Coyote: move
+    - Bicaridine # Coyote: move
+    - Dermaline # Coyote: move
+    - Epinephrine # Coyote: move
+  - quantity: 10 # Coyote: tier 2 is non-base chemistry reagents and some more advanced chef/bartender reagents
+    weight: 4 # Coyote: 3 -> 4 to try and make these decently common
     reagents:
-    - Kelotane # CS: move
-    - Inaprovaline # CS: move
+    - Kelotane # Coyote: move
+    - Inaprovaline # Coyote: move
     - Ephedrine
     - Saline
-    # - PulpedBananaPeel # CS: remove, clutter chem
+    # - PulpedBananaPeel # Coyote: remove, clutter chem
     - Cryptobiolin
     - EZNutrient
     - Ammonia
     - RobustHarvest
     - SpaceLube
-    # - Theobromine # CS: remove, why would you ever want this?
+    # - Theobromine # Coyote: remove, why would you ever want this?
     - Allicin
     - Acetone
     - Ash
@@ -76,59 +76,59 @@
     - FourteenLoko
     - LemonLime
     - LemonLimeCranberry
-    - IceCream # CS: move
-    - Cola # CS: move
+    - IceCream # Coyote: move
+    - Cola # Coyote: move
     - Enzyme
     - Vinegar
-    - Mayo # CS: Add
-    - SulfuricAcid # CS: move
+    - Mayo # Coyote: Add
+    - SulfuricAcid # Coyote: move
     - Potassium
     - Fluorine
     - Aluminium
-    - Silver # CS: move
-    - Chlorine # CS: move
-    - Radium # CS: move
-    - Gold # CS: move
-    - Uranium # CS: move
-    - Phosphorus # CS: move
-    - Iodine # CS: add
-  - quantity: 10 # CS: tier 1 is Chef/bartender reagents and some basic chemistry reagents
-    weight: 5 # CS: 3.5 -> 5 to try and make these mega common
+    - Silver # Coyote: move
+    - Chlorine # Coyote: move
+    - Radium # Coyote: move
+    - Gold # Coyote: move
+    - Uranium # Coyote: move
+    - Phosphorus # Coyote: move
+    - Iodine # Coyote: add
+  - quantity: 10 # Coyote: tier 1 is Chef/bartender reagents and some basic chemistry reagents
+    weight: 5 # Coyote: 3.5 -> 5 to try and make these mega common
     reagents:
     - Vitamin
-    - Tricordrazine # CS: move
+    - Tricordrazine # Coyote: move
     - Oil
-    # - Slime # CS: remove, grind some mothroaches or drain a slime person
+    # - Slime # Coyote: remove, grind some mothroaches or drain a slime person
     - Fiber
     - Water
     - Sugar
-    - Honey # CS: add, because juicing and barrels being the only source of this is THE WORST ACTUALLY
+    - Honey # Coyote: add, because juicing and barrels being the only source of this is THE WORST ACTUALLY
     - Cream
     - SodaWater
     - Ice
     - JuiceCarrot
     - JuicePotato
-    - JuiceApple # CS: add
-    - JuiceBanana # CS: add
-    - JuiceBerry # CS: add
-    - JuiceBluePumpkin # CS: add
-    - JuiceBungo # CS: add
-    - JuiceGrape # CS: add
-    - JuiceLemon # CS: add
-    - JuiceLime # CS: add
-    - JuiceOrange # CS: add
-    - JuicePineapple # CS: add
-    - JuiceTomato # CS: add
-    - JuiceWatermelon # CS: add
-    - JuiceCherry # CS: add
+    - JuiceApple # Coyote: add
+    - JuiceBanana # Coyote: add
+    - JuiceBerry # Coyote: add
+    - JuiceBluePumpkin # Coyote: add
+    - JuiceBungo # Coyote: add
+    - JuiceGrape # Coyote: add
+    - JuiceLemon # Coyote: add
+    - JuiceLime # Coyote: add
+    - JuiceOrange # Coyote: add
+    - JuicePineapple # Coyote: add
+    - JuiceTomato # Coyote: add
+    - JuiceWatermelon # Coyote: add
+    - JuiceCherry # Coyote: add
     - Protein
     - Flour
     - Soysauce
     - TableSalt
-    - Carbon # CS: move
-    - Nitrogen # CS: add
-    - Iron # CS: move
-    - Silicon # CS: add
-    - Copper # CS: add
-    # - Mercury # CS: remove, clutter chem also why are you here TWICE
+    - Carbon # Coyote: move
+    - Nitrogen # Coyote: add
+    - Iron # Coyote: move
+    - Silicon # Coyote: add
+    - Copper # Coyote: add
+    # - Mercury # Coyote: remove, clutter chem also why are you here TWICE
     - Fat

@@ -2,7 +2,7 @@
   id: PulseWeak
   damage:
     types:
-      Heat: 29 # CS
+      Heat: 29 # Coyote
   muzzleFlash:
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: muzzle_blue

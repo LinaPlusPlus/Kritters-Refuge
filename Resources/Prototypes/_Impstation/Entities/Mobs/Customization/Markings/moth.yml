@@ -5,7 +5,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/moth.rsi
@@ -16,7 +16,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/moth.rsi
@@ -27,7 +27,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/moth.rsi
@@ -38,7 +38,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/moth.rsi
@@ -49,7 +49,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/moth.rsi
@@ -60,7 +60,7 @@
   bodyPart: LArm
   markingCategory: Arms
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   coloring:
     default:
@@ -76,7 +76,7 @@
   bodyPart: LArm
   markingCategory: Arms
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/moth.rsi
@@ -87,7 +87,7 @@
   bodyPart: RArm
   markingCategory: Arms
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/moth.rsi
@@ -98,7 +98,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/moth.rsi
@@ -109,7 +109,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sexRestriction: [Female]
   followSkinColor: false
   coloring:
@@ -126,7 +126,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sexRestriction: [Male]
   followSkinColor: false
   coloring:
@@ -143,7 +143,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sexRestriction: [Female]
   followSkinColor: false
   sprites:
@@ -155,7 +155,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sexRestriction: [Male]
   followSkinColor: false
   sprites:
@@ -167,7 +167,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sexRestriction: [Female]
   followSkinColor: false
   sprites:
@@ -179,7 +179,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sexRestriction: [Male]
   followSkinColor: false
   sprites:
@@ -191,7 +191,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/moth.rsi
@@ -202,7 +202,7 @@
   bodyPart: Eyes
   markingCategory: Head
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   coloring:
     default:
@@ -218,7 +218,7 @@
   bodyPart: LFoot
   markingCategory: Legs
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   coloring:
     default:
@@ -234,7 +234,7 @@
   bodyPart: LHand
   markingCategory: Arms
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   coloring:
     default:
@@ -250,7 +250,7 @@
   bodyPart: LHand
   markingCategory: Arms
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/moth.rsi
@@ -261,7 +261,7 @@
   bodyPart: RHand
   markingCategory: Arms
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/moth.rsi
@@ -272,7 +272,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/moth.rsi
@@ -283,7 +283,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   coloring:
     default:
@@ -299,7 +299,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/moth.rsi
@@ -310,7 +310,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/moth.rsi
@@ -321,7 +321,7 @@
   bodyPart: LLeg
   markingCategory: Legs
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   coloring:
     default:
@@ -337,7 +337,7 @@
   bodyPart: LLeg
   markingCategory: Legs
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/moth.rsi
@@ -348,7 +348,7 @@
   bodyPart: RLeg
   markingCategory: Legs
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/moth.rsi
@@ -359,7 +359,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/moth.rsi
@@ -370,7 +370,7 @@
   bodyPart: LArm
   markingCategory: BaseArms # BaseLArm
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   coloring:
     default:
@@ -386,7 +386,7 @@
   bodyPart: RArm
   markingCategory: BaseArms # BaseRArm
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   coloring:
     default:
@@ -402,7 +402,7 @@
   bodyPart: LFoot
   markingCategory: BaseLegs # BaseLFoot
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   coloring:
     default:
@@ -418,7 +418,7 @@
   bodyPart: RFoot
   markingCategory: BaseLegs # BaseRFoot
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   coloring:
     default:
@@ -434,7 +434,7 @@
   bodyPart: LHand
   markingCategory: BaseArms # BaseLHand
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   coloring:
     default:
@@ -450,7 +450,7 @@
   bodyPart: RHand
   markingCategory: BaseArms # BaseRHand
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   coloring:
     default:
@@ -466,7 +466,7 @@
   bodyPart: LLeg
   markingCategory: BaseLegs # BaseLLeg
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   coloring:
     default:
@@ -482,7 +482,7 @@
   bodyPart: RLeg
   markingCategory: BaseLegs # BaseRLeg
   speciesRestriction: [Moth]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   followSkinColor: false
   coloring:
     default:

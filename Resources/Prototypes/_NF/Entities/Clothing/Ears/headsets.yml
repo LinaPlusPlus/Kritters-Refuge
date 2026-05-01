@@ -11,7 +11,7 @@
       - EncryptionKeyCommon
 
 - type: entity
-  parent: [ClothingHeadset, BaseC4ContrabandUnredeemable] # CS: Added BaseC4ContrabandUnredeemable
+  parent: [ClothingHeadset, BaseC4ContrabandUnredeemable] # Coyote: Added BaseC4ContrabandUnredeemable
   id: ClothingHeadsetNfsdBrown
   name: NFSD headset
   components:

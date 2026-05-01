@@ -121,7 +121,7 @@
     sprite: Clothing/Ears/Headsets/science.rsi
 
 - type: entity
-  parent: ClothingHeadsetAlt # Frontier: BaseSyndicateContraband<BaseC4Contraband, added ContrabandClothing as parent # CS: Removed BaseC4Contraband and ContrabandClothing
+  parent: ClothingHeadsetAlt # Frontier: BaseSyndicateContraband<BaseC4Contraband, added ContrabandClothing as parent # Coyote: Removed BaseC4Contraband and ContrabandClothing
   id: ClothingHeadsetAltSyndicate
   name: blood-red over-ear headset
   description: An updated, modular syndicate intercom that fits over the head and takes encryption keys (there are 5 key slots.).
@@ -139,7 +139,7 @@
     sprite: Clothing/Ears/Headsets/syndicate.rsi
 
 - type: entity
-  parent: ClothingHeadsetAlt # Frontier: add BaseC3Contraband, added ContrabandClothing as parent # CS: Removes C3 Contraband and ContrabandClothing
+  parent: ClothingHeadsetAlt # Frontier: add BaseC3Contraband, added ContrabandClothing as parent # Coyote: Removes C3 Contraband and ContrabandClothing
   id: ClothingHeadsetAltFreelancer
   name: freelancer's over-ear headset
   components:
@@ -156,7 +156,7 @@
       sprite: Clothing/Ears/Headsets/freelance.rsi
 
 - type: entity
-  parent: ClothingHeadsetAlt # Frontier: BaseMagicalContraband<NotContraband, add ContrabandClothing # CS: Removed ContrabandClothing
+  parent: ClothingHeadsetAlt # Frontier: BaseMagicalContraband<NotContraband, add ContrabandClothing # Coyote: Removed ContrabandClothing
   id: ClothingHeadsetAltWizard
   name: wizard's over-ear headset
   components:

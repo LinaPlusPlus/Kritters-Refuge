@@ -710,7 +710,7 @@
     damageContainer: StructuralInorganic
     damageModifierSet: StructuralMetallicStrong
 
-- type: entity # CS: added by fuzzy_fuzzy
+- type: entity # Coyote: added by fuzzy_fuzzy
   parent: ComputerComms
   id: SyndicateComputerComms
   name: syndicate communications computer

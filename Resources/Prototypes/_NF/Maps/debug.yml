@@ -41,9 +41,9 @@
 #            NFPirateCaptain: [ -1, -1]
 #            NFPirateFirstMate: [ -1, -1]
             NFPirate: [ -1, -1]
-            Smuggler: [-1, -1] # CS
-            Escort: [-1, -1] # CS
-#            Prisoner: [ -1, -1] # CS
-            RipperDoc: [ -1, -1] # CS
+            Smuggler: [-1, -1] # Coyote
+            Escort: [-1, -1] # Coyote
+#            Prisoner: [ -1, -1] # Coyote
+            RipperDoc: [ -1, -1] # Coyote
         - type: StationDeadDrop
           maxDeadDrops: 20 # Testing

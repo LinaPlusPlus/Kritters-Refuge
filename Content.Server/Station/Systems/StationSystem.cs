@@ -143,8 +143,8 @@ public sealed partial class StationSystem : SharedStationSystem
             // We still setup the grid
             if (TryComp<BecomesStationComponent>(grid, out var becomesStation))
             {
-                EnsureComp<DeletionCensusExemptComponent>(grid, out var deletionCensusExemptComponent); // CS: Ensure the initializing grid becomes exempt from deletion.
-                deletionCensusExemptComponent.PassOnGridSplit = true; // CS: Ensure the initializing grid also passes this component to others.
+                EnsureComp<DeletionCensusExemptComponent>(grid, out var deletionCensusExemptComponent); // Coyote: Ensure the initializing grid becomes exempt from deletion.
+                deletionCensusExemptComponent.PassOnGridSplit = true; // Coyote: Ensure the initializing grid also passes this component to others.
                 dict.GetOrNew(becomesStation.Id).Add(grid);
             }
         }

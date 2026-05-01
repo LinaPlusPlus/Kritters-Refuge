@@ -632,9 +632,9 @@
   name: messenger bag of holding
   description: A messenger bag that opens into a localized pocket of bluespace.
   components:
-  - type: ChameleonClothing # CS
+  - type: ChameleonClothing # Coyote
     slot: [back]
-    default: ClothingBackpackMessengerHolding # End CS
+    default: ClothingBackpackMessengerHolding # End Coyote
   - type: Sprite
     sprite: _NF/Clothing/Back/Messenger/holding.rsi
     state: icon
@@ -797,7 +797,7 @@
         color: "#1f1f1f"
 
 - type: entity
-  parent: # CS: C3 to nothing. Not contraband clothing. It's just a bag.
+  parent: # Coyote: C3 to nothing. Not contraband clothing. It's just a bag.
   - ClothingBackpackMessengerContractor
   id: ClothingBackpackMessengerWizardBlue
   name: blue wizard messenger bag

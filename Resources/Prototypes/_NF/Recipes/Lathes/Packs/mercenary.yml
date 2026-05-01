@@ -33,7 +33,7 @@
   - WeaponCaseLong
   - WeaponCaseHeavy
   - WeaponCaseShortAmmo
-  - WeaponCaseHeavyAmmo # CS
+  - WeaponCaseHeavyAmmo # Coyote
   - WeaponCaseShortExplosives
 
 - type: latheRecipePack

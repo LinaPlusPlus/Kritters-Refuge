@@ -27,7 +27,7 @@
     Steel: 300
     Glass: 100
 
-# CS: Adds this here (should this be here...?)
+# Coyote: Adds this here (should this be here...?)
 - type: latheRecipe
   id: HoverBedHoloSpawnFolded
   result: HoverBedHoloSpawnFolded

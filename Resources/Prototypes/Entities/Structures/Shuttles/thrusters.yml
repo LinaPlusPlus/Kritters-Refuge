@@ -35,7 +35,7 @@
       thresholds:
       - trigger:
           !type:DamageTrigger
-          damage: 300  # CS: Changed 100<300 because impact damage is real
+          damage: 300  # Coyote: Changed 100<300 because impact damage is real
         behaviors:
           - !type:DoActsBehavior
             acts: ["Destruction"]

@@ -22,10 +22,10 @@
     TobaccoPouchPurpleFilled: 2 # Frontier
   contrabandInventory:
     TobaccoPouchRedFilled: 2 # Frontier
-    CigarBluespace: 2 # CS: added
+    CigarBluespace: 2 # Coyote: added
     GroundTobacco: 3
     CigarGold: 2
     Igniter: 1
   emaggedInventory:
     CigarPlatinumCase: 1 # Frontier
-#    CigPackSyndicate: 1 # CS, removed due to easy of abuse
+#    CigPackSyndicate: 1 # Coyote, removed due to easy of abuse

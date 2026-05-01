@@ -64,7 +64,7 @@
   - type: SolutionContainerManager
     solutions:
       output:
-        maxVol: 1000 # CS 400<1000
+        maxVol: 1000 # Coyote 400<1000
   - type: MaterialReclaimer
     whitelist:
       components:

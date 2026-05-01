@@ -49,7 +49,7 @@
 
 # region Uplinks
 - type: entity
-  parent: [ BaseItem, StorePresetPirateUplink, NotContraband] # CS: + BaseC3MetaPirate
+  parent: [ BaseItem, StorePresetPirateUplink, NotContraband] # Coyote: + BaseC3MetaPirate
   id: BasePirateUplink
   name: freelancer uplink
   description: A digital black market storefront inserted into a hollowed out book of law as an ironic statement.

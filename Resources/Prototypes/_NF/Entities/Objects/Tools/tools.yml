@@ -7,8 +7,8 @@
   - type: RCD
     isShipyardRCD: true
   - type: Sprite
-    sprite: _CS/Objects/Tools/rcd_shipyard.rsi # CS
-    state: icon # CS
+    sprite: _CS/Objects/Tools/rcd_shipyard.rsi # Coyote
+    state: icon # Coyote
   - type: GridAccess
 
 - type: entity
@@ -28,11 +28,11 @@
   - type: RCDAmmo
     isShipyardRCDAmmo: true
   - type: Sprite
-    sprite: _CS/Objects/Tools/rcd_shipyard.rsi # CS
-    state: ammo # CS
+    sprite: _CS/Objects/Tools/rcd_shipyard.rsi # Coyote
+    state: ammo # Coyote
   - type: Item
-    sprite: _CS/Objects/Tools/rcd_shipyard.rsi # CS
-    heldPrefix: ammo # CS
+    sprite: _CS/Objects/Tools/rcd_shipyard.rsi # Coyote
+    heldPrefix: ammo # Coyote
 
 - type: entity
   name: maintenance jack

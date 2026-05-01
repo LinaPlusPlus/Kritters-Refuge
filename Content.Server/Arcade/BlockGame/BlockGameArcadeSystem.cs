@@ -4,7 +4,7 @@ using Content.Shared.Advertise.Components;
 using Content.Shared.Arcade;
 using Content.Shared.Power;
 using Robust.Server.GameObjects;
-using Robust.Shared.Random; // CS
+using Robust.Shared.Random; // Coyote
 
 namespace Content.Server.Arcade.BlockGame;
 
@@ -12,7 +12,7 @@ public sealed class BlockGameArcadeSystem : EntitySystem
 {
     [Dependency] private readonly UserInterfaceSystem _uiSystem = default!;
     [Dependency] private readonly SpeakOnUIClosedSystem _speakOnUIClosed = default!;
-    [Dependency] private readonly IRobustRandom _random = default!; // CS
+    [Dependency] private readonly IRobustRandom _random = default!; // Coyote
 
     public override void Initialize()
     {
@@ -29,7 +29,7 @@ public sealed class BlockGameArcadeSystem : EntitySystem
         });
     }
 
-    // CS
+    // Coyote
     public void OnGameOver(EntityUid uid, BlockGameArcadeComponent? arcade = null, TransformComponent? xform = null, int points = 0)
     {
         if (!Resolve(uid, ref arcade, ref xform))
@@ -40,7 +40,7 @@ public sealed class BlockGameArcadeSystem : EntitySystem
             EntityManager.SpawnEntity(_random.Pick(arcade.PossibleRewards), xform.Coordinates);
         }
     }
-    // End CS
+    // Coyote End
 
     public override void Update(float frameTime)
     {

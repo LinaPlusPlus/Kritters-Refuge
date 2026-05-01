@@ -5,7 +5,7 @@
   bodyPart: Head
   markingCategory: HeadTop
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type: !type:CategoryColoring
@@ -22,7 +22,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type: !type:CategoryColoring
@@ -39,7 +39,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type: !type:CategoryColoring
@@ -55,7 +55,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type: !type:CategoryColoring
@@ -71,7 +71,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type: !type:CategoryColoring
@@ -90,7 +90,7 @@
   bodyPart: LLeg
   markingCategory: Legs
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       type: !type:CategoryColoring
@@ -107,7 +107,7 @@
   bodyPart: RFoot
   markingCategory: Legs
   speciesRestriction: [Harpy]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # CS: Allow all markings
+  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   coloring:
     default:
       fallbackTypes:

@@ -50,7 +50,7 @@
       tags:
         - NFCartridgeRifle20
     proto: NFCartridgeRifle20
-    capacity: 50 # CS: 60<50
+    capacity: 50 # Coyote: 60<50
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle20_drum.rsi
     layers:
@@ -65,7 +65,7 @@
     steps: 10
     zeroVisible: false
   - type: Item
-    size: Normal # CS increased size to normal
+    size: Normal # Coyote increased size to normal
     sprite: _NF/Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle20_drum.rsi
     inhandVisuals:
       left:

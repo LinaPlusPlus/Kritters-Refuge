@@ -24,7 +24,7 @@
         - !type:Consent
           consentId: Aphrodisiacs
           desc: "aphrodisiacs"
-      # - !type:HealthChange # CS: removal
+      # - !type:HealthChange # Coyote: removal
       #   conditions:
       #   - !type:ReagentThreshold
       #     min: 10.0

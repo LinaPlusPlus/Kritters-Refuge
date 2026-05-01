@@ -28,7 +28,7 @@
 
 - type: entity
   abstract: true
-  parent: [ ClothingOuterBase, ClothingArmorPlate ] # CS: Allows outerwear that has storage to use armor plates.
+  parent: [ ClothingOuterBase, ClothingArmorPlate ] # Coyote: Allows outerwear that has storage to use armor plates.
   id: ClothingOuterStorageBase
   components:
   - type: Storage

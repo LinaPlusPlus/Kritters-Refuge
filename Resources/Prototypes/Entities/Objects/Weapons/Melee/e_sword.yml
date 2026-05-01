@@ -73,10 +73,10 @@
   - type: Reflect
   - type: IgnitionSource
     temperature: 700
-  - type: Tag # CS: [
+  - type: Tag # Coyote: [
     tags:
     - Knife
-    - KitchenKnife # CS: ]
+    - KitchenKnife # Coyote: ]
 
 - type: entity
   name: energy sword
@@ -228,8 +228,8 @@
   - type: Tag
     tags:
     - Write
-    - Knife # CS
-    - KitchenKnife  # CS
+    - Knife # Coyote
+    - KitchenKnife  # Coyote
   - type: Contraband # Frontier
     hideValues: true # Frontier
 
@@ -303,7 +303,7 @@
             Slash: 18 # buffed most melee's damage by ~1.5x
             Heat: 18 # buffed most melee's damage by ~1.5x
             Structural: 15 # buffed most melee's damage by ~1.5x
-  #- type: ItemToggleActiveSound # CS: Inherits parent sound
+  #- type: ItemToggleActiveSound # Coyote: Inherits parent sound
   #  activeSound:
   #    path: /Audio/Weapons/ebladehum.ogg
   #    params:

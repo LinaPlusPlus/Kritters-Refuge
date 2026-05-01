@@ -1,6 +1,6 @@
 - type: entity
   name: NFSD energy shield
-  parent: [BaseC4ContrabandUnredeemable, EnergyShield] # CS: BaseC2ContrabandUnredeemable -> BaseC4ContrabandUnredeemable
+  parent: [BaseC4ContrabandUnredeemable, EnergyShield] # Coyote: BaseC2ContrabandUnredeemable -> BaseC4ContrabandUnredeemable
   id: EnergyShieldNfsd
   components:
   - type: Sprite

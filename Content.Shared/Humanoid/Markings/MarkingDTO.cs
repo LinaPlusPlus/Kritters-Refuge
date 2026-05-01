@@ -71,7 +71,7 @@ namespace Content.Shared.Humanoid.Markings
         /// </summary>
         public float? Glow { get; set; }
 
-        // _CS Start
+        // Coyote Start
         /// <summary>
         ///     Uniform scale multiplier for the marking sprite. Defaults to 1.0.
         /// </summary>
@@ -126,6 +126,6 @@ namespace Content.Shared.Humanoid.Markings
         ///     Marking offset Y when facing right (east).
         /// </summary>
         public float? OffsetRightY { get; set; }
-        // _CS End
+        // Coyote End
     }
 }

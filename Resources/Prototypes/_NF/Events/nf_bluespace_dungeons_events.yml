@@ -29,10 +29,10 @@
     groups:
       vgroid: !type:DungeonSpawnGroup
         nameDataset: NamesBorer
-        # minCount: 1 # CS: make it vary from one
-        # maxCount: 2 # CS: to two instances
-        minimumDistance: 2500 # CS: 1500<2500
-        maximumDistance: 3500 # CS: 2500<3500
+        # minCount: 1 # Coyote: make it vary from one
+        # maxCount: 2 # Coyote: to two instances
+        minimumDistance: 2500 # Coyote: 1500<2500
+        maximumDistance: 3500 # Coyote: 2500<3500
         addComponents: &dungeonComponents
         - type: Gravity
           enabled: true
@@ -60,10 +60,10 @@
     groups:
       vgroid: !type:DungeonSpawnGroup
         nameDataset: NamesBorer
-        # minCount: 1 # CS: make it vary from one
-        # maxCount: 2 # CS: to two instances
-        minimumDistance: 2500 # CS: 1500<2500
-        maximumDistance: 3500 # CS: 2500<3500
+        # minCount: 1 # Coyote: make it vary from one
+        # maxCount: 2 # Coyote: to two instances
+        minimumDistance: 2500 # Coyote: 1500<2500
+        maximumDistance: 3500 # Coyote: 2500<3500
         addComponents: *dungeonComponents
         protos:
         - NFVGRoidSnow
@@ -77,10 +77,10 @@
     groups:
       vgroid: !type:DungeonSpawnGroup
         nameDataset: NamesBorer
-        # minCount: 1 # CS: make it vary from one
-        # maxCount: 2 # CS: to two instances
-        minimumDistance: 2500 # CS: 1500<2500
-        maximumDistance: 3500 # CS: 2500<3500
+        # minCount: 1 # Coyote: make it vary from one
+        # maxCount: 2 # Coyote: to two instances
+        minimumDistance: 2500 # Coyote: 1500<2500
+        maximumDistance: 3500 # Coyote: 2500<3500
         addComponents: *dungeonComponents
         protos:
         - NFVGRoidCave
@@ -94,10 +94,10 @@
     groups:
       vgroid: !type:DungeonSpawnGroup
         nameDataset: NamesBorer
-        # minCount: 1 # CS: make it vary from one
-        # maxCount: 2 # CS: to two instances
-        minimumDistance: 2500 # CS: 1500<2500
-        maximumDistance: 3500 # CS: 2500<3500
+        # minCount: 1 # Coyote: make it vary from one
+        # maxCount: 2 # Coyote: to two instances
+        minimumDistance: 2500 # Coyote: 1500<2500
+        maximumDistance: 3500 # Coyote: 2500<3500
         addComponents: *dungeonComponents
         protos:
         - NFVGRoidChromite
@@ -111,10 +111,10 @@
     groups:
       vgroid: !type:DungeonSpawnGroup
         nameDataset: NamesBorer
-        # minCount: 1 # CS: make it vary from one
-        # maxCount: 2 # CS: to two instances
-        minimumDistance: 2500 # CS: 1500<2500
-        maximumDistance: 3500 # CS: 2500<3500
+        # minCount: 1 # Coyote: make it vary from one
+        # maxCount: 2 # Coyote: to two instances
+        minimumDistance: 2500 # Coyote: 1500<2500
+        maximumDistance: 3500 # Coyote: 2500<3500
         addComponents: *dungeonComponents
         protos:
         - NFVGRoidScrap
@@ -128,10 +128,10 @@
     groups:
       vgroid: !type:DungeonSpawnGroup
         nameDataset: NamesBorer
-        # minCount: 1 # CS: make it vary from one
-        # maxCount: 2 # CS: to two instances
-        minimumDistance: 2500 # CS: 1500<2500
-        maximumDistance: 3500 # CS: add: 2500<3500
+        # minCount: 1 # Coyote: make it vary from one
+        # maxCount: 2 # Coyote: to two instances
+        minimumDistance: 2500 # Coyote: 1500<2500
+        maximumDistance: 3500 # Coyote: add: 2500<3500
         addComponents: *dungeonComponents
         protos:
         - NFVGRoidCaveZombie

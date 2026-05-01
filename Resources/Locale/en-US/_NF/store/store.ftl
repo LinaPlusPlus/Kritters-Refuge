@@ -13,7 +13,7 @@ store-category-pirateweapons = Weapons
 store-category-pirateutility = Utility
 store-category-pirateammo = Ammunition
 store-category-pirateexplosives = Explosives
-# CS: Pirate Uplink
+# Coyote: Pirate Uplink
 store-category-piratemedical = Medical
 store-category-piratedeception = Deception
 store-category-pirateloot = Loot

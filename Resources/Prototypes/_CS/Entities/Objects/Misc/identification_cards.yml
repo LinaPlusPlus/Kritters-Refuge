@@ -3,7 +3,7 @@
   parent: [IDCardStandard, NotContraband]
   id: SmugglerIDCard
   suffix: Coyote
-  categories: [ HideSpawnMenu ] # CS
+  categories: [ HideSpawnMenu ] # Coyote
   components:
   - type: PresetIdCard
     job: Pilot # Frontier: Passenger<Contractor

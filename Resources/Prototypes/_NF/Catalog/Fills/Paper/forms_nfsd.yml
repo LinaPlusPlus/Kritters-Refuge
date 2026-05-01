@@ -9,17 +9,17 @@
   abstract: true
   components:
   - type: StorageFill
-    contents: # CS: changed bailiff and sheriff to all senior staff on majority of papers, removed amnesty
+    contents: # Coyote: changed bailiff and sheriff to all senior staff on majority of papers, removed amnesty
     - id: PaperWrittenNfsdWarrant
     - id: PaperWrittenNfsdReport
     - id: PaperWrittenNfsdArrestWarrant
     - id: PaperWrittenNfsdArrestReport
     - id: PaperWrittenNfsdDutyLog
     - id: PaperWrittenNfsdAuthorization
-    - id: PaperWrittenNfsdContrabandTurnover # CS: added C4 contraband log
+    - id: PaperWrittenNfsdContrabandTurnover # Coyote: added C4 contraband log
     - id: PaperWrittenNfsdContrabandLicense
     - id: PaperWrittenNfsdContrabandPermit
-    - id: PaperWrittenNfsdSelfDutyLog # CS: Add self report duty log
+    - id: PaperWrittenNfsdSelfDutyLog # Coyote: Add self report duty log
     - id: Paper
       prob: 0.5
     - id: Paper

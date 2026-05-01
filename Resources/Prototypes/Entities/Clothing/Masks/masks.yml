@@ -42,7 +42,7 @@
   - type: IngestionBlocker # Goobstation
 
 - type: entity
-  parent: [ClothingMaskGas, BaseC2Contraband] # Frontier: BaseSyndicateContraband<BaseC4Contraband, added ContrabandClothing as parent # CS: BaseC2, removed contraclothing.
+  parent: [ClothingMaskGas, BaseC2Contraband] # Frontier: BaseSyndicateContraband<BaseC4Contraband, added ContrabandClothing as parent # Coyote: BaseC2, removed contraclothing.
   id: ClothingMaskGasSyndicate
   name: syndicate gas mask
   description: A close-fitting tactical mask that can be connected to an air supply.

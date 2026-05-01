@@ -17,8 +17,8 @@ using System.Linq;
 using Content.Shared.Administration.Logs;
 using Content.Shared.Database;
 using Content.Server._NF.Contraband.Systems; // Frontier
-using Content.Server._CS.Helpers; // CS
-using Content.Shared._CS.AphroLacedVisibility; // CS
+using Content.Server._CS.Helpers; // Coyote
+using Content.Shared._CS.AphroLacedVisibility; // Coyote
 
 namespace Content.Server.Botany.Systems;
 
@@ -35,7 +35,7 @@ public sealed partial class BotanySystem : EntitySystem
     [Dependency] private readonly ISharedAdminLogManager _adminLogger = default!;
     [Dependency] private readonly ContrabandTurnInSystem _contraband = default!; // Frontier
 
-    private ServerAphrodisiacChecker _helper = new(); // CS
+    private ServerAphrodisiacChecker _helper = new(); // Coyote
 
     public override void Initialize()
     {
@@ -172,7 +172,7 @@ public sealed partial class BotanySystem : EntitySystem
         if (totalYield > 1 || proto.HarvestRepeat != HarvestType.NoRepeat)
             proto.Unique = false;
 
-        bool seedLaced = _helper.IsSeedLaced(_prototypeManager, proto); // CS: Check if seed has aphrodisiacs
+        bool seedLaced = _helper.IsSeedLaced(_prototypeManager, proto); // Coyote: Check if seed has aphrodisiacs
 
         for (var i = 0; i < totalYield; i++)
         {
@@ -198,14 +198,14 @@ public sealed partial class BotanySystem : EntitySystem
                     metaData.EntityDescription + " " + Loc.GetString("botany-mysterious-description-addon"), metaData);
             }
 
-            // CS: Ensure component if laced
+            // Coyote: Ensure component if laced
             if (seedLaced)
             {
                 var aphroVisibility = EnsureComp<AphroLacedVisibilityComponent>(entity);
                 aphroVisibility.Laced = true;
                 aphroVisibility.Solution = produce.SolutionName;
             }
-            // End CS
+            // Coyote End
         }
 
         return products;

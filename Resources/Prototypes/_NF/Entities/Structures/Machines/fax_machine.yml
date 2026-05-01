@@ -146,7 +146,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Nash Station Bridge" # CS: Replaced Trade Mall with Nash Station. Also renamed STC to Bridge since people may want to fax the SR too.
+    name: "Nash Station Bridge" # Coyote: Replaced Trade Mall with Nash Station. Also renamed STC to Bridge since people may want to fax the SR too.
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -155,7 +155,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Nash Station NFSD Post" # CS: Replaced Trade Mall with Nash Station
+    name: "Nash Station NFSD Post" # Coyote: Replaced Trade Mall with Nash Station
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]

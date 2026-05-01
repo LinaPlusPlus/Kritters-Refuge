@@ -1,7 +1,7 @@
 - type: loadoutGroup
   id: ContractorJumpsuit
   name: loadout-group-contractor-jumpsuit
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   loadouts:
   - ContractorClothingUniformJumpsuitColorGrey
   - ContractorClothingUniformJumpskirtColorGrey
@@ -225,12 +225,12 @@
 - type: loadoutGroup
   id: ContractorBackpack
   name: loadout-group-contractor-backpack
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   loadouts:
   - ContractorClothingBackpack
   - ContractorClothingBackpackDuffel
   - ContractorClothingBackpackSatchel
-  - ContractorClothingBackpackSatchelLeather # CS
+  - ContractorClothingBackpackSatchelLeather # Coyote
   - ContractorClothingBackpackMessenger
   - ContractorClothingBackpackCaptain
   - ContractorClothingBackpackDuffelCaptain
@@ -393,7 +393,7 @@
   - ContractorClothingOuterCoatBishop
   - ContractorClothingOuterCoatWitchHunter
   - ContractorClothingOuterCoatCardinal
-  - ContractorClothingOuterEpiChaplainMantle # CS
+  - ContractorClothingOuterEpiChaplainMantle # Coyote
   - ContractorClothingOuterPlagueSuit
   - ContractorWetFloorSign
   - ContractorClothingOuterCoatExpensive
@@ -438,7 +438,7 @@
 - type: loadoutGroup
   id: ContractorShoes
   name: loadout-group-contractor-shoes
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   loadouts:
   - ContractorClothingShoesColorBlack
   - ContractorClothingShoesClothwrap
@@ -691,8 +691,8 @@
   - ContractorClothingNeckIFFCyan
   - ContractorClothingNeckIFFOrange
   - ContractorClothingNeckIFFPurple
-  - ContractorClothingNeckMantle # CS
-  - ContractorClothingNeckTieGeoffroyblack12 # CS
+  - ContractorClothingNeckMantle # Coyote
+  - ContractorClothingNeckTieGeoffroyblack12 # Coyote
   - ContractorClothingNeckMantleCap
   - ContractorClothingNeckCloakCap
   - ContractorClothingNeckCloakCapFormal
@@ -806,8 +806,8 @@
   - ContractorDrinkFlaskOld
   - ContractorDrinkShinyFlask
   - ContractorDrinkFlask
-  - ContractorDrinkMREFlask # CS.
-  - ContractorDrinkFlaskBar # CS.
+  - ContractorDrinkMREFlask # Coyote.
+  - ContractorDrinkFlaskBar # Coyote.
   - ContractorDrinkVacuumFlask
   - ContractorFlashlightLantern
   - ContractorCardBoxBlack
@@ -817,14 +817,14 @@
   - ContractorGoldRing
   - ContractorAACTablet
   - ContractorBasketball
-  - ContractorTennisball # CS. Woof.
+  - ContractorTennisball # Coyote. Woof.
   - ContractorFootball
   - ContractorBeachBall
   - ContractorCrayonBox
   - ContractorClicker
   - ContractorSoapNT
   - PlushieLizard
-  - PlushieExperiment # CS: Add Expie plushie to loadout
+  - PlushieExperiment # Coyote: Add Expie plushie to loadout
   - ContractorPlushieSharkGrey
   - ContractorPlushieSharkBlue
   - ContractorPlushieSharkPink
@@ -834,7 +834,7 @@
   - ContractorHoloGraffitiProjector # Punkish (might be annoying)
   - ContractorCrayonMagic
   - ContractorSprayPainterMagic
-  - ContractorAccessConfigurator # CS: Add Civilian Access Configurator
+  - ContractorAccessConfigurator # Coyote: Add Civilian Access Configurator
     # Bureaucracy
   - ContractorBoxFolderMedicalDoctor
   - ContractorBrbSign
@@ -883,12 +883,12 @@
   - ContractorHandheldCrewMonitor
   - ContractorHypoMini
   - ContractorBible
-  - ContractorBibleDruid # CS
+  - ContractorBibleDruid # Coyote
 
 - type: loadoutGroup
   id: ContractorFace
   name: loadout-group-contractor-face
-  minLimit: 0 # CS
+  minLimit: 0 # Coyote
   loadouts:
   - ContractorClothingMaskBreath
   - ContractorClothingMaskBreathMedical

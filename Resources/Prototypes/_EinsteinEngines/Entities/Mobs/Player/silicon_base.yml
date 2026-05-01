@@ -1,7 +1,7 @@
 - type: entity
   save: false
   id: PlayerSiliconHumanoidBase
-  parent: [BaseMob, MobDamageable, MobCombat, MobAtmosExposed, MobFlammable, MobBloodstream] # CS: Added MobBloodstream
+  parent: [BaseMob, MobDamageable, MobCombat, MobAtmosExposed, MobFlammable, MobBloodstream] # Coyote: Added MobBloodstream
   abstract: true
   components:
     - type: Vore # Floofstation - Vore
@@ -51,11 +51,11 @@
         1: 0.45
         0: 0.00
     - type: Temperature
-      heatDamageThreshold: 358.15 # CS: 325 -> 358.15. Sustained temperatures above 85 C can lead to long-term damage.
-      coldDamageThreshold: 0 # CS: 260 -> 0. Our IPCs are very insulated.
+      heatDamageThreshold: 358.15 # Coyote: 325 -> 358.15. Sustained temperatures above 85 C can lead to long-term damage.
+      coldDamageThreshold: 0 # Coyote: 260 -> 0. Our IPCs are very insulated.
       currentTemperature: 310.15
       specificHeat: 42
-      atmosTemperatureTransferEfficiency: 0.8 # CS: 0.05 -> 0.8. Noticeably slower, but still insulated.
+      atmosTemperatureTransferEfficiency: 0.8 # Coyote: 0.05 -> 0.8. Noticeably slower, but still insulated.
     - type: Bloodstream
       bloodReagent: Oxidant
     - type: Deathgasp

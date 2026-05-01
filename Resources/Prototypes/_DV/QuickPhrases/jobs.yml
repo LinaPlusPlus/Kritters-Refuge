@@ -167,7 +167,7 @@
 
 # Security
 
-# CS
+# Coyote
 # - type: quickPhrase
 #   parent: BaseSecurityJobPhrase
 #   id: HeadOfSecurityPhrase
@@ -197,7 +197,7 @@
 #   parent: BaseSecurityJobPhrase
 #   id: DetectivePhrase
 #   text: job-name-detective
-# # End CS
+# # End Coyote
 
 # Service
 
@@ -246,12 +246,12 @@
   id: MimePhrase
   text: job-name-mime
 
-# CS
+# Coyote
 # - type: quickPhrase
 #   parent: BaseServiceJobPhrase
 #   id: HeadOfPersonnelPhrase
 #   text: job-name-hop
-# # End CS
+# # End Coyote
 
 # Wildcard
 
@@ -270,9 +270,9 @@
   id: ZookeeperPhrase
   text: job-name-zookeeper
 
-# CS
+# Coyote
 # - type: quickPhrase
 #   parent: BaseSecurityJobPhrase
 #   id: CorpsmanPhrase
 #   text: job-name-brigmedic
-# # End CS
+# # End Coyote

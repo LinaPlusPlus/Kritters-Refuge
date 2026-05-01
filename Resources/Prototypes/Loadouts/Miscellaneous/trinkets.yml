@@ -41,7 +41,7 @@
     back:
     - PlushieSpaceLizard
 
-- type: loadout # CS: Add Expie plushie to loadout
+- type: loadout # Coyote: Add Expie plushie to loadout
   id: PlushieExperiment
   price: 500
   storage:

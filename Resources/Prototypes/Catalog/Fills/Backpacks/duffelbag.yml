@@ -53,7 +53,7 @@
   - type: StorageFill
     contents:
       - id: NFWeaponSubMachineGunC20r # Frontier: WeaponSubMachineGunC20r<NFWeaponSubMachineGunC20r
-      - id: CSMagazineSubMachineGun40 # CS: .40 conversion
+      - id: CSMagazineSubMachineGun40 # Coyote: .40 conversion
         amount: 2
 #     - id: SMGSuppressor
 
@@ -132,7 +132,7 @@
   components:
   - type: StorageFill
     contents:
-      - id: CSMagazineSubMachineGun40 # Frontier: MagazinePistolSubMachineGun<NFMagazineSubMachineGun35 # CS: .40 conversion
+      - id: CSMagazineSubMachineGun40 # Frontier: MagazinePistolSubMachineGun<NFMagazineSubMachineGun35 # Coyote: .40 conversion
         amount: 4
       - id: NFMagazineShotgunDrum # Frontier: MagazineShotgun<NFMagazineShotgunDrum
         amount: 4
@@ -348,9 +348,9 @@
   - type: StorageFill
     contents:
       - id: NFWeaponSubMachineGunC20r # Frontier: WeaponSubMachineGunC20r<NFWeaponSubMachineGunC20r
-      - id: CSMagazineSubMachineGun40 # CS: .40 conversion
+      - id: CSMagazineSubMachineGun40 # Coyote: .40 conversion
         amount: 2 # Frontier: 3<2
-      - id: CSMagazinePistol40 # CS: .40 conversion
+      - id: CSMagazinePistol40 # Coyote: .40 conversion
       - id: SyndicateJawsOfLife
       - id: C4
         amount: 2

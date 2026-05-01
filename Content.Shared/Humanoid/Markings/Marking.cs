@@ -18,7 +18,7 @@ namespace Content.Shared.Humanoid.Markings
         [DataField("glow")]
         private float _legacyGlow;
 
-    // _CS Start
+    // Coyote Start
     [DataField("scale")]
     private float _markingScale = 1.0f;
 
@@ -51,7 +51,7 @@ namespace Content.Shared.Humanoid.Markings
 
     [DataField("offsetRightY")]
     private float _markingOffsetRightY;
-    // _CS End
+    // Coyote End
 
         private Marking()
         {
@@ -157,17 +157,17 @@ namespace Content.Shared.Humanoid.Markings
             ShowAtStart = other.ShowAtStart;
             _markingGlow = new(other.MarkingGlow);
             _legacyGlow = other._legacyGlow;
-            _markingScale = other._markingScale; // _CS
-            _markingOffsetX = other._markingOffsetX; // _CS
-            _markingOffsetY = other._markingOffsetY; // _CS
-            _markingOffsetFrontX = other._markingOffsetFrontX; // _CS
-            _markingOffsetFrontY = other._markingOffsetFrontY; // _CS
-            _markingOffsetBehindX = other._markingOffsetBehindX; // _CS
-            _markingOffsetBehindY = other._markingOffsetBehindY; // _CS
-            _markingOffsetLeftX = other._markingOffsetLeftX; // _CS
-            _markingOffsetLeftY = other._markingOffsetLeftY; // _CS
-            _markingOffsetRightX = other._markingOffsetRightX; // _CS
-            _markingOffsetRightY = other._markingOffsetRightY; // _CS
+            _markingScale = other._markingScale; // Coyote
+            _markingOffsetX = other._markingOffsetX; // Coyote
+            _markingOffsetY = other._markingOffsetY; // Coyote
+            _markingOffsetFrontX = other._markingOffsetFrontX; // Coyote
+            _markingOffsetFrontY = other._markingOffsetFrontY; // Coyote
+            _markingOffsetBehindX = other._markingOffsetBehindX; // Coyote
+            _markingOffsetBehindY = other._markingOffsetBehindY; // Coyote
+            _markingOffsetLeftX = other._markingOffsetLeftX; // Coyote
+            _markingOffsetLeftY = other._markingOffsetLeftY; // Coyote
+            _markingOffsetRightX = other._markingOffsetRightX; // Coyote
+            _markingOffsetRightY = other._markingOffsetRightY; // Coyote
         }
 
         public Marking(MarkingDTO? other)
@@ -186,17 +186,17 @@ namespace Content.Shared.Humanoid.Markings
             TakeOffVerb2p = other.TakeOffVerb2p ?? TakeOffVerb2p;
             _markingGlow = NormalizeGlowLevels(other.GlowLevels, _markingColors.Count, other.Glow ?? 0f);
             _legacyGlow = other.Glow ?? 0f;
-            _markingScale = Math.Clamp(other.Scale ?? 1.0f, 0.1f, 4.0f); // _CS
-            _markingOffsetX = Math.Clamp(other.OffsetX ?? 0f, -2f, 2f); // _CS
-            _markingOffsetY = Math.Clamp(other.OffsetY ?? 0f, -2f, 2f); // _CS
-            _markingOffsetFrontX = Math.Clamp(other.OffsetFrontX ?? _markingOffsetX, -2f, 2f); // _CS
-            _markingOffsetFrontY = Math.Clamp(other.OffsetFrontY ?? _markingOffsetY, -2f, 2f); // _CS
-            _markingOffsetBehindX = Math.Clamp(other.OffsetBehindX ?? _markingOffsetX, -2f, 2f); // _CS
-            _markingOffsetBehindY = Math.Clamp(other.OffsetBehindY ?? _markingOffsetY, -2f, 2f); // _CS
-            _markingOffsetLeftX = Math.Clamp(other.OffsetLeftX ?? _markingOffsetX, -2f, 2f); // _CS
-            _markingOffsetLeftY = Math.Clamp(other.OffsetLeftY ?? _markingOffsetY, -2f, 2f); // _CS
-            _markingOffsetRightX = Math.Clamp(other.OffsetRightX ?? _markingOffsetX, -2f, 2f); // _CS
-            _markingOffsetRightY = Math.Clamp(other.OffsetRightY ?? _markingOffsetY, -2f, 2f); // _CS
+            _markingScale = Math.Clamp(other.Scale ?? 1.0f, 0.1f, 4.0f); // Coyote
+            _markingOffsetX = Math.Clamp(other.OffsetX ?? 0f, -2f, 2f); // Coyote
+            _markingOffsetY = Math.Clamp(other.OffsetY ?? 0f, -2f, 2f); // Coyote
+            _markingOffsetFrontX = Math.Clamp(other.OffsetFrontX ?? _markingOffsetX, -2f, 2f); // Coyote
+            _markingOffsetFrontY = Math.Clamp(other.OffsetFrontY ?? _markingOffsetY, -2f, 2f); // Coyote
+            _markingOffsetBehindX = Math.Clamp(other.OffsetBehindX ?? _markingOffsetX, -2f, 2f); // Coyote
+            _markingOffsetBehindY = Math.Clamp(other.OffsetBehindY ?? _markingOffsetY, -2f, 2f); // Coyote
+            _markingOffsetLeftX = Math.Clamp(other.OffsetLeftX ?? _markingOffsetX, -2f, 2f); // Coyote
+            _markingOffsetLeftY = Math.Clamp(other.OffsetLeftY ?? _markingOffsetY, -2f, 2f); // Coyote
+            _markingOffsetRightX = Math.Clamp(other.OffsetRightX ?? _markingOffsetX, -2f, 2f); // Coyote
+            _markingOffsetRightY = Math.Clamp(other.OffsetRightY ?? _markingOffsetY, -2f, 2f); // Coyote
         }
 
         /// <summary>
@@ -214,7 +214,7 @@ namespace Content.Shared.Humanoid.Markings
         [ViewVariables]
         public IReadOnlyList<float> MarkingGlow => _markingGlow;
 
-    // _CS Start
+    // Coyote Start
     public float MarkingScale => _markingScale;
     public Vector2 MarkingOffset => new(_markingOffsetX, _markingOffsetY);
 
@@ -222,7 +222,7 @@ namespace Content.Shared.Humanoid.Markings
     public Vector2 MarkingOffsetBehind => new(_markingOffsetBehindX, _markingOffsetBehindY);
     public Vector2 MarkingOffsetLeft => new(_markingOffsetLeftX, _markingOffsetLeftY);
     public Vector2 MarkingOffsetRight => new(_markingOffsetRightX, _markingOffsetRightY);
-    // _CS End
+    // Coyote End
 
         /// <summary>
         ///     If this marking is currently visible.
@@ -303,7 +303,7 @@ namespace Content.Shared.Humanoid.Markings
             _legacyGlow = normalizedGlow;
         }
 
-        // _CS Start
+        // Coyote Start
         public void SetScale(float scale)
         {
             _markingScale = Math.Clamp(scale, 0.1f, 4.0f);
@@ -367,7 +367,7 @@ namespace Content.Shared.Humanoid.Markings
                 _ => MarkingOffsetFront,
             };
         }
-        // _CS End
+        // Coyote End
 
         public void SetColor(Color color)
         {
@@ -415,17 +415,17 @@ namespace Content.Shared.Humanoid.Markings
                 && TakeOffVerb2p == other.TakeOffVerb2p
                 && ShowAtStart == other.ShowAtStart
                 && _markingGlow.SequenceEqual(other._markingGlow)
-                && _markingScale == other._markingScale // _CS
-                && _markingOffsetX == other._markingOffsetX // _CS
-                && _markingOffsetY == other._markingOffsetY // _CS
-                && _markingOffsetFrontX == other._markingOffsetFrontX // _CS
-                && _markingOffsetFrontY == other._markingOffsetFrontY // _CS
-                && _markingOffsetBehindX == other._markingOffsetBehindX // _CS
-                && _markingOffsetBehindY == other._markingOffsetBehindY // _CS
-                && _markingOffsetLeftX == other._markingOffsetLeftX // _CS
-                && _markingOffsetLeftY == other._markingOffsetLeftY // _CS
-                && _markingOffsetRightX == other._markingOffsetRightX // _CS
-                && _markingOffsetRightY == other._markingOffsetRightY; // _CS
+                && _markingScale == other._markingScale // Coyote
+                && _markingOffsetX == other._markingOffsetX // Coyote
+                && _markingOffsetY == other._markingOffsetY // Coyote
+                && _markingOffsetFrontX == other._markingOffsetFrontX // Coyote
+                && _markingOffsetFrontY == other._markingOffsetFrontY // Coyote
+                && _markingOffsetBehindX == other._markingOffsetBehindX // Coyote
+                && _markingOffsetBehindY == other._markingOffsetBehindY // Coyote
+                && _markingOffsetLeftX == other._markingOffsetLeftX // Coyote
+                && _markingOffsetLeftY == other._markingOffsetLeftY // Coyote
+                && _markingOffsetRightX == other._markingOffsetRightX // Coyote
+                && _markingOffsetRightY == other._markingOffsetRightY; // Coyote
         }
 
         public MarkingDTO ToDTO()
@@ -445,17 +445,17 @@ namespace Content.Shared.Humanoid.Markings
                 TakeOffVerb2p = TakeOffVerb2p,
                 GlowLevels = _markingGlow.ToList(),
                 Glow = _markingGlow.FirstOrDefault(),
-                Scale = _markingScale, // _CS
-                OffsetX = _markingOffsetX, // _CS
-                OffsetY = _markingOffsetY, // _CS
-                OffsetFrontX = _markingOffsetFrontX, // _CS
-                OffsetFrontY = _markingOffsetFrontY, // _CS
-                OffsetBehindX = _markingOffsetBehindX, // _CS
-                OffsetBehindY = _markingOffsetBehindY, // _CS
-                OffsetLeftX = _markingOffsetLeftX, // _CS
-                OffsetLeftY = _markingOffsetLeftY, // _CS
-                OffsetRightX = _markingOffsetRightX, // _CS
-                OffsetRightY = _markingOffsetRightY, // _CS
+                Scale = _markingScale, // Coyote
+                OffsetX = _markingOffsetX, // Coyote
+                OffsetY = _markingOffsetY, // Coyote
+                OffsetFrontX = _markingOffsetFrontX, // Coyote
+                OffsetFrontY = _markingOffsetFrontY, // Coyote
+                OffsetBehindX = _markingOffsetBehindX, // Coyote
+                OffsetBehindY = _markingOffsetBehindY, // Coyote
+                OffsetLeftX = _markingOffsetLeftX, // Coyote
+                OffsetLeftY = _markingOffsetLeftY, // Coyote
+                OffsetRightX = _markingOffsetRightX, // Coyote
+                OffsetRightY = _markingOffsetRightY, // Coyote
             };
         }
 
