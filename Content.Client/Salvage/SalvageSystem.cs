@@ -3,11 +3,11 @@ using Content.Shared.Salvage;
 using Content.Shared.Salvage.Expeditions;
 using Robust.Client.Player;
 using Robust.Shared.GameStates;
-using Content.Shared._NF.CCVar; // Frontier
-using Robust.Client.Audio; // Frontier
-using Robust.Shared.Audio; // Frontier
-using Robust.Shared.Configuration; // Frontier
-using Robust.Shared.Player; // Frontier
+using Content.Shared._NF.CCVar; // _CS
+using Robust.Client.Audio; // _CS
+using Robust.Shared.Audio; // _CS
+using Robust.Shared.Configuration; // _CS
+using Robust.Shared.Player; // _CS
 
 namespace Content.Client.Salvage;
 
@@ -15,19 +15,19 @@ public sealed class SalvageSystem : SharedSalvageSystem
 {
     [Dependency] private readonly IPlayerManager _playerManager = default!;
     [Dependency] private readonly ContentAudioSystem _audio = default!;
-    [Dependency] private readonly AudioSystem _audioSystem = default!; // Frontier
-    [Dependency] private readonly IConfigurationManager _cfg = default!; // Frontier
+    [Dependency] private readonly AudioSystem _audioSystem = default!; // _CS
+    [Dependency] private readonly IConfigurationManager _cfg = default!; // _CS
 
-    const float SalvageExpeditionMinMusicVolume = -30f; // Frontier: expedition volume range
-    const float SalvageExpeditionMaxMusicVolume = 3.0f; // Frontier: expedition volume range
+    const float SalvageExpeditionMinMusicVolume = -30f; // _CS: expedition volume range
+    const float SalvageExpeditionMaxMusicVolume = 3.0f; // _CS: expedition volume range
 
     public override void Initialize()
     {
         base.Initialize();
         SubscribeLocalEvent<PlayAmbientMusicEvent>(OnPlayAmbientMusic);
         SubscribeLocalEvent<SalvageExpeditionComponent, ComponentHandleState>(OnExpeditionHandleState);
-        SubscribeLocalEvent<SalvageExpeditionComponent, ComponentRemove>(OnRemove); // Frontier
-        Subs.CVar(_cfg, NFCCVars.SalvageExpeditionMusicVolume, SetMusicVolume); // Frontier
+        SubscribeLocalEvent<SalvageExpeditionComponent, ComponentRemove>(OnRemove); // _CS
+        Subs.CVar(_cfg, NFCCVars.SalvageExpeditionMusicVolume, SetMusicVolume); // _CS
     }
 
     private void OnExpeditionHandleState(EntityUid uid, SalvageExpeditionComponent component, ref ComponentHandleState args)
@@ -36,15 +36,15 @@ public sealed class SalvageSystem : SharedSalvageSystem
             return;
 
         component.Stage = state.Stage;
-        if (state.SelectedSong != null) // Frontier
-            component.SelectedSong = state.SelectedSong; // Frontier
+        if (state.SelectedSong != null) // _CS
+            component.SelectedSong = state.SelectedSong; // _CS
 
         if (component.Stage >= ExpeditionStage.MusicCountdown)
         {
             _audio.DisableAmbientMusic();
         }
 
-        // Frontier: add music (only on music countdown, no music on forced exit)
+        // _CS: add music (only on music countdown, no music on forced exit)
         if (component.Stage == ExpeditionStage.MusicCountdown
             && component.SelectedSong != null
             && component.Stream == null)
@@ -56,7 +56,7 @@ public sealed class SalvageSystem : SharedSalvageSystem
 
             component.Stream = audio?.Entity;
         }
-        // End Frontier
+        // _CS End
     }
 
     private void OnPlayAmbientMusic(ref PlayAmbientMusicEvent ev)
@@ -76,7 +76,7 @@ public sealed class SalvageSystem : SharedSalvageSystem
         ev.Cancelled = true;
     }
 
-    // Frontier: stop stream when destroying the expedition
+    // _CS: stop stream when destroying the expedition
     private void OnRemove(EntityUid uid, SalvageExpeditionComponent component, ComponentRemove args)
     {
         // For whatever reason, this stream is considered a server-side entity, so the AudioSystem won't tear it down.
@@ -105,5 +105,5 @@ public sealed class SalvageSystem : SharedSalvageSystem
             ret = Math.Clamp(ret, SalvageExpeditionMinMusicVolume, SalvageExpeditionMaxMusicVolume);
         return ret;
     }
-    // End Frontier: stop stream when destroying the expedition
+    // _CS End: stop stream when destroying the expedition
 }

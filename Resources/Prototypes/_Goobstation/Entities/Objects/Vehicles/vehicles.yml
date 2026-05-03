@@ -184,6 +184,9 @@
           path: /Audio/Effects/Vehicle/vehiclestartup.ogg
           params:
             volume: -3
+  - type: VehicleImpactEject
+    minimumCollisionSpeed: 10
+    knockdownSeconds: 2
 
 - type: entity
   id: VehicleJanicart

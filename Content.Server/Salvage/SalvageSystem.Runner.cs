@@ -14,9 +14,9 @@ using Content.Shared.Shuttles.Components;
 using Content.Shared.Localizations;
 using Robust.Shared.Map.Components;
 using Robust.Shared.Player;
-using Robust.Shared.Map; // Frontier
-using Content.Server.GameTicking; // Frontier
-using Content.Server._NF.Salvage.Expeditions.Structure; // Frontier
+using Robust.Shared.Map; // _CS
+using Content.Server.GameTicking; // _CS
+using Content.Server._NF.Salvage.Expeditions.Structure; // _CS
 using Content.Server._NF.Salvage.Expeditions;
 using Content.Server.Body.Components;
 using Content.Server.Buckle.Systems;
@@ -36,7 +36,7 @@ using Content.Shared.Warps;
 using Robust.Server.Player;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
-using Robust.Shared.Enums; // Frontier
+using Robust.Shared.Enums; // _CS
 
 namespace Content.Server.Salvage;
 
@@ -47,7 +47,7 @@ public sealed partial class SalvageSystem
      */
 
     [Dependency] private readonly MobStateSystem _mobState = default!;
-    [Dependency] private readonly GameTicker _gameTicker = default!; // Frontier
+    [Dependency] private readonly GameTicker _gameTicker = default!; // _CS
     [Dependency] private readonly BuckleSystem _buckle = default!;
     [Dependency] private readonly IPlayerManager _players = default!;
     [Dependency] private readonly DamageableSystem _damageable = default!;
@@ -152,7 +152,7 @@ public sealed partial class SalvageSystem
         if (component.DungeonLocation != Vector2.Zero)
             Announce(args.MapUid, Loc.GetString("salvage-expedition-announcement-dungeon", ("direction", directionLocalization)));
 
-        // Frontier: type-specific announcement
+        // _CS: type-specific announcement
         switch (component.MissionParams.MissionType)
         {
             case SalvageMissionType.Destruction:
@@ -184,7 +184,7 @@ public sealed partial class SalvageSystem
             default:
                 break; // No announcement
         }
-        // End Frontier
+        // _CS End
 
         component.Stage = ExpeditionStage.Running;
         Dirty(args.MapUid, component);
@@ -234,7 +234,7 @@ public sealed partial class SalvageSystem
             if (remaining < TimeSpan.Zero)
                 remaining = TimeSpan.Zero;
 
-            // Frontier: pause countdown only when an expedition-extending anchor is actively powered on a shuttle grid on this map.
+            // _CS: pause countdown only when an expedition-extending anchor is actively powered on a shuttle grid on this map.
             var expeditionExtended = false;
             var anchorQuery = EntityQueryEnumerator<StationAnchorComponent, TransformComponent, PowerChargeComponent>();
             while (anchorQuery.MoveNext(out _, out var anchor, out var anchorXform, out var anchorPower))
@@ -275,11 +275,11 @@ public sealed partial class SalvageSystem
                 remaining = resumeRemaining;
                 Dirty(uid, comp);
             }
-            // End Frontier: expedition duration extension
+            // _CS End: expedition duration extension
 
             var audioLength = _audio.GetAudioLength(comp.SelectedSong);
 
-            AbortIfWiped(uid, comp); // Frontier
+            AbortIfWiped(uid, comp); // _CS
 
             if (comp.Stage < ExpeditionStage.FinalCountdown && remaining < TimeSpan.FromSeconds(45))
             {
@@ -287,19 +287,19 @@ public sealed partial class SalvageSystem
                 Dirty(uid, comp);
                 Announce(uid, Loc.GetString("salvage-expedition-announcement-countdown-seconds", ("duration", TimeSpan.FromSeconds(45).Seconds)));
             }
-            else if (comp.Stage < ExpeditionStage.MusicCountdown && remaining < audioLength) // Frontier
+            else if (comp.Stage < ExpeditionStage.MusicCountdown && remaining < audioLength) // _CS
             {
-                // Frontier: handled client-side.
+                // _CS: handled client-side.
                 // var audio = _audio.PlayPvs(comp.Sound, uid);
                 // comp.Stream = audio?.Entity;
                 // _audio.SetMapAudio(audio);
-                // End Frontier
+                // _CS End
                 comp.Stage = ExpeditionStage.MusicCountdown;
                 Dirty(uid, comp);
                 var musicMinutes = GetDisplayedRemainingMinutes(remaining);
                 Announce(uid, Loc.GetString("salvage-expedition-announcement-countdown-minutes", ("duration", musicMinutes)));
             }
-            else if (comp.Stage < ExpeditionStage.Countdown && remaining < TimeSpan.FromMinutes(5)) // Frontier: 4<5
+            else if (comp.Stage < ExpeditionStage.Countdown && remaining < TimeSpan.FromMinutes(5)) // _CS: 4<5
             {
                 comp.Stage = ExpeditionStage.Countdown;
                 Dirty(uid, comp);
@@ -328,7 +328,7 @@ public sealed partial class SalvageSystem
                             if (shuttleXform.MapUid != uid || HasComp<FTLComponent>(shuttleUid))
                                 continue;
 
-                            // Frontier: try to find a potential destination for ship that doesn't collide with other grids.
+                            // _CS: try to find a potential destination for ship that doesn't collide with other grids.
                             var mapId = _gameTicker.DefaultMap;
                             if (!_mapSystem.TryGetMap(mapId, out var mapUid))
                             {
@@ -409,8 +409,8 @@ public sealed partial class SalvageSystem
                                 0f,
                                 ftlTime,
                                 TravelTime);
-                            // End Frontier:  try to find a potential destination for ship that doesn't collide with other grids.
-                            //_shuttle.FTLToDock(shuttleUid, shuttle, member, ftlTime); // Frontier: use above instead
+                            // _CS End:  try to find a potential destination for ship that doesn't collide with other grids.
+                            //_shuttle.FTLToDock(shuttleUid, shuttle, member, ftlTime); // _CS: use above instead
                         }
 
                         break;
@@ -424,7 +424,7 @@ public sealed partial class SalvageSystem
             }
         }
 
-        // Frontier: mission-specific logic
+        // _CS: mission-specific logic
         // Destruction
         var structureQuery = EntityQueryEnumerator<SalvageDestructionExpeditionComponent, SalvageExpeditionComponent>();
 
@@ -485,7 +485,7 @@ public sealed partial class SalvageSystem
                 Announce(uid, Loc.GetString("salvage-expedition-completed"));
             }
         }
-        // End Frontier: mission-specific logic
+        // _CS End: mission-specific logic
     }
 
     /// <summary>
@@ -639,7 +639,7 @@ public sealed partial class SalvageSystem
             return;
         if (TryComp<ThermalRegulatorComponent>(
                 mobUid,
-                out var regulator)) // Frontier: Look for normal body temperature and use it
+                out var regulator)) // _CS: Look for normal body temperature and use it
         {
             _temperature.ForceChangeTemperature(
                 mobUid,

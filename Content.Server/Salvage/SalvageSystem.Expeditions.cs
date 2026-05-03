@@ -12,16 +12,16 @@ using Robust.Shared.CPUJob.JobQueues;
 using Robust.Shared.CPUJob.JobQueues.Queues;
 using Robust.Shared.GameStates;
 using Robust.Shared.Map;
-using Content.Server._NF.Salvage.Expeditions; // Frontier
-using Content.Server.Station.Components; // Frontier
-using Content.Shared.Procedural; // Frontier
-using Content.Shared.Salvage; // Frontier
-using Robust.Shared.Prototypes; // Frontier
-using Content.Shared._NF.CCVar; // Frontier
-using Content.Shared.Shuttles.Components; // Frontier
+using Content.Server._NF.Salvage.Expeditions; // _CS
+using Content.Server.Station.Components; // _CS
+using Content.Shared.Procedural; // _CS
+using Content.Shared.Salvage; // _CS
+using Robust.Shared.Prototypes; // _CS
+using Content.Shared._NF.CCVar; // _CS
+using Content.Shared.Shuttles.Components; // _CS
 using Robust.Shared.Configuration;
 using Content.Shared.Ghost;
-using System.Numerics; // Frontier
+using System.Numerics; // _CS
 
 namespace Content.Server.Salvage;
 
@@ -31,43 +31,43 @@ public sealed partial class SalvageSystem
      * Handles setup / teardown of salvage expeditions.
      */
 
-    private const int MissionLimit = 5; // Frontier: 3<5
+    private const int MissionLimit = 5; // _CS: 3<5
 
     private readonly JobQueue _salvageQueue = new();
     private readonly List<(SpawnSalvageMissionJob Job, CancellationTokenSource CancelToken)> _salvageJobs = new();
     private const double SalvageJobTime = 0.002;
-    private readonly List<(ProtoId<SalvageDifficultyPrototype> id, int value)> _missionDifficulties = [("NFModerate", 0), ("NFHazardous", 1), ("NFExtreme", 2)]; // Frontier: mission difficulties with order
+    private readonly List<(ProtoId<SalvageDifficultyPrototype> id, int value)> _missionDifficulties = [("NFModerate", 0), ("NFHazardous", 1), ("NFExtreme", 2)]; // _CS: mission difficulties with order
 
-    [Dependency] private readonly IConfigurationManager _cfgManager = default!; // Frontier
+    [Dependency] private readonly IConfigurationManager _cfgManager = default!; // _CS
 
     private float _cooldown;
-    private float _failedCooldown; // Frontier
-    public float TravelTime { get; private set; } // Frontier
-    public bool ProximityCheck { get; private set; } // Frontier
+    private float _failedCooldown; // _CS
+    public float TravelTime { get; private set; } // _CS
+    public bool ProximityCheck { get; private set; } // _CS
 
     private void InitializeExpeditions()
     {
         SubscribeLocalEvent<SalvageExpeditionConsoleComponent, ComponentInit>(OnSalvageConsoleInit);
         SubscribeLocalEvent<SalvageExpeditionConsoleComponent, EntParentChangedMessage>(OnSalvageConsoleParent);
         SubscribeLocalEvent<SalvageExpeditionConsoleComponent, ClaimSalvageMessage>(OnSalvageClaimMessage);
-        SubscribeLocalEvent<ExpeditionSpawnCompleteEvent>(OnExpeditionSpawnComplete); // Frontier: more gracefully handle expedition generation failures
-        SubscribeLocalEvent<SalvageExpeditionConsoleComponent, FinishSalvageMessage>(OnSalvageFinishMessage); // Frontier: For early finish
+        SubscribeLocalEvent<ExpeditionSpawnCompleteEvent>(OnExpeditionSpawnComplete); // _CS: more gracefully handle expedition generation failures
+        SubscribeLocalEvent<SalvageExpeditionConsoleComponent, FinishSalvageMessage>(OnSalvageFinishMessage); // _CS: For early finish
 
         SubscribeLocalEvent<SalvageExpeditionComponent, MapInitEvent>(OnExpeditionMapInit);
         SubscribeLocalEvent<SalvageExpeditionComponent, ComponentShutdown>(OnExpeditionShutdown);
         SubscribeLocalEvent<SalvageExpeditionComponent, ComponentGetState>(OnExpeditionGetState);
-        SubscribeLocalEvent<SalvageExpeditionComponent, EntityTerminatingEvent>(OnMapTerminating); // Frontier
+        SubscribeLocalEvent<SalvageExpeditionComponent, EntityTerminatingEvent>(OnMapTerminating); // _CS
 
         SubscribeLocalEvent<SalvageStructureComponent, ExaminedEvent>(OnStructureExamine);
 
         _cooldown = _cfgManager.GetCVar(CCVars.SalvageExpeditionCooldown);
         Subs.CVar(_cfgManager, CCVars.SalvageExpeditionCooldown, SetCooldownChange);
-        _failedCooldown = _cfgManager.GetCVar(NFCCVars.SalvageExpeditionFailedCooldown); // Frontier
-        Subs.CVar(_cfgManager, NFCCVars.SalvageExpeditionFailedCooldown, SetFailedCooldownChange); // Frontier
-        TravelTime = _cfgManager.GetCVar(NFCCVars.SalvageExpeditionTravelTime); // Frontier
-        Subs.CVar(_cfgManager, NFCCVars.SalvageExpeditionTravelTime, SetTravelTime); // Frontier
-        ProximityCheck = _cfgManager.GetCVar(NFCCVars.SalvageExpeditionProximityCheck); // Frontier
-        Subs.CVar(_cfgManager, NFCCVars.SalvageExpeditionProximityCheck, SetProximityCheck); // Frontier
+        _failedCooldown = _cfgManager.GetCVar(NFCCVars.SalvageExpeditionFailedCooldown); // _CS
+        Subs.CVar(_cfgManager, NFCCVars.SalvageExpeditionFailedCooldown, SetFailedCooldownChange); // _CS
+        TravelTime = _cfgManager.GetCVar(NFCCVars.SalvageExpeditionTravelTime); // _CS
+        Subs.CVar(_cfgManager, NFCCVars.SalvageExpeditionTravelTime, SetTravelTime); // _CS
+        ProximityCheck = _cfgManager.GetCVar(NFCCVars.SalvageExpeditionProximityCheck); // _CS
+        Subs.CVar(_cfgManager, NFCCVars.SalvageExpeditionProximityCheck, SetProximityCheck); // _CS
     }
 
     private void OnExpeditionGetState(EntityUid uid, SalvageExpeditionComponent component, ref ComponentGetState args)
@@ -75,7 +75,7 @@ public sealed partial class SalvageSystem
         args.State = new SalvageExpeditionComponentState()
         {
             Stage = component.Stage,
-            SelectedSong = component.SelectedSong // Frontier: note, not dirtied on map init (not needed)
+            SelectedSong = component.SelectedSong // _CS: note, not dirtied on map init (not needed)
         };
     }
 
@@ -94,7 +94,7 @@ public sealed partial class SalvageSystem
         _cooldown = obj;
     }
 
-    // Frontier: failed cooldowns
+    // _CS: failed cooldowns
     private void SetFailedCooldownChange(float obj)
     {
         // Note: we don't know whether or not players have failed missions, so let's not punish/reward them if this gets changed.
@@ -110,7 +110,7 @@ public sealed partial class SalvageSystem
     {
         ProximityCheck = obj;
     }
-    // End Frontier
+    // _CS End
 
     private void OnExpeditionMapInit(EntityUid uid, SalvageExpeditionComponent component, MapInitEvent args)
     {
@@ -124,7 +124,7 @@ public sealed partial class SalvageSystem
         // Drop pause cache when expedition map is shutting down.
         _pausedExpeditionRemaining.Remove(uid);
 
-        // component.Stream = _audio.Stop(component.Stream); // Frontier: moved to client
+        // component.Stream = _audio.Stop(component.Stream); // _CS: moved to client
 
         foreach (var (job, cancelToken) in _salvageJobs.ToArray())
         {
@@ -141,7 +141,7 @@ public sealed partial class SalvageSystem
         // Finish mission
         if (TryComp<SalvageExpeditionDataComponent>(component.Station, out var data))
         {
-            FinishExpedition((component.Station, data), component, uid); // Frontier: add component
+            FinishExpedition((component.Station, data), component, uid); // _CS: add component
         }
     }
 
@@ -214,7 +214,7 @@ public sealed partial class SalvageSystem
 
         expedition.Comp.ActiveMission = 0;
         expedition.Comp.CanFinish = false;
-        // Frontier: separate timeout/announcement for success/failures
+        // _CS: separate timeout/announcement for success/failures
         if (expeditionComp.Completed)
         {
             expedition.Comp.NextOffer = _timing.CurTime + TimeSpan.FromSeconds(_cooldown);
@@ -225,7 +225,7 @@ public sealed partial class SalvageSystem
             expedition.Comp.NextOffer = _timing.CurTime + TimeSpan.FromSeconds(_failedCooldown);
             expedition.Comp.CooldownTime = TimeSpan.FromSeconds(_failedCooldown);
         }
-        // End Frontier: separate timeout/announcement for success/failures
+        // _CS End: separate timeout/announcement for success/failures
         expedition.Comp.Cooldown = true;
         UpdateConsoles(expedition);
         Announce(uid, announcement);
@@ -235,7 +235,7 @@ public sealed partial class SalvageSystem
     {
         component.Missions.Clear();
 
-        // Frontier: generate missions from an arbitrary set of difficulties
+        // _CS: generate missions from an arbitrary set of difficulties
         if (_missionDifficulties.Count <= 0)
         {
             Log.Error("No expedition mission difficulties to pick from!");
@@ -244,7 +244,7 @@ public sealed partial class SalvageSystem
 
         // this doesn't support having more missions than types of ratings
         // but the previous system didn't do that either.
-        var allDifficulties = _missionDifficulties; // Frontier: Enum.GetValues<DifficultyRating>() < _missionDifficulties
+        var allDifficulties = _missionDifficulties; // _CS: Enum.GetValues<DifficultyRating>() < _missionDifficulties
         _random.Shuffle(allDifficulties);
         var difficulties = allDifficulties.Take(MissionLimit).ToList();
 
@@ -261,14 +261,14 @@ public sealed partial class SalvageSystem
             var mission = new SalvageMissionParams
             {
                 Index = component.NextIndex,
-                MissionType = (SalvageMissionType)_random.NextByte((byte)SalvageMissionType.Max + 1), // Frontier
+                MissionType = (SalvageMissionType)_random.NextByte((byte)SalvageMissionType.Max + 1), // _CS
                 Seed = _random.Next(),
                 Difficulty = difficulties[i].id,
             };
 
             component.Missions[component.NextIndex++] = mission;
         }
-        // End Frontier: generate missions from an arbitrary set of difficulties
+        // _CS End: generate missions from an arbitrary set of difficulties
     }
 
     private void GenerateMissions(SharedExpeditionBoard board)
@@ -321,9 +321,9 @@ public sealed partial class SalvageSystem
             _dungeon,
             _metaData,
             _mapSystem,
-            _station, // Frontier
-            _shuttle, // Frontier
-            this, // Frontier
+            _station, // _CS
+            _shuttle, // _CS
+            this, // _CS
             station,
             coordinatesDisk,
             economyId,
@@ -339,7 +339,7 @@ public sealed partial class SalvageSystem
         args.PushMarkup(Loc.GetString("salvage-expedition-structure-examine"));
     }
 
-    // Frontier: exped job handling, ghost reparenting
+    // _CS: exped job handling, ghost reparenting
     // Handle exped spawn job failures gracefully - reset the console
     private void OnExpeditionSpawnComplete(ExpeditionSpawnCompleteEvent ev)
     {
@@ -407,5 +407,5 @@ public sealed partial class SalvageSystem
                 _transform.SetMapCoordinates(ghostUid, newCoords);
         }
     }
-    // End Frontier
+    // _CS End
 }

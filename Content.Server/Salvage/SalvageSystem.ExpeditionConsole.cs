@@ -3,18 +3,18 @@ using Content.Shared.Procedural;
 using Content.Shared.Salvage.Expeditions;
 using Content.Shared.Dataset;
 using Robust.Shared.Prototypes;
-using Content.Shared.Popups; // Frontier
-using Content.Shared._NF.CCVar; // Frontier
-using Content.Server.Station.Components; // Frontier
-using Robust.Shared.Map.Components; // Frontier
-using Robust.Shared.Physics.Components; // Frontier
-using Content.Shared.NPC; // Frontier
-using Content.Server._NF.Salvage; // Frontier
-using Content.Shared.NPC.Components; // Frontier
-using Content.Server.Salvage.Expeditions; // Frontier
-using Content.Shared.Mind.Components; // Frontier
-using Content.Shared.Mobs.Components; // Frontier
-using Robust.Shared.Physics; // Frontier
+using Content.Shared.Popups; // _CS
+using Content.Shared._NF.CCVar; // _CS
+using Content.Server.Station.Components; // _CS
+using Robust.Shared.Map.Components; // _CS
+using Robust.Shared.Physics.Components; // _CS
+using Content.Shared.NPC; // _CS
+using Content.Server._NF.Salvage; // _CS
+using Content.Shared.NPC.Components; // _CS
+using Content.Server.Salvage.Expeditions; // _CS
+using Content.Shared.Mind.Components; // _CS
+using Content.Shared.Mobs.Components; // _CS
+using Robust.Shared.Physics; // _CS
 using System.Collections.Generic;
 
 namespace Content.Server.Salvage;
@@ -23,10 +23,10 @@ public sealed partial class SalvageSystem
 {
     public static readonly string CoordinatesDisk = "CoordinatesDisk";
 
-    [Dependency] private readonly SharedPopupSystem _popupSystem = default!; // Frontier
+    [Dependency] private readonly SharedPopupSystem _popupSystem = default!; // _CS
 
-    private const float ShuttleFTLMassThreshold = 50f; // Frontier
-    private const float ShuttleFTLRange = 150f; // Frontier
+    private const float ShuttleFTLMassThreshold = 50f; // _CS
+    private const float ShuttleFTLRange = 150f; // _CS
 
     private void OnSalvageClaimMessage(EntityUid uid, SalvageExpeditionConsoleComponent component, ClaimSalvageMessage args)
     {
@@ -42,8 +42,8 @@ public sealed partial class SalvageSystem
         if (board.ActiveMission != 0 && board.ActiveMission != args.Index)
             return;
 
-        // Frontier: FTL travel is currently restricted to expeditions and such, and so we need to put this here
-        #region Frontier FTL changes
+        // _CS: FTL travel is currently restricted to expeditions and such, and so we need to put this here
+        // _CS Start FTL changes
         // until FTL changes for us in some way.
 
         // Run a proximity check (unless using a debug console)
@@ -87,12 +87,12 @@ public sealed partial class SalvageSystem
                 return;
             }
         }
-        #endregion Frontier FTL changes
-        // End Frontier
+        // _CS End FTL changes
+        // _CS End
 
         if (board.ActiveMission == 0)
         {
-            // Frontier: prevent expeditions if there are too many out already.
+            // _CS: prevent expeditions if there are too many out already.
             var activeExpeditionCount = 0;
             var expeditionQuery = AllEntityQuery<SalvageExpeditionComponent>();
             while (expeditionQuery.MoveNext(out _, out _))
@@ -149,7 +149,7 @@ public sealed partial class SalvageSystem
         UpdateEconomyConsoles(component.EconomyId);
     }
 
-    // Frontier: early expedition end
+    // _CS: early expedition end
     private void OnSalvageFinishMessage(EntityUid entity, SalvageExpeditionConsoleComponent component, FinishSalvageMessage e)
     {
         var station = _station.GetOwningStation(entity);
@@ -165,7 +165,7 @@ public sealed partial class SalvageSystem
             return;
         }
 
-        // Frontier: check if any player characters or friendly ghost roles are outside
+        // _CS: check if any player characters or friendly ghost roles are outside
         var query = EntityQueryEnumerator<MindContainerComponent, MobStateComponent, TransformComponent>();
         while (query.MoveNext(out var uid, out var mindContainer, out var _, out var mobXform))
         {
@@ -217,17 +217,17 @@ public sealed partial class SalvageSystem
         expedition.EndTime = newEndTime;
         Dirty(map.Value, expedition);
 
-        // Frontier: if an expedition-extending anchor is active, update the pause cache so it reflects
+        // _CS: if an expedition-extending anchor is active, update the pause cache so it reflects
         // the new expedited departure time rather than the original remaining time. Without this, when
         // the anchor deactivates, the resume logic restores the old large remaining value, causing the
         // shuttle to behave like open space (Dynamic physics) on the expedition map for the full original
         // duration instead of departing after the requested 20-second countdown.
         _pausedExpeditionRemaining[map.Value] = TimeSpan.FromSeconds(departTime);
-        // End Frontier
+        // _CS End
 
         Announce(map.Value, Loc.GetString("salvage-expedition-announcement-early-finish", ("departTime", departTime)));
     }
-    // End Frontier: early expedition end
+    // _CS End: early expedition end
 
     private void OnSalvageConsoleInit(Entity<SalvageExpeditionConsoleComponent> console, ref ComponentInit args)
     {
@@ -258,7 +258,7 @@ public sealed partial class SalvageSystem
         TryComp<SalvageExpeditionDataComponent>(station, out var dataComponent);
         var state = GetState(component, station, dataComponent);
 
-        // Frontier: if we have a lingering FTL component, we cannot start a new mission
+        // _CS: if we have a lingering FTL component, we cannot start a new mission
         if (station is not { Valid: true } ||
             !TryComp<StationDataComponent>(station.Value, out var stationData) ||
             _station.GetLargestGrid(stationData) is not { Valid: true } grid ||
@@ -266,15 +266,15 @@ public sealed partial class SalvageSystem
         {
             state.Cooldown = true; //Hack: disable buttons
         }
-        // End Frontier
+        // _CS End
 
         _ui.SetUiState((component.Owner, uiComp), SalvageConsoleUiKey.Expedition, state);
     }
 
-    // Frontier: deny sound
+    // _CS: deny sound
     private void PlayDenySound(Entity<SalvageExpeditionConsoleComponent> ent)
     {
         _audio.PlayPvs(_audio.ResolveSound(ent.Comp.ErrorSound), ent);
     }
-    // End Frontier
+    // _CS End
 }
