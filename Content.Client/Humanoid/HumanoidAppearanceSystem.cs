@@ -405,6 +405,7 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
                     newMarkingPrototype,
                     newMarking.MarkingColors,
                     newMarking.Visible,
+                    newMarking.RenderOverClothing,
                     humanoid,
                     sprite);
             }
@@ -502,6 +503,7 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
         MarkingPrototype markingPrototype,
         IReadOnlyList<Color>? colors,
         bool visible,
+        bool renderOverClothing,
         HumanoidAppearanceComponent humanoid,
         SpriteComponent sprite)
     {
@@ -565,6 +567,11 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
                 {
                     layerSlot = Enum.Parse<HumanoidVisualLayers>(layerName);
                 }
+            }
+
+            if (renderOverClothing && layerSlot == HumanoidVisualLayers.Genital)
+            {
+                layerSlot = HumanoidVisualLayers.TailOversuit;
             }
             // update the layerDict
             // if it doesnt have this, add it at 0, otherwise increment it
@@ -721,7 +728,7 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
             foreach (var marking in markingList)
             {
                 if (_markingManager.TryGetMarking(marking, out var markingPrototype) && markingPrototype.BodyPart == layer)
-                    ApplyMarking(markingPrototype, marking.MarkingColors, marking.Visible, ent, sprite);
+                    ApplyMarking(markingPrototype, marking.MarkingColors, marking.Visible, marking.RenderOverClothing, ent, sprite);
             }
         }
     }

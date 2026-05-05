@@ -55,5 +55,10 @@ namespace Content.Shared.Humanoid.Markings
         ///     Verb to use when taking off (2nd person)
         /// </summary>
         public string? TakeOffVerb2p { get; set; }
+
+        /// <summary>
+        ///     If this marking should render over clothing when possible.
+        /// </summary>
+        public bool? RenderOverClothing { get; set; }
     }
 }

@@ -109,6 +109,7 @@ namespace Content.Shared.Humanoid.Markings
             TakeOffVerb = other.TakeOffVerb;
             TakeOffVerb2p = other.TakeOffVerb2p;
             ShowAtStart = other.ShowAtStart;
+            RenderOverClothing = other.RenderOverClothing;
         }
 
         public Marking(MarkingDTO? other)
@@ -124,6 +125,7 @@ namespace Content.Shared.Humanoid.Markings
             PutOnVerb2p = other.PutOnVerb2p ?? PutOnVerb2p;
             TakeOffVerb = other.TakeOffVerb ?? TakeOffVerb;
             TakeOffVerb2p = other.TakeOffVerb2p ?? TakeOffVerb2p;
+            RenderOverClothing = other.RenderOverClothing ?? RenderOverClothing;
         }
 
         /// <summary>
@@ -155,6 +157,12 @@ namespace Content.Shared.Humanoid.Markings
         /// </summary>
         [DataField("showAtStart")]
         public bool ShowAtStart = true;
+
+        /// <summary>
+        ///     If true, this marking should render over worn clothing when supported.
+        /// </summary>
+        [DataField("renderOverClothing")]
+        public bool RenderOverClothing = false;
 
         /// <summary>
         ///     If this marking is can be toggled on or off by the user.
@@ -244,7 +252,8 @@ namespace Content.Shared.Humanoid.Markings
                 && PutOnVerb2p == other.PutOnVerb2p
                 && TakeOffVerb == other.TakeOffVerb
                 && TakeOffVerb2p == other.TakeOffVerb2p
-                && ShowAtStart == other.ShowAtStart;
+                && ShowAtStart == other.ShowAtStart
+                && RenderOverClothing == other.RenderOverClothing;
         }
 
         public MarkingDTO ToDTO()
@@ -260,7 +269,8 @@ namespace Content.Shared.Humanoid.Markings
                 PutOnVerb = PutOnVerb,
                 PutOnVerb2p = PutOnVerb2p,
                 TakeOffVerb = TakeOffVerb,
-                TakeOffVerb2p = TakeOffVerb2p
+                TakeOffVerb2p = TakeOffVerb2p,
+                RenderOverClothing = RenderOverClothing
             };
         }
     }
