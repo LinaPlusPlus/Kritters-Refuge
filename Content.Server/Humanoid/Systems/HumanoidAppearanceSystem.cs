@@ -1,10 +1,8 @@
 using Content.Shared.Examine;
-using Content.Shared._NF.SizeAttribute;
 using Content.Shared.Humanoid;
 using Content.Shared.Humanoid.Markings;
 using Content.Shared.Humanoid.Prototypes;
 using Content.Shared.IdentityManagement;
-using Content.Shared.Nyanotrasen.Item.PseudoItem;
 using Content.Shared.Preferences;
 using Content.Shared.Verbs;
 using Content.Server.Humanoid.Components;
@@ -17,15 +15,11 @@ public sealed partial class HumanoidAppearanceSystem : SharedHumanoidAppearanceS
     [Dependency] private readonly MarkingManager _markingManager = default!;
     [Dependency] private readonly GrammarSystem _grammar = default!;
 
-    private const float BagFitScale = 0.8f;
-    private const float BagFitTolerance = 0.001f;
-
     public override void Initialize()
     {
         base.Initialize();
         SubscribeLocalEvent<HumanoidAppearanceComponent, HumanoidMarkingModifierMarkingSetMessage>(OnMarkingsSet);
         SubscribeLocalEvent<HumanoidAppearanceComponent, HumanoidMarkingModifierBaseLayersSetMessage>(OnBaseLayersSet);
-        SubscribeLocalEvent<HumanoidAppearanceComponent, HumanoidHeightChangedEvent>(OnHeightChanged);
         SubscribeLocalEvent<HumanoidAppearanceComponent, GetVerbsEvent<Verb>>(OnVerbsRequest);
         // SubscribeLocalEvent<HumanoidAppearanceComponent, ExaminedEvent>(OnExamined);
     }
@@ -36,46 +30,6 @@ public sealed partial class HumanoidAppearanceSystem : SharedHumanoidAppearanceS
 
         if (profile == null)
             return;
-
-        TryApplyShortSizeAttribute(uid, profile.Height);
-    }
-
-    private void OnHeightChanged(EntityUid uid, HumanoidAppearanceComponent component, ref HumanoidHeightChangedEvent args)
-    {
-        TryApplyShortSizeAttribute(uid, args.Height);
-    }
-
-    private void TryApplyShortSizeAttribute(EntityUid uid, float height)
-    {
-        // Apply short-size bag-fit behavior from the current height value.
-        if (!TryComp<ShortWhitelistComponent>(uid, out var shortWhitelist) || !shortWhitelist.PseudoItem)
-            return;
-
-        if (!MathHelper.CloseTo(height, BagFitScale, BagFitTolerance))
-        {
-            if (HasComp<RuntimeShortHeightPseudoItemComponent>(uid))
-            {
-                RemComp<RuntimeShortHeightPseudoItemComponent>(uid);
-                RemComp<PseudoItemComponent>(uid);
-            }
-
-            return;
-        }
-
-        if (HasComp<PseudoItemComponent>(uid))
-            return;
-
-        var pseudoItem = EnsureComp<PseudoItemComponent>(uid);
-        pseudoItem.StoredRotation = shortWhitelist.StoredRotation;
-        pseudoItem.StoredOffset = shortWhitelist.StoredOffset ?? new Vector2i(0, 17);
-        pseudoItem.Shape = shortWhitelist.Shape ??
-            [
-                new Box2i(0, 0, 1, 4),
-                new Box2i(0, 2, 3, 4),
-                new Box2i(4, 0, 5, 4)
-            ];
-
-        EnsureComp<RuntimeShortHeightPseudoItemComponent>(uid);
     }
 
     // private void OnExamined(EntityUid uid, HumanoidAppearanceComponent component, ExaminedEvent args)

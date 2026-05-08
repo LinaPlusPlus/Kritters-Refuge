@@ -184,28 +184,34 @@ public sealed partial class SalvageSystem
             UpdateSsdGoobers(args.MapUid, component);
         }
 
-        // Frontier: dungeon direction is sent to each arriving shuttle individually so every ship
-        // that joins a shared expedition receives it, not only the first one.
-        if (component.DungeonLocation != Vector2.Zero)
+        // Dungeon direction is meaningful for standard expeditions only.
+        // Shared/open contracts have multiple objective clusters and no single reliable heading.
+        if (!component.MissionParams.OpenContract && component.DungeonLocation != Vector2.Zero)
         {
-            var directionLocalization = ContentLocalizationManager.FormatDirection(component.DungeonLocation.GetDir()).ToLower();
-            var shipRemaining = component.ShuttleEndTimes.TryGetValue(args.Entity, out var shipEndTime)
-                ? shipEndTime - _timing.CurTime
-                : component.EndTime - _timing.CurTime;
+            var shuttlePosition = _transform.GetMapCoordinates(args.Entity).Position;
+            var dungeonDirection = component.DungeonLocation - shuttlePosition;
 
-            if (shipRemaining < TimeSpan.Zero)
-                shipRemaining = TimeSpan.Zero;
-
-            var shipMinutes = GetDisplayedRemainingMinutes(shipRemaining);
-            var dirMsg = Loc.GetString("salvage-expedition-announcement-dungeon", ("direction", directionLocalization));
-            var remainingMsg = Loc.GetString("salvage-expedition-announcement-countdown-minutes", ("duration", shipMinutes));
-
-            if (isFirstArrival)
-                Announce(args.MapUid, dirMsg);
-            else
+            if (dungeonDirection.LengthSquared() > 0.01f)
             {
-                AnnounceToGrid(args.Entity, dirMsg);
-                AnnounceToGrid(args.Entity, remainingMsg);
+                var directionLocalization = ContentLocalizationManager.FormatDirection(dungeonDirection.GetDir()).ToLower();
+                var shipRemaining = component.ShuttleEndTimes.TryGetValue(args.Entity, out var shipEndTime)
+                    ? shipEndTime - _timing.CurTime
+                    : component.EndTime - _timing.CurTime;
+
+                if (shipRemaining < TimeSpan.Zero)
+                    shipRemaining = TimeSpan.Zero;
+
+                var shipMinutes = GetDisplayedRemainingMinutes(shipRemaining);
+                var dirMsg = Loc.GetString("salvage-expedition-announcement-dungeon", ("direction", directionLocalization));
+                var remainingMsg = Loc.GetString("salvage-expedition-announcement-countdown-minutes", ("duration", shipMinutes));
+
+                if (isFirstArrival)
+                    Announce(args.MapUid, dirMsg);
+                else
+                {
+                    AnnounceToGrid(args.Entity, dirMsg);
+                    AnnounceToGrid(args.Entity, remainingMsg);
+                }
             }
         }
 
