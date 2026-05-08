@@ -19,8 +19,8 @@
       0: Alive
       80: Critical
       105: Dead
-  - type: MobState
     allowRevives: false
+  - type: MobState
   - type: SlowOnDamage
     speedModifierThresholds:
       48: 0.7

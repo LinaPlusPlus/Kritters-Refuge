@@ -13,7 +13,7 @@ namespace Content.IntegrationTests.Tests;
 [TestFixture]
 public sealed class SalvageExpeditionReservationTest
 {
-    private static readonly ProtoId<BiomeMarkerLayerPrototype> MarkerLayerId = "BiomeReservationTestMarker";
+    private const string MarkerLayerId = "BiomeReservationTestMarker";
 
     [TestPrototypes]
     private const string Prototypes = @"
