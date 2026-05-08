@@ -652,8 +652,8 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
                 continue;
             }
 
-            visible &= !IsHidden(humanoid, markingPrototype.BodyPart);
-            visible &= humanoid.BaseLayers.TryGetValue(markingPrototype.BodyPart, out var setting)
+            visible &= !IsHidden(humanoid, layerSlot);
+            visible &= humanoid.BaseLayers.TryGetValue(layerSlot, out var setting)
                        && setting.AllowsMarkings;
 
             var layerId = $"{markingPrototype.ID}-{rsi.RsiState}";

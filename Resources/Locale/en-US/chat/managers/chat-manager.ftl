@@ -34,6 +34,9 @@ chat-manager-entity-me-wrap-message = { PROPER($entity) ->
      [true] [color={$chatColor}]{CAPITALIZE($entityName)}[/color] {$message}
     }
 
+# Used when a specific speaking name is supplied (e.g. relays) and should not be prefixed with an article.
+chat-manager-entity-me-wrap-message-override = [color={$chatColor}]{$entityName}[/color] {$message}
+
 chat-manager-entity-subtle-wrap-message = { PROPER($entity) ->
     *[false] [font size=11][italic]the [color={$chatColor}]{$entityName}[/color] {$message}[/italic][/font]
      [true] [font size=11][italic][color={$chatColor}]{$entityName}[/color] {$message}[/italic][/font]

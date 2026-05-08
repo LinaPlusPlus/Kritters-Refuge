@@ -188,11 +188,6 @@ public sealed partial class SalvageSystem
         return true;
     }
 
-    private static Box2 GetLandingZone(Box2 shuttleBox, Vector2 origin, float padding = 16f)
-    {
-        return shuttleBox.Translated(origin).Enlarged(padding);
-    }
-
     private bool HasBlockingLandingZone(EntityUid expeditionMap, Box2 candidateBox)
     {
         var shuttleQuery = AllEntityQuery<ShuttleComponent, MapGridComponent, TransformComponent>();
@@ -236,22 +231,12 @@ public sealed partial class SalvageSystem
                 var theta = MathF.Tau * step / 16f;
                 var candidateCenter = center + new Vector2(MathF.Cos(theta), MathF.Sin(theta)) * radius;
                 var candidateOrigin = (candidateCenter - shuttleBox.Center).Rounded();
-                var candidateBox = GetLandingZone(shuttleBox, candidateOrigin);
+                var candidateBox = SalvageExpeditionReservation.GetLandingZone(shuttleBox, candidateOrigin);
 
-                if (candidateBox.Intersects(exclusion))
+                if (SalvageExpeditionReservation.IntersectsDungeonBounds(expedition, candidateBox, 12f))
                     continue;
 
-                var intersectsReserved = false;
-                foreach (var zone in expedition.ReservedLandingZones)
-                {
-                    if (!zone.Intersects(candidateBox))
-                        continue;
-
-                    intersectsReserved = true;
-                    break;
-                }
-
-                if (intersectsReserved)
+                if (SalvageExpeditionReservation.IntersectsReservedLandingZone(expedition, candidateBox))
                     continue;
 
                 if (HasBlockingLandingZone(expeditionMap, candidateBox))

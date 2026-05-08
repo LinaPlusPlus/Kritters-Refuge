@@ -34,3 +34,4 @@
             CompanionInterview: [ 2, 2 ]
             PilotInterview: [ 2, 2 ]
             MercenaryInterview: [ 2, 2 ]
+        - type: SalvageExpeditionData

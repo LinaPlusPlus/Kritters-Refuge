@@ -5,6 +5,7 @@ using Content.Shared.Humanoid.Prototypes;
 using Content.Shared.IdentityManagement;
 using Content.Shared.Preferences;
 using Content.Shared.Verbs;
+using Content.Server.Humanoid.Components;
 using Robust.Shared.GameObjects.Components.Localization;
 
 namespace Content.Server.Humanoid;
@@ -21,6 +22,14 @@ public sealed partial class HumanoidAppearanceSystem : SharedHumanoidAppearanceS
         SubscribeLocalEvent<HumanoidAppearanceComponent, HumanoidMarkingModifierBaseLayersSetMessage>(OnBaseLayersSet);
         SubscribeLocalEvent<HumanoidAppearanceComponent, GetVerbsEvent<Verb>>(OnVerbsRequest);
         // SubscribeLocalEvent<HumanoidAppearanceComponent, ExaminedEvent>(OnExamined);
+    }
+
+    public override void LoadProfile(EntityUid uid, HumanoidCharacterProfile? profile, HumanoidAppearanceComponent? humanoid = null)
+    {
+        base.LoadProfile(uid, profile, humanoid);
+
+        if (profile == null)
+            return;
     }
 
     // private void OnExamined(EntityUid uid, HumanoidAppearanceComponent component, ExaminedEvent args)

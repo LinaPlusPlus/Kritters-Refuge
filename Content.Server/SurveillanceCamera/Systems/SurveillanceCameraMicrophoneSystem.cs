@@ -35,7 +35,12 @@ public sealed class SurveillanceCameraMicrophoneSystem : EntitySystem
             return;
 
         var uid = args.Source;
-        var sourceXform = Transform(uid);
+        if (HasComp<SurveillanceCameraSpeakerComponent>(uid) || HasComp<SurveillanceCameraMonitorComponent>(uid))
+            return;
+
+        if (!TryComp(uid, out TransformComponent? sourceXform))
+            return;
+
         var xformQuery = GetEntityQuery<TransformComponent>();
 
         foreach (var (microphone, camera, xform) in EntityQuery<SurveillanceCameraMicrophoneComponent, SurveillanceCameraComponent, TransformComponent>())
@@ -66,7 +71,12 @@ public sealed class SurveillanceCameraMicrophoneSystem : EntitySystem
             return;
 
         var uid = args.Source;
-        var sourceXform = Transform(uid);
+        if (HasComp<SurveillanceCameraSpeakerComponent>(uid) || HasComp<SurveillanceCameraMonitorComponent>(uid))
+            return;
+
+        if (!TryComp(uid, out TransformComponent? sourceXform))
+            return;
+
         var xformQuery = GetEntityQuery<TransformComponent>();
 
         foreach (var (microphone, camera, xform) in EntityQuery<SurveillanceCameraMicrophoneComponent, SurveillanceCameraComponent, TransformComponent>())
@@ -97,7 +107,12 @@ public sealed class SurveillanceCameraMicrophoneSystem : EntitySystem
             return;
 
         var uid = args.Source;
-        var sourceXform = Transform(uid);
+        if (HasComp<SurveillanceCameraSpeakerComponent>(uid) || HasComp<SurveillanceCameraMonitorComponent>(uid))
+            return;
+
+        if (!TryComp(uid, out TransformComponent? sourceXform))
+            return;
+
         var xformQuery = GetEntityQuery<TransformComponent>();
 
         foreach (var (camera, xform) in EntityQuery<SurveillanceCameraComponent, TransformComponent>())
@@ -170,6 +185,9 @@ public sealed class SurveillanceCameraMicrophoneSystem : EntitySystem
     public void RelayEntityMessage(EntityUid uid, SurveillanceCameraMicrophoneComponent component, ListenEvent args)
     {
         if (!TryComp(uid, out SurveillanceCameraComponent? camera))
+            return;
+
+        if (HasComp<SurveillanceCameraSpeakerComponent>(args.Source) || HasComp<SurveillanceCameraMonitorComponent>(args.Source))
             return;
 
         var ev = new SurveillanceCameraSpeechSendEvent(args.Source, args.Message, InGameICChatType.Speak);

@@ -12,12 +12,6 @@
   maleFirstNames: NamesReptilianMale
   femaleFirstNames: NamesReptilianFemale
   naming: FirstDashFirst
-  minHeight: 0.7
-  defaultHeight: 0.95
-  maxHeight: 1.25
-  minWidth: 0.65
-  defaultWidth: 0.95
-  maxWidth: 1.3
   kind:
   - BasicFurry
 
@@ -28,10 +22,8 @@
     Hair: MobHumanoidAnyMarking
     FacialHair: MobHumanoidAnyMarking
     Snout: MobHumanoidAnyMarking
-    NeckFluff: MobHumanoidAnyMarking
     UndergarmentTop: MobHumanoidAnyMarking
     UndergarmentBottom: MobHumanoidAnyMarking
-    Genital: MobHumanoidAnyMarking
     Chest: MobReptilianTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
@@ -41,10 +33,6 @@
     RArm: MobReptilianRArm
     LHand: MobReptilianLHand
     RHand: MobReptilianRHand
-    LLegBehind: MobHumanoidAnyMarking
-    RLegBehind: MobHumanoidAnyMarking
-    LFootBehind: MobHumanoidAnyMarking
-    RFootBehind: MobHumanoidAnyMarking
     LLeg: MobReptilianLLeg
     RLeg: MobReptilianRLeg
     LFoot: MobReptilianLFoot
@@ -56,16 +44,83 @@
 
 - type: markingPoints
   id: MobReptilianMarkingLimits
+  onlyWhitelisted: false
   points:
-    # Coyote: Allow unlimited markings
+    Hair:
+      points: 35
+      required: false
+    FacialHair:
+      points: 35
+      required: false
     Tail:
-      points: 999 # Coyote: Allow unlimited markings
+      points: 35
       required: true
       defaultMarkings: [ LizardTailLarge ]
     Snout:
-      points: 999 # Coyote: Allow unlimited markings
+      points: 35
       required: true
       defaultMarkings: [ LizardSnoutRound ]
+    HeadTop:
+      points: 35
+      required: false
+    HeadSide:
+      points: 35
+      required: false
+    UndergarmentTop:
+      points: 35
+      required: false
+    UndergarmentBottom:
+      points: 35
+      required: false
+    Chest:
+      points: 35 # imp 3<4
+      required: false
+    Legs:
+      points: 35 # imp 2<8
+      required: false
+    Arms:
+      points: 35 # imp 2<8
+      required: false
+    Head:
+      points: 35
+      required: false
+    Overlay:
+      points: 35
+      required: false
+    Special:
+      points: 35
+      required: false
+    # Copypaste these into every species I HATE THIS CODE
+    BaseChest:
+      points: 35
+      required: false
+    BaseHead:
+      points: 35
+      required: false
+    BaseLArm:
+      points: 35
+      required: false
+    BaseLFoot:
+      points: 35
+      required: false
+    BaseLHand:
+      points: 35
+      required: false
+    BaseLLeg:
+      points: 35
+      required: false
+    BaseRArm:
+      points: 35
+      required: false
+    BaseRFoot:
+      points: 35
+      required: false
+    BaseRHand:
+      points: 35
+      required: false
+    BaseRLeg:
+      points: 35
+      required: false
 
 - type: humanoidBaseSprite
   id: MobReptilianHead
@@ -90,56 +145,24 @@
   baseSprite:
     sprite: Mobs/Species/Reptilian/parts.rsi
     state: torso_m
-  altSprites:
-    Digitigrade: DigilegLizardTorsoMale
 
 - type: humanoidBaseSprite
   id: MobReptilianTorsoMale
   baseSprite:
     sprite: Mobs/Species/Reptilian/parts.rsi
     state: torso_m
-  altSprites:
-    Digitigrade: DigilegLizardTorsoMale
 
 - type: humanoidBaseSprite
   id: MobReptilianTorsoFemale
   baseSprite:
     sprite: Mobs/Species/Reptilian/parts.rsi
     state: torso_f
-  altSprites:
-    Digitigrade: DigilegLizardTorsoFemale
 
 - type: humanoidBaseSprite
   id: MobReptilianLLeg
   baseSprite:
     sprite: Mobs/Species/Reptilian/parts.rsi
     state: l_leg
-  altSprites:
-    Digitigrade: DigilegPawDarkLegLeft
-
-- type: humanoidBaseSprite
-  id: MobReptilianLFoot
-  baseSprite:
-    sprite: Mobs/Species/Reptilian/parts.rsi
-    state: l_foot
-  altSprites:
-    Digitigrade: DigilegPawDarkFootLeft
-
-- type: humanoidBaseSprite
-  id: MobReptilianRLeg
-  baseSprite:
-    sprite: Mobs/Species/Reptilian/parts.rsi
-    state: r_leg
-  altSprites:
-    Digitigrade: DigilegPawDarkLegRight
-
-- type: humanoidBaseSprite
-  id: MobReptilianRFoot
-  baseSprite:
-    sprite: Mobs/Species/Reptilian/parts.rsi
-    state: r_foot
-  altSprites:
-    Digitigrade: DigilegPawDarkFootRight
 
 - type: humanoidBaseSprite
   id: MobReptilianLHand
@@ -154,6 +177,18 @@
     state: l_arm
 
 - type: humanoidBaseSprite
+  id: MobReptilianLFoot
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: l_foot
+
+- type: humanoidBaseSprite
+  id: MobReptilianRLeg
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: r_leg
+
+- type: humanoidBaseSprite
   id: MobReptilianRHand
   baseSprite:
     sprite: Mobs/Species/Reptilian/parts.rsi
@@ -164,3 +199,9 @@
   baseSprite:
     sprite: Mobs/Species/Reptilian/parts.rsi
     state: r_arm
+
+- type: humanoidBaseSprite
+  id: MobReptilianRFoot
+  baseSprite:
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: r_foot

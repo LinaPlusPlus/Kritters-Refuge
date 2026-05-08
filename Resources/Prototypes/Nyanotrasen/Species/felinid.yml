@@ -7,12 +7,6 @@
   sprites: MobHumanSprites
   markingLimits: MobFelinidMarkingLimits
   dollPrototype: MobFelinidDummy
-  minHeight: 0.65
-  defaultHeight: 0.8
-  maxHeight: 1.1
-  minWidth: 0.6
-  defaultWidth: 0.8
-  maxWidth: 1.15
   skinColoration: Hues
   kind:
   - BasicFurry
@@ -20,12 +14,81 @@
 - type: markingPoints
   id: MobFelinidMarkingLimits
   points:
-    # Coyote: Allow unlimited markings
+    Hair:
+      points: 35
+      required: false
+    FacialHair:
+      points: 35
+      required: false
     Tail:
-      points: 999 # Coyote: Allow unlimited markings
+      points: 35
       required: true
       defaultMarkings: [ FelinidTailBasic ]
     HeadTop:
-      points: 999 # Coyote: Allow unlimited markings
+      points: 35
       required: true
       defaultMarkings: [ FelinidEarsBasic ]
+    Chest:
+      points: 35 # Frontier 1<4
+      required: false
+    Legs:
+      points: 35 # Frontier 2<8
+      required: false
+    Arms:
+      points: 35 # Frontier 2<8
+      required: false
+    # Frontier: apparently these don't exist on Delta
+    UndergarmentTop:
+      points: 35
+      required: false
+    UndergarmentBottom:
+      points: 35
+      required: false
+    # End Frontier
+    Head:
+      points: 35
+      required: false
+    Snout:
+      points: 35
+      required: false
+    HeadSide:
+      points: 35
+      required: false
+    Overlay:
+      points: 35
+      required: false
+    Special:
+      points: 35
+      required: false
+    # Copypaste these into every species I HATE THIS CODE
+    BaseChest:
+      points: 35
+      required: false
+    BaseHead:
+      points: 35
+      required: false
+    BaseLArm:
+      points: 35
+      required: false
+    BaseLFoot:
+      points: 35
+      required: false
+    BaseLHand:
+      points: 35
+      required: false
+    BaseLLeg:
+      points: 35
+      required: false
+    BaseRArm:
+      points: 35
+      required: false
+    BaseRFoot:
+      points: 35
+      required: false
+    BaseRHand:
+      points: 35
+      required: false
+    BaseRLeg:
+      points: 35
+      required: false
+

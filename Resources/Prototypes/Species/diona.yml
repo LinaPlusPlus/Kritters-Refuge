@@ -22,20 +22,14 @@
     Head: MobDionaHead
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
-    NeckFluff: MobHumanoidAnyMarking
     UndergarmentTop: MobHumanoidAnyMarking
     UndergarmentBottom: MobHumanoidAnyMarking
-    Genital: MobHumanoidAnyMarking
     Chest: MobDionaTorso
     Eyes: MobDionaEyes
     LArm: MobDionaLArm
     RArm: MobDionaRArm
     LHand: MobDionaLHand
     RHand: MobDionaRHand
-    LLegBehind: MobHumanoidAnyMarking
-    RLegBehind: MobHumanoidAnyMarking
-    LFootBehind: MobHumanoidAnyMarking
-    RFootBehind: MobHumanoidAnyMarking
     LLeg: MobDionaLLeg
     RLeg: MobDionaRLeg
     LFoot: MobDionaLFoot
@@ -47,11 +41,82 @@
 
 - type: markingPoints
   id: MobDionaMarkingLimits
+  onlyWhitelisted: true
   points:
+    Head:
+      points: 35
+      required: false
+    HeadTop:
+      points: 35
+      required: false
+    HeadSide:
+      points: 35
+      required: false
+    UndergarmentTop:
+      points: 35
+      required: false
+    UndergarmentBottom:
+      points: 35
+      required: false
+    Chest:
+      points: 35
+      required: false
+    Legs:
+      points: 35
+      required: false
+    Arms:
+      points: 35
+      required: false
     Overlay:
-      points: 999 # Coyote: Allow unlimited markings
+      points: 35
       required: true
       defaultMarkings: [ DionaVineOverlay ]
+    FacialHair:
+      points: 35
+      required: false
+    Hair:
+      points: 35
+      required: false
+    Snout:
+      points: 35
+      required: false
+    Special:
+      points: 35
+      required: false
+    Tail:
+      points: 35
+      required: false
+    # Copypaste these into every species I HATE THIS CODE
+    BaseChest:
+      points: 35
+      required: false
+    BaseHead:
+      points: 35
+      required: false
+    BaseLArm:
+      points: 35
+      required: false
+    BaseLFoot:
+      points: 35
+      required: false
+    BaseLHand:
+      points: 35
+      required: false
+    BaseLLeg:
+      points: 35
+      required: false
+    BaseRArm:
+      points: 35
+      required: false
+    BaseRFoot:
+      points: 35
+      required: false
+    BaseRHand:
+      points: 35
+      required: false
+    BaseRLeg:
+      points: 35
+      required: false
 
 - type: humanoidBaseSprite
   id: MobDionaEyes
@@ -82,56 +147,24 @@
   baseSprite:
     sprite: Mobs/Species/Diona/parts.rsi
     state: torso_m
-  altSprites:
-    Digitigrade: DigilegPlantTorsoMale
 
 - type: humanoidBaseSprite
   id: MobDionaTorsoMale
   baseSprite:
     sprite: Mobs/Species/Diona/parts.rsi
     state: torso_m
-  altSprites:
-    Digitigrade: DigilegPlantTorsoMale
 
 - type: humanoidBaseSprite
   id: MobDionaTorsoFemale
   baseSprite:
     sprite: Mobs/Species/Diona/parts.rsi
     state: torso_f
-  altSprites:
-    Digitigrade: DigilegPlantTorsoFemale
 
 - type: humanoidBaseSprite
   id: MobDionaLLeg
   baseSprite:
     sprite: Mobs/Species/Diona/parts.rsi
     state: l_leg
-  altSprites:
-    Digitigrade: DigilegAvianLegLeft
-
-- type: humanoidBaseSprite
-  id: MobDionaLFoot
-  baseSprite:
-    sprite: Mobs/Species/Diona/parts.rsi
-    state: l_foot
-  altSprites:
-    Digitigrade: DigilegAvianFootLeft
-
-- type: humanoidBaseSprite
-  id: MobDionaRLeg
-  baseSprite:
-    sprite: Mobs/Species/Diona/parts.rsi
-    state: r_leg
-  altSprites:
-    Digitigrade: DigilegAvianLegRight
-
-- type: humanoidBaseSprite
-  id: MobDionaRFoot
-  baseSprite:
-    sprite: Mobs/Species/Diona/parts.rsi
-    state: r_foot
-  altSprites:
-    Digitigrade: DigilegAvianFootRight
 
 - type: humanoidBaseSprite
   id: MobDionaLHand
@@ -146,6 +179,18 @@
     state: l_arm
 
 - type: humanoidBaseSprite
+  id: MobDionaLFoot
+  baseSprite:
+    sprite: Mobs/Species/Diona/parts.rsi
+    state: l_foot
+
+- type: humanoidBaseSprite
+  id: MobDionaRLeg
+  baseSprite:
+    sprite: Mobs/Species/Diona/parts.rsi
+    state: r_leg
+
+- type: humanoidBaseSprite
   id: MobDionaRHand
   baseSprite:
     sprite: Mobs/Species/Diona/parts.rsi
@@ -156,3 +201,9 @@
   baseSprite:
     sprite: Mobs/Species/Diona/parts.rsi
     state: r_arm
+
+- type: humanoidBaseSprite
+  id: MobDionaRFoot
+  baseSprite:
+    sprite: Mobs/Species/Diona/parts.rsi
+    state: r_foot

@@ -39,13 +39,18 @@ using Content.Server.Station.Components; // _CS
 using Content.Server.Station.Systems; // _CS
 using Content.Server.Shuttles.Systems;
 using Content.Server._NF.Salvage.Expeditions.Structure; // _CS
+using Content.Shared.NPC.Prototypes;
 
 namespace Content.Server.Salvage;
 
 public sealed class SpawnSalvageMissionJob : Job<bool>
 {
-    private const int SharedExpeditionSizeMultiplier = 4;
+    private const int SharedExpeditionDirectionCount = 4;
+    private const int SharedExpeditionClustersPerDirection = 4;
+    private const int SharedExpeditionSpreadMultiplier = 2;
     private const int SharedObjectiveMultiplier = 2;
+    private const int SharedExpeditionFallbackMinOffset = 40;
+    private const int SharedExpeditionFallbackMaxOffset = 60;
 
     private static readonly ProtoId<LocalizedDatasetPrototype> NamesDataset = "NamesBorer";
 
@@ -221,21 +226,89 @@ public sealed class SpawnSalvageMissionJob : Job<bool>
         expedition.MissionParams = _missionParams;
 
         var landingPadRadius = 4; // _CS: 24<4 - using this as a margin (4-16), not a radius
-        var minDungeonOffset = landingPadRadius + 4;
-
         // We'll use the dungeon rotation as the spawn angle
         var dungeonRotation = _dungeon.GetDungeonRotation(_missionParams.Seed);
-
-        var maxDungeonOffset = minDungeonOffset + 12;
-        var dungeonOffsetDistance = minDungeonOffset + (maxDungeonOffset - minDungeonOffset) * random.NextFloat();
-        var dungeonOffset = new Vector2(0f, dungeonOffsetDistance);
-        dungeonOffset = dungeonRotation.RotateVec(dungeonOffset);
         var dungeonMod = _prototypeManager.Index<SalvageDungeonModPrototype>(mission.Dungeon);
-        var dungeonConfig = GetDungeonConfigForMission(dungeonMod.Proto);
-        var dungeons = await WaitAsyncTask(_dungeon.GenerateDungeonAsync(dungeonConfig, dungeonMod.Proto, mapUid, grid, (Vector2i)dungeonOffset, // _CS: add dungeonMod.Proto
-            _missionParams.Seed));
+        Dungeon dungeon;
 
-        var dungeon = MergeDungeons(dungeons);
+        if (_missionParams.OpenContract)
+        {
+            var dungeonConfig = GetOpenContractDungeonConfig(dungeonMod.Proto);
+            var directionDungeons = new List<Dungeon>(SharedExpeditionDirectionCount);
+            var minDungeonOffset = landingPadRadius + 4;
+            var maxDungeonOffset = minDungeonOffset + 12;
+
+            for (var directionIndex = 0; directionIndex < SharedExpeditionDirectionCount; directionIndex++)
+            {
+                var directionGenerated = false;
+                var directionAngle = dungeonRotation + Angle.FromDegrees(360f * directionIndex / SharedExpeditionDirectionCount);
+
+                for (var attempt = 0; attempt < 2; attempt++)
+                {
+                    var directionSeed = unchecked(_missionParams.Seed + directionIndex * 173 + attempt * 9973);
+                    var directionRandom = new Random(directionSeed);
+                    var dungeonOffsetDistance = minDungeonOffset + (maxDungeonOffset - minDungeonOffset) * directionRandom.NextFloat();
+                    var dungeonOffset = directionAngle.RotateVec(new Vector2(0f, dungeonOffsetDistance));
+
+                    var directionRuns = await WaitAsyncTask(_dungeon.GenerateDungeonAsync(
+                        dungeonConfig,
+                        dungeonMod.Proto,
+                        mapUid,
+                        grid,
+                        (Vector2i) dungeonOffset,
+                        directionSeed));
+
+                    var directionDungeon = MergeDungeons(directionRuns);
+                    if (directionDungeon.Rooms.Count == 0)
+                        continue;
+
+                    directionDungeons.Add(directionDungeon);
+                    directionGenerated = true;
+                    break;
+                }
+
+                if (!directionGenerated)
+                {
+                    _sawmill.Warning($"Failed to generate open-contract dungeon cluster group {directionIndex + 1}/{SharedExpeditionDirectionCount}.");
+                }
+            }
+
+            if (directionDungeons.Count == 0)
+            {
+                _sawmill.Warning("Open-contract direction-based dungeon generation produced no rooms, falling back to legacy multi-count generation.");
+                var fallbackConfig = GetLegacyOpenContractDungeonConfig(dungeonMod.Proto);
+                var fallbackRuns = await WaitAsyncTask(_dungeon.GenerateDungeonAsync(
+                    fallbackConfig,
+                    dungeonMod.Proto,
+                    mapUid,
+                    grid,
+                    Vector2i.Zero,
+                    _missionParams.Seed));
+
+                directionDungeons.AddRange(fallbackRuns);
+            }
+
+            dungeon = MergeDungeons(directionDungeons);
+        }
+        else
+        {
+            var minDungeonOffset = landingPadRadius + 4;
+            var maxDungeonOffset = minDungeonOffset + 12;
+            var dungeonOffsetDistance = minDungeonOffset + (maxDungeonOffset - minDungeonOffset) * random.NextFloat();
+            var dungeonOffset = new Vector2(0f, dungeonOffsetDistance);
+            dungeonOffset = dungeonRotation.RotateVec(dungeonOffset);
+
+            var dungeonConfig = GetDungeonConfigForMission(dungeonMod.Proto);
+            var dungeons = await WaitAsyncTask(_dungeon.GenerateDungeonAsync(
+                dungeonConfig,
+                dungeonMod.Proto,
+                mapUid,
+                grid,
+                (Vector2i) dungeonOffset,
+                _missionParams.Seed));
+
+            dungeon = MergeDungeons(dungeons);
+        }
 
         // Aborty
         if (dungeon.Rooms.Count == 0)
@@ -243,19 +316,14 @@ public sealed class SpawnSalvageMissionJob : Job<bool>
             return false;
         }
 
-        expedition.DungeonLocation = dungeonOffset;
-
         // _CS: map generation and offset
         // _CS Start map generation
 
         // Get map bounding box
-        Box2 dungeonBox = new Box2(dungeonOffset, dungeonOffset);
-        foreach (var tile in dungeon.AllTiles)
-        {
-            dungeonBox = dungeonBox.ExtendToContain(tile);
-        }
+        var dungeonBox = SalvageExpeditionReservation.GetDungeonBounds(dungeon);
 
         expedition.DungeonBounds = dungeonBox;
+        expedition.DungeonLocation = dungeonBox.Center;
         expedition.ParticipantStations.Add(Station);
 
         var stationData = _entManager.GetComponent<StationDataComponent>(Station);
@@ -275,9 +343,9 @@ public sealed class SpawnSalvageMissionJob : Job<bool>
         float cos = (float)Math.Cos(dungeonRotation);
         Vector2 dungeonProjection = new Vector2(dungeonBox.Width * -sin / 2, dungeonBox.Height * cos / 2); // Project boxes to get relevant offset for dungeon rotation.
         Vector2 shuttleProjection = new Vector2(shuttleBox.Width * -sin / 2, shuttleBox.Height * cos / 2); // Note: sine is negative because of CCW rotation (starting north, then west)
-        Vector2 coords = dungeonBox.Center - dungeonProjection - dungeonOffset - shuttleProjection - shuttleBox.Center; // Coordinates to spawn the ship at to center it with the dungeon's bounding boxes
+        Vector2 coords = dungeonBox.Center - dungeonProjection - shuttleProjection - shuttleBox.Center; // Coordinates to spawn the ship at to center it with the dungeon's bounding boxes
         coords = coords.Rounded(); // Ensure grid is aligned to map coords
-        expedition.ReservedLandingZones.Add(shuttleBox.Translated(coords).Enlarged(4f));
+        expedition.ReservedLandingZones.Add(SalvageExpeditionReservation.GetLandingZone(shuttleBox, coords, 4f));
 
         // List<Vector2i> reservedTiles = new();
 
@@ -414,20 +482,135 @@ public sealed class SpawnSalvageMissionJob : Job<bool>
 
     private DungeonConfig GetDungeonConfigForMission(ProtoId<DungeonConfigPrototype> dungeonProto)
     {
+        return _prototypeManager.Index(dungeonProto);
+    }
+
+    private DungeonConfig GetOpenContractDungeonConfig(ProtoId<DungeonConfigPrototype> dungeonProto)
+    {
         var baseConfig = _prototypeManager.Index(dungeonProto);
 
-        if (!_missionParams.OpenContract)
-            return baseConfig;
+        var minOffset = baseConfig.MinOffset > 0
+            ? Math.Max(1, baseConfig.MinOffset * SharedExpeditionSpreadMultiplier)
+            : SharedExpeditionFallbackMinOffset;
+        var maxOffset = baseConfig.MaxOffset > 0
+            ? Math.Max(minOffset, baseConfig.MaxOffset * SharedExpeditionSpreadMultiplier)
+            : SharedExpeditionFallbackMaxOffset;
 
         return new DungeonConfig
         {
             Layers = baseConfig.Layers,
-            ReserveTiles = baseConfig.ReserveTiles,
-            MinCount = Math.Max(1, baseConfig.MinCount * SharedExpeditionSizeMultiplier),
-            MaxCount = Math.Max(1, baseConfig.MaxCount * SharedExpeditionSizeMultiplier),
-            MinOffset = Math.Max(1, baseConfig.MinOffset * SharedExpeditionSizeMultiplier),
-            MaxOffset = Math.Max(1, baseConfig.MaxOffset * SharedExpeditionSizeMultiplier),
+            // Open contracts run this config once per direction.
+            // Reserve generated tiles so repeated directional passes cannot stamp walls/floors over each other.
+            ReserveTiles = true,
+            MinCount = Math.Max(1, baseConfig.MinCount * SharedExpeditionClustersPerDirection),
+            MaxCount = Math.Max(1, baseConfig.MaxCount * SharedExpeditionClustersPerDirection),
+            MinOffset = minOffset,
+            MaxOffset = maxOffset,
         };
+    }
+
+    private DungeonConfig GetLegacyOpenContractDungeonConfig(ProtoId<DungeonConfigPrototype> dungeonProto)
+    {
+        var baseConfig = _prototypeManager.Index(dungeonProto);
+
+        var minOffset = baseConfig.MinOffset > 0
+            ? Math.Max(1, baseConfig.MinOffset * SharedExpeditionSpreadMultiplier)
+            : SharedExpeditionFallbackMinOffset;
+        var maxOffset = baseConfig.MaxOffset > 0
+            ? Math.Max(minOffset, baseConfig.MaxOffset * SharedExpeditionSpreadMultiplier)
+            : SharedExpeditionFallbackMaxOffset;
+
+        return new DungeonConfig
+        {
+            Layers = baseConfig.Layers,
+            ReserveTiles = true,
+            MinCount = Math.Max(1, baseConfig.MinCount * SharedExpeditionClustersPerDirection * SharedExpeditionDirectionCount),
+            MaxCount = Math.Max(1, baseConfig.MaxCount * SharedExpeditionClustersPerDirection * SharedExpeditionDirectionCount),
+            MinOffset = minOffset,
+            MaxOffset = maxOffset,
+        };
+    }
+
+    private void ConfigureObjectiveNpcSpawner(EntityUid objective, ProtoId<SalvageFactionPrototype> factionId)
+    {
+        if (!_prototypeManager.TryIndex(factionId, out var faction))
+            return;
+
+        if (!faction.Configs.TryGetValue("DefenseStructure", out var structureId))
+            return;
+
+        var spawner = _entManager.EnsureComponent<SalvageObjectiveNpcSpawnerComponent>(objective);
+
+        switch (structureId)
+        {
+            case "AberrantFleshDigestiveSack":
+                spawner.NearbyFactions = new() { "AberrantFleshExpeditionNF" };
+                spawner.SpawnPrototypes = new()
+                {
+                    "SpawnMobAberrantFleshExpeditions",
+                    "SpawnMobAberrantFleshNewbornExpeditions",
+                    "MobHorrorExpeditions",
+                };
+                break;
+            case "RogueAiNode":
+                spawner.NearbyFactions = new() { "SiliconsExpeditionNF" };
+                spawner.SpawnPrototypes = new()
+                {
+                    "MobRogueSiliconScrap",
+                    "SpawnMobRogueDronesT1",
+                    "MobRogueSiliconHerder",
+                    "MobRogueSiliconHunter",
+                    "MobRogueSiliconCatcher",
+                    "MobRogueSiliconTesla",
+                    "MobRogueSiliconScrapFlayer",
+                    "MobRogueSiliconBoss",
+                    "MobRogueSiliconGuardian",
+                };
+                break;
+            case "NFZombiePile":
+                spawner.NearbyFactions = new() { "Zombie" };
+                spawner.SpawnPrototypes = new()
+                {
+                    "NFSpawnMobZombie",
+                    "NFSpawnMobZombieSpecial",
+                    "NFSpawnMobZombieRandom",
+                };
+                break;
+            case "CybersunDataMiner":
+                spawner.NearbyFactions = new() { "NFSyndicate" };
+                spawner.SpawnPrototypes = new()
+                {
+                    "SpawnMobSyndicateNavalDeckhand",
+                    "SpawnMobSyndicateNavalEngineer",
+                    "SpawnMobSyndicateNavalMedic",
+                    "SpawnMobSyndicateNavalOperator",
+                    "SpawnMobSyndicateNavalCaptain",
+                };
+                break;
+            case "XenoWardingTower":
+                spawner.NearbyFactions = new() { "Xeno" };
+                spawner.SpawnPrototypes = new()
+                {
+                    "NFMobXeno",
+                    "NFMobXenoDrone",
+                    "NFMobXenoPraetorian",
+                    "NFMobXenoRavager",
+                    "NFMobXenoRunner",
+                    "NFMobXenoSpitter",
+                };
+                break;
+            case "MercenaryCounterfeitCache":
+                spawner.NearbyFactions = new() { "MercenariesExpeditionNF" };
+                spawner.SpawnPrototypes = new()
+                {
+                    "MobMercenarySoldierKnife",
+                    "MobMercenarySoldierPistol",
+                    "MobMercenarySoldierNovalite",
+                    "MobMercenaryBreacherMachete",
+                    "MobMercenaryBreacherShotgun",
+                };
+                break;
+        }
     }
 
     private static Dungeon MergeDungeons(IReadOnlyList<Dungeon> dungeons)
@@ -556,6 +739,7 @@ public sealed class SpawnSalvageMissionJob : Job<bool>
                 }
 
                 var uid = _entManager.SpawnEntity(shaggy, _map.GridTileToLocal(mapUid, grid, tile));
+                ConfigureObjectiveNpcSpawner(uid, mission.Faction);
                 _entManager.AddComponent<SalvageStructureComponent>(uid);
                 structureComp.Structures.Add(uid);
                 break;

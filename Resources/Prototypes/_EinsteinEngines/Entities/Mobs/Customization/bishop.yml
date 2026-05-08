@@ -2,8 +2,8 @@
   id: CyberLimbsMarkingBishopHead
   bodyPart: Head
   markingCategory: BaseHead
+  kindAllowance: [BasicHumanlike, BasicFurry]
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Species/Cybernetics/bishop/bishop_monitor.rsi
     state: head
@@ -14,8 +14,8 @@
   id: CyberLimbsMarkingBishopHeadAlt
   bodyPart: Head
   markingCategory: BaseHead
+  kindAllowance: [BasicHumanlike, BasicFurry]
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Species/Cybernetics/bishop/bishop_main.rsi
     state: head
@@ -24,8 +24,8 @@
   id: CyberLimbsMarkingBishopHeadAlt1
   bodyPart: Head
   markingCategory: BaseHead
+  kindAllowance: [BasicHumanlike, BasicFurry]
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Species/Cybernetics/bishop/bishop_alt1.rsi
     state: head
@@ -34,8 +34,8 @@
   id: CyberLimbsMarkingBishopChest
   bodyPart: Chest
   markingCategory: BaseChest
+  kindAllowance: [BasicHumanlike, BasicFurry]
   speciesRestriction: [IPC]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Species/Cybernetics/bishop/bishop_main.rsi
     state: torso-primary
@@ -45,7 +45,8 @@
 - type: marking
   id: CyberLimbsMarkingBishopLArm
   bodyPart: LArm
-  markingCategory: BaseArms # BaseLArm
+  markingCategory: BaseLArm
+  kindAllowance: [BasicHumanlike, BasicFurry]
   speciesRestriction:
   - IPC
   - Moth
@@ -58,8 +59,6 @@
   - HumanoidFoxes
   - Reptilian
   - Feroxi # Flooftier
-  - Tajaran #EE
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Species/Cybernetics/bishop/bishop_main.rsi
     state: l_arm-primary
@@ -71,7 +70,8 @@
 - type: marking
   id: CyberLimbsMarkingBishopLHand
   bodyPart: LHand
-  markingCategory: BaseArms # BaseLHand
+  markingCategory: BaseLHand
+  kindAllowance: [BasicHumanlike, BasicFurry]
   speciesRestriction:
   - IPC
   - Moth
@@ -84,8 +84,6 @@
   - HumanoidFoxes
   - Reptilian
   - Feroxi # Flooftier
-  - Tajaran # EE
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Species/Cybernetics/bishop/bishop_main.rsi
     state: l_hand
@@ -93,7 +91,8 @@
 - type: marking
   id: CyberLimbsMarkingBishopLLeg
   bodyPart: LLeg
-  markingCategory: BaseLegs # BaseLLeg
+  markingCategory: BaseLLeg
+  kindAllowance: [BasicHumanlike, BasicFurry]
   speciesRestriction:
   - IPC
   - Moth
@@ -106,8 +105,6 @@
   - HumanoidFoxes
   - Reptilian
   - Feroxi # Flooftier
-  - Tajaran # EE
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
   sprites:
   - sprite: _EE/Mobs/Species/Cybernetics/bishop/bishop_main.rsi
     state: l_leg-primary
@@ -118,9 +115,9 @@
 - type: marking
   id: CyberLimbsMarkingBishopLFoot
   bodyPart: LFoot
-  markingCategory: BaseLegs # BaseLFoot
-  speciesRestriction: [IPC, Moth, Dwarf, Human, Arachnid, Felinid, Oni, Vulpkanin, HumanoidFoxes, Reptilian, Feroxi, Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
+  markingCategory: BaseLFoot
+  kindAllowance: [BasicHumanlike, BasicFurry]
+  speciesRestriction: [IPC, Moth, Dwarf, Human, Arachnid, Felinid, Oni, Vulpkanin, HumanoidFoxes, Reptilian, Feroxi]
   sprites:
   - sprite: _EE/Mobs/Species/Cybernetics/bishop/bishop_main.rsi
     state: l_foot
@@ -130,9 +127,9 @@
 - type: marking
   id: CyberLimbsMarkingBishopRArm
   bodyPart: RArm
-  markingCategory: BaseArms # BaseRArm
-  speciesRestriction: [IPC, Moth, Dwarf, Human, Arachnid, Felinid, Oni, Vulpkanin, HumanoidFoxes, Reptilian, Feroxi, Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
+  markingCategory: BaseRArm
+  kindAllowance: [BasicHumanlike, BasicFurry]
+  speciesRestriction: [IPC, Moth, Dwarf, Human, Arachnid, Felinid, Oni, Vulpkanin, HumanoidFoxes, Reptilian, Feroxi]
   sprites:
   - sprite: _EE/Mobs/Species/Cybernetics/bishop/bishop_main.rsi
     state: r_arm-primary
@@ -145,9 +142,9 @@
 - type: marking
   id: CyberLimbsMarkingBishopRHand
   bodyPart: RHand
-  markingCategory: BaseArms # BaseRHand
-  speciesRestriction: [IPC, Moth, Dwarf, Human, Arachnid, Felinid, Oni, Vulpkanin, HumanoidFoxes, Reptilian, Feroxi, Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
+  markingCategory: BaseRHand
+  kindAllowance: [BasicHumanlike, BasicFurry]
+  speciesRestriction: [IPC, Moth, Dwarf, Human, Arachnid, Felinid, Oni, Vulpkanin, HumanoidFoxes, Reptilian, Feroxi]
   sprites:
   - sprite: _EE/Mobs/Species/Cybernetics/bishop/bishop_main.rsi
     state: r_hand
@@ -155,9 +152,9 @@
 - type: marking
   id: CyberLimbsMarkingBishopRLeg
   bodyPart: RLeg
-  markingCategory: BaseLegs # BaseRLeg
-  speciesRestriction: [IPC, Moth, Dwarf, Human, Arachnid, Felinid, Oni, Vulpkanin, HumanoidFoxes, Reptilian, Feroxi, Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
+  markingCategory: BaseRLeg
+  kindAllowance: [BasicHumanlike, BasicFurry]
+  speciesRestriction: [IPC, Moth, Dwarf, Human, Arachnid, Felinid, Oni, Vulpkanin, HumanoidFoxes, Reptilian, Feroxi]
   sprites:
   - sprite: _EE/Mobs/Species/Cybernetics/bishop/bishop_main.rsi
     state: r_leg-primary
@@ -168,9 +165,9 @@
 - type: marking
   id: CyberLimbsMarkingBishopRFoot
   bodyPart: RFoot
-  markingCategory: BaseLegs # BaseRFoot
-  speciesRestriction: [IPC, Moth, Dwarf, Human, Arachnid, Felinid, Oni, Vulpkanin, HumanoidFoxes, Reptilian, Feroxi, Tajaran]
-  kindAllowance: [BasicHumanlike, BasicFurry, BasicRobot, VoxLike] # Coyote: Allow all markings
+  markingCategory: BaseRFoot
+  kindAllowance: [BasicHumanlike, BasicFurry]
+  speciesRestriction: [IPC, Moth, Dwarf, Human, Arachnid, Felinid, Oni, Vulpkanin, HumanoidFoxes, Reptilian, Feroxi]
   sprites:
   - sprite: _EE/Mobs/Species/Cybernetics/bishop/bishop_main.rsi
     state: r_foot

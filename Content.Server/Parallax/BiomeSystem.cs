@@ -6,6 +6,7 @@ using Content.Server.Atmos.Components;
 using Content.Server.Atmos.EntitySystems;
 using Content.Server.Decals;
 using Content.Server.Ghost.Roles.Components;
+using Content.Server.Salvage.Expeditions;
 using Content.Server.Shuttles.Events;
 using Content.Server.Shuttles.Systems;
 using Content.Shared.Atmos;
@@ -118,6 +119,14 @@ public sealed partial class BiomeSystem : SharedBiomeSystem
         // Round it up
         _loadRange = MathF.Ceiling(obj / ChunkSize) * ChunkSize;
         _loadArea = new Box2(-_loadRange, -_loadRange, _loadRange, _loadRange);
+    }
+
+    private bool IsExpeditionReservedTile(EntityUid gridUid, MapGridComponent grid, Vector2i tile)
+    {
+        if (!TryComp<SalvageExpeditionComponent>(gridUid, out var expedition))
+            return false;
+
+        return SalvageExpeditionReservation.IsReservedTile(expedition, grid, tile);
     }
 
     private void OnBiomeMapInit(EntityUid uid, BiomeComponent component, MapInitEvent args)
@@ -595,6 +604,9 @@ public sealed partial class BiomeSystem : SharedBiomeSystem
             {
                 var node = new Vector2i(x, y);
 
+                if (IsExpeditionReservedTile(gridUid, grid, node))
+                    continue;
+
                 // Empty tile, skip if relevant.
                 if (!emptyTiles && (!_mapSystem.TryGetTile(grid, node, out var tile) || tile.IsEmpty))
                     continue;
@@ -726,6 +738,9 @@ public sealed partial class BiomeSystem : SharedBiomeSystem
                 if (modified.Contains(node))
                     continue;
 
+                if (IsExpeditionReservedTile(gridUid, grid, node))
+                    continue;
+
                 // Need to ensure the tile under it has loaded for anchoring.
                 if (TryGetBiomeTile(node, component.Layers, seed, (gridUid, grid), out var tile))
                 {
@@ -786,7 +801,7 @@ public sealed partial class BiomeSystem : SharedBiomeSystem
                 var indices = new Vector2i(x + chunk.X, y + chunk.Y);
 
                 // Pass in null so we don't try to get the tileref.
-                if (modified.Contains(indices))
+                if (modified.Contains(indices) || IsExpeditionReservedTile(gridUid, grid, indices))
                     continue;
 
                 // If there's existing data then don't overwrite it.
@@ -813,7 +828,7 @@ public sealed partial class BiomeSystem : SharedBiomeSystem
             {
                 var indices = new Vector2i(x + chunk.X, y + chunk.Y);
 
-                if (modified.Contains(indices))
+                if (modified.Contains(indices) || IsExpeditionReservedTile(gridUid, grid, indices))
                     continue;
 
                 // Don't mess with anything that's potentially anchored.
@@ -846,7 +861,7 @@ public sealed partial class BiomeSystem : SharedBiomeSystem
             {
                 var indices = new Vector2i(x + chunk.X, y + chunk.Y);
 
-                if (modified.Contains(indices))
+                if (modified.Contains(indices) || IsExpeditionReservedTile(gridUid, grid, indices))
                     continue;
 
                 // Don't mess with anything that's potentially anchored.

@@ -749,11 +749,16 @@ public sealed partial class ChatSystem : SharedChatSystem
         string name = FormattedMessage.EscapeText(nameOverride ?? Name(ent));
 
         // Emotes use Identity.Name, since it doesn't actually involve your voice at all.
-        var wrappedMessage = Loc.GetString("chat-manager-entity-me-wrap-message",
-            ("entityName", name),
-            ("entity", ent),
-            ("message", FormattedMessage.RemoveMarkupOrThrow(action)),
-            ("chatColor", chatColor ?? Color.White.ToHex())); // Coyote: makes the your name color right
+        var wrappedMessage = nameOverride != null
+            ? Loc.GetString("chat-manager-entity-me-wrap-message-override",
+                ("entityName", name),
+                ("message", FormattedMessage.RemoveMarkupOrThrow(action)),
+                ("chatColor", chatColor ?? Color.White.ToHex()))
+            : Loc.GetString("chat-manager-entity-me-wrap-message",
+                ("entityName", name),
+                ("entity", ent),
+                ("message", FormattedMessage.RemoveMarkupOrThrow(action)),
+                ("chatColor", chatColor ?? Color.White.ToHex())); // Coyote: makes the your name color right
 
         bool soundEmoteSent = true; // Frontier: if check emote is false, assume somebody's sending an emote
         if (checkEmote)

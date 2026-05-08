@@ -223,6 +223,9 @@ public sealed partial class InstrumentSystem : SharedInstrumentSystem
         if (args.SenderSession.AttachedEntity != instrument.InstrumentPlayer)
             return;
 
+        if (msg.Channel < 0 || msg.Channel >= instrument.FilteredChannels.Length)
+            return;
+
         if (msg.Channel == RobustMidiEvent.PercussionChannel && !instrument.AllowPercussion)
             return;
 
