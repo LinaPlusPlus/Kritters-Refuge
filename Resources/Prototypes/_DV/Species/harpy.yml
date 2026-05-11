@@ -7,6 +7,10 @@
   sprites: MobHarpySprites
   markingLimits: MobHarpyMarkingLimits
   dollPrototype: MobHarpyDummy
+  minHeight: 0.6
+  defaultHeight: 0.8
+  minWidth: 0.55
+  defaultWidth: 0.8
   skinColoration: Hues # IDK about this one quite yet.
   kind:
   - BasicHumanlike
@@ -19,8 +23,10 @@
     Hair: MobHumanoidAnyMarking
     FacialHair: MobHumanoidAnyMarking
     Snout: MobHumanoidAnyMarking
+    NeckFluff: MobHumanoidAnyMarking
     UndergarmentTop: MobHumanoidAnyMarking
     UndergarmentBottom: MobHumanoidAnyMarking
+    Genital: MobHumanoidAnyMarking
     Chest: MobHarpyTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
@@ -32,6 +38,10 @@
     RHand: MobHarpyRHand
     LLeg: MobHarpyLLeg
     RLeg: MobHarpyRLeg
+    LLegBehind: MobHumanoidAnyMarking
+    RLegBehind: MobHumanoidAnyMarking
+    LFootBehind: MobHumanoidAnyMarking
+    RFootBehind: MobHumanoidAnyMarking
     LFoot: MobHarpyLFoot
     RFoot: MobHarpyRFoot
     RArmExtension: MobHumanoidAnyMarking # Frontier
@@ -44,85 +54,23 @@
 - type: markingPoints
   id: MobHarpyMarkingLimits
   points:
-    Hair:
-      points: 35
-      required: false
-    FacialHair:
-      points: 35
-      required: false
+    # Coyote: Allow unlimited markings
     Tail:
-      points: 35
+      points: 999 # Coyote: Allow unlimited markings
       required: true
       defaultMarkings: [ HarpyTailPhoenix ]
     HeadTop:
-      points: 35
+      points: 999 # Coyote: Allow unlimited markings
       required: true
       defaultMarkings: [ HarpyEarsDefault ]
-    # Frontier: apparently these don't exist on Delta
-    UndergarmentTop:
-      points: 35
-      required: false
-    UndergarmentBottom:
-      points: 35
-      required: false
-    # End Frontier
     Chest:
-      points: 35
+      points: 999 # Coyote: Allow unlimited markings
       required: true
       defaultMarkings: [ HarpyChestDefault ]
-    Legs:
-      points: 35
-      required: false
     Arms:
-      points: 35
+      points: 999 # Coyote: Allow unlimited markings
       required: false
       defaultMarkings: [ HarpyWingDefaultHuescale ]
-    Head:
-      points: 35
-      required: false
-    HeadSide:
-      points: 35
-      required: false
-    Overlay:
-      points: 35
-      required: false
-    Snout:
-      points: 35
-      required: false
-    Special:
-      points: 35
-      required: false
-    # Copypaste these into every species I HATE THIS CODE
-    BaseChest:
-      points: 35
-      required: false
-    BaseHead:
-      points: 35
-      required: false
-    BaseLArm:
-      points: 35
-      required: false
-    BaseLFoot:
-      points: 35
-      required: false
-    BaseLHand:
-      points: 35
-      required: false
-    BaseLLeg:
-      points: 35
-      required: false
-    BaseRArm:
-      points: 35
-      required: false
-    BaseRFoot:
-      points: 35
-      required: false
-    BaseRHand:
-      points: 35
-      required: false
-    BaseRLeg:
-      points: 35
-      required: false
 
 - type: humanoidBaseSprite
   id: MobHarpyHead
@@ -147,48 +95,56 @@
   baseSprite:
     sprite: _DV/Mobs/Species/Harpy/parts.rsi
     state: torso_m
+  altSprites:
+    Digitigrade: DigilegHumanTorsoMaleSkintoned
 
 - type: humanoidBaseSprite
   id: MobHarpyTorsoMale
   baseSprite:
     sprite: _DV/Mobs/Species/Harpy/parts.rsi
     state: torso_m
+  altSprites:
+    Digitigrade: DigilegHumanTorsoMaleSkintoned
 
 - type: humanoidBaseSprite
   id: MobHarpyTorsoFemale
   baseSprite:
     sprite: _DV/Mobs/Species/Harpy/parts.rsi
     state: torso_f
+  altSprites:
+    Digitigrade: DigilegHumanTorsoFemaleSkintoned
 
 - type: humanoidBaseSprite
   id: MobHarpyLLeg
   baseSprite:
     sprite: _DV/Mobs/Species/Harpy/parts.rsi
     state: l_leg
-
-- type: humanoidBaseSprite
-  id: MobHarpyLHand
-  baseSprite:
-    sprite: _DV/Mobs/Species/Harpy/parts.rsi
-    state: l_hand
-
-- type: humanoidBaseSprite
-  id: MobHarpyLArm
-  baseSprite:
-    sprite: _DV/Mobs/Species/Harpy/parts.rsi
-    state: l_arm
+  altSprites:
+    Digitigrade: DigilegAvianLegLeft
 
 - type: humanoidBaseSprite
   id: MobHarpyLFoot
   baseSprite:
     sprite: _DV/Mobs/Species/Harpy/parts.rsi
     state: l_foot
+  altSprites:
+    Digitigrade: DigilegAvianFootLeft
 
 - type: humanoidBaseSprite
   id: MobHarpyRLeg
   baseSprite:
     sprite: _DV/Mobs/Species/Harpy/parts.rsi
     state: r_leg
+  altSprites:
+    Digitigrade: DigilegAvianLegRight
+
+- type: humanoidBaseSprite
+  id: MobHarpyRFoot
+  baseSprite:
+    sprite: _DV/Mobs/Species/Harpy/parts.rsi
+    state: r_foot
+  altSprites:
+    Digitigrade: DigilegAvianFootRight
 
 - type: humanoidBaseSprite
   id: MobHarpyRHand
@@ -203,7 +159,13 @@
     state: r_arm
 
 - type: humanoidBaseSprite
-  id: MobHarpyRFoot
+  id: MobHarpyLHand
   baseSprite:
     sprite: _DV/Mobs/Species/Harpy/parts.rsi
-    state: r_foot
+    state: l_hand
+
+- type: humanoidBaseSprite
+  id: MobHarpyLArm
+  baseSprite:
+    sprite: _DV/Mobs/Species/Harpy/parts.rsi
+    state: l_arm

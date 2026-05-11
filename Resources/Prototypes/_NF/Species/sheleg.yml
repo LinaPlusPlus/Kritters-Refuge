@@ -28,8 +28,10 @@
     Hair: MobShelegHair
     FacialHair: MobShelegHair
     Snout: MobHumanoidAnyMarking
+    NeckFluff: MobHumanoidAnyMarking
     UndergarmentTop: MobHumanoidAnyMarking
     UndergarmentBottom: MobHumanoidAnyMarking
+    Genital: MobHumanoidAnyMarking
     Chest: MobShelegTorso
     Eyes: MobHumanoidEyes
     HeadTop: MobHumanoidAnyMarking
@@ -39,6 +41,10 @@
     RHand: MobShelegRHand
     LLeg: MobShelegLLeg
     RLeg: MobShelegRLeg
+    LLegBehind: MobHumanoidAnyMarking
+    RLegBehind: MobHumanoidAnyMarking
+    LFootBehind: MobHumanoidAnyMarking
+    RFootBehind: MobHumanoidAnyMarking
     LFoot: MobShelegLFoot
     RFoot: MobShelegRFoot
     Tail: MobHumanoidAnyMarking
@@ -50,79 +56,93 @@
 - type: markingPoints
   id: MobShelegMarkingLimits
   points:
-    Special: # the cat ear joke
-      points: 35
-      required: false
+    Special:
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
     Hair:
-      points: 35
-      required: false
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
     FacialHair:
-      points: 35
-      required: false
-    Snout:
-      points: 35
-      required: false
-    Tail: # the cat tail joke
-      points: 35
-      required: false
-    HeadTop:
-      points: 35
-      required: false
-    UndergarmentTop:
-      points: 35
-      required: false
-    UndergarmentBottom:
-      points: 35
-      required: false
-    Chest:
-      points: 35
-      required: false
-    Legs:
-      points: 35
-      required: false
-    Arms:
-      points: 35
-      required: false
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
     Head:
-      points: 35
-      required: false
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
+    HeadTop:
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
     HeadSide:
-      points: 35
-      required: false
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
+    Snout:
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
+    Chest:
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
+    NeckFluff:
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
+    UndergarmentTop:
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
+    UndergarmentBottom:
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
+    Genital:
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
+    Arms:
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
+    Legs:
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
+    Tail:
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
+    TailExtras:
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
     Overlay:
-      points: 35
-      required: false
-    # Copypaste these into every species I HATE THIS CODE
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
     BaseChest:
-      points: 35
-      required: false
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
     BaseHead:
-      points: 35
-      required: false
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
     BaseLArm:
-      points: 35
-      required: false
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
     BaseLFoot:
-      points: 35
-      required: false
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
     BaseLHand:
-      points: 35
-      required: false
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
     BaseLLeg:
-      points: 35
-      required: false
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
     BaseRArm:
-      points: 35
-      required: false
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
     BaseRFoot:
-      points: 35
-      required: false
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
     BaseRHand:
-      points: 35
-      required: false
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
     BaseRLeg:
-      points: 35
-      required: false
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
+    BaseArms:
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
+    BaseLegs:
+      points: 999 # Coyote: Allow unlimited markings
+      required: false # Coyote
 
 # - type: humanoidBaseSprite
   # id: MobShelegEyes
@@ -164,24 +184,56 @@
   baseSprite:
     sprite: _NF/Mobs/Species/Sheleg/parts.rsi
     state: torso_m
+  altSprites:
+    Digitigrade: DigilegHumanTorsoMale
 
 - type: humanoidBaseSprite
   id: MobShelegTorsoMale
   baseSprite:
     sprite: _NF/Mobs/Species/Sheleg/parts.rsi
     state: torso_m
+  altSprites:
+    Digitigrade: DigilegHumanTorsoMale
 
 - type: humanoidBaseSprite
   id: MobShelegTorsoFemale
   baseSprite:
     sprite: _NF/Mobs/Species/Sheleg/parts.rsi
     state: torso_f
+  altSprites:
+    Digitigrade: DigilegHumanTorsoFemale
 
 - type: humanoidBaseSprite
   id: MobShelegLLeg
   baseSprite:
     sprite: _NF/Mobs/Species/Sheleg/parts.rsi
     state: l_leg
+  altSprites:
+    Digitigrade: DigilegPawLegLeft
+
+- type: humanoidBaseSprite
+  id: MobShelegLFoot
+  baseSprite:
+    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    state: l_foot
+  altSprites:
+    Digitigrade: DigilegPawFootLeft
+
+- type: humanoidBaseSprite
+  id: MobShelegRLeg
+  baseSprite:
+    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    state: r_leg
+  altSprites:
+    Digitigrade: DigilegPawLegRight
+
+- type: humanoidBaseSprite
+  id: MobShelegRFoot
+  baseSprite:
+    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
+    state: r_foot
+  altSprites:
+    Digitigrade: DigilegPawFootRight
 
 - type: humanoidBaseSprite
   id: MobShelegLArm
@@ -196,18 +248,6 @@
     state: l_hand
 
 - type: humanoidBaseSprite
-  id: MobShelegLFoot
-  baseSprite:
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
-    state: l_foot
-
-- type: humanoidBaseSprite
-  id: MobShelegRLeg
-  baseSprite:
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
-    state: r_leg
-
-- type: humanoidBaseSprite
   id: MobShelegRArm
   baseSprite:
     sprite: _NF/Mobs/Species/Sheleg/parts.rsi
@@ -218,9 +258,3 @@
   baseSprite:
     sprite: _NF/Mobs/Species/Sheleg/parts.rsi
     state: r_hand
-
-- type: humanoidBaseSprite
-  id: MobShelegRFoot
-  baseSprite:
-    sprite: _NF/Mobs/Species/Sheleg/parts.rsi
-    state: r_foot

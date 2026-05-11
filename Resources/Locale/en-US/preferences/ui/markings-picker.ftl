@@ -13,7 +13,7 @@ marking-slot-remove = Remove
 marking-slot = Slot {$number}
 marking-custom-name = Custom Name
 visible-at-start = Starts enabled
-marking-render-over-clothing = Render over worn clothing
+marking-render-genital-over-clothing = Show over clothing
 marking-can-toggle = Can be toggled on/off in game by you
 marking-can-toggle-other = Can be toggled on/off in game by others
 marking-hide-toggle-popup = Hide toggle popup text
@@ -34,12 +34,14 @@ marking-toggle-other-default-verb-off = takes off
 marking-sample-text = Sample:
 marking-show-sample-text = Show Sample Text
 marking-hide-sample-text = Hide Sample Text
+# Coyote Start
 marking-adjust-scale-text = Adjust Scale
 marking-toggle-popup-hidden-sample = Toggle popup text is hidden for this marking.
 marking-glow-label = Glow
 marking-scale-label = Scale
 marking-offset-x-label = Offset X
 marking-offset-y-label = Offset Y
+# End Coyote
 
 # Categories
 
@@ -59,13 +61,15 @@ markings-category-Legs = Legs
 markings-category-Tail = Tail
 markings-category-Overlay = Overlay
 
-markings-category-BaseChest = UnderStructure Chest
-markings-category-BaseHead  = UnderStructure Head
-markings-category-BaseLArm  = UnderStructure Arm (left)
-markings-category-BaseLFoot = UnderStructure Foot (left)
-markings-category-BaseLHand = UnderStructure Hand (left)
-markings-category-BaseLLeg  = UnderStructure Leg (left)
-markings-category-BaseRArm  = UnderStructure Arm (right)
-markings-category-BaseRFoot = UnderStructure Foot (right)
-markings-category-BaseRHand = UnderStructure Hand (right)
-markings-category-BaseRLeg  = UnderStructure Leg (right)
+markings-category-BaseChest = Base Chest
+markings-category-BaseHead  = Base Head
+markings-category-BaseLArm  = Base Arm (left)
+markings-category-BaseLFoot = Base Foot (left)
+markings-category-BaseLHand = Base Hand (left)
+markings-category-BaseLLeg  = Base Leg (left)
+markings-category-BaseRArm  = Base Arm (right)
+markings-category-BaseRFoot = Base Foot (right)
+markings-category-BaseRHand = Base Hand (right)
+markings-category-BaseRLeg  = Base Leg (right)
+markings-category-BaseLegs  = Base Legs & Feet
+markings-category-BaseArms  = Base Arms & Hands

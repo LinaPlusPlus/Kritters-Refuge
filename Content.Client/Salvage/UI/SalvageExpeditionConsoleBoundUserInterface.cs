@@ -17,6 +17,8 @@ namespace Content.Client.Salvage.UI;
 [UsedImplicitly]
 public sealed class SalvageExpeditionConsoleBoundUserInterface : BoundUserInterface
 {
+    private static readonly TimeSpan SharedExpeditionDisplayDuration = TimeSpan.FromMinutes(30);
+
     [ViewVariables]
     private SalvageExpeditionWindow? _window; // Frontier: OfferingWindow<SalvageExpeditionWindow
 
@@ -148,9 +150,13 @@ public sealed class SalvageExpeditionConsoleBoundUserInterface : BoundUserInterf
                 Text = Loc.GetString("salvage-expedition-window-duration")
             });
 
+            var displayDuration = missionParams.OpenContract
+                ? SharedExpeditionDisplayDuration
+                : mission.Duration;
+
             offering.AddContent(new Label
             {
-                Text = mission.Duration.ToString(),
+                Text = displayDuration.ToString(),
                 FontColorOverride = StyleNano.NanoGold,
                 HorizontalAlignment = Control.HAlignment.Left,
                 Margin = new Thickness(0f, 0f, 0f, 5f),
@@ -195,6 +201,8 @@ public sealed class SalvageExpeditionConsoleBoundUserInterface : BoundUserInterf
                 HorizontalAlignment = Control.HAlignment.Left,
                 Margin = new Thickness(0f, 0f, 0f, 5f),
             });
+
+            offering.RequireConfirmation = missionParams.OpenContract;
 
             offering.ClaimPressed += args =>
             {

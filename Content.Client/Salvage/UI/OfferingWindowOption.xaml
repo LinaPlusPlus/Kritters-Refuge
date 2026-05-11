@@ -18,6 +18,18 @@
                    Margin="0 5 0 5"/>
         </controls:StripeBack>
         <BoxContainer Orientation="Vertical" Name="ContentBox"/>
+        <!-- Reserve a compact confirmation area so the card height stays stable. -->
+        <BoxContainer Name="ConfirmationBox"
+                      Orientation="Vertical"
+                      MinSize="0 48"
+                      Margin="0 6 0 2">
+            <RichTextLabel Name="ConfirmationWarningLabel"
+                           Visible="False"/>
+            <Label Name="ConfirmationClickLabel"
+                   Visible="False"
+                   HorizontalAlignment="Left"
+                   Margin="0 3 0 0"/>
+        </BoxContainer>
         <!-- Buffer so all claim buttons are in the same position -->
         <Control VerticalExpand="True"/>
         <Button Name="ClaimButton"

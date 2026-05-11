@@ -14,9 +14,15 @@ public sealed partial class SalvageSystem
     [Dependency] private readonly WeatherSystem _weatherSystem = default!;
 
     /// <summary>
-    /// Interval between weather rolls (10 minutes). Two rolls total per expedition.
+    /// Interval between weather rolls (15 minutes). Two rolls total per expedition.
     /// </summary>
-    private static readonly TimeSpan WeatherRollInterval = TimeSpan.FromMinutes(10);
+    private static readonly TimeSpan WeatherRollInterval = TimeSpan.FromMinutes(15);
+
+    /// <summary>
+    /// Chance for a weather roll to produce weather.
+    /// Kept low to avoid back-to-back events.
+    /// </summary>
+    private const float WeatherRollChance = 0.3f;
 
     private static readonly string[] SnowWeatherPhases =
     [
@@ -65,6 +71,18 @@ public sealed partial class SalvageSystem
 
         // Roll 2: exactly 10 minutes later.
         comp.WeatherNextRoll = _timing.CurTime + WeatherRollInterval;
+    }
+
+    private void StopExpeditionWeather(EntityUid uid, SalvageExpeditionComponent comp)
+    {
+        comp.WeatherNextRoll = TimeSpan.MaxValue;
+        comp.WeatherPhaseSequence = null;
+        comp.WeatherPhaseIndex = 0;
+        comp.WeatherPhaseEnd = TimeSpan.Zero;
+        comp.WeatherPhaseDuration = TimeSpan.Zero;
+
+        if (TryComp<MapComponent>(uid, out var mapComp))
+            _weatherSystem.SetWeather(mapComp.MapId, null, null);
     }
 
     /// <summary>
@@ -125,18 +143,19 @@ public sealed partial class SalvageSystem
         if (string.IsNullOrEmpty(comp.BiomeId))
             return;
 
+        if (_random.NextFloat() > WeatherRollChance)
+            return;
+
         switch (comp.BiomeId)
         {
             case "Grasslands":
-                // 40% chance, equal split between rain and storm.
-                if (_random.NextFloat() < 0.4f)
-                {
-                    var proto = _random.Next(2) == 0 ? "Rain" : "Storm";
-                    var endTime = _timing.CurTime + WeatherRollInterval;
-                    if (_prototypeManager.TryIndex<WeatherPrototype>(proto, out var grassWeather))
-                        _weatherSystem.SetWeather(mapId, grassWeather, endTime);
-                }
+            {
+                var proto = _random.Next(2) == 0 ? "Rain" : "Storm";
+                var endTime = _timing.CurTime + WeatherRollInterval;
+                if (_prototypeManager.TryIndex<WeatherPrototype>(proto, out var grassWeather))
+                    _weatherSystem.SetWeather(mapId, grassWeather, endTime);
                 break;
+            }
 
             case "Snow":
                 StartStagedExpeditionWeather(comp, mapId, SnowWeatherPhases, initialSpawnRoll);
@@ -149,6 +168,15 @@ public sealed partial class SalvageSystem
             case "Lava":
                 StartStagedExpeditionWeather(comp, mapId, LavaWeatherPhases, initialSpawnRoll);
                 break;
+
+            case "Shadow":
+            {
+                var proto = _random.Next(2) == 0 ? "Rain" : "Storm";
+                var endTime = _timing.CurTime + WeatherRollInterval;
+                if (_prototypeManager.TryIndex<WeatherPrototype>(proto, out var shadowWeather))
+                    _weatherSystem.SetWeather(mapId, shadowWeather, endTime);
+                break;
+            }
         }
     }
 
@@ -176,7 +204,6 @@ public sealed partial class SalvageSystem
             _weatherSystem.SetWeather(mapId, firstWeather, phaseEnd);
     }
 
-    /// <summary>
     /// Builds the phase sequence for staged weather.
     /// For initial spawn rolls, starts at stage 2 or 3 (where available) and fades down.
     /// </summary>

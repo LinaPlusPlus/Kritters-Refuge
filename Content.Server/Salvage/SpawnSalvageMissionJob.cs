@@ -45,12 +45,13 @@ namespace Content.Server.Salvage;
 
 public sealed class SpawnSalvageMissionJob : Job<bool>
 {
-    private const int SharedExpeditionDirectionCount = 4;
-    private const int SharedExpeditionClustersPerDirection = 4;
-    private const int SharedExpeditionSpreadMultiplier = 2;
+    private const int SharedExpeditionDungeonCount = 5;
+    private const float SharedExpeditionMinClusterSpacing = 120f;
+    private const float SharedExpeditionClusterPadding = 80f;
+    private const float SharedExpeditionMinNonOverlapPadding = 16f;
+    private const float SharedExpeditionMaxCompoundDistanceFromFirstShip = 96f;
     private const int SharedObjectiveMultiplier = 2;
-    private const int SharedExpeditionFallbackMinOffset = 40;
-    private const int SharedExpeditionFallbackMaxOffset = 60;
+    private static readonly float SharedLandingBufferTiles = SalvageExpeditionReservation.MinimumLandingClearanceTiles;
 
     private static readonly ProtoId<LocalizedDatasetPrototype> NamesDataset = "NamesBorer";
 
@@ -78,6 +79,7 @@ public sealed class SpawnSalvageMissionJob : Job<bool>
     private EntityUid mapUid = EntityUid.Invalid;
 #pragma warning restore IDE1006
     private static readonly ProtoId<SalvageDifficultyPrototype> FallbackDifficulty = "NFModerate";
+    private static readonly ProtoId<SalvageDifficultyPrototype> OpenContractDifficulty = "NFExtreme";
     // _CS End
 
     public SpawnSalvageMissionJob(
@@ -176,6 +178,9 @@ public sealed class SpawnSalvageMissionJob : Job<bool>
         // Setup mission configs
         // As we go through the config the rating will deplete so we'll go for most important to least important.
         // _CS: custom difficulty
+        if (_missionParams.OpenContract)
+            _missionParams.Difficulty = OpenContractDifficulty;
+
         if (!_prototypeManager.TryIndex<SalvageDifficultyPrototype>(_missionParams.Difficulty, out var difficultyProto))
             difficultyProto = _prototypeManager.Index<SalvageDifficultyPrototype>(FallbackDifficulty);
         // _CS End
@@ -226,109 +231,19 @@ public sealed class SpawnSalvageMissionJob : Job<bool>
         expedition.MissionParams = _missionParams;
 
         var landingPadRadius = 4; // _CS: 24<4 - using this as a margin (4-16), not a radius
+        var minDungeonOffset = landingPadRadius + 4;
+
         // We'll use the dungeon rotation as the spawn angle
         var dungeonRotation = _dungeon.GetDungeonRotation(_missionParams.Seed);
+
+        var maxDungeonOffset = minDungeonOffset + 12;
+        var dungeonOffsetDistance = minDungeonOffset + (maxDungeonOffset - minDungeonOffset) * random.NextFloat();
+        var dungeonOffset = new Vector2(0f, dungeonOffsetDistance);
+        dungeonOffset = dungeonRotation.RotateVec(dungeonOffset);
         var dungeonMod = _prototypeManager.Index<SalvageDungeonModPrototype>(mission.Dungeon);
-        Dungeon dungeon;
-
-        if (_missionParams.OpenContract)
-        {
-            var dungeonConfig = GetOpenContractDungeonConfig(dungeonMod.Proto);
-            var directionDungeons = new List<Dungeon>(SharedExpeditionDirectionCount);
-            var minDungeonOffset = landingPadRadius + 4;
-            var maxDungeonOffset = minDungeonOffset + 12;
-
-            for (var directionIndex = 0; directionIndex < SharedExpeditionDirectionCount; directionIndex++)
-            {
-                var directionGenerated = false;
-                var directionAngle = dungeonRotation + Angle.FromDegrees(360f * directionIndex / SharedExpeditionDirectionCount);
-
-                for (var attempt = 0; attempt < 2; attempt++)
-                {
-                    var directionSeed = unchecked(_missionParams.Seed + directionIndex * 173 + attempt * 9973);
-                    var directionRandom = new Random(directionSeed);
-                    var dungeonOffsetDistance = minDungeonOffset + (maxDungeonOffset - minDungeonOffset) * directionRandom.NextFloat();
-                    var dungeonOffset = directionAngle.RotateVec(new Vector2(0f, dungeonOffsetDistance));
-
-                    var directionRuns = await WaitAsyncTask(_dungeon.GenerateDungeonAsync(
-                        dungeonConfig,
-                        dungeonMod.Proto,
-                        mapUid,
-                        grid,
-                        (Vector2i) dungeonOffset,
-                        directionSeed));
-
-                    var directionDungeon = MergeDungeons(directionRuns);
-                    if (directionDungeon.Rooms.Count == 0)
-                        continue;
-
-                    directionDungeons.Add(directionDungeon);
-                    directionGenerated = true;
-                    break;
-                }
-
-                if (!directionGenerated)
-                {
-                    _sawmill.Warning($"Failed to generate open-contract dungeon cluster group {directionIndex + 1}/{SharedExpeditionDirectionCount}.");
-                }
-            }
-
-            if (directionDungeons.Count == 0)
-            {
-                _sawmill.Warning("Open-contract direction-based dungeon generation produced no rooms, falling back to legacy multi-count generation.");
-                var fallbackConfig = GetLegacyOpenContractDungeonConfig(dungeonMod.Proto);
-                var fallbackRuns = await WaitAsyncTask(_dungeon.GenerateDungeonAsync(
-                    fallbackConfig,
-                    dungeonMod.Proto,
-                    mapUid,
-                    grid,
-                    Vector2i.Zero,
-                    _missionParams.Seed));
-
-                directionDungeons.AddRange(fallbackRuns);
-            }
-
-            dungeon = MergeDungeons(directionDungeons);
-        }
-        else
-        {
-            var minDungeonOffset = landingPadRadius + 4;
-            var maxDungeonOffset = minDungeonOffset + 12;
-            var dungeonOffsetDistance = minDungeonOffset + (maxDungeonOffset - minDungeonOffset) * random.NextFloat();
-            var dungeonOffset = new Vector2(0f, dungeonOffsetDistance);
-            dungeonOffset = dungeonRotation.RotateVec(dungeonOffset);
-
-            var dungeonConfig = GetDungeonConfigForMission(dungeonMod.Proto);
-            var dungeons = await WaitAsyncTask(_dungeon.GenerateDungeonAsync(
-                dungeonConfig,
-                dungeonMod.Proto,
-                mapUid,
-                grid,
-                (Vector2i) dungeonOffset,
-                _missionParams.Seed));
-
-            dungeon = MergeDungeons(dungeons);
-        }
-
-        // Aborty
-        if (dungeon.Rooms.Count == 0)
-        {
-            return false;
-        }
-
-        // _CS: map generation and offset
-        // _CS Start map generation
-
-        // Get map bounding box
-        var dungeonBox = SalvageExpeditionReservation.GetDungeonBounds(dungeon);
-
-        expedition.DungeonBounds = dungeonBox;
-        expedition.DungeonLocation = dungeonBox.Center;
-        expedition.ParticipantStations.Add(Station);
-
         var stationData = _entManager.GetComponent<StationDataComponent>(Station);
 
-        // Get ship bounding box relative to largest grid coords
+        // Get ship bounding box relative to largest grid coords.
         var shuttleUid = _station.GetLargestGrid(stationData);
         Box2 shuttleBox = new Box2();
 
@@ -338,14 +253,91 @@ public sealed class SpawnSalvageMissionJob : Job<bool>
             shuttleBox = gridComp.LocalAABB;
         }
 
+        List<Dungeon> dungeons;
+
+        if (_missionParams.OpenContract)
+        {
+            var sharedResult = await GenerateSharedDungeonsAsync(dungeonMod.Proto, mapUid, grid, dungeonOffset, shuttleBox, _missionParams.Seed);
+            dungeons = sharedResult.dungeons;
+            expedition.SharedDungeonCenters = sharedResult.centers;
+        }
+        else
+        {
+            var dungeonConfig = GetDungeonConfigForMission(dungeonMod.Proto);
+            dungeons = await WaitAsyncTask(_dungeon.GenerateDungeonAsync(dungeonConfig, dungeonMod.Proto, mapUid, grid, (Vector2i)dungeonOffset,
+                _missionParams.Seed));
+        }
+
+        var dungeon = MergeDungeons(dungeons);
+
+        // Aborty
+        if (dungeon.Rooms.Count == 0)
+        {
+            return false;
+        }
+
+        if (_missionParams.OpenContract)
+            RepairSharedDungeonVoidTiles(dungeon, mapUid, grid);
+
+        expedition.DungeonLocation = dungeonOffset;
+        // Only reserve room and corridor tiles, not entrances - those need to be set by PostGen layers
+        var reservedTiles = new HashSet<Vector2i>(dungeon.RoomTiles);
+        reservedTiles.UnionWith(dungeon.RoomExteriorTiles);
+        reservedTiles.UnionWith(dungeon.CorridorTiles);
+        reservedTiles.UnionWith(dungeon.CorridorExteriorTiles);
+        expedition.ReservedTiles = reservedTiles;
+
+        // _CS: map generation and offset
+        // _CS Start map generation
+
+        // Get map bounding box
+        Box2 dungeonBox = new Box2(dungeonOffset, dungeonOffset);
+        foreach (var tile in dungeon.AllTiles)
+        {
+            dungeonBox = dungeonBox.ExtendToContain(tile);
+        }
+
+        // Shared expeditions can merge several distant dungeon clusters.
+        // Use the first generated dungeon as the landing reference so shuttle placement
+        // stays near a playable cluster instead of the full merged AABB center.
+        var landingReference = _missionParams.OpenContract && dungeons.Count > 0
+            ? dungeons[0]
+            : dungeon;
+
+        Box2 landingBox = new Box2(dungeonOffset, dungeonOffset);
+        foreach (var tile in landingReference.AllTiles)
+        {
+            landingBox = landingBox.ExtendToContain(tile);
+        }
+
+        expedition.DungeonBounds = dungeonBox;
+        expedition.ParticipantStations.Add(Station);
+
         // Offset ship spawn point from bounding boxes
         float sin = (float)Math.Sin(dungeonRotation);
         float cos = (float)Math.Cos(dungeonRotation);
-        Vector2 dungeonProjection = new Vector2(dungeonBox.Width * -sin / 2, dungeonBox.Height * cos / 2); // Project boxes to get relevant offset for dungeon rotation.
+        Vector2 dungeonProjection = new Vector2(landingBox.Width * -sin / 2, landingBox.Height * cos / 2); // Project boxes to get relevant offset for dungeon rotation.
         Vector2 shuttleProjection = new Vector2(shuttleBox.Width * -sin / 2, shuttleBox.Height * cos / 2); // Note: sine is negative because of CCW rotation (starting north, then west)
-        Vector2 coords = dungeonBox.Center - dungeonProjection - shuttleProjection - shuttleBox.Center; // Coordinates to spawn the ship at to center it with the dungeon's bounding boxes
+
+        Vector2 coords;
+        if (_missionParams.OpenContract)
+        {
+            coords = FindSharedInitialLandingOrigin(landingBox, shuttleBox, expedition.DungeonLocation, expedition.ReservedTiles);
+
+            var landingCenter = coords + shuttleBox.Center;
+            var sharedLandingVector = landingCenter - expedition.DungeonLocation;
+            expedition.SharedLandingRadius = sharedLandingVector.Length();
+            expedition.SharedLandingAngle = MathF.Atan2(sharedLandingVector.Y, sharedLandingVector.X);
+        }
+        else
+        {
+            // Preserve existing private/standard expedition placement behavior.
+            Vector2 scaledProjection = dungeonProjection * 1.5f + new Vector2(cos, sin) * 8f;
+            coords = landingBox.Center - scaledProjection - shuttleProjection - shuttleBox.Center;
+        }
+
         coords = coords.Rounded(); // Ensure grid is aligned to map coords
-        expedition.ReservedLandingZones.Add(SalvageExpeditionReservation.GetLandingZone(shuttleBox, coords, 4f));
+        expedition.ReservedLandingZones.Add(SalvageExpeditionReservation.GetLandingZone(shuttleBox, coords, SharedLandingBufferTiles));
 
         // List<Vector2i> reservedTiles = new();
 
@@ -485,50 +477,154 @@ public sealed class SpawnSalvageMissionJob : Job<bool>
         return _prototypeManager.Index(dungeonProto);
     }
 
-    private DungeonConfig GetOpenContractDungeonConfig(ProtoId<DungeonConfigPrototype> dungeonProto)
+    private DungeonConfig GetSharedDungeonConfigForMission(ProtoId<DungeonConfigPrototype> dungeonProto)
     {
         var baseConfig = _prototypeManager.Index(dungeonProto);
-
-        var minOffset = baseConfig.MinOffset > 0
-            ? Math.Max(1, baseConfig.MinOffset * SharedExpeditionSpreadMultiplier)
-            : SharedExpeditionFallbackMinOffset;
-        var maxOffset = baseConfig.MaxOffset > 0
-            ? Math.Max(minOffset, baseConfig.MaxOffset * SharedExpeditionSpreadMultiplier)
-            : SharedExpeditionFallbackMaxOffset;
 
         return new DungeonConfig
         {
             Layers = baseConfig.Layers,
-            // Open contracts run this config once per direction.
-            // Reserve generated tiles so repeated directional passes cannot stamp walls/floors over each other.
             ReserveTiles = true,
-            MinCount = Math.Max(1, baseConfig.MinCount * SharedExpeditionClustersPerDirection),
-            MaxCount = Math.Max(1, baseConfig.MaxCount * SharedExpeditionClustersPerDirection),
-            MinOffset = minOffset,
-            MaxOffset = maxOffset,
+            MinCount = 1,
+            MaxCount = 1,
+            MinOffset = 0,
+            MaxOffset = 0,
         };
     }
 
-    private DungeonConfig GetLegacyOpenContractDungeonConfig(ProtoId<DungeonConfigPrototype> dungeonProto)
+    private async Task<(List<Dungeon> dungeons, List<Vector2> centers)> GenerateSharedDungeonsAsync(ProtoId<DungeonConfigPrototype> dungeonProto, EntityUid mapUid, MapGridComponent grid, Vector2 dungeonOffset, Box2 shuttleBox, int seed)
     {
-        var baseConfig = _prototypeManager.Index(dungeonProto);
+        var config = GetSharedDungeonConfigForMission(dungeonProto);
+        var sharedDungeons = new List<Dungeon>();
+        var clusterCenters = new List<Vector2>();
+        var clusterHalfExtents = new List<float>();
+        var origin = (Vector2i)dungeonOffset;
 
-        var minOffset = baseConfig.MinOffset > 0
-            ? Math.Max(1, baseConfig.MinOffset * SharedExpeditionSpreadMultiplier)
-            : SharedExpeditionFallbackMinOffset;
-        var maxOffset = baseConfig.MaxOffset > 0
-            ? Math.Max(minOffset, baseConfig.MaxOffset * SharedExpeditionSpreadMultiplier)
-            : SharedExpeditionFallbackMaxOffset;
+        var firstBatch = await WaitAsyncTask(_dungeon.GenerateDungeonAsync(config, dungeonProto, mapUid, grid, origin, seed));
+        if (firstBatch.Count == 0)
+            return (sharedDungeons, clusterCenters);
 
-        return new DungeonConfig
+        sharedDungeons.AddRange(firstBatch);
+        clusterCenters.Add(new Vector2(origin.X, origin.Y));
+
+        var firstBounds = GetDungeonBounds(firstBatch[0], origin);
+        var firstHalfExtent = MathF.Max(firstBounds.Width, firstBounds.Height) / 2f;
+        var estimatedHalfExtent = firstHalfExtent;
+        var minNonOverlappingSpacing = firstHalfExtent * 2f + SharedExpeditionMinNonOverlapPadding;
+        clusterHalfExtents.Add(firstHalfExtent);
+        var preferredSpacing = MathF.Max(SharedExpeditionMinClusterSpacing,
+            MathF.Max(firstBounds.Width, firstBounds.Height) + SharedExpeditionClusterPadding);
+        var estimatedLandingRadius = EstimateSharedInitialLandingRadius(firstBounds, shuttleBox, dungeonOffset);
+        var maxAllowedSpacing = MathF.Max(0f, SharedExpeditionMaxCompoundDistanceFromFirstShip - estimatedLandingRadius);
+        var cappedSpacing = MathF.Min(preferredSpacing, maxAllowedSpacing);
+        var spacing = MathF.Max(minNonOverlappingSpacing, cappedSpacing);
+
+        if (spacing > maxAllowedSpacing + 0.01f)
         {
-            Layers = baseConfig.Layers,
-            ReserveTiles = true,
-            MinCount = Math.Max(1, baseConfig.MinCount * SharedExpeditionClustersPerDirection * SharedExpeditionDirectionCount),
-            MaxCount = Math.Max(1, baseConfig.MaxCount * SharedExpeditionClustersPerDirection * SharedExpeditionDirectionCount),
-            MinOffset = minOffset,
-            MaxOffset = maxOffset,
-        };
+            _sawmill.Warning($"Shared expedition spacing had to exceed distance cap to avoid overlap. " +
+                             $"Spacing={spacing:0.##}, maxAllowed={maxAllowedSpacing:0.##}, estimatedLandingRadius={estimatedLandingRadius:0.##}");
+        }
+
+        var baseAngle = (float)_dungeon.GetDungeonRotation(seed);
+
+        for (var i = 1; i < SharedExpeditionDungeonCount; i++)
+        {
+            var theta = baseAngle + MathF.Tau * (i - 1) / (SharedExpeditionDungeonCount - 1);
+            var direction = new Vector2(MathF.Cos(theta), MathF.Sin(theta));
+            var resolvedCenter = ResolveSequentialSharedClusterCenter(
+                dungeonOffset,
+                direction,
+                spacing,
+                estimatedHalfExtent,
+                clusterCenters,
+                clusterHalfExtents,
+                SharedExpeditionMinNonOverlapPadding);
+
+            var positionedOrigin = resolvedCenter.Floored();
+            var localSeed = seed + i * 9973;
+
+            var batch = await WaitAsyncTask(_dungeon.GenerateDungeonAsync(config, dungeonProto, mapUid, grid, positionedOrigin, localSeed));
+            sharedDungeons.AddRange(batch);
+            clusterCenters.Add(new Vector2(positionedOrigin.X, positionedOrigin.Y));
+
+            if (batch.Count > 0)
+            {
+                var bounds = GetDungeonBounds(batch[0], positionedOrigin);
+                var halfExtent = MathF.Max(bounds.Width, bounds.Height) / 2f;
+                clusterHalfExtents.Add(halfExtent);
+                estimatedHalfExtent = MathF.Max(estimatedHalfExtent, halfExtent);
+            }
+            else
+            {
+                clusterHalfExtents.Add(estimatedHalfExtent);
+            }
+        }
+
+        return (sharedDungeons, clusterCenters);
+    }
+
+    private static Vector2 ResolveSequentialSharedClusterCenter(
+        Vector2 anchor,
+        Vector2 direction,
+        float baseSpacing,
+        float candidateHalfExtent,
+        IReadOnlyList<Vector2> existingCenters,
+        IReadOnlyList<float> existingHalfExtents,
+        float extraPadding)
+    {
+        var norm = direction.LengthSquared() > 0.0001f
+            ? Vector2.Normalize(direction)
+            : new Vector2(1f, 0f);
+
+        var radialDistance = baseSpacing;
+
+        for (var pass = 0; pass < 16; pass++)
+        {
+            var changed = false;
+            var candidateCenter = anchor + norm * radialDistance;
+
+            for (var i = 0; i < existingCenters.Count; i++)
+            {
+                var required = candidateHalfExtent + existingHalfExtents[i] + extraPadding;
+                var actual = (candidateCenter - existingCenters[i]).Length();
+                if (actual >= required)
+                    continue;
+
+                radialDistance += required - actual;
+                changed = true;
+            }
+
+            if (!changed)
+                break;
+        }
+
+        return anchor + norm * radialDistance;
+    }
+
+    private static float EstimateSharedInitialLandingRadius(Box2 dungeonBox, Box2 shuttleBox, Vector2 dungeonLocation)
+    {
+        var outwardDir = dungeonLocation.LengthSquared() > 0.001f
+            ? Vector2.Normalize(-dungeonLocation)
+            : new Vector2(0f, -1f);
+
+        var dungeonHalfExtents = dungeonBox.Size / 2f;
+        var shuttleHalfExtents = shuttleBox.Size / 2f;
+        var dungeonExtentAlongDir = MathF.Abs(outwardDir.X) * dungeonHalfExtents.X + MathF.Abs(outwardDir.Y) * dungeonHalfExtents.Y;
+        var shuttleExtentAlongDir = MathF.Abs(outwardDir.X) * shuttleHalfExtents.X + MathF.Abs(outwardDir.Y) * shuttleHalfExtents.Y;
+        return dungeonExtentAlongDir + SharedLandingBufferTiles + shuttleExtentAlongDir;
+    }
+
+    private static Box2 GetDungeonBounds(Dungeon dungeon, Vector2i fallback)
+    {
+        var min = new Vector2(fallback.X, fallback.Y);
+        var bounds = new Box2(min, min + Vector2.One);
+
+        foreach (var tile in dungeon.AllTiles)
+        {
+            bounds = bounds.ExtendToContain(tile);
+        }
+
+        return bounds;
     }
 
     private void ConfigureObjectiveNpcSpawner(EntityUid objective, ProtoId<SalvageFactionPrototype> factionId)
@@ -637,6 +733,149 @@ public sealed class SpawnSalvageMissionJob : Job<bool>
 
         merged.RefreshAllTiles();
         return merged;
+    }
+
+    private static bool IntersectsReservedDungeonTiles(HashSet<Vector2i> reservedTiles, Box2 area, float minimumClearance)
+    {
+        var checkArea = area.Enlarged(minimumClearance);
+        var minX = (int)MathF.Floor(checkArea.Left);
+        var minY = (int)MathF.Floor(checkArea.Bottom);
+        var maxX = (int)MathF.Ceiling(checkArea.Right) - 1;
+        var maxY = (int)MathF.Ceiling(checkArea.Top) - 1;
+
+        for (var x = minX; x <= maxX; x++)
+        {
+            for (var y = minY; y <= maxY; y++)
+            {
+                if (!reservedTiles.Contains(new Vector2i(x, y)))
+                    continue;
+
+                var tileMin = new Vector2(x, y);
+                var tileBox = new Box2(tileMin, tileMin + Vector2.One);
+                if (SalvageExpeditionReservation.IsWithinClearance(area, tileBox, minimumClearance))
+                    return true;
+            }
+        }
+
+        return false;
+    }
+
+    private static Vector2 FindSharedInitialLandingOrigin(Box2 dungeonBox, Box2 shuttleBox, Vector2 dungeonLocation, HashSet<Vector2i> reservedTiles)
+    {
+        var center = dungeonBox.Center;
+        var outwardDir = dungeonLocation.LengthSquared() > 0.001f
+            ? Vector2.Normalize(-dungeonLocation)
+            : new Vector2(0f, -1f);
+
+        var dungeonHalfExtents = dungeonBox.Size / 2f;
+        var shuttleHalfExtents = shuttleBox.Size / 2f;
+        var dungeonExtentAlongDir = MathF.Abs(outwardDir.X) * dungeonHalfExtents.X + MathF.Abs(outwardDir.Y) * dungeonHalfExtents.Y;
+        var shuttleExtentAlongDir = MathF.Abs(outwardDir.X) * shuttleHalfExtents.X + MathF.Abs(outwardDir.Y) * shuttleHalfExtents.Y;
+        var baseRadius = dungeonExtentAlongDir + SharedLandingBufferTiles + shuttleExtentAlongDir;
+        var baseAngle = MathF.Atan2(outwardDir.Y, outwardDir.X);
+
+        ReadOnlySpan<float> angleOffsets =
+        [
+            0f,
+            MathF.PI / 12f,
+            -MathF.PI / 12f,
+            MathF.PI / 6f,
+            -MathF.PI / 6f,
+            MathF.PI / 4f,
+            -MathF.PI / 4f,
+            MathF.PI / 3f,
+            -MathF.PI / 3f,
+        ];
+
+        for (var ring = 0; ring < 8; ring++)
+        {
+            var radius = baseRadius + ring * 2f;
+            for (var i = 0; i < angleOffsets.Length; i++)
+            {
+                var theta = baseAngle + angleOffsets[i];
+                var dir = new Vector2(MathF.Cos(theta), MathF.Sin(theta));
+                var landingCenter = center + dir * radius;
+                var origin = (landingCenter - shuttleBox.Center).Rounded();
+                var shuttleFootprint = SalvageExpeditionReservation.GetShuttleFootprint(shuttleBox, origin);
+
+                if (IntersectsReservedDungeonTiles(reservedTiles, shuttleFootprint, SharedLandingBufferTiles))
+                    continue;
+
+                return origin;
+            }
+        }
+
+        var fallbackCenter = center + outwardDir * baseRadius;
+        return (fallbackCenter - shuttleBox.Center).Rounded();
+    }
+
+    private void RepairSharedDungeonVoidTiles(Dungeon dungeon, EntityUid gridUid, MapGridComponent grid)
+    {
+        var updates = new List<(Vector2i, Tile)>();
+        Tile? fallbackTile = null;
+
+        foreach (var tilePos in dungeon.AllTiles)
+        {
+            if (!_map.TryGetTileRef(gridUid, grid, tilePos, out var tileRef) || tileRef.Tile.IsEmpty)
+                continue;
+
+            fallbackTile = tileRef.Tile;
+            break;
+        }
+
+        if (fallbackTile == null)
+            return;
+
+        foreach (var tilePos in dungeon.AllTiles)
+        {
+            if (_map.TryGetTileRef(gridUid, grid, tilePos, out var tileRef) && !tileRef.Tile.IsEmpty)
+                continue;
+
+            var replacement = fallbackTile.Value;
+
+            var left = new Vector2i(tilePos.X - 1, tilePos.Y);
+            if (dungeon.AllTiles.Contains(left) &&
+                _map.TryGetTileRef(gridUid, grid, left, out var leftTileRef) &&
+                !leftTileRef.Tile.IsEmpty)
+            {
+                replacement = leftTileRef.Tile;
+            }
+            else
+            {
+                var right = new Vector2i(tilePos.X + 1, tilePos.Y);
+                if (dungeon.AllTiles.Contains(right) &&
+                    _map.TryGetTileRef(gridUid, grid, right, out var rightTileRef) &&
+                    !rightTileRef.Tile.IsEmpty)
+                {
+                    replacement = rightTileRef.Tile;
+                }
+                else
+                {
+                    var down = new Vector2i(tilePos.X, tilePos.Y - 1);
+                    if (dungeon.AllTiles.Contains(down) &&
+                        _map.TryGetTileRef(gridUid, grid, down, out var downTileRef) &&
+                        !downTileRef.Tile.IsEmpty)
+                    {
+                        replacement = downTileRef.Tile;
+                    }
+                    else
+                    {
+                        var up = new Vector2i(tilePos.X, tilePos.Y + 1);
+                        if (dungeon.AllTiles.Contains(up) &&
+                            _map.TryGetTileRef(gridUid, grid, up, out var upTileRef) &&
+                            !upTileRef.Tile.IsEmpty)
+                        {
+                            replacement = upTileRef.Tile;
+                        }
+                    }
+                }
+            }
+
+            updates.Add((tilePos, replacement));
+        }
+
+        if (updates.Count > 0)
+            _map.SetTiles(gridUid, grid, updates);
     }
 
     private async Task SpawnRandomEntry(Entity<MapGridComponent> grid, IBudgetEntry entry, Dungeon dungeon, Random random)

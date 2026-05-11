@@ -3,14 +3,18 @@ using System.Linq;
 using Content.Server.Salvage.Expeditions;
 using Content.Server.Shuttles.Components;
 using Content.Server.Station.Components;
+using Content.Shared.Procedural;
 using Content.Shared.Salvage.Expeditions;
 using Robust.Shared.Map;
 using Robust.Shared.Map.Components;
+using Robust.Shared.Prototypes;
 
 namespace Content.Server.Salvage;
 
 public sealed partial class SalvageSystem
 {
+    private static readonly ProtoId<SalvageDifficultyPrototype> SharedOpenContractDifficulty = "NFExtreme";
+
     private sealed class SharedExpeditionBoard
     {
         public string EconomyId = string.Empty;
@@ -142,6 +146,7 @@ public sealed partial class SalvageSystem
             Index = SharedSlotIndex,
             OpenContract = true,
             SharedMissionIndex = sharedMission.Index,
+            Difficulty = SharedOpenContractDifficulty,
         };
     }
 
@@ -216,34 +221,81 @@ public sealed partial class SalvageSystem
         return false;
     }
 
+    private static bool IntersectsReservedDungeonTiles(SalvageExpeditionComponent expedition, Box2 area, float minimumClearance)
+    {
+        var checkArea = area.Enlarged(minimumClearance);
+        var minX = (int) MathF.Floor(checkArea.Left);
+        var minY = (int) MathF.Floor(checkArea.Bottom);
+        var maxX = (int) MathF.Ceiling(checkArea.Right) - 1;
+        var maxY = (int) MathF.Ceiling(checkArea.Top) - 1;
+
+        for (var x = minX; x <= maxX; x++)
+        {
+            for (var y = minY; y <= maxY; y++)
+            {
+                if (!expedition.ReservedTiles.Contains(new Vector2i(x, y)))
+                    continue;
+
+                var tileMin = new Vector2(x, y);
+                var tileBox = new Box2(tileMin, tileMin + Vector2.One);
+                if (SalvageExpeditionReservation.IsWithinClearance(area, tileBox, minimumClearance))
+                    return true;
+            }
+        }
+
+        return false;
+    }
+
     private bool TryFindLandingOrigin(EntityUid expeditionMap, SalvageExpeditionComponent expedition, Box2 shuttleBox, out Vector2 origin)
     {
-        var exclusion = expedition.DungeonBounds.Enlarged(12f);
+        var dungeonBuffer = SalvageExpeditionReservation.MinimumLandingClearanceTiles;
         var boardPadding = MathF.Max(shuttleBox.Width, shuttleBox.Height) + 24f;
-        var searchRadius = MathF.Max(exclusion.Width, exclusion.Height) / 2f + boardPadding;
-        var center = exclusion.Center;
+        var searchRadius = expedition.SharedLandingRadius > 0f
+            ? expedition.SharedLandingRadius
+            : boardPadding;
+        var center = expedition.DungeonLocation != Vector2.Zero
+            ? expedition.DungeonLocation
+            : expedition.DungeonBounds.Center;
+
+        var baseAngle = expedition.SharedLandingRadius > 0f
+            ? expedition.SharedLandingAngle + MathF.PI
+            : 0f;
+
+        ReadOnlySpan<float> angleOffsets =
+        [
+            0f,
+            MathF.PI / 8f,
+            -MathF.PI / 8f,
+            MathF.PI / 4f,
+            -MathF.PI / 4f,
+            3f * MathF.PI / 8f,
+            -3f * MathF.PI / 8f,
+            MathF.PI / 2f,
+            -MathF.PI / 2f,
+        ];
 
         for (var ring = 0; ring < 8; ring++)
         {
-            var radius = searchRadius + ring * (boardPadding * 0.75f);
-            for (var step = 0; step < 16; step++)
+            var radius = searchRadius + ring * 4f;
+            for (var step = 0; step < angleOffsets.Length; step++)
             {
-                var theta = MathF.Tau * step / 16f;
+                var theta = baseAngle + angleOffsets[step];
                 var candidateCenter = center + new Vector2(MathF.Cos(theta), MathF.Sin(theta)) * radius;
                 var candidateOrigin = (candidateCenter - shuttleBox.Center).Rounded();
-                var candidateBox = SalvageExpeditionReservation.GetLandingZone(shuttleBox, candidateOrigin);
+                var candidateShuttleArea = SalvageExpeditionReservation.GetShuttleFootprint(shuttleBox, candidateOrigin);
+                var candidateReservationZone = SalvageExpeditionReservation.GetLandingZone(shuttleBox, candidateOrigin, dungeonBuffer);
 
-                if (SalvageExpeditionReservation.IntersectsDungeonBounds(expedition, candidateBox, 12f))
+                if (IntersectsReservedDungeonTiles(expedition, candidateShuttleArea, dungeonBuffer))
                     continue;
 
-                if (SalvageExpeditionReservation.IntersectsReservedLandingZone(expedition, candidateBox))
+                if (SalvageExpeditionReservation.IntersectsReservedLandingZone(expedition, candidateShuttleArea, dungeonBuffer))
                     continue;
 
-                if (HasBlockingLandingZone(expeditionMap, candidateBox))
+                if (HasBlockingLandingZone(expeditionMap, candidateShuttleArea))
                     continue;
 
                 origin = candidateOrigin;
-                expedition.ReservedLandingZones.Add(candidateBox);
+                expedition.ReservedLandingZones.Add(candidateReservationZone);
                 return true;
             }
         }

@@ -8,6 +8,12 @@
   sprites: MobGoblinSprites
   markingLimits: MobGoblinMarkingLimits
   dollPrototype: MobGoblinDummy
+  # Coyote: Small enough to fit in a bag
+  minHeight: 0.6
+  defaultHeight: 0.8
+  minWidth: 0.55
+  defaultWidth: 0.8
+  # End Coyote
   skinColoration: Hues #Possible values: TintedHues, Hues, HumanToned
   maleFirstNames: NamesGoblinFirstMale
   femaleFirstNames: NamesGoblinFirstFemale
@@ -23,8 +29,10 @@
     Hair: MobHumanoidAnyMarking
     FacialHair: MobHumanoidAnyMarking
     Snout: MobHumanoidAnyMarking
+    NeckFluff: MobHumanoidAnyMarking
     UndergarmentTop: MobHumanoidAnyMarking
     UndergarmentBottom: MobHumanoidAnyMarking
+    Genital: MobHumanoidAnyMarking
     Chest: MobGoblinTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
@@ -36,6 +44,10 @@
     RHand: MobGoblinRHand
     LLeg: MobGoblinLLeg
     RLeg: MobGoblinRLeg
+    LLegBehind: MobHumanoidAnyMarking
+    RLegBehind: MobHumanoidAnyMarking
+    LFootBehind: MobHumanoidAnyMarking
+    RFootBehind: MobHumanoidAnyMarking
     LFoot: MobGoblinLFoot
     RFoot: MobGoblinRFoot
     TailBehind: MobHumanoidAnyMarking
@@ -46,81 +58,15 @@
 - type: markingPoints
   id: MobGoblinMarkingLimits
   points:
-    Hair:
-      points: 35
-      required: false
-    FacialHair:
-      points: 35
-      required: false
+    # Coyote: Allow unlimited markings
     HeadTop:
-      points: 35
+      points: 999 # Coyote: Allow unlimited markings
       required: true
       defaultMarkings: [ GoblinEarsBasic ]
     Snout:
-      points: 35
+      points: 999
       required: false
-#      defaultMarkings: [ GoblinNoseBasic ]
-    UndergarmentTop:
-      points: 35
-      required: false
-    UndergarmentBottom:
-      points: 35
-      required: false
-    Chest:
-      points: 35
-      required: false
-    Legs:
-      points: 35
-      required: false
-    Arms:
-      points: 35
-      required: false
-    Head:
-      points: 35
-      required: false
-    HeadSide:
-      points: 35
-      required: false
-    Overlay:
-      points: 35
-      required: false
-    Special:
-      points: 35
-      required: false
-    Tail:
-      points: 35
-      required: false
-    # Copypaste these into every species I HATE THIS CODE
-    BaseChest:
-      points: 35
-      required: false
-    BaseHead:
-      points: 35
-      required: false
-    BaseLArm:
-      points: 35
-      required: false
-    BaseLFoot:
-      points: 35
-      required: false
-    BaseLHand:
-      points: 35
-      required: false
-    BaseLLeg:
-      points: 35
-      required: false
-    BaseRArm:
-      points: 35
-      required: false
-    BaseRFoot:
-      points: 35
-      required: false
-    BaseRHand:
-      points: 35
-      required: false
-    BaseRLeg:
-      points: 35
-      required: false
+#      defaultMarkings: [ GoblinNoseBasic ] CS: nuhuh
 
 - type: humanoidBaseSprite
   id: MobGoblinEyes
@@ -151,24 +97,56 @@
   baseSprite:
     sprite: _NF/Mobs/Species/Goblin/parts.rsi
     state: torso_m
+  altSprites:
+    Digitigrade: DigilegHumanTorsoMale
 
 - type: humanoidBaseSprite
   id: MobGoblinTorsoMale
   baseSprite:
     sprite: _NF/Mobs/Species/Goblin/parts.rsi
     state: torso_m
+  altSprites:
+    Digitigrade: DigilegHumanTorsoMale
 
 - type: humanoidBaseSprite
   id: MobGoblinTorsoFemale
   baseSprite:
     sprite: _NF/Mobs/Species/Goblin/parts.rsi
     state: torso_f
+  altSprites:
+    Digitigrade: DigilegHumanTorsoFemale
 
 - type: humanoidBaseSprite
   id: MobGoblinLLeg
   baseSprite:
     sprite: _NF/Mobs/Species/Goblin/parts.rsi
     state: l_leg
+  altSprites:
+    Digitigrade: DigilegPawLegLeft
+
+- type: humanoidBaseSprite
+  id: MobGoblinLFoot
+  baseSprite:
+    sprite: _NF/Mobs/Species/Goblin/parts.rsi
+    state: l_foot
+  altSprites:
+    Digitigrade: DigilegPawFootLeft
+
+- type: humanoidBaseSprite
+  id: MobGoblinRLeg
+  baseSprite:
+    sprite: _NF/Mobs/Species/Goblin/parts.rsi
+    state: r_leg
+  altSprites:
+    Digitigrade: DigilegPawLegRight
+
+- type: humanoidBaseSprite
+  id: MobGoblinRFoot
+  baseSprite:
+    sprite: _NF/Mobs/Species/Goblin/parts.rsi
+    state: r_foot
+  altSprites:
+    Digitigrade: DigilegPawFootRight
 
 - type: humanoidBaseSprite
   id: MobGoblinLArm
@@ -183,18 +161,6 @@
     state: l_hand
 
 - type: humanoidBaseSprite
-  id: MobGoblinLFoot
-  baseSprite:
-    sprite: _NF/Mobs/Species/Goblin/parts.rsi
-    state: l_foot
-
-- type: humanoidBaseSprite
-  id: MobGoblinRLeg
-  baseSprite:
-    sprite: _NF/Mobs/Species/Goblin/parts.rsi
-    state: r_leg
-
-- type: humanoidBaseSprite
   id: MobGoblinRArm
   baseSprite:
     sprite: _NF/Mobs/Species/Goblin/parts.rsi
@@ -205,9 +171,3 @@
   baseSprite:
     sprite: _NF/Mobs/Species/Goblin/parts.rsi
     state: r_hand
-
-- type: humanoidBaseSprite
-  id: MobGoblinRFoot
-  baseSprite:
-    sprite: _NF/Mobs/Species/Goblin/parts.rsi
-    state: r_foot

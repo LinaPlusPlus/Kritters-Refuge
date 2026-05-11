@@ -19,9 +19,12 @@
   id: MobMothSprites
   sprites:
     Head: MobMothHead
+    Hair: MobHumanoidAnyMarking
     Snout: MobHumanoidAnyMarking
+    NeckFluff: MobHumanoidAnyMarking
     UndergarmentTop: MobHumanoidAnyMarking
     UndergarmentBottom: MobHumanoidAnyMarking
+    Genital: MobHumanoidAnyMarking
     Chest: MobMothTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
@@ -48,83 +51,16 @@
 
 - type: markingPoints
   id: MobMothMarkingLimits
-  onlyWhitelisted: true
   points:
-    Hair:
-      points: 35
-      required: false
-    FacialHair:
-      points: 35
-      required: false
+    # Coyote: Allow unlimited markings
     Tail:
-      points: 35
+      points: 999 # Coyote: Allow unlimited markings
       required: true
       defaultMarkings: [ MothWingsDefault ]
-    Snout:
-      points: 35
-      required: false
     HeadTop:
-      points: 35
+      points: 999 # Coyote: Allow unlimited markings
       required: true
       defaultMarkings: [ MothAntennasDefault ]
-    HeadSide:
-      points: 35
-      required: false
-    Head:
-      points: 35 # imp 1<4
-      required: false
-    UndergarmentTop:
-      points: 35
-      required: false
-    UndergarmentBottom:
-      points: 35
-      required: false
-    Chest:
-      points: 35 # imp 2<4
-      required: false
-    Legs:
-      points: 35 # imp 2<4
-      required: false
-    Arms:
-      points: 35 # imp 2<4
-      required: false
-    Overlay:
-      points: 35
-      required: false
-    Special:
-      points: 35
-      required: false
-    # Copypaste these into every species I HATE THIS CODE
-    BaseChest:
-      points: 35
-      required: false
-    BaseHead:
-      points: 35
-      required: false
-    BaseLArm:
-      points: 35
-      required: false
-    BaseLFoot:
-      points: 35
-      required: false
-    BaseLHand:
-      points: 35
-      required: false
-    BaseLLeg:
-      points: 35
-      required: false
-    BaseRArm:
-      points: 35
-      required: false
-    BaseRFoot:
-      points: 35
-      required: false
-    BaseRHand:
-      points: 35
-      required: false
-    BaseRLeg:
-      points: 35
-      required: false
 
 - type: humanoidBaseSprite
   id: MobMothHead
@@ -149,24 +85,56 @@
   baseSprite:
     sprite: Mobs/Species/Moth/parts.rsi
     state: torso_m
+  altSprites:
+    Digitigrade: DigilegMothTorsoMale
 
 - type: humanoidBaseSprite
   id: MobMothTorsoMale
   baseSprite:
     sprite: Mobs/Species/Moth/parts.rsi
     state: torso_m
+  altSprites:
+    Digitigrade: DigilegMothTorsoMale
 
 - type: humanoidBaseSprite
   id: MobMothTorsoFemale
   baseSprite:
     sprite: Mobs/Species/Moth/parts.rsi
     state: torso_f
+  altSprites:
+    Digitigrade: DigilegMothTorsoFemale
 
 - type: humanoidBaseSprite
   id: MobMothLLeg
   baseSprite:
     sprite: Mobs/Species/Moth/parts.rsi
     state: l_leg
+  altSprites:
+    Digitigrade: DigilegAvianLegLeft
+
+- type: humanoidBaseSprite
+  id: MobMothLFoot
+  baseSprite:
+    sprite: Mobs/Species/Moth/parts.rsi
+    state: l_foot
+  altSprites:
+    Digitigrade: DigilegAvianFootLeft
+
+- type: humanoidBaseSprite
+  id: MobMothRLeg
+  baseSprite:
+    sprite: Mobs/Species/Moth/parts.rsi
+    state: r_leg
+  altSprites:
+    Digitigrade: DigilegAvianLegRight
+
+- type: humanoidBaseSprite
+  id: MobMothRFoot
+  baseSprite:
+    sprite: Mobs/Species/Moth/parts.rsi
+    state: r_foot
+  altSprites:
+    Digitigrade: DigilegAvianFootRight
 
 - type: humanoidBaseSprite
   id: MobMothLHand
@@ -181,18 +149,6 @@
     state: l_arm
 
 - type: humanoidBaseSprite
-  id: MobMothLFoot
-  baseSprite:
-    sprite: Mobs/Species/Moth/parts.rsi
-    state: l_foot
-
-- type: humanoidBaseSprite
-  id: MobMothRLeg
-  baseSprite:
-    sprite: Mobs/Species/Moth/parts.rsi
-    state: r_leg
-
-- type: humanoidBaseSprite
   id: MobMothRHand
   baseSprite:
     sprite: Mobs/Species/Moth/parts.rsi
@@ -203,9 +159,3 @@
   baseSprite:
     sprite: Mobs/Species/Moth/parts.rsi
     state: r_arm
-
-- type: humanoidBaseSprite
-  id: MobMothRFoot
-  baseSprite:
-    sprite: Mobs/Species/Moth/parts.rsi
-    state: r_foot

@@ -33,7 +33,9 @@ salvage-expedition-not-all-present = Not all expeditioners are aboard the shuttl
 
 salvage-expedition-announcement-countdown-minutes = {$duration} minutes remaining to complete the expedition.
 salvage-expedition-announcement-countdown-seconds = {$duration} seconds remaining to complete the expedition.
-salvage-expedition-announcement-dungeon = Dungeon is located {$direction}.
+salvage-expedition-announcement-dungeon = Compound is located {$direction}.
+salvage-expedition-announcement-dungeon-multi = Compound locations are {$directions}.
+salvage-expedition-medical-sos = Medical S.O.S. received at {$position} from current expeditionary [bold]OPEN CONTRACT[/bold].
 salvage-expedition-completed = Expedition is completed.
 salvage-expedition-reward-description = Mission completion reward
 

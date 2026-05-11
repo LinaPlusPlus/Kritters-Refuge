@@ -36,10 +36,6 @@
     RHand: MobVoxRHand
     LLeg: MobVoxLLeg
     RLeg: MobVoxRLeg
-    LLegBehind: MobHumanoidAnyMarking
-    RLegBehind: MobHumanoidAnyMarking
-    LFootBehind: MobHumanoidAnyMarking
-    RFootBehind: MobHumanoidAnyMarking
     LFoot: MobVoxLFoot
     RFoot: MobVoxRFoot
     Tail: MobHumanoidAnyMarking

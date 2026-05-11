@@ -39,6 +39,8 @@ public sealed class SurveillanceCameraSpeakerSystem : EntitySystem
 
     // Tracks speakers that currently have active MIDI relay sources so Update can skip idle ones.
     private readonly HashSet<EntityUid> _activeMidiRelays = new();
+    private readonly List<EntityUid> _relayCleanupBuffer = new();
+    private readonly List<EntityUid> _staleMidiSourceBuffer = new();
 
     private EntityQuery<SurveillanceCameraMonitorComponent> _monitorQuery;
     private EntityQuery<DeviceNetworkComponent> _deviceNetQuery;
@@ -67,35 +69,35 @@ public sealed class SurveillanceCameraSpeakerSystem : EntitySystem
             return;
 
         var now = _gameTiming.CurTime;
-        var toRemove = new List<EntityUid>();
+        _relayCleanupBuffer.Clear();
 
         foreach (var uid in _activeMidiRelays)
         {
             if (!TryComp<SurveillanceCameraSpeakerComponent>(uid, out var speaker) ||
                 speaker.RelayMidiSources.Count == 0)
             {
-                toRemove.Add(uid);
+                _relayCleanupBuffer.Add(uid);
                 continue;
             }
 
-            var staleSources = new List<EntityUid>();
+            _staleMidiSourceBuffer.Clear();
             foreach (var (source, lastTick) in speaker.RelayMidiSources)
             {
                 if (now - lastTick > MidiRelayIdleTimeout)
-                    staleSources.Add(source);
+                    _staleMidiSourceBuffer.Add(source);
             }
 
-            foreach (var source in staleSources)
+            foreach (var source in _staleMidiSourceBuffer)
                 speaker.RelayMidiSources.Remove(source);
 
             if (speaker.RelayMidiSources.Count == 0)
             {
                 _instrumentSystem.StopRelayPlayback(uid);
-                toRemove.Add(uid);
+                _relayCleanupBuffer.Add(uid);
             }
         }
 
-        foreach (var uid in toRemove)
+        foreach (var uid in _relayCleanupBuffer)
             _activeMidiRelays.Remove(uid);
     }
 

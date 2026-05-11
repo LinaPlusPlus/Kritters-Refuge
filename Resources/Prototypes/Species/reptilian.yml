@@ -121,6 +121,12 @@
     BaseRLeg:
       points: 35
       required: false
+    BaseArms:
+      points: 35
+      required: false
+    BaseLegs:
+      points: 35
+      required: false
 
 - type: humanoidBaseSprite
   id: MobReptilianHead

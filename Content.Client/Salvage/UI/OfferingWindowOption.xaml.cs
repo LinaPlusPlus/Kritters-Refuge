@@ -28,6 +28,12 @@ namespace Content.Client.Salvage.UI;
 public sealed partial class OfferingWindowOption : PanelContainer
 {
     private bool _claimed;
+    private bool _pendingConfirmation;
+
+    /// <summary>
+    /// When true, the first click shows a confirmation warning; the second click fires ClaimPressed.
+    /// </summary>
+    public bool RequireConfirmation { get; set; }
 
     public string? Title
     {
@@ -58,10 +64,29 @@ public sealed partial class OfferingWindowOption : PanelContainer
         LayoutContainer.SetAnchorPreset(this, LayoutContainer.LayoutPreset.Wide);
         BigPanel.PanelOverride = new StyleBoxFlat(new Color(30, 30, 34));
 
+        ConfirmationWarningLabel.SetMessage("Unconscious, or dead contractors will be returned to orbit at the end of the designated expedition time.", defaultColor: Color.FromHex("#FF8800"));
+        ConfirmationClickLabel.Text = "Please click CLAIM again to confirm.";
+
         ClaimButton.OnPressed += args =>
         {
+            if (RequireConfirmation && !_pendingConfirmation)
+            {
+                _pendingConfirmation = true;
+                SetConfirmationVisible(true);
+                // Undo the toggle so the button visually resets to unclaimed state.
+                ClaimButton.Pressed = false;
+                return;
+            }
+            _pendingConfirmation = false;
+            SetConfirmationVisible(false);
             ClaimPressed?.Invoke(args);
         };
+    }
+
+    private void SetConfirmationVisible(bool visible)
+    {
+        ConfirmationWarningLabel.Visible = visible;
+        ConfirmationClickLabel.Visible = visible;
     }
 
     public void AddContent(Control control)
@@ -82,6 +107,10 @@ public sealed partial class OfferingWindowOption : PanelContainer
         {
             if (_claimed == value)
                 return;
+
+            // Reset confirmation state whenever claimed status changes from outside.
+            _pendingConfirmation = false;
+            SetConfirmationVisible(false);
 
             _claimed = value;
 

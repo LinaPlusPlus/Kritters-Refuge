@@ -33,9 +33,33 @@ public sealed partial class SalvageExpeditionComponent : SharedSalvageExpedition
     public Box2 DungeonBounds;
 
     /// <summary>
+    /// Exact dungeon tiles that should be reserved from biome generation.
+    /// </summary>
+    public HashSet<Vector2i> ReservedTiles = new();
+
+    /// <summary>
     /// Reserved shuttle landing zones in expedition-map coordinates.
     /// </summary>
     public List<Box2> ReservedLandingZones = new();
+
+    // _CS Start: shared expedition fields
+    /// <summary>
+    /// Shared expeditions: radius from dungeon center to first shuttle landing center.
+    /// Later arrivals use this as the preferred landing distance.
+    /// </summary>
+    public float SharedLandingRadius = 0f;
+
+    /// <summary>
+    /// Shared expeditions: angle from dungeon center to first shuttle landing center.
+    /// Later arrivals try to land on the opposite side first.
+    /// </summary>
+    public float SharedLandingAngle = 0f;
+
+    /// <summary>
+    /// Centers of each individually generated dungeon cluster for shared expeditions.
+    /// Used to announce directions to all compound locations on arrival.
+    /// </summary>
+    public List<Vector2> SharedDungeonCenters = new();
 
     /// <summary>
     /// Stations currently participating in this expedition.
@@ -47,6 +71,13 @@ public sealed partial class SalvageExpeditionComponent : SharedSalvageExpedition
     /// Used to return bodies to the correct ship when that ship's timer naturally expires.
     /// </summary>
     public Dictionary<EntityUid, EntityUid> SharedArrivalShuttles = new();
+
+    /// <summary>
+    /// Last known local position for each shared-expedition player body on their assigned shuttle grid.
+    /// Used to return them to the last ship location they occupied when that shuttle timer expires.
+    /// </summary>
+    public Dictionary<EntityUid, Vector2> SharedArrivalShuttleLocalPositions = new();
+    // _CS End: shared expedition fields
 
     /// <summary>
     /// Per-shuttle expedition end times.
