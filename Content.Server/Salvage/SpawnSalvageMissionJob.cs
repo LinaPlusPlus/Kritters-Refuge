@@ -34,12 +34,14 @@ using Robust.Shared.Random;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
 using Content.Server.Shuttles.Components;
+using Content.Server._NF.Radar;
 using Content.Server._NF.Salvage.Expeditions; // _CS
 using Content.Server.Station.Components; // _CS
 using Content.Server.Station.Systems; // _CS
 using Content.Server.Shuttles.Systems;
 using Content.Server._NF.Salvage.Expeditions.Structure; // _CS
 using Content.Shared.NPC.Prototypes;
+using Content.Shared._NF.Radar;
 
 namespace Content.Server.Salvage;
 
@@ -1086,6 +1088,19 @@ public sealed class SpawnSalvageMissionJob : Job<bool>
                 var uid = _entManager.SpawnEntity(shaggy, _map.GridTileToLocal(mapUid, grid, tile));
                 ConfigureObjectiveNpcSpawner(uid, mission.Faction);
                 _entManager.AddComponent<SalvageStructureComponent>(uid);
+
+                if (_missionParams.OpenContract)
+                {
+                    var blip = _entManager.EnsureComponent<RadarBlipComponent>(uid);
+                    blip.RadarColor = Color.Gold;
+                    blip.HighlightedRadarColor = Color.Yellow;
+                    blip.Scale = 3f;
+                    blip.Shape = RadarBlipShape.Diamond;
+                    blip.VisibleFromOtherGrids = true;
+                    blip.RequireNoGrid = false;
+                    blip.Enabled = true;
+                }
+
                 structureComp.Structures.Add(uid);
                 break;
             }
