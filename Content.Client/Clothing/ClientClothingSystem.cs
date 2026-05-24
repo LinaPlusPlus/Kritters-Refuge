@@ -13,6 +13,7 @@ using Content.Shared.Inventory;
 using Content.Shared.Inventory.Events;
 using Content.Shared.Item;
 using Content.Shared.PDA;
+using Content.Shared.Storage;
 using Content.Shared.Silicons.Borgs.Components;
 using Robust.Client.GameObjects;
 using Robust.Client.Graphics;
@@ -275,13 +276,20 @@ public sealed class ClientClothingSystem : ClothingSystem
             revealedLayers = new();
             inventorySlots.VisualLayerKeys[slot] = revealedLayers;
         }
-
+        // Coyote: Borgs have a different body, so don't draw specific equipment
         // Borgs can still carry a PDA in the id slot, but should not render the PDA sprite on their chassis.
         if (slot == "id" && HasComp<BorgChassisComponent>(equipee) && HasComp<PdaComponent>(equipment))
         {
             RaiseLocalEvent(equipment, new EquipmentVisualsUpdatedEvent(equipee, slot, revealedLayers), true);
             return;
         }
+        // Borgs can still carry a PDA in the id slot, but should not render the PDA sprite on their chassis.
+        if (slot == "back" && HasComp<BorgChassisComponent>(equipee) && HasComp<StorageComponent>(equipment))
+        {
+            RaiseLocalEvent(equipment, new EquipmentVisualsUpdatedEvent(equipee, slot, revealedLayers), true);
+            return;
+        }
+        // Coyote End
 
         var ev = new GetEquipmentVisualsEvent(equipee, slot);
         RaiseLocalEvent(equipment, ev);

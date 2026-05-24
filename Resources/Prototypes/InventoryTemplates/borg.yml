@@ -17,6 +17,15 @@
     uiWindowPos: 2,1
     strippingWindowPos: 2,4
     displayName: ID
+  - name: back
+    slotTexture: back
+    fullTextureName: template_small
+    slotFlags: BACK
+    slotGroup: SecondHotbar
+    stripTime: 6
+    uiWindowPos: 3,0
+    strippingWindowPos: 0,5
+    displayName: Back
 # End Coyote
 
 - type: inventoryTemplate
@@ -38,6 +47,15 @@
     uiWindowPos: 2,1
     strippingWindowPos: 2,4
     displayName: ID
+  - name: back
+    slotTexture: back
+    fullTextureName: template_small
+    slotFlags: BACK
+    slotGroup: SecondHotbar
+    stripTime: 6
+    uiWindowPos: 3,0
+    strippingWindowPos: 0,5
+    displayName: Back
 # End Coyote
 
 - type: inventoryTemplate
@@ -59,6 +77,15 @@
     uiWindowPos: 2,1
     strippingWindowPos: 2,4
     displayName: ID
+  - name: back
+    slotTexture: back
+    fullTextureName: template_small
+    slotFlags: BACK
+    slotGroup: SecondHotbar
+    stripTime: 6
+    uiWindowPos: 3,0
+    strippingWindowPos: 0,5
+    displayName: Back
 # End Coyote
 
 # taller than tall
@@ -81,4 +108,13 @@
     uiWindowPos: 2,1
     strippingWindowPos: 2,4
     displayName: ID
+  - name: back
+    slotTexture: back
+    fullTextureName: template_small
+    slotFlags: BACK
+    slotGroup: SecondHotbar
+    stripTime: 6
+    uiWindowPos: 3,0
+    strippingWindowPos: 0,5
+    displayName: Back
 # End Coyote
