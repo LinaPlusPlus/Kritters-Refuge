@@ -74,6 +74,7 @@ public sealed partial class ChatSystem : SharedChatSystem
     public const float LOOCRange = 15f; // how far LOOC goes in world units
     [SuppressMessage("ReSharper", "InconsistentNaming")]
     public const float SubtleLOOCRange = SubtleRange; // how far Subtle LOOC goes in world units
+    public const int ShipOOCRange = 750; // Wayfarer: how far Ship OOC goes in world units
     public const float WhisperClearRange = 2f; // how far whisper goes while still being understandable, in world units
     public const float WhisperMuffledRange = 5f; // how far whisper goes at all, in world units
     public const string DefaultAnnouncementSound = "/Audio/Announcements/announce.ogg";
@@ -416,6 +417,15 @@ public sealed partial class ChatSystem : SharedChatSystem
                     message,
                     hideChat);
                 break;
+            // Wayfarer
+            case InGameOOCChatType.ShipOoc:
+                SendShipOOC(
+                    source,
+                    player,
+                    message,
+                    hideChat);
+                break;
+            // End Wayfarer
             case InGameOOCChatType.Looc:
                 SendLOOC(
                     source,
@@ -879,6 +889,52 @@ public sealed partial class ChatSystem : SharedChatSystem
             ensmallenedByOcclusion: false); // Coyote: LOOC dont get ensmallened by occlusion
         _adminLogger.Add(LogType.Chat, LogImpact.Low, $"LOOC from {player:Player}: {message}");
     }
+
+    // Wayfarer
+    private void SendShipOOC(EntityUid source, ICommonSession player, string message, bool hideChat)
+    {
+        var name = FormattedMessage.EscapeText(Identity.Name(source, EntityManager));
+        var shipName = Loc.GetString("chat-manager-entity-ship-ooc-unknown");
+
+        if (TryComp(source, out TransformComponent? transform))
+        {
+            if (transform.GridUid is not null && TryComp(transform.GridUid, out MetaDataComponent? metadata))
+            {
+                shipName = metadata.EntityName;
+            }
+        }
+
+        if (_adminManager.IsAdmin(player))
+        {
+            if (!_adminLoocEnabled)
+                return;
+        }
+        else if (!_loocEnabled)
+            return;
+        var wrappedMessage = Loc.GetString(
+            "chat-manager-entity-ship-ooc-wrap-message",
+            ("shipName", shipName),
+            ("entityName", name),
+            ("message", FormattedMessage.EscapeText(message)));
+
+        SendInVoiceRange(
+            ChatChannel.ShipOOC,
+            message,
+            wrappedMessage,
+            source,
+            hideChat
+                ? ChatTransmitRange.HideChat
+                : ChatTransmitRange.NoGhosts,
+            player.UserId,
+            voiceRange: ShipOOCRange,
+            blockedByOcclusion: false,
+            ensmallenedByOcclusion: false);
+        _adminLogger.Add(
+            LogType.Chat,
+            LogImpact.Low,
+            $"ShipOOC from {player:Player}: {message}");
+    }
+    // End Wayfarer
 
     // ReSharper disable once InconsistentNaming
     private void SendSubtleLOOC(EntityUid source, ICommonSession player, string message, bool hideChat)
@@ -1402,6 +1458,7 @@ public enum InGameOOCChatType : byte
 {
     Looc,
     SubtleLooc,
+    ShipOoc, // Wayfarer
     Dead
 }
 
