@@ -1,4 +1,4 @@
 [submodule "RobustToolbox"]
 	path = RobustToolbox
-	url = git@github.com:Virnazush/RobustToolbox.git
-	branch = work
+	url = https://github.com/space-wizards/RobustToolbox.git
+	branch = master
