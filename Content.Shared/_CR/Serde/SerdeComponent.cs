@@ -1,24 +1,23 @@
-using Robust.Shared.GameStates;
+using Robust.Shared.GameObjects;
+using Robust.Shared.GameStates; // Required for AutoGenerateComponentState
+using Robust.Shared.Serialization;
 
 
 namespace Content.Shared._CR.Serde;
 
 // <summary>
-// Component to debug the event serde system
+// Main component of serde, communicates with the message broker
 // </summary>
 [RegisterComponent, NetworkedComponent]
 public sealed partial class SerdeComponent : Component
 {
     // Data field editable via YAML prototypes
-    // safety is super important, only debug should be able to enable verbose logging
+    // safety is super important, only debug privlages should be able to enable verbose logging
     [DataField("debugLogging"), ViewVariables(VVAccess.ReadOnly)]
     public bool DebugLogging = false;
 
-    // <summary>
-    // disables most functionality while player enhabits the mob
-    // the player unless rather kinky should always overpower Serde commands
-    // disabling this flag should be a `High` or `Severe` level log
-    // </summary>
-    [DataField("playerSafety"), ViewVariables(VVAccess.ReadOnly)]
-    public bool PlayerSafety = true;
+    // tells entities connected to serde what type of thing it is
+    // this is mostly for communicating the prototype's intentions to external programs
+    [DataField("actorClass"), ViewVariables(VVAccess.ReadWrite)]
+    public string actorClass = "npc_genaric";
 }

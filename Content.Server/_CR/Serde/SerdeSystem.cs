@@ -8,7 +8,6 @@ using Robust.Shared.Serialization;
 // Other Entity Systems can interact with FooComponent using the public API here.
 public sealed class SerdeSystem : EntitySystem
 {
-    [Dependency] protected readonly SharedAppearanceSystem AppearanceSystem = default!;
 
     [Dependency] private readonly ILogManager _logManager = default!;
     private ISawmill _sawmill = default!;
@@ -46,46 +45,60 @@ public sealed class SerdeSystem : EntitySystem
          // Initialize your FooComponent here
     }
 
-    private void OnSerdeIn(Entity<SerdeComponent> ent, ref SerdeInEvent sev)
+    private void OnSerdeIn(Entity<SerdeComponent> ent, ref SerdeInEvent serdeEvent)
     {
-
         if (ent.Comp.DebugLogging)
         {
-            _sawmill.Info($"Serde in: {sev.Command} '{sev.Text}' {sev.A} {sev.X} {sev.Y}");
+            _sawmill.Info($"Serde in: {serdeEvent.Command} '{serdeEvent.Text}' {serdeEvent.A} {serdeEvent.X} {serdeEvent.Y}");
         }
     }
 
-    private void OnSerdeOut(Entity<SerdeComponent> ent, ref SerdeOutEvent sev)
+    private void OnSerdeOut(Entity<SerdeComponent> ent, ref SerdeOutEvent serdeEvent)
     {
         if (ent.Comp.DebugLogging)
         {
             // I am not c# skilled enough to compress this line
-            _sawmill.Info($"Serde out:  {sev.Command} '{sev.Text}' {sev.A} {sev.X} {sev.Y}");
+            _sawmill.Info($"Serde out:  {serdeEvent.Command} '{serdeEvent.Text}' {serdeEvent.A} {serdeEvent.X} {serdeEvent.Y}");
         }
     }
 
     public void CommandRaiseIn(
         Entity<SerdeComponent?> ent,
         //SerdeInEvent inEvent,
+        int id,
         string command, string text,
         int a, float x, float y
     )
     {
-        RaiseLocalEvent(ent, new SerdeInEvent(command, text, a, x, y));
+        RaiseLocalEvent(ent, new SerdeInEvent(id, command, text, a, x, y));
+    }
+
+    public void CommandRaiseOut(
+        Entity<SerdeComponent?> ent,
+        //SerdeInEvent inEvent,
+        int id,
+        string command, string text,
+        int a, float x, float y
+    )
+    {
+        RaiseLocalEvent(ent, new SerdeOutEvent(id, command, text, a, x, y));
     }
 }
 
 
 public sealed class SerdeInEvent : EntityEventArgs
 {
+    // command
+    public int ExecutionID { get; }
     public string Command { get; }
     public string Text { get; }
     public int A { get; }
     public float X { get; }
     public float Y { get; }
 
-    public SerdeInEvent(string command, string text, int a, float x, float y)
+    public SerdeInEvent(int id, string command, string text, int a, float x, float y)
     {
+        ExecutionID = id;
         Command = command;
         Text = text;
         A = a;
@@ -96,14 +109,17 @@ public sealed class SerdeInEvent : EntityEventArgs
 
 public sealed class SerdeOutEvent : EntityEventArgs
 {
+    public int ExecutionID { get; }
     public string Command { get; }
     public string Text { get; }
     public int A { get; }
     public float X { get; }
     public float Y { get; }
 
-    public SerdeOutEvent(string command, string text, int a, float x, float y)
+
+    public SerdeOutEvent(int id, string command, string text, int a, float x, float y)
     {
+        ExecutionID = id;
         Command = command;
         Text = text;
         A = a;

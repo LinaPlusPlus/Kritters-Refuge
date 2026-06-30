@@ -60,8 +60,9 @@ public sealed class SerdeCommand : ToolshedCommand
         [CommandArgument] float y
     )
     {
+        int executionId = 0;
         var serdeSystem = EntityManager.System<SerdeSystem>();
-        serdeSystem.CommandRaiseIn(entity, command, text, a, x, y);
+        serdeSystem.CommandRaiseIn(entity, executionId, command, text, a, x, y);
     }
 
     [CommandImplementation("emitOut")]
@@ -75,7 +76,8 @@ public sealed class SerdeCommand : ToolshedCommand
         [CommandArgument] float y
     )
     {
+        int executionId = 0;
         var serdeSystem = EntityManager.System<SerdeSystem>();
-        serdeSystem.CommandRaiseIn(entity, command, text, a, x, y); // TODO: change to out
+        serdeSystem.CommandRaiseOut(entity, executionId, command, text, a, x, y);
     }
 }
