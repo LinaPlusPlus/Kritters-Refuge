@@ -1,6 +1,6 @@
 namespace Content.Server._CR.Serde;
 using Content.Shared._CR.Serde;
-
+using Content.Shared.Mind.Components;
 using Robust.Shared.Serialization;
 // A system running on the server...
 // Whenever an user interacts with an entity that has this component,
@@ -31,12 +31,31 @@ public sealed class SerdeSystem : EntitySystem
         SubscribeLocalEvent<SerdeComponent, SerdeInEvent>(OnSerdeIn);
         SubscribeLocalEvent<SerdeComponent, SerdeOutEvent>(OnSerdeOut);
 
+        SubscribeLocalEvent<SerdeComponent, MindAddedMessage>(OnMindAdded);
+        SubscribeLocalEvent<SerdeComponent, MindRemovedMessage>(OnMindRemoved);
+
         // Subscribe to FooComponent being interacted on by an user with an item.
         //SubscribeLocalEvent<SerdeComponent, InteractUsingEvent>(Handle);
 
         // Subscribe to the MoveEvent broadcast event, raised whenever
         // an entity moves... Just an example subscription
         // SubscribeLocalEvent<MoveEvent>(OnEntityMove);
+    }
+
+    private void OnMindAdded(Entity<SerdeComponent> ent, ref MindAddedMessage _){
+        if (ent.Comp.DisableOnTakeover)
+        {
+            ent.Comp.AcceptingCommands = false;
+            RaiseLocalEvent(ent, new SerdeOutEvent(0, "paused", "takeover", 0, 0, 0));
+        }
+    }
+
+    private void OnMindRemoved(Entity<SerdeComponent> ent, ref MindRemovedMessage _){
+        if (ent.Comp.EnableOnRelease)
+        {
+            ent.Comp.AcceptingCommands = true;
+            RaiseLocalEvent(ent, new SerdeOutEvent(0, "resumed", "takeover", 0, 0, 0));
+        }
     }
 
     // This is called when a FooComponent is initialized.

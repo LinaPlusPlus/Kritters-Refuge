@@ -11,13 +11,26 @@ namespace Content.Shared._CR.Serde;
 [RegisterComponent, NetworkedComponent]
 public sealed partial class SerdeComponent : Component
 {
-    // Data field editable via YAML prototypes
-    // safety is super important, only debug privlages should be able to enable verbose logging
-    [DataField("debugLogging"), ViewVariables(VVAccess.ReadOnly)]
+    [DataField]
     public bool DebugLogging = false;
 
     // tells entities connected to serde what type of thing it is
     // this is mostly for communicating the prototype's intentions to external programs
-    [DataField("actorClass"), ViewVariables(VVAccess.ReadWrite)]
-    public string actorClass = "npc_genaric";
+    [DataField]
+    public string ActorTags = "npc;npc_genaric";
+
+    // disables most functionality while player takes over the mob
+    // the player unless consenting should always overpower Serde commands
+    // nor should they generate out events.
+    // plugins should read the AcceptingCommands field before acting on an object
+    // plugins should be responsable for sending paused and resumed out messages
+    // when they set AcceptingCommands
+    [DataField]
+    public bool DisableOnTakeover = true;
+
+    [DataField]
+    public bool EnableOnRelease = true;
+
+    [DataField]
+    public bool AcceptingCommands = true;
 }

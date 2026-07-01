@@ -1,0 +1,24 @@
+# command refrence
+the Serde system consists of Serde in and out events
+In events make the object do somthing
+Out events are signals that the object generated
+
+All events are structured the following:
+- `RefrenceID` A unique number used to identify a conversation
+- `Command` The name of the event or command
+- `Text` A multipurpose text field
+- `A` A multipurpose integer field
+- `Y` A multipurpose float field
+- `X` A multipurpose float field
+
+## known commands
+Here is a list of commands defined so far
+
+### from Serde
+- (out) "paused" <cause> 0 0 0
+- (out) "resumed" <cause> 0 0 0
+
+### from SerdeActor
+- (in) "say" <spoken> 0 0 0
+- (out) "said" <spoken> <speakerUID> <distance (unimplemented)> 0
+

@@ -10,14 +10,6 @@ using Robust.Shared.Serialization;
 [RegisterComponent, NetworkedComponent]
 public sealed partial class SerdeActorComponent : Component
 {
-    // <summary>
-    // disables most functionality while player enhabits the mob
-    // the player unless rather kinky should always overpower Serde commands
-    // disabling this flag should be a `High` or `Severe` level log
-    // </summary>
-    [DataField, ViewVariables(VVAccess.ReadOnly)]
-    public bool PlayerSafety = true;
-
     [DataField]
     public bool CanSpeak = true;
 
