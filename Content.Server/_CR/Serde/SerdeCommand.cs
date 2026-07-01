@@ -9,12 +9,20 @@ using Robust.Shared.Toolshed.TypeParsers;
 using Content.Shared._CR.Serde;
 using Content.Server._CR.Serde;
 
+using Content.Server.Administration.Logs;
+using Content.Shared.Database;
+
 namespace Content.Server.Administration.Toolshed;
 
 
 [ToolshedCommand, AdminCommand(AdminFlags.Debug)]
 public sealed class SerdeCommand : ToolshedCommand
 {
+
+    [Dependency] private readonly IAdminLogManager _adminLogger = default!;
+    [Dependency] private readonly ILogManager _logManager = default!;
+
+    private ISawmill _sawmill = default!;
 
     [CommandImplementation("getDebugLogging")]
     public bool GetDebugLogging(
@@ -35,7 +43,20 @@ public sealed class SerdeCommand : ToolshedCommand
         [CommandArgument] bool enabled
     )
     {
-        //TODO: add admin alert for running this command
+
+        EntityUid? invoker = ctx.Session?.AttachedEntity;
+        var invokerName = invoker is not null ? EntityManager.ToPrettyString(invoker) : "host console";
+        var targetName = EntityManager.ToPrettyString(entity);
+
+        _sawmill = _logManager.GetSawmill("crSerde.logs");
+
+        _sawmill.Warning($"{invokerName:uid} {(enabled ? "enabled" : "disabled")} serde debugging for {targetName:target}");
+        _adminLogger.Add(
+            LogType.AdminCommands,
+            LogImpact.Extreme,
+            $"{invokerName:user} {(enabled ? "enabled" : "disabled")} serde debugging for {targetName:target}"
+        );
+
         if (enabled)
         {
             EntityManager.EnsureComponent<SerdeComponent>(entity, out var debugging);
